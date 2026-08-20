@@ -47,18 +47,20 @@ def select_target(attempts):
         if row.get("status") == "attempt_completed"
         and row.get("payment_reference")
     ]
+    candidates.sort(key=lambda row: int(row.get("competitor_number") or 0))
 
     if requested:
         try:
             number = int(requested)
         except ValueError:
             raise SystemExit(f"IAMO_NUMBER inválido: {requested}")
-        for row in reversed(candidates):
+        for row in candidates:
             if int(row.get("competitor_number") or 0) == number:
                 return row
         return None
 
-    for row in reversed(candidates):
+    # Catch up deterministically: execute the oldest valid IAMO that still has no run.
+    for row in candidates:
         ref = str(row.get("payment_reference") or "")
         if ref and not already_executed(ref):
             return row
