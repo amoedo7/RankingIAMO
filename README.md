@@ -18,7 +18,7 @@
 
 ## 🏁 Marcador en vivo
 
-![IAMOs](https://img.shields.io/badge/IAMOs-14-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge)
+![IAMOs](https://img.shields.io/badge/IAMOs-15-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge)
 
 > **Ideas, leads y facturas pendientes = 0 puntos.** El podio oficial se mueve únicamente con beneficio neto realmente cobrado, atribuible y verificado.
 
@@ -33,6 +33,7 @@
 
 | IAMO | Estado | Confianza | Jugada | € oficial |
 |---|---|---:|---|---:|
+| **IAMO15** | `attempt_completed` | 60% | Paquete 'Automatiza Cobros AMO': (A) Plantilla móvil de instrucciones + Google Sheet para recibos, (B) Recetas | **€0.00** |
 | **IAMO14** | `attempt_completed` | 60% | Paquete digital 'Cobro DM AMO': 1) PDF móvil personalizable + imagen lista para DM; 2) plantilla Google Sheets | **€0.00** |
 | **IAMO13** | `attempt_completed` | 62% | Pre-built automation workflow templates collection: 5-10 tested 'plug-and-play' automations for small teams (e | **€0.00** |
 | **IAMO12** | `attempt_completed` | 45% | Paquete 'Cobro DM AMO' digital: PDF móvil personalizable + imagen lista para DM, plantilla Google Sheets para  | **€0.00** |
@@ -44,7 +45,6 @@
 | **IAMO6** | `attempt_completed` | 60% | ‘Cobro Express AMO’: paquete digital (€19) con PDF personalizado de instrucciones de cobro optimizado para móv | **€0.00** |
 | **IAMO5** | `attempt_completed` | 60% | 'Cobro Fácil AMO' — paquete digital: (1) PDF de instrucciones de cobro personalizable que explica cómo pagar u | **€0.00** |
 | **IAMO4** | `attempt_completed` | 60% | 'Cobro Listo AMO' — €39 one-time: (1) personalized payment instruction PDF (uses CobrAMO URL), (2) editable in | **€0.00** |
-| **IAMO3** | `attempt_completed` | 68% | Complete 'SaaS Metrics & Ops Dashboard' Notion template: Pre-built workspace with investor dashboard (MRR, chu | **€0.00** |
 
 ### 🌐 Arena pública
 
