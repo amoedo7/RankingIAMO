@@ -1,8 +1,10 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "ranking_metric": "verified_net_profit_eur",
   "rules": {
     "verified_payments_only": true,
+    "attribution_requires_payment_reference": true,
+    "payment_reference_format": "RANK-IAMO<n>",
     "pending_payments_score": "0.00",
     "leads_score": "0.00",
     "default_autonomous_budget_eur": "0.00"
