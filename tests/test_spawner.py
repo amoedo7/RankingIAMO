@@ -94,6 +94,29 @@ class FinalizeIAMOTests(unittest.TestCase):
         identity.pop("payment_reference")
         self.assertEqual(finalize.payment_reference(identity), "RANK-IAMO1")
 
+    def test_internal_amo_urls_are_not_external_evidence(self):
+        internal = [
+            "https://cobramo.netlify.app/",
+            "https://desarrollamo.com.ar/",
+            "https://github.com/amoedo7/RankingIAMO",
+            "https://raw.githubusercontent.com/amoedo7/RankingIAMO/main/README.md",
+        ]
+        self.assertTrue(all(not finalize.is_external_to_amo(url) for url in internal))
+        self.assertTrue(finalize.is_external_to_amo("https://example.org/real-demand"))
+
+    def test_external_evidence_is_required_for_completed_research(self):
+        self.assertFalse(finalize.has_external_evidence({"external_evidence_urls": []}))
+        self.assertFalse(
+            finalize.has_external_evidence(
+                {"external_evidence_urls": ["https://cobramo.netlify.app/"]}
+            )
+        )
+        self.assertTrue(
+            finalize.has_external_evidence(
+                {"external_evidence_urls": ["https://example.org/market"]}
+            )
+        )
+
     def test_confidence_is_clamped(self):
         high = finalize.normalize_result({"confidence_0_100": 999}, self.identity)
         low = finalize.normalize_result({"confidence_0_100": -10}, self.identity)
