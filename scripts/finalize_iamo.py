@@ -14,6 +14,7 @@ ATTEMPTS = DATA / "attempts.jsonl"
 LATEST = DATA / "latest.json"
 LEADERBOARD = ROOT / "leaderboard.json"
 BOARD = ROOT / "COMPETITION.md"
+COBRAMO_URL = "https://cobramo.netlify.app/"
 
 
 def now_iso():
@@ -24,6 +25,10 @@ def load_json(path, default):
     if not path.exists():
         return default
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def payment_reference(identity):
+    return str(identity.get("payment_reference") or f"RANK-{identity['name']}")
 
 
 def extract_json(text):
@@ -72,6 +77,8 @@ def normalize_result(raw, identity):
         confidence = 0
     confidence = max(0, min(100, confidence))
 
+    ref = payment_reference(identity)
+
     return {
         "competitor_name": identity["name"],
         "summary": clean_text(raw.get("summary"), 2000),
@@ -88,7 +95,8 @@ def normalize_result(raw, identity):
             "subject": clean_text(packet.get("subject"), 1000),
             "message": clean_text(packet.get("message"), 12000),
             "deliverable": clean_text(packet.get("deliverable"), 12000),
-            "cobramo_url": "https://cobramo.netlify.app/",
+            "cobramo_url": COBRAMO_URL,
+            "payment_reference": ref,
         },
         "expected_revenue_eur": clean_text(raw.get("expected_revenue_eur"), 100),
         "direct_cost_eur": clean_text(raw.get("direct_cost_eur"), 100),
@@ -129,7 +137,7 @@ def render_board(attempts):
         "",
         f"Competidores nacidos: **{len(competitors)}**",
         "",
-        "Solo cuenta dinero realmente cobrado y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.",
+        "Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.",
         "",
         "## Ranking por beneficio neto verificado",
         "",
@@ -138,13 +146,14 @@ def render_board(attempts):
     entries = leaderboard.get("entries", [])
     if entries:
         lines += [
-            "| # | IAMO | Beneficio neto EUR | Cobros verificados |",
-            "|---:|---|---:|---:|",
+            "| # | IAMO | Referencia | Beneficio neto EUR | Cobros verificados |",
+            "|---:|---|---|---:|---:|",
         ]
         for entry in entries[:50]:
             lines.append(
                 f"| {entry.get('position', '—')} | {md_cell(entry.get('competitor_name'))} | "
-                f"{md_cell(entry.get('verified_net_profit_eur'))} | {entry.get('verified_events', 0)} |"
+                f"{md_cell(entry.get('payment_reference'))} | {md_cell(entry.get('verified_net_profit_eur'))} | "
+                f"{entry.get('verified_events', 0)} |"
             )
     else:
         lines.append("Todavía no hay ingresos verificados.")
@@ -153,20 +162,23 @@ def render_board(attempts):
         "",
         "## Últimos intentos autónomos",
         "",
-        "| IAMO | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |",
-        "|---|---|---|---|---:|---:|",
+        "| IAMO | Referencia | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |",
+        "|---|---|---|---|---|---:|---:|",
     ]
     for row in reversed(attempts[-100:]):
         result = row.get("result") or {}
         lines.append(
-            f"| {md_cell(row.get('competitor_name'))} | {md_cell(result.get('opportunity'))} | "
-            f"{md_cell(result.get('offer'))} | {md_cell(result.get('target_customer'))} | "
-            f"{result.get('confidence_0_100', 0)} | {row.get('verified_net_profit_eur', '0.00')} |"
+            f"| {md_cell(row.get('competitor_name'))} | {md_cell(row.get('payment_reference'))} | "
+            f"{md_cell(result.get('opportunity'))} | {md_cell(result.get('offer'))} | "
+            f"{md_cell(result.get('target_customer'))} | {result.get('confidence_0_100', 0)} | "
+            f"{row.get('verified_net_profit_eur', '0.00')} |"
         )
 
     lines += [
         "",
-        "Pago para clientes: https://cobramo.netlify.app/",
+        f"Pago para clientes: {COBRAMO_URL}",
+        "",
+        "Cada IAMO tiene una referencia `RANK-IAMO…` para atribuir posteriormente un cobro real verificado.",
         "",
     ]
     return "\n".join(lines)
@@ -177,6 +189,9 @@ def main():
     identity = load_json(RUNTIME / "identity.json", None)
     if not identity:
         raise SystemExit("Falta runtime/identity.json")
+
+    ref = payment_reference(identity)
+    identity["payment_reference"] = ref
 
     raw_text = result_path.read_text(encoding="utf-8", errors="replace") if result_path.exists() else ""
     parse_error = None
@@ -202,7 +217,8 @@ def main():
                 "subject": "",
                 "message": "",
                 "deliverable": "",
-                "cobramo_url": "https://cobramo.netlify.app/",
+                "cobramo_url": COBRAMO_URL,
+                "payment_reference": ref,
             },
             "expected_revenue_eur": "",
             "direct_cost_eur": "",
@@ -220,6 +236,7 @@ def main():
         "id": identity["id"],
         "name": identity["name"],
         "number": identity["number"],
+        "payment_reference": ref,
         "born_at": identity["born_at"],
         "status": status,
         "verified_net_profit_eur": "0.00",
@@ -243,6 +260,7 @@ def main():
         "competitor_id": identity["id"],
         "competitor_name": identity["name"],
         "competitor_number": identity["number"],
+        "payment_reference": ref,
         "born_at": identity["born_at"],
         "finished_at": now_iso(),
         "status": status,
@@ -260,7 +278,7 @@ def main():
 
     LATEST.write_text(json.dumps(attempt, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     BOARD.write_text(render_board(attempts), encoding="utf-8")
-    print(f"{identity['name']}: {status}")
+    print(f"{identity['name']}: {status} · {ref}")
 
 
 if __name__ == "__main__":
