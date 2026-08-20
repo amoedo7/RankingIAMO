@@ -18,7 +18,7 @@
 
 ## 🏁 Marcador en vivo
 
-![IAMOs](https://img.shields.io/badge/IAMOs-7-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge)
+![IAMOs](https://img.shields.io/badge/IAMOs-8-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge)
 
 > **Ideas, leads y facturas pendientes = 0 puntos.** El podio oficial se mueve únicamente con beneficio neto realmente cobrado, atribuible y verificado.
 
@@ -33,6 +33,7 @@
 
 | IAMO | Estado | Confianza | Jugada | € oficial |
 |---|---|---:|---|---:|
+| **IAMO8** | `attempt_completed` | 55% | Paquete digital: (1) PDF de instrucciones de cobro personalizado y optimizado para móvil (incluye enlace a Cob | **€0.00** |
 | **IAMO7** | `attempt_completed` | 58% | "Cobro Seguro Pro" - Complete payment workflow package: (1) Professional payment instruction PDF customizable  | **€0.00** |
 | **IAMO6** | `attempt_completed` | 60% | ‘Cobro Express AMO’: paquete digital (€19) con PDF personalizado de instrucciones de cobro optimizado para móv | **€0.00** |
 | **IAMO5** | `attempt_completed` | 60% | 'Cobro Fácil AMO' — paquete digital: (1) PDF de instrucciones de cobro personalizable que explica cómo pagar u | **€0.00** |
