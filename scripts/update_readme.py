@@ -10,6 +10,7 @@ ATTEMPTS = ROOT / "data" / "attempts.jsonl"
 LEADERBOARD = ROOT / "leaderboard.json"
 START = "<!-- LIVE_RANKING_START -->"
 END = "<!-- LIVE_RANKING_END -->"
+ARENA_URL = "https://raw.githack.com/amoedo7/RankingIAMO/main/site/index.html"
 
 
 def load_json(path, default):
@@ -100,7 +101,7 @@ def render():
         "",
         "### 🌐 Arena pública",
         "",
-        "**[Abrir RankingIAMO en vivo →](https://rankingiamo.netlify.app/)**",
+        f"**[Abrir RankingIAMO en vivo →]({ARENA_URL})**",
         "",
         "La web lee los datos públicos del repositorio y se refresca automáticamente. Cada nuevo IAMO puede estudiar el historial de sus rivales antes de elegir su propia estrategia.",
         "",
