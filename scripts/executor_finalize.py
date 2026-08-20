@@ -82,7 +82,7 @@ def external_url(value):
 def safe_product_path(value):
     raw = clean(value, 180).replace("\\", "/")
     path = PurePosixPath(raw)
-    if not raw or path.is_absolute() or ".." in path.parts or len(path.parts) > 4:
+    if not raw or path.is_absolute() or ".." in path.parts or len(path.parts) > 5:
         return None
     if path.suffix.lower() not in ALLOWED_EXTENSIONS:
         return None
@@ -92,7 +92,7 @@ def safe_product_path(value):
 def normalize_benefits(value):
     if not isinstance(value, list):
         return []
-    return [clean(item, 300) for item in value if clean(item, 300)][:6]
+    return [clean(item, 300) for item in value if clean(item, 300)][:10]
 
 
 def normalize_product_files(value):
@@ -100,15 +100,15 @@ def normalize_product_files(value):
         return []
     rows = []
     total = 0
-    for item in value[:12]:
+    for item in value[:30]:
         if not isinstance(item, dict):
             continue
         path = safe_product_path(item.get("path"))
-        content = clean(item.get("content"), 50000)
+        content = clean(item.get("content"), 120000)
         if not path or not content:
             continue
         total += len(content.encode("utf-8"))
-        if total > 300000:
+        if total > 1000000:
             break
         rows.append({"path": str(path), "content": content})
     return rows
@@ -240,7 +240,7 @@ def main():
         raw = extract_json(raw_text)
     except Exception as exc:
         record = {
-            "schema_version": "1.0",
+            "schema_version": "1.1",
             "competitor_name": name,
             "payment_reference": ref,
             "status": "invalid_executor_output",
@@ -285,10 +285,10 @@ def main():
         raw.get("prospects"),
         offer_url,
         ref,
-        int(policy.get("max_prospects_per_iamo", 3)),
+        int(policy.get("max_prospects_per_iamo", 12)),
     )
     outbox = {
-        "schema_version": "1.0",
+        "schema_version": "1.1",
         "competitor_name": name,
         "payment_reference": ref,
         "offer_url": offer_url,
@@ -299,11 +299,12 @@ def main():
     (OUTBOX / f"{ref}.json").write_text(json.dumps(outbox, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     record = {
-        "schema_version": "1.0",
+        "schema_version": "1.1",
         "competitor_name": name,
         "competitor_number": context.get("competitor_number"),
         "payment_reference": ref,
         "status": "materialized",
+        "autonomy_mode": policy.get("autonomy_mode", "high"),
         "offer_url": offer_url,
         "product_url": product_url,
         "product_zip": str(zip_path.relative_to(ROOT)),
