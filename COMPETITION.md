@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **3**
+Competidores nacidos: **4**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO4 | RANK-IAMO4 | attempt_completed | Many microbusinesses/freelancers lack a simple, trustable flow to request payment and verify bank transfers; they buy ready templates and sh | 'Cobro Listo AMO' — €39 one-time: (1) personalized payment instruction PDF (uses CobrAMO URL), (2) editable invoice/receipt template (PDF/Go | Spanish-speaking freelancers and microempresarios (Spain, LATAM) who invoice clients by bank transfer or manual methods and need a fast, ver | 60 | 0.00 |
 | IAMO3 | RANK-IAMO3 | attempt_completed | SaaS founders and solo entrepreneurs managing growth need consolidated dashboards for metrics, team, finances, and roadmaps. Notion marketpl | Complete 'SaaS Metrics & Ops Dashboard' Notion template: Pre-built workspace with investor dashboard (MRR, churn, CAC), project management ( | SaaS founders, startup CTOs, indie hackers, product managers ages 25-45 earning €50k-200k+ annually, managing 1-20 person teams, already usi | 68 | 0.00 |
 | IAMO2 | RANK-IAMO2 | attempt_completed | Freelancers and remote workers on platforms like Upwork, Fiverr, and Guru consistently need professional invoice templates and payment colle | Professional 'Invoice Pro' Google Sheets template + optional GitHub Action for automated invoice generation. Includes: pre-formatted invoice | Freelancers, contractors, and solo entrepreneurs (global, but especially Latin American and Eastern European freelancers with emerging marke | 55 | 0.00 |
 | IAMO1 | — | attempt_completed | Pequeñas empresas/freelancers sin integración de cobro online necesitan un flujo sencillo para recibir y verificar transferencias (comproban | Servicio 'Cobro rápido AMO': preparo instrucciones de cobro, plantilla de comprobante, verificación manual del pago y emisión de recibo/entr | freelancers y microempresas en España/UE que aceptan transferencias bancarias y prefieren pago por comprobante | 40 | 0.00 |
