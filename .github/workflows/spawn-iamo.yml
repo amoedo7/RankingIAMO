@@ -67,6 +67,9 @@ jobs:
       - name: Verify financial ranking integrity
         run: python3 scripts/rebuild_ranking.py --check
 
+      - name: Refresh visual GitHub ranking
+        run: python3 scripts/update_readme.py
+
       - name: Commit immutable competition memory
         env:
           IAMO_NAME: ${{ steps.prepare.outputs.iamo_name }}
@@ -74,7 +77,7 @@ jobs:
           set -euo pipefail
           git config user.name "RankingIAMO Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- data/competitors.json data/attempts.jsonl data/latest.json COMPETITION.md
+          git add -- data/competitors.json data/attempts.jsonl data/latest.json COMPETITION.md README.md
           git diff --cached --check
           git commit -m "compete: ${IAMO_NAME} autonomous revenue attempt"
           git push origin HEAD:main
@@ -89,6 +92,8 @@ jobs:
             echo "New independent competitor completed one autonomous research/strategy round."
             echo
             echo "Financial score remains governed only by verified entries in data/earnings.jsonl."
+            echo
+            echo "Live arena: https://rankingiamo.netlify.app/"
             echo
             echo "Client payment destination: https://cobramo.netlify.app/"
           } >> "$GITHUB_STEP_SUMMARY"
