@@ -1,5 +1,5 @@
 name: Spawn autonomous IAMO competitor
-# Self-chaining cadence v2: workflow pushes bootstrap once; chained runs target 10 minutes.
+# Self-chaining cadence v3: 10-minute chain + anti-duplicate gate + watchdog recovery.
 
 on:
   workflow_dispatch:
@@ -127,20 +127,32 @@ jobs:
             echo "Client payment destination: https://cobramo.netlify.app/"
           } >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Dispatch the next IAMO
-        if: always() && steps.gate.outputs.should_spawn == 'true'
+      - name: Keep the ten-minute chain alive
+        if: always() && (steps.gate.outputs.should_spawn == 'true' || github.event_name == 'push' || inputs.source == 'chain')
         env:
           GH_TOKEN: ${{ github.token }}
-          EVENT_NAME: ${{ github.event_name }}
         run: |
           set -euo pipefail
 
           if [ -f runtime/identity.json ]; then
             BORN_AT=$(python3 -c 'import json; print(json.load(open("runtime/identity.json"))["born_at"])')
           else
-            BORN_AT=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+            BORN_AT=$(python3 - <<'PY'
+          import json
+          from pathlib import Path
+          from datetime import datetime, timezone
+
+          path = Path("data/competitors.json")
+          try:
+              rows = json.loads(path.read_text(encoding="utf-8")).get("competitors", [])
+              births = [str(row.get("born_at")) for row in rows if row.get("born_at")]
+              print(max(births) if births else datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"))
+          except Exception:
+              print(datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"))
+          PY
+            )
           fi
-          export BORN_AT EVENT_NAME
+          export BORN_AT
 
           WAIT_SECONDS=$(python3 - <<'PY'
           import os
@@ -149,30 +161,25 @@ jobs:
           born = datetime.fromisoformat(os.environ["BORN_AT"].replace("Z", "+00:00"))
           if born.tzinfo is None:
               born = born.replace(tzinfo=timezone.utc)
-          now = datetime.now(timezone.utc)
-
-          # The workflow-file push is the one-time bootstrap/smoke run.
-          # Normal chained runs target 600 seconds between competitor births.
-          interval = 120 if os.environ.get("EVENT_NAME") == "push" else 600
-          elapsed = (now - born.astimezone(timezone.utc)).total_seconds()
-          print(max(0, int(interval - elapsed)))
+          elapsed = (datetime.now(timezone.utc) - born.astimezone(timezone.utc)).total_seconds()
+          print(max(0, int(600 - elapsed)))
           PY
           )
 
-          echo "Birth: $BORN_AT"
-          echo "Waiting ${WAIT_SECONDS}s before dispatching the next IAMO..."
+          echo "Reference birth: $BORN_AT"
+          echo "Waiting ${WAIT_SECONDS}s to preserve the 10-minute cadence..."
           sleep "$WAIT_SECONDS"
 
           gh workflow run spawn-iamo.yml --ref main -f source=chain
-          echo "Next IAMO dispatched successfully."
+          echo "Next chained IAMO run dispatched successfully."
 
       - name: Watchdog skip summary
         if: steps.gate.outputs.should_spawn != 'true'
         run: |
           {
-            echo "### No IAMO spawned"
+            echo "### No duplicate IAMO created"
             echo
             echo "${{ steps.gate.outputs.reason }}"
             echo
-            echo "The active self-chain remains authoritative; this watchdog/manual event did not create a duplicate."
+            echo "An early chain/bootstrap event waits for the 10-minute mark; an active watchdog event simply exits."
           } >> "$GITHUB_STEP_SUMMARY"
