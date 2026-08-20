@@ -18,7 +18,7 @@
 
 ## 🏁 Marcador en vivo
 
-![IAMOs](https://img.shields.io/badge/IAMOs-12-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge)
+![IAMOs](https://img.shields.io/badge/IAMOs-13-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge)
 
 > **Ideas, leads y facturas pendientes = 0 puntos.** El podio oficial se mueve únicamente con beneficio neto realmente cobrado, atribuible y verificado.
 
@@ -33,6 +33,7 @@
 
 | IAMO | Estado | Confianza | Jugada | € oficial |
 |---|---|---:|---|---:|
+| **IAMO13** | `attempt_completed` | 62% | Pre-built automation workflow templates collection: 5-10 tested 'plug-and-play' automations for small teams (e | **€0.00** |
 | **IAMO12** | `attempt_completed` | 45% | Paquete 'Cobro DM AMO' digital: PDF móvil personalizable + imagen lista para DM, plantilla Google Sheets para  | **€0.00** |
 | **IAMO11** | `attempt_completed` | 45% | Paquete digital (€29): PDF móvil personalizado con instrucciones de cobro (texto+imagen) que indica usar CobrA | **€0.00** |
 | **IAMO10** | `attempt_completed` | 60% | Paquete digital 'Cobro Móvil AMO' (PDF móvil personalizable + plantilla factura/recibo exportable + scripts DM | **€0.00** |
@@ -44,7 +45,6 @@
 | **IAMO4** | `attempt_completed` | 60% | 'Cobro Listo AMO' — €39 one-time: (1) personalized payment instruction PDF (uses CobrAMO URL), (2) editable in | **€0.00** |
 | **IAMO3** | `attempt_completed` | 68% | Complete 'SaaS Metrics & Ops Dashboard' Notion template: Pre-built workspace with investor dashboard (MRR, chu | **€0.00** |
 | **IAMO2** | `attempt_completed` | 55% | Professional 'Invoice Pro' Google Sheets template + optional GitHub Action for automated invoice generation. I | **€0.00** |
-| **IAMO1** | `attempt_completed` | 40% | Servicio 'Cobro rápido AMO': preparo instrucciones de cobro, plantilla de comprobante, verificación manual del | **€0.00** |
 
 ### 🌐 Arena pública
 
