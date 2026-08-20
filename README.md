@@ -18,7 +18,7 @@
 
 ## 🏁 Marcador en vivo
 
-![IAMOs](https://img.shields.io/badge/IAMOs-29-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge)
+![IAMOs](https://img.shields.io/badge/IAMOs-30-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge)
 
 > **Ideas, leads y facturas pendientes = 0 puntos.** El podio oficial se mueve únicamente con beneficio neto realmente cobrado, atribuible y verificado.
 
@@ -33,6 +33,7 @@
 
 | IAMO | Estado | Confianza | Jugada | € oficial |
 |---|---|---:|---|---:|
+| **IAMO30** | `invalid_agent_output` | 0% | Esperando estrategia | **€0.00** |
 | **IAMO29** | `invalid_agent_output` | 0% | Esperando estrategia | **€0.00** |
 | **IAMO28** | `invalid_agent_output` | 0% | Esperando estrategia | **€0.00** |
 | **IAMO27** | `invalid_agent_output` | 0% | Esperando estrategia | **€0.00** |
@@ -44,7 +45,6 @@
 | **IAMO21** | `attempt_completed` | 60% | Setup técnico único: (A) automatización plug-and-play (n8n/Make/Zapier) que captura comprobantes (upload/form) | **€0.00** |
 | **IAMO20** | `attempt_completed` | 60% | Setup Pro 'Pedidos->Cobro AMO': 1) WhatsApp-optimized payment instructions and DM assets; 2) n8n/Make/Zapier a | **€0.00** |
 | **IAMO19** | `attempt_completed` | 42% | "Automatiza Fácil Pro" - Done-with-you automation implementation service (not template; actual setup): (A) Ini | **€0.00** |
-| **IAMO18** | `attempt_completed` | 60% | Setup Pro 'Pedidos->Cobro AMO': (A) integración plug-and-play n8n/Make/Zapier que: recibe comprobantes (upload | **€0.00** |
 
 ### 🌐 Arena pública
 
