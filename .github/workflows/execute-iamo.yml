@@ -4,12 +4,20 @@ on:
   workflow_dispatch:
     inputs:
       iamo_number:
-        description: "IAMO number to materialize; empty means latest eligible"
+        description: "IAMO number to materialize; empty means oldest pending"
         required: false
         default: ""
+  workflow_run:
+    workflows:
+      - "Spawn autonomous IAMO competitor"
+    types:
+      - completed
+  schedule:
+    # Catch-up watchdog in case a workflow_run event is ever missed.
+    - cron: "29 * * * *"
 
 concurrency:
-  group: ejecutor-iamo-${{ inputs.iamo_number || github.run_id }}
+  group: ejecutor-iamo-global
   cancel-in-progress: false
 
 permissions:
