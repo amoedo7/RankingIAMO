@@ -5,6 +5,7 @@ import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
@@ -56,15 +57,44 @@ def clean_text(value, limit=12000):
     return text[:limit]
 
 
+def clean_urls(value, limit=10):
+    if not isinstance(value, list):
+        return []
+    return [
+        clean_text(url, 1000)
+        for url in value
+        if str(url).startswith(("https://", "http://"))
+    ][:limit]
+
+
+def is_external_to_amo(url):
+    try:
+        parsed = urlparse(url)
+    except Exception:
+        return False
+    host = (parsed.hostname or "").lower()
+    path = parsed.path.lower()
+    if not host:
+        return False
+    if host in {"cobramo.netlify.app", "desarrollamo.com.ar", "www.desarrollamo.com.ar"}:
+        return False
+    if host in {"github.com", "www.github.com", "raw.githubusercontent.com"} and path.startswith("/amoedo7/"):
+        return False
+    return True
+
+
+def has_external_evidence(result):
+    urls = result.get("external_evidence_urls") or []
+    return any(is_external_to_amo(url) for url in urls)
+
+
 def normalize_result(raw, identity):
     packet = raw.get("execution_packet")
     if not isinstance(packet, dict):
         packet = {}
 
-    urls = raw.get("research_urls")
-    if not isinstance(urls, list):
-        urls = []
-    urls = [clean_text(url, 1000) for url in urls if str(url).startswith(("https://", "http://"))][:10]
+    urls = clean_urls(raw.get("research_urls"))
+    external_urls = clean_urls(raw.get("external_evidence_urls"))
 
     actions = raw.get("actions_completed")
     if not isinstance(actions, list):
@@ -89,6 +119,7 @@ def normalize_result(raw, identity):
         "currency": clean_text(raw.get("currency"), 20),
         "why_now": clean_text(raw.get("why_now"), 5000),
         "research_urls": urls,
+        "external_evidence_urls": external_urls,
         "actions_completed": actions,
         "execution_packet": {
             "channel": clean_text(packet.get("channel"), 1000),
@@ -162,14 +193,14 @@ def render_board(attempts):
         "",
         "## Últimos intentos autónomos",
         "",
-        "| IAMO | Referencia | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |",
-        "|---|---|---|---|---|---:|---:|",
+        "| IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |",
+        "|---|---|---|---|---|---|---:|---:|",
     ]
     for row in reversed(attempts[-100:]):
         result = row.get("result") or {}
         lines.append(
             f"| {md_cell(row.get('competitor_name'))} | {md_cell(row.get('payment_reference'))} | "
-            f"{md_cell(result.get('opportunity'))} | {md_cell(result.get('offer'))} | "
+            f"{md_cell(row.get('status'))} | {md_cell(result.get('opportunity'))} | {md_cell(result.get('offer'))} | "
             f"{md_cell(result.get('target_customer'))} | {result.get('confidence_0_100', 0)} | "
             f"{row.get('verified_net_profit_eur', '0.00')} |"
         )
@@ -198,7 +229,9 @@ def main():
     try:
         raw = extract_json(raw_text)
         result = normalize_result(raw, identity)
-        status = "attempt_completed"
+        status = "attempt_completed" if has_external_evidence(result) else "research_incomplete"
+        if status == "research_incomplete":
+            result["notes"] = (result.get("notes", "") + " | Falta evidencia externa a AMO de demanda/mercado.").strip(" |")
     except Exception as exc:
         parse_error = str(exc)
         result = {
@@ -211,6 +244,7 @@ def main():
             "currency": "",
             "why_now": "",
             "research_urls": [],
+            "external_evidence_urls": [],
             "actions_completed": [],
             "execution_packet": {
                 "channel": "",
