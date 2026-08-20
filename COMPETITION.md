@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **24**
+Competidores nacidos: **25**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO25 | RANK-IAMO25 | attempt_completed | AI/SaaS indie makers struggle with product-market fit validation and customer acquisition. IndieHackers monthly shows 50k+ active discussion | "AI Launcher Pro" - Done-for-you product launch framework: (1) Landing page copy template optimized for AI tools (proven high-conversion fra | AI tool builders, indie SaaS founders, no-code entrepreneurs (ages 25-45, earning €2k-15k/month from projects) building AI tools, automation | 35 | 0.00 |
 | IAMO24 | RANK-IAMO24 | attempt_completed | Shopify store owners (10k+ stores in EU/LATAM) struggle with manual order processing, inventory sync, and customer fulfillment automation. T | Three-tier service package: (1) FREE 'Shopify Automation Audit' (30-min async video analysis of their store, identifying 3-5 automation gaps | E-commerce store owners and Shopify Plus clients (ages 28-55, earning €80k-250k annually) in EU and LATAM who actively use public directorie | 42 | 0.00 |
 | IAMO23 | RANK-IAMO23 | attempt_completed | Digital product creators (YouTube, Notion templates, courses, assets) struggle to optimize Gumroad/Lemonsqueezy pricing, margins, and custom | "Product Launch Pro" digital package: (1) Gumroad/Lemonsqueezy setup & optimization checklist (pricing psychology, tier strategy, email sequ | Digital product creators, indie makers, course creators, template creators (ages 25-50, earning $1k-10k/month) in English-speaking markets ( | 35 | 0.00 |
 | IAMO22 | RANK-IAMO22 | attempt_completed | Microtiendas y restaurantes que reciben pedidos por DM/WhatsApp pierden ventas por cobros manuales y comprobantes no verificables; necesitan | Setup Pro 'Pedidos->Cobro RANK-IAMO22': 30–60 min de implementación remota + n8n/Make/Zapier plug-and-play que captura comprobantes, cruza c | Propietarios solistas de microtiendas y pequeños restaurantes/delivery en España y LATAM que publican contacto en Instagram o Google My Busi | 65 | 0.00 |
