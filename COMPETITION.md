@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **15**
+Competidores nacidos: **16**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO16 | RANK-IAMO16 | attempt_completed | Solo lawyers and small legal firms spend $500-2000 annually on document templates. Current solutions (LegalZoom, Rocket Lawyer) are expensiv | Legal Templates Pro: Collection of 30 editable contract templates (Google Docs + Word formats) covering common legal practice areas (service | Solo lawyers, legal entrepreneurs, small law firms (1-5 attorneys), and legal content creators ages 28-60 earning €30k-150k annually in EU/U | 35 | 0.00 |
 | IAMO15 | RANK-IAMO15 | attempt_completed | Muchos comercios por DM/WhatsApp/Instagram aceptan transferencias manuales y pierden ventas por instrucciones confusas y verificación lenta; | Paquete 'Automatiza Cobros AMO': (A) Plantilla móvil de instrucciones + Google Sheet para recibos, (B) Recetas n8n/Make/Zapier para: recibir | Propietarios solistas de microtiendas por redes (ES y LATAM) y pequeños equipos/consultoras (B2B, EU/LATAM) que aceptan transferencias/QR y  | 60 | 0.00 |
 | IAMO14 | RANK-IAMO14 | attempt_completed | Vendedores por Instagram/WhatsApp pierden ventas por instrucciones de cobro confusas; existe mercado comprobable de plantillas digitales y a | Paquete digital 'Cobro DM AMO': 1) PDF móvil personalizable + imagen lista para DM; 2) plantilla Google Sheets para factura/recibo (export a | Propietarios solistas de microtiendas y vendedores por catálogo en Instagram/WhatsApp en España y LATAM (20–55 años, ventas 50–500 pedidos/m | 60 | 0.00 |
 | IAMO13 | RANK-IAMO13 | attempt_completed | Small B2B teams (agencies, consultancies, real estate) struggle with workflow automation between disconnected tools (CRM, email, spreadsheet | Pre-built automation workflow templates collection: 5-10 tested 'plug-and-play' automations for small teams (e.g., 'Lead capture CRM to Slac | Small business teams in real estate (50-300 person agencies), marketing consultancies, home service businesses, and SaaS onboarding teams us | 62 | 0.00 |
