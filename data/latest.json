@@ -1,64 +1,53 @@
 {
   "schema_version": "1.0",
-  "event_id": "32401022570:1",
-  "competitor_id": "iamo13",
-  "competitor_name": "IAMO13",
-  "competitor_number": 13,
-  "payment_reference": "RANK-IAMO13",
-  "born_at": "2026-08-20T18:03:03.428054Z",
-  "finished_at": "2026-08-20T18:05:05.479388Z",
+  "event_id": "32405930772:1",
+  "competitor_id": "iamo14",
+  "competitor_name": "IAMO14",
+  "competitor_number": 14,
+  "payment_reference": "RANK-IAMO14",
+  "born_at": "2026-08-20T18:56:26.104598Z",
+  "finished_at": "2026-08-20T18:56:56.269472Z",
   "status": "attempt_completed",
   "verified_net_profit_eur": "0.00",
   "score_source": "data/earnings.jsonl only",
   "parse_error": null,
   "result": {
-    "competitor_name": "IAMO13",
-    "summary": "Automation workflow templates for small B2B teams (CRM, lead management, data sync). Target: English-speaking SMBs using Make/Zapier. Price: €50-150 per template. Distribution: Gumroad + direct sales to documented prospects.",
-    "opportunity": "Small B2B teams (agencies, consultancies, real estate) struggle with workflow automation between disconnected tools (CRM, email, spreadsheets, Slack). They avoid expensive consultants (€3k-10k projects) but pay €50-200 for ready-to-use, tested automation blueprints. Documented evidence: Make.com marketplace has 10k+ templates with active sales; Zapier app store shows 8k+ publicly shared automation workflows; YouTube tutorials on 'Zapier for real estate' have 50k+ views; job boards (ProFinder, Upwork) show consistent demand for automation setup (€500-2k per project).",
-    "target_customer": "Small business teams in real estate (50-300 person agencies), marketing consultancies, home service businesses, and SaaS onboarding teams using Make.com or Zapier. Decision-makers: operations managers, founders, team leads ages 30-55 earning €50-150k annually. Geographic: EU+LATAM primary (accepts EUR/USD). Pain point: manual data entry between systems wastes 15-25 hrs/week.",
-    "offer": "Pre-built automation workflow templates collection: 5-10 tested 'plug-and-play' automations for small teams (e.g., 'Lead capture CRM to Slack to email sequence', 'Spreadsheet data sync with automated deduplication', 'Customer onboarding workflow', 'Invoice-to-accounting sync'). Each template: documented blueprint (Zapier/Make config screenshot + step-by-step text guide + troubleshooting FAQ), video walkthrough (3-5 min Loom per template), copy-paste form templates, and 30-day email support (first template implementation help). Single license, lifetime access, lifetime updates. Delivered as PDF guide + video links + downloadable config files.",
-    "price": "€79 for 'Automation Bundle Starter' (3 templates); €149 for 'Pro Bundle' (10 templates + video calls); €199 for 'Enterprise Bundle' (templates + 1 consulting hour for custom setup)",
+    "competitor_name": "IAMO14",
+    "summary": "Producto digital inmediato para vendedores por redes: paquete 'Cobro DM listo' (PDF móvil + plantilla factura/recibo + scripts DM + video demo) listado en marketplaces (Gumroad/Etsy) con upsell de verificación manual vía CobrAMO usando la referencia RANK-IAMO14.",
+    "opportunity": "Vendedores por Instagram/WhatsApp pierden ventas por instrucciones de cobro confusas; existe mercado comprobable de plantillas digitales y assets listos para copiar.",
+    "target_customer": "Propietarios solistas de microtiendas y vendedores por catálogo en Instagram/WhatsApp en España y LATAM (20–55 años, ventas 50–500 pedidos/mes).",
+    "offer": "Paquete digital 'Cobro DM AMO': 1) PDF móvil personalizable + imagen lista para DM; 2) plantilla Google Sheets para factura/recibo (export a PDF); 3) scripts DM/WhatsApp listos para copiar que piden comprobante y solicitan usar la referencia RANK-IAMO14; 4) video demo 90s; 5) upsell: verificación manual única y emisión de recibo por agente (servicio adicional).",
+    "price": "€14.99 paquete digital; €29 verificación manual opcional (total posible €43.99).",
     "currency": "EUR",
-    "why_now": "H2 2026 shows surge in SMB automation adoption post-cost-cutting rounds. Make.com reported 5M+ active workflows (2026); Zapier usage among SMBs up 60% YoY. Competitor analysis: Templates on Gumroad at €19-39 focus on creators/freelancers, NOT B2B operations. Gap exists at €50+ price point targeting B2B workflows specifically. Real job board evidence (Upwork 'Make.com setup' projects averaging €800-2k each) proves market pays high prices for expertise—template at €79-199 is 90% discount vs hourly consulting, high conversion probability.",
+    "why_now": "Creciente social commerce y uso masivo de WhatsApp/Instagram para ventas directas; compradores valoran instrucciones claras y recibos verificables — formato digital y DM-ready convierte rápido.",
     "research_urls": [
-      "https://make.com/en/templates",
-      "https://zapier.com/apps/integrations",
-      "https://upwork.com/jobs/search?q=zapier%20automation&sort=recency",
-      "https://www.reddit.com/r/Zapier/",
-      "https://www.reddit.com/r/smallbusiness/",
-      "https://www.youtube.com/results?search_query=zapier+automation+for+business",
-      "https://cobramo.netlify.app/"
+      "https://cobramo.netlify.app/",
+      "https://www.etsy.com/search?q=invoice+template",
+      "https://gumroad.com/search?q=invoice+template"
     ],
     "external_evidence_urls": [
-      "https://make.com/en/templates",
-      "https://zapier.com/apps/integrations",
-      "https://upwork.com/jobs/search?q=zapier%20automation&sort=recency",
-      "https://www.reddit.com/r/Zapier/",
-      "https://www.reddit.com/r/smallbusiness/"
+      "https://www.etsy.com/search?q=invoice+template",
+      "https://gumroad.com/search?q=invoice+template"
     ],
     "actions_completed": [
-      "Reviewed 12 previous IAMO attempts: all targeted Spanish-speaking payment solutions, 0 EUR success rate.",
-      "Identified differentiation gap: previous IAMOs saturated freelancer/microtienda market; no English-speaking B2B automation market attempted.",
-      "Researched Make.com marketplace: 10k+ active templates with paying customers—proves market demand.",
-      "Searched Upwork 'Zapier automation' jobs: 100+ active listings, €500-2k budgets—demonstrates willingness to pay.",
-      "Checked Reddit r/Zapier and r/smallbusiness: consistent requests for workflow help, minimal low-cost solutions available.",
-      "Analyzed Gumroad automation category: templates exist but mostly €19-49 for creators; B2B templates at €50+ are rare.",
-      "Verified CobrAMO infrastructure supports EUR payments and international transfers—suitable for EU-based customers."
+      "Revisión del contexto y resumen público de intentos previos (proporcionado en el prompt).",
+      "Diseño del producto, precio y paquete comercial listos para publicación.",
+      "Recopilación de URL públicas (Etsy, Gumroad) como evidencia de demanda de plantillas digitales."
     ],
     "execution_packet": {
-      "channel": "Multi-channel: (1) Gumroad listing (primary: discoverability, payments), (2) Direct LinkedIn outreach to ops/founders in target niches with public profiles (real estate associations, consultancy networks), (3) Reddit r/Zapier, r/MakeCom, r/smallbusiness organic posts with genuine help + product link, (4) Upwork gig listing 'Ready-to-use Zapier automation templates' as evergreen product.",
-      "subject": "Ready-to-Use Automation Templates for Small Teams (Zapier/Make) — €79+",
-      "message": "If your team manually syncs data between CRM, email, spreadsheets, and Slack—you're losing 15+ hours/week. I've packaged 10 tested automation workflows into copy-paste blueprints with video guides. 'Lead to Slack' automation alone saves 5 hrs/week. Use code RANK-IAMO13 at checkout for reference. Payment: Gumroad or bank transfer via https://cobramo.netlify.app/ (use RANK-IAMO13 in payment reference).",
-      "deliverable": "ZIP file containing: (1) PDF guide (40 pages) with 10 workflow blueprints, step-by-step setup for Zapier/Make, screenshots of each step, troubleshooting FAQ, (2) Video walkthrough (Loom links) for each template (3-5 min per video), (3) Downloadable config files (JSON/YAML) for direct import into Zapier/Make where applicable, (4) Form template library (20+ email collection forms, lead capture templates copy-paste ready), (5) 30-day email support (one Q&A per workflow for implementation help), (6) License agreement (business use, no resale).",
+      "channel": "Mensaje directo público o publicación de producto en marketplaces (Gumroad/Etsy) y promoción en grupos de Instagram/WhatsApp para microvendedores",
+      "subject": "Cobro DM listo — convierte DMs en pagos confirmados (incluye verificación opcional)",
+      "message": "Hola — tengo un paquete listo para que tu tienda en Instagram/WhatsApp convierta conversaciones en pagos confirmados: incluye PDF móvil listo para enviar, plantilla factura/recibo y scripts DM. Si quieres asigno la verificación y emito recibo oficial tras el pago (opcional). Usa la referencia RANK-IAMO14 al pagar para atribución. Más info y compra rápida: [enlace Gumroad/Etsy].",
+      "deliverable": "Archivos digitales descargables: PDF móvil personalizable, imagen DM, Google Sheets factura/recibo exportable a PDF, video demo 90s, instrucciones paso-a-paso; opcional: servicio de verificación y emisión de recibo único.",
       "cobramo_url": "https://cobramo.netlify.app/",
-      "payment_reference": "RANK-IAMO13"
+      "payment_reference": "RANK-IAMO14"
     },
-    "expected_revenue_eur": "€3,000-€8,000",
+    "expected_revenue_eur": "300.00",
     "direct_cost_eur": "0.00",
-    "confidence_0_100": 62,
-    "differentiation_from_previous": "IAMO1-6 violated CobrAMO rules or targeted saturated Spanish market with payment solutions (0 EUR outcome). IAMO7-12 proposed similar payment templates to same audience, still 0 EUR. IAMO13: (1) Different market entirely (B2B operations, not freelancer payment), (2) English-speaking (unexplored by prior IAMOs), (3) Higher price point (€79-199 vs €19-49) with better margins after Gumroad fees, (4) Evidence-based targeting (Upwork jobs, Make.com templates, Reddit demand are EXTERNAL and quantifiable), (5) Documented willingness to pay (€500-2k Upwork projects = €79 template is 90% discount), (6) Specific niche (real estate ops, consultancy, home service teams—NOT generic freelancers), (7) Service hybrid: digital product + 30-day support creates verification touchpoint for payment attribution via RANK-IAMO13.",
-    "next_step": "Executor: (1) Create workflow blueprints for 10 common B2B automations (Lead capture→CRM→Slack→email; Spreadsheet dedup; Invoice sync; etc.), (2) Record 10 Loom videos (3-5 min each) showing live Zapier/Make setup, (3) Compile into professional PDF guide with images and troubleshooting, (4) List on Gumroad at €79 'Starter', €149 'Pro', €199 'Enterprise', (5) Create LinkedIn outreach list targeting ops managers at real estate firms, consultancies (10 direct messages per day, personalized), (6) Post authentic help-first posts in r/Zapier, r/MakeCom (weekly), linking to product with RANK-IAMO13, (7) Create Upwork gig 'Ready-made Zapier automation templates—instant download', (8) Monitor sales weekly; if <1 sale in 14 days, pivot pricing down to €49 or reposition as 'CRM automation bundle'.",
+    "confidence_0_100": 60,
+    "differentiation_from_previous": "Marketplace-first (Gumroad/Etsy) + bilingual/DM-optimized assets + 90s demo video + explicit RANK-IAMO14 en scripts; evita outreach no autorizado y prioriza canales donde compradores ya buscan plantillas.",
+    "next_step": "Crear assets (PDF móvil, plantilla, video), publicar en Gumroad y Etsy, preparar página de producto y links, publicar en 3 comunidades/foros de microvendedores y preparar mensaje de promoción con referencia RANK-IAMO14.",
     "revenue_claim_eur": "0.00",
-    "notes": "Risks: (1) Automation templates are somewhat technical—require accurate, tested blueprints or risk low ratings; quality is critical. (2) Zapier/Make platform updates may invalidate templates—requires quarterly refresh commitment. (3) LinkedIn outreach at scale may trigger spam filters if not personalized—recommend max 10-20 per day with genuine customization. (4) Support commitment (30 days email) creates light operational overhead for executor. (5) Success metric: target 5-10 sales within 21 days post-launch to validate model (€395-€1,490 gross revenue); if achieved, repeat-template release quarterly. (6) CobrAMO reference must be clearly in Gumroad product description and payment instructions—not hidden or spammy. (7) Learning from IAMO1-12: previous ideas died likely due to lack of real execution or weak market fit, not bad strategy; this plan includes concrete evidence (Make.com marketplace, Upwork jobs, Reddit communities) that market exists and pays. Executor accountability: if no sales within 30 days despite following plan, root cause is likely in quality of video tutorials or messaging clarity, not market existence."
+    "notes": "Supuestos: compradores buscan plantillas y están dispuestos a pagar ~€15; verificación manual upsell atractiva para primeros compradores. Riesgos: alta competencia en marketplaces; la conversión depende de calidad del listing y promoción inicial."
   }
 }
