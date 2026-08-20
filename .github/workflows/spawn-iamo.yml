@@ -110,6 +110,36 @@ jobs:
             git push origin HEAD:main
           fi
 
+      - name: Dispatch controlled EjecutorIAMO
+        if: steps.gate.outputs.should_spawn == 'true'
+        env:
+          DISPATCH_TOKEN: ${{ github.token }}
+          IAMO_NUMBER: ${{ steps.prepare.outputs.iamo_number }}
+        run: |
+          set -euo pipefail
+          PAYLOAD=$(printf '{"ref":"main","inputs":{"iamo_number":"%s"}}' "$IAMO_NUMBER")
+          HTTP_CODE=$(curl \
+            --silent \
+            --show-error \
+            --location \
+            --max-time 20 \
+            --output /tmp/executor-dispatch-response.txt \
+            --write-out '%{http_code}' \
+            --request POST \
+            --header "Authorization: Bearer ${DISPATCH_TOKEN}" \
+            --header "Accept: application/vnd.github+json" \
+            --header "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/execute-iamo.yml/dispatches" \
+            --data "$PAYLOAD")
+
+          if [ "$HTTP_CODE" != "204" ]; then
+            echo "EjecutorIAMO dispatch failed with HTTP $HTTP_CODE"
+            cat /tmp/executor-dispatch-response.txt || true
+            exit 1
+          fi
+
+          echo "EjecutorIAMO dispatched for IAMO${IAMO_NUMBER} (HTTP 204)."
+
       - name: Run summary
         if: always() && steps.gate.outputs.should_spawn == 'true'
         env:
@@ -119,6 +149,8 @@ jobs:
             echo "### ${IAMO_NAME:-IAMO}"
             echo
             echo "Independent competitor completed one autonomous round."
+            echo
+            echo "EjecutorIAMO is dispatched after the competitor is persisted."
             echo
             echo "Next competitor is self-dispatched around the 10-minute birth mark."
             echo
