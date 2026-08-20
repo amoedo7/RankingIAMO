@@ -1,4 +1,5 @@
 name: Spawn autonomous IAMO competitor
+# Self-chaining cadence v2: workflow pushes bootstrap once; chained runs target 10 minutes.
 
 on:
   workflow_dispatch:
