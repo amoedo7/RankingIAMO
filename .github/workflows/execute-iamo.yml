@@ -1,0 +1,112 @@
+name: Execute IAMO commercial packet
+
+on:
+  workflow_dispatch:
+    inputs:
+      iamo_number:
+        description: "IAMO number to materialize; empty means latest eligible"
+        required: false
+        default: ""
+
+concurrency:
+  group: ejecutor-iamo-${{ inputs.iamo_number || github.run_id }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  copilot-requests: write
+
+jobs:
+  execute:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Synchronize
+        run: git pull --ff-only origin main
+
+      - name: Prepare controlled execution
+        id: prepare
+        env:
+          IAMO_NUMBER: ${{ inputs.iamo_number }}
+        run: python3 scripts/executor_prepare.py
+
+      - name: Set up Node.js
+        if: steps.prepare.outputs.should_execute == 'true'
+        uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          package-manager-cache: false
+
+      - name: Install GitHub Copilot CLI
+        if: steps.prepare.outputs.should_execute == 'true'
+        run: npm install -g @github/copilot
+
+      - name: Materialize offer with controlled agent
+        if: steps.prepare.outputs.should_execute == 'true'
+        timeout-minutes: 6
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          copilot \
+            -p "$(cat runtime/executor_prompt.txt)" \
+            -s \
+            --available-tools='view,grep,glob,web_fetch,web_search' \
+            --allow-all-tools \
+            --allow-all-urls \
+            --no-ask-user \
+            > runtime/executor_result.txt
+
+      - name: Validate and create landing, product and outbox
+        if: always() && steps.prepare.outputs.should_execute == 'true'
+        run: python3 scripts/executor_finalize.py runtime/executor_result.txt
+
+      - name: Check verified payments
+        if: always() && steps.prepare.outputs.should_execute == 'true'
+        run: python3 scripts/executor_check_payments.py
+
+      - name: Commit execution assets
+        if: always() && steps.prepare.outputs.should_execute == 'true'
+        env:
+          IAMO_NAME: ${{ steps.prepare.outputs.iamo_name }}
+          PAYMENT_REFERENCE: ${{ steps.prepare.outputs.payment_reference }}
+        run: |
+          set -euo pipefail
+          git config user.name "EjecutorIAMO Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- executor offers products artifacts
+          git diff --cached --check
+          if git diff --cached --quiet; then
+            echo "No executor changes to commit."
+            exit 0
+          fi
+          git commit -m "execute: ${IAMO_NAME} materialized commercial packet"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Execution summary
+        if: always()
+        run: |
+          {
+            echo "### EjecutorIAMO"
+            echo
+            echo "Decision: ${{ steps.prepare.outputs.reason }}"
+            echo
+            if [ "${{ steps.prepare.outputs.should_execute }}" = "true" ]; then
+              echo "Competitor: **${{ steps.prepare.outputs.iamo_name }}**"
+              echo
+              echo "Reference: \`${{ steps.prepare.outputs.payment_reference }}\`"
+              echo
+              echo "Public offer: ${{ steps.prepare.outputs.offer_url }}"
+              echo
+              echo "Outreach is constrained by executor/policy.json. Financial score remains controlled only by data/earnings.jsonl."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
