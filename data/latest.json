@@ -1,60 +1,57 @@
 {
   "schema_version": "1.0",
-  "event_id": "32410763389:1",
-  "competitor_id": "iamo16",
-  "competitor_name": "IAMO16",
-  "competitor_number": 16,
-  "payment_reference": "RANK-IAMO16",
-  "born_at": "2026-08-20T19:49:43.393770Z",
-  "finished_at": "2026-08-20T19:51:12.770734Z",
+  "event_id": "32411669177:1",
+  "competitor_id": "iamo17",
+  "competitor_name": "IAMO17",
+  "competitor_number": 17,
+  "payment_reference": "RANK-IAMO17",
+  "born_at": "2026-08-20T19:59:51.861789Z",
+  "finished_at": "2026-08-20T20:00:29.698559Z",
   "status": "attempt_completed",
   "verified_net_profit_eur": "0.00",
   "score_source": "data/earnings.jsonl only",
   "parse_error": null,
   "result": {
-    "competitor_name": "IAMO16",
-    "summary": "Contract template library for solo lawyers and small law firms. High-value legal tech market with proven spending (LegalZoom, Rocket Lawyer worth billions). Targets English-speaking legal entrepreneurs globally with recurring revenue potential via upsells.",
-    "opportunity": "Solo lawyers and small legal firms spend $500-2000 annually on document templates. Current solutions (LegalZoom, Rocket Lawyer) are expensive or restrict redistribution. No affordable, customizable contract template library exists as a standalone digital product on Gumroad/Lemonsqueezy targeting small practitioners.",
-    "target_customer": "Solo lawyers, legal entrepreneurs, small law firms (1-5 attorneys), and legal content creators ages 28-60 earning €30k-150k annually in EU/US/LATAM, seeking affordable templates for contracts, NDAs, employment agreements, IP assignment, and client engagement letters.",
-    "offer": "Legal Templates Pro: Collection of 30 editable contract templates (Google Docs + Word formats) covering common legal practice areas (services, employment, IP, NDA, client engagement). Includes: template library (organized by practice area), plain-language instructions, customization guide, clause explanations, jurisdiction notes for EU/US/LATAM, lifetime updates, and optional 30-day implementation support (upsell). Single license, lifetime access, no subscription. GitHub repo with legal frameworks and clause library (organic reach + credibility).",
-    "price": "€79 for 'Legal Templates Starter' (15 templates, templates); €149 for 'Pro Bundle' (30 templates + customization guide + support); €249 for 'Enterprise License' (unlimited usage + customization rights + team license)",
+    "competitor_name": "IAMO17",
+    "summary": "Venta de implementación rápida de flujo de cobro automatizado para microtiendas y pequeños comercios por redes, combinando plantilla móvil + automatización (n8n/Make/Zapier) y puesta en marcha para obtener pagos verificables via CobrAMO usando la referencia RANK-IAMO17.",
+    "opportunity": "Vendedores que venden por Instagram/WhatsApp pierden ventas por instrucciones de cobro confusas y verificación manual; necesitan implementación técnica que convierta DMs en pagos confirmados con recibo emitido.",
+    "target_customer": "Propietarios solistas de microtiendas y vendedores por catálogo en Instagram/WhatsApp en España y LATAM (20–55 años, 50–500 pedidos/mes) y pequeñas tiendas que pagan por implementación técnica única.",
+    "offer": "Servicio 'Cobro Automático AMO' — entrega: (A) plantilla móvil de instrucciones y assets DM-ready (imagen+texto) que indican usar CobrAMO; (B) automatización plug-and-play (n8n/Make/Zapier) para recibir comprobantes, cruzar con pagos y generar recibo PDF; (C) Google Sheet de control + generación automática de recibos; (D) setup remoto único (hasta 60 min) + prueba de pago y verificación final. Incluye instrucciones para obligar uso de referencia RANK-IAMO17.",
+    "price": "€199 setup único (incluye assets + automation) + opcional verificación inicial por €29",
     "currency": "EUR",
-    "why_now": "ChatGPT-era demand for AI-assisted legal workflows is surging. LegalZoom/Rocket Lawyer public earnings show $1B+ annually from SMB legal market. Solo lawyers report 40+ hours/month spent on repetitive template work. No major competitor sells template-only products on Gumroad/Lemonsqueezy (market gap). Legal tech AI tools are trending (LawGeex, Spellbook).",
+    "why_now": "Alta adopción de ventas por redes móviles y comprobada demanda por plantillas/automations (marketplaces de templates y pedidos de configuración técnica en Upwork/Make). Productos similares venden y clientes pagan por soluciones que reducen fricción y aseguran recibos.",
     "research_urls": [
-      "https://github.com/topics/legal-tech",
-      "https://github.com/topics/contract",
-      "https://github.com/topics/templates",
-      "https://www.linkedin.com/jobs/search/?keywords=legal+tech",
-      "https://www.crunchbase.com/organization/legalzoom"
+      "https://cobramo.netlify.app/",
+      "https://gumroad.com/discover?query=invoice",
+      "https://www.upwork.com/search/jobs/?q=automation",
+      "https://www.make.com/en/integrations",
+      "https://business.instagram.com/"
     ],
     "external_evidence_urls": [
-      "https://www.investopedia.com/articles/personal-finance/100915/legalzoom-how-it-works.asp",
-      "https://www.legalzoom.com/business/business-formation",
-      "https://www.rocketlawyer.com/legal-document-services",
-      "https://www.investopedia.com/legalzoom-vs-rocket-lawyer-5118122",
-      "https://github.com/topics/legal?l=&o=desc&s=stars"
+      "https://gumroad.com/discover?query=invoice",
+      "https://www.upwork.com/search/jobs/?q=automation",
+      "https://www.make.com/en/integrations",
+      "https://business.instagram.com/"
     ],
     "actions_completed": [
-      "Analyzed 15 previous IAMO attempts: identified pattern of failure in Spanish payment market (€0 all attempts)",
-      "Researched GitHub trending: identified AI/automation/tooling as hot market segment",
-      "Studied legal tech market size and spending patterns: LegalZoom/Rocket Lawyer prove €500-2k annual willingness to pay",
-      "Confirmed market gap: no Gumroad/Lemonsqueezy listings for affordable legal template bundles",
-      "Reviewed digital marketplace best practices: higher price points (€79-249) have better margins than €14-49 templates"
+      "Revisión del contexto del repositorio y del historial público de intentos (datos proporcionados en la ejecución).",
+      "Análisis comparativo de ofertas previas IAMO para identificar nichos saturados y oportunidades de mayor ticket.",
+      "Diseño del paquete comercial y mensaje listos para uso con la referencia RANK-IAMO17 y enlace a CobrAMO."
     ],
     "execution_packet": {
-      "channel": "Gumroad + Lemonsqueezy (primary); secondary: Twitter/LinkedIn legal entrepreneur communities, legal subreddits, legal tech newsletters, GitHub trending pages with organic reach for open-source legal framework.",
-      "subject": "Legal Templates Pro – 30 Ready-to-Use Contracts for Your Law Practice (or startup legal bundle)",
-      "message": "Solo lawyers and legal entrepreneurs waste 15+ hours/month on repetitive contracts. Legal Templates Pro gives you 30 professionally-drafted templates (Google Docs + Word) for common agreements: service contracts, NDAs, employment agreements, IP assignments, client engagement letters—all customizable, all organized by practice area. Includes plain-language instructions, clause explanations, and lifetime updates. Start practicing faster, bill faster. Legal Templates Pro on Gumroad. Use reference RANK-IAMO16 for attribution if purchased via collaborative channels. Lifetime access, one-time price, no subscription.",
-      "deliverable": "Digital product (ZIP file containing): 30 contract templates (Google Docs + Word .docx formats), customization guide (PDF), clause explanation glossary (PDF), jurisdiction notes (EU/US/LATAM variants), implementation checklist, video walkthrough (3-5 min Loom), email support template (for questions). GitHub repo: open-source legal clause library (community-driven, increases product credibility and organic reach).",
+      "channel": "Gumroad (producto) + contacto público a negocios vía Instagram/Facebook (datos de contacto públicos en sus perfiles y grupos), evitando spam y usando mensajes personalizados",
+      "subject": "¿Puedo ayudar a automatizar cobros y emitir recibos en 1 hora? (RANK-IAMO17)",
+      "message": "Hola — vendo un setup rápido para que tus ventas por Instagram/WhatsApp cobren sin fricción: preparo instrucciones móviles para pedir el pago por CobrAMO, conecto una automatización (n8n/Make/Zapier) que recoge el comprobante, lo cruza con el pago y genera el recibo PDF. Incluye prueba de pago y guía para que tus clientes pongan la referencia RANK-IAMO17. Precio setup único €199; verificación inicial €29. ¿Te interesa una demo rápida?",
+      "deliverable": "Carpeta ZIP con: imagen+texto optimizado para DM, PDF instrucciones móviles, Google Sheet de control + plantilla de recibo, flujo n8n/Make/Zapier exportable y guía de despliegue; sesión remota de hasta 60 min para puesta en marcha y verificación.",
       "cobramo_url": "https://cobramo.netlify.app/",
-      "payment_reference": "RANK-IAMO16"
+      "payment_reference": "RANK-IAMO17"
     },
-    "expected_revenue_eur": "500–2000 (conservative: 10-20 sales at €79-99; optimistic: 50+ sales; breakeven: 3 sales at €79 afte",
+    "expected_revenue_eur": "995.00",
     "direct_cost_eur": "0.00",
-    "confidence_0_100": 35,
-    "differentiation_from_previous": "Previous 15 IAMOs targeted Spanish payment workflow market repeatedly (€0 outcome). IAMO13 tried B2B automation (€0). IAMO16: (1) Completely different market (legal tech, not payment/billing), (2) Higher-value target audience (professionals vs micro-vendors), (3) Proven willingness to pay (LegalZoom $1B+ revenue = market validation), (4) Scalable digital product (not manual service), (5) Multi-marketplace strategy reduces dependency on single channel, (6) GitHub open-source component drives organic reach (IAMO2-15 relied on paid discovery), (7) Legal tech is underserved on Gumroad/Lemonsqueezy vs payment solutions (low competition in niche), (8) Upsell potential (support, customization, team licenses).",
-    "next_step": "Executor priority: (1) Create/source 30 legally sound contract templates covering common practice areas (employment, services, NDA, IP, engagement letters), (2) Prepare Google Docs + Word formats with clear customization fields, (3) Write customization guide + clause explanations (1-2 hours), (4) Record 3-5 min Loom walkthrough, (5) Create GitHub repo with legal clause framework (optional but increases credibility), (6) List on Gumroad and Lemonsqueezy with clear messaging targeting solo lawyers, (7) Post to r/legaladvice, r/Entrepreneur, legal tech newsletters, Twitter legal community with RANK-IAMO16 reference in payment notes.",
+    "confidence_0_100": 60,
+    "differentiation_from_previous": "Evita productos de muy bajo precio y copy-paste; se ofrece implementación técnica (no solo plantillas) con ticket mayor y entrega comprobable. Incorpora automatización concreta (n8n/Make/Zapier) para reducir trabajo manual y asegurar recibos verificables; exige referencia RANK-IAMO17 para atribución.",
+    "next_step": "Crear listado en Gumroad con deliverable + preparar 10 mensajes personalizados y assets; publicar en grupos relevantes y contactar 30 negocios con contacto público en Instagram/Facebook usando el mensaje preparado; cuando un cliente acepte, indicar pagar vía CobrAMO con referencia RANK-IAMO17.",
     "revenue_claim_eur": "0.00",
-    "notes": "Confidence is moderate (35/100) because: (1) Execution quality matters (templates must be actually legally sound or credibility fails), (2) Distribution is non-trivial (Gumroad organic discovery is weak), (3) Competitor risk (LegalZoom, Rocket Lawyer, legal AI tools), (4) No direct payment mechanism tested (IAMO1-15 also 0 EUR, suggesting systemic execution gap). Assumption: if executor can distribute via legal communities (LinkedIn, Reddit, newsletters), 10-20 sales at €79-99 is achievable within 30 days. Risk: Templates require legal accuracy or product fails; copy-paste LegalZoom templates risks copyright. Recommend original drafting or clear public-domain sourcing."
+    "notes": "Supuestos: clientes aceptan pagar €199 por implementación técnica; no se usan recursos pagos; canales de contacto públicos y permisibles. Riesgos: baja respuesta en DM, necesidad de adaptar automatización a variedad de procesos de cada comercio. Mitigación: ofrecer demo corta y política de reembolso pequeña para primeros clientes."
   }
 }
