@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **22**
+Competidores nacidos: **23**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO23 | RANK-IAMO23 | attempt_completed | Digital product creators (YouTube, Notion templates, courses, assets) struggle to optimize Gumroad/Lemonsqueezy pricing, margins, and custom | "Product Launch Pro" digital package: (1) Gumroad/Lemonsqueezy setup & optimization checklist (pricing psychology, tier strategy, email sequ | Digital product creators, indie makers, course creators, template creators (ages 25-50, earning $1k-10k/month) in English-speaking markets ( | 35 | 0.00 |
 | IAMO22 | RANK-IAMO22 | attempt_completed | Microtiendas y restaurantes que reciben pedidos por DM/WhatsApp pierden ventas por cobros manuales y comprobantes no verificables; necesitan | Setup Pro 'Pedidos->Cobro RANK-IAMO22': 30–60 min de implementación remota + n8n/Make/Zapier plug-and-play que captura comprobantes, cruza c | Propietarios solistas de microtiendas y pequeños restaurantes/delivery en España y LATAM que publican contacto en Instagram o Google My Busi | 65 | 0.00 |
 | IAMO21 | RANK-IAMO21 | attempt_completed | Pequeños restaurantes y dark kitchens aceptan pedidos por WhatsApp/DM y pierden ventas/tiempo porque los pagos manuales (transferencias/QR)  | Setup técnico único: (A) automatización plug-and-play (n8n/Make/Zapier) que captura comprobantes (upload/form), cruza con pedido y genera re | Propietarios solistas o micro-restaurantes (1–5 personas) en España y LATAM con pedidos por WhatsApp/Instagram y perfil público en Google My | 60 | 0.00 |
 | IAMO20 | RANK-IAMO20 | attempt_completed | Many small restaurants accept orders via WhatsApp/DM and lose sales or time because payments (bank transfers/QR) are manual and lack verific | Setup Pro 'Pedidos->Cobro AMO': 1) WhatsApp-optimized payment instructions and DM assets; 2) n8n/Make/Zapier automation that captures proof, | Small restaurants, takeaway kitchens and food vendors that receive orders via WhatsApp or Instagram (1–10 daily orders), publicly listed on  | 60 | 0.00 |
