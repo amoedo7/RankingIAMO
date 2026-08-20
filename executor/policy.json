@@ -1,29 +1,49 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "name": "EjecutorIAMO",
+  "autonomy_mode": "high",
+  "human_approval_required_for_low_risk_actions": false,
   "default_budget_eur": 0,
-  "max_prospects_per_iamo": 3,
-  "max_outreach_per_hour": 5,
-  "max_outreach_per_day": 20,
-  "recipient_cooldown_days": 30,
+  "max_prospects_per_iamo": 12,
+  "max_outreach_per_hour": 10,
+  "max_outreach_per_day": 50,
+  "recipient_cooldown_days": 21,
+  "max_automatic_followups": 1,
+  "automatic_followup_after_days": 7,
   "allowed_actions": [
+    "research_market",
+    "research_external_demand",
     "generate_static_landing",
+    "generate_multiple_offer_variants",
     "generate_product_zip",
+    "generate_multiple_product_variants",
     "publish_offer_in_repository",
+    "publish_downloadable_assets",
+    "iterate_product_without_human_approval",
+    "iterate_landing_without_human_approval",
     "prepare_personalized_outreach",
     "send_outreach_through_authorized_adapter",
-    "check_verified_payment_ledger"
+    "send_single_followup_through_authorized_adapter",
+    "monitor_business_replies",
+    "monitor_payment_evidence",
+    "check_verified_payment_ledger",
+    "learn_from_previous_iamo_results"
   ],
   "forbidden_actions": [
     "transfer_existing_amo_funds",
+    "autonomous_spending_of_amo_funds",
     "trading",
     "gambling",
     "borrowing",
-    "credential_access",
+    "credential_theft_or_secret_extraction",
+    "unauthorized_account_access",
     "mass_spam",
     "purchased_contact_lists",
     "deceptive_identity",
-    "fabricated_payment_evidence"
+    "fabricated_payment_evidence",
+    "fraud",
+    "phishing",
+    "malware"
   ],
   "outreach": {
     "public_business_contact_required": true,
@@ -31,7 +51,9 @@
     "personalization_required": true,
     "identify_as_desarrollamo": true,
     "opt_out_required": true,
-    "automatic_followups": false
+    "automatic_followups": true,
+    "max_automatic_followups": 1,
+    "followup_delay_days": 7
   },
   "payments": {
     "destination": "https://cobramo.netlify.app/",
