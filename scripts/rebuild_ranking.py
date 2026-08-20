@@ -16,6 +16,7 @@ REQUIRED = {
     "competitor_id",
     "competitor_name",
     "competitor_type",
+    "payment_reference",
     "status",
     "currency",
     "amount_original",
@@ -46,6 +47,7 @@ def build():
         lambda: {
             "name": "",
             "type": "",
+            "payment_reference": "",
             "profit": Decimal("0"),
             "gross": Decimal("0"),
             "cost": Decimal("0"),
@@ -79,16 +81,26 @@ def build():
             )
 
         event_id = str(event["event_id"])
-
         if event_id in seen:
             raise ValueError(
                 f"Linea {line_number}: event_id duplicado: {event_id}"
             )
-
         seen.add(event_id)
 
         if event["status"] != "verified":
             continue
+
+        competitor_id = str(event["competitor_id"]).strip()
+        competitor_name = str(event["competitor_name"]).strip()
+        payment_ref = str(event["payment_reference"]).strip()
+        expected_ref = f"RANK-{competitor_name}"
+
+        if not competitor_id or not competitor_name:
+            raise ValueError(f"Linea {line_number}: competidor invalido")
+        if payment_ref != expected_ref:
+            raise ValueError(
+                f"Linea {line_number}: payment_reference {payment_ref!r} no coincide con {expected_ref!r}"
+            )
 
         gross = money(event["gross_revenue_eur"], "gross_revenue_eur", line_number)
         cost = money(event["direct_cost_eur"], "direct_cost_eur", line_number)
@@ -104,18 +116,21 @@ def build():
                 f"Linea {line_number}: net_profit_eur debe ser gross_revenue_eur - direct_cost_eur"
             )
 
-        competitor_id = str(event["competitor_id"])
         row = stats[competitor_id]
+        if row["payment_reference"] and row["payment_reference"] != payment_ref:
+            raise ValueError(
+                f"Linea {line_number}: referencia inconsistente para {competitor_id}"
+            )
 
-        row["name"] = str(event["competitor_name"])
+        row["name"] = competitor_name
         row["type"] = str(event["competitor_type"])
+        row["payment_reference"] = payment_ref
         row["profit"] += profit
         row["gross"] += gross
         row["cost"] += cost
         row["events"] += 1
 
         verified_at = str(event["verified_at"])
-
         if row["last_verified_at"] is None or verified_at > row["last_verified_at"]:
             row["last_verified_at"] = verified_at
 
@@ -129,7 +144,6 @@ def build():
     )
 
     entries = []
-
     for position, (competitor_id, row) in enumerate(ordered, start=1):
         entries.append(
             {
@@ -137,6 +151,7 @@ def build():
                 "competitor_id": competitor_id,
                 "competitor_name": row["name"],
                 "competitor_type": row["type"],
+                "payment_reference": row["payment_reference"],
                 "verified_net_profit_eur": canonical_decimal(row["profit"]),
                 "verified_gross_revenue_eur": canonical_decimal(row["gross"]),
                 "direct_cost_eur": canonical_decimal(row["cost"]),
@@ -146,10 +161,12 @@ def build():
         )
 
     return {
-        "schema_version": "1.0",
+        "schema_version": "1.1",
         "ranking_metric": "verified_net_profit_eur",
         "rules": {
             "verified_payments_only": True,
+            "attribution_requires_payment_reference": True,
+            "payment_reference_format": "RANK-IAMO<n>",
             "pending_payments_score": "0.00",
             "leads_score": "0.00",
             "default_autonomous_budget_eur": "0.00",
@@ -184,7 +201,6 @@ def main():
             return 1
 
         current = OUTPUT.read_text(encoding="utf-8")
-
         if current != expected:
             print(
                 "ERROR: leaderboard.json no coincide con data/earnings.jsonl",
