@@ -1,5 +1,5 @@
 name: Spawn autonomous IAMO competitor
-# Self-chaining cadence v3: 10-minute chain + anti-duplicate gate + watchdog recovery.
+# Self-chaining cadence v4: 10-minute chain + bounded REST dispatch + watchdog recovery.
 
 on:
   workflow_dispatch:
@@ -18,7 +18,7 @@ on:
     - cron: "17,47 * * * *"
 
 concurrency:
-  group: ranking-iamo-spawner
+  group: ranking-iamo-spawner-v4
   cancel-in-progress: false
 
 permissions:
@@ -130,7 +130,7 @@ jobs:
       - name: Keep the ten-minute chain alive
         if: always() && (steps.gate.outputs.should_spawn == 'true' || github.event_name == 'push' || inputs.source == 'chain')
         env:
-          GH_TOKEN: ${{ github.token }}
+          DISPATCH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
 
@@ -170,8 +170,28 @@ jobs:
           echo "Waiting ${WAIT_SECONDS}s to preserve the 10-minute cadence..."
           sleep "$WAIT_SECONDS"
 
-          gh workflow run spawn-iamo.yml --ref main -f source=chain
-          echo "Next chained IAMO run dispatched successfully."
+          PAYLOAD='{"ref":"main","inputs":{"source":"chain"}}'
+          HTTP_CODE=$(curl \
+            --silent \
+            --show-error \
+            --location \
+            --max-time 20 \
+            --output /tmp/dispatch-response.txt \
+            --write-out '%{http_code}' \
+            --request POST \
+            --header "Authorization: Bearer ${DISPATCH_TOKEN}" \
+            --header "Accept: application/vnd.github+json" \
+            --header "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/spawn-iamo.yml/dispatches" \
+            --data "$PAYLOAD")
+
+          if [ "$HTTP_CODE" != "204" ]; then
+            echo "Workflow dispatch failed with HTTP $HTTP_CODE"
+            cat /tmp/dispatch-response.txt || true
+            exit 1
+          fi
+
+          echo "Next chained IAMO run dispatched successfully (HTTP 204)."
 
       - name: Watchdog skip summary
         if: steps.gate.outputs.should_spawn != 'true'
