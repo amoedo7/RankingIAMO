@@ -82,6 +82,10 @@ jobs:
         if: always() && steps.prepare.outputs.should_execute == 'true'
         run: python3 scripts/executor_finalize.py runtime/executor_result.txt
 
+      - name: Enforce product quality gate
+        if: always() && steps.prepare.outputs.should_execute == 'true'
+        run: python3 scripts/executor_quality.py
+
       - name: Check verified payments
         if: always() && steps.prepare.outputs.should_execute == 'true'
         run: python3 scripts/executor_check_payments.py
@@ -119,6 +123,8 @@ jobs:
               echo "Reference: \`${{ steps.prepare.outputs.payment_reference }}\`"
               echo
               echo "Public offer: ${{ steps.prepare.outputs.offer_url }}"
+              echo
+              echo "Product quality must pass before outreach or payment CTA is enabled."
               echo
               echo "Outreach is constrained by executor/policy.json. Financial score remains controlled only by data/earnings.jsonl."
             fi
