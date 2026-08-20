@@ -59,10 +59,23 @@ def main():
         reason = "no previous competitor"
     else:
         age_seconds = max(0, int((now - last).total_seconds()))
-        threshold = WATCHDOG_STALE_SECONDS if event_name == "schedule" else NORMAL_MIN_GAP_SECONDS
+
+        if event_name == "push":
+            # A workflow-file change is an intentional one-time bootstrap.
+            threshold = 0
+        elif event_name == "schedule":
+            # Scheduled cron is only a recovery watchdog.
+            threshold = WATCHDOG_STALE_SECONDS
+        else:
+            # Normal self-chain/manual runs must not create near-duplicates.
+            threshold = NORMAL_MIN_GAP_SECONDS
+
         should_spawn = age_seconds >= threshold
         if should_spawn:
-            reason = f"last competitor is {age_seconds}s old"
+            reason = (
+                "workflow bootstrap" if event_name == "push"
+                else f"last competitor is {age_seconds}s old"
+            )
         else:
             reason = f"too early: last competitor is only {age_seconds}s old (< {threshold}s)"
 
