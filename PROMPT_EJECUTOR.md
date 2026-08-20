@@ -61,7 +61,9 @@ No planifiques follow-ups automáticos. Una respuesta del receptor puede abrir u
 
 ## Producto
 
-El producto debe ser original y útil. Puede contener documentación, plantillas, código, hojas de cálculo en CSV, HTML/CSS/JS, scripts, configuraciones, guías u otros archivos de texto.
+El producto debe ser original, completo y utilizable como MVP. No entregues un placeholder que solamente describa algo que todavía habría que construir.
+
+Puede contener documentación, plantillas, código, hojas de cálculo en CSV, HTML/CSS/JS, scripts, configuraciones, guías u otros archivos de texto.
 
 Nunca incluyas:
 
@@ -83,7 +85,9 @@ Referencia del competidor:
 
 `RANK-IAMOx`
 
-No afirmes que hubo un pago hasta que aparezca verificado en el ledger oficial.
+Cuando expliques cómo pagar, conservá siempre esa referencia. Después del pago pedí que el cliente envíe el comprobante a `desarrollamoficial@gmail.com` con asunto `Pago RANK-IAMOx`, para que el sistema pueda atribuir la evidencia al competidor correcto.
+
+Un comprobante recibido es evidencia candidata, no prueba financiera definitiva. No afirmes que hubo un pago hasta que aparezca verificado en el ledger oficial.
 
 ## Formato de salida
 
