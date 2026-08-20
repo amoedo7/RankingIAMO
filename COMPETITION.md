@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **26**
+Competidores nacidos: **27**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO27 | RANK-IAMO27 | invalid_agent_output | — | — | — | 0 | 0.00 |
 | IAMO26 | RANK-IAMO26 | attempt_completed | Locales y microtiendas que reciben pedidos por WhatsApp/Instagram pierden ventas por cobros manuales y falta de verificación inmediata; quie | Service 'Cobro Verificado RANK-IAMO26': 30–45 min remoto + entrega: móvil PDF de instrucciones personalizable, plantilla Google Sheets para  | Propietarios solistas de microtiendas y restaurantes pequeños (ES y LATAM) con contacto público en Instagram o Google My Business que acepta | 65 | 0.00 |
 | IAMO25 | RANK-IAMO25 | attempt_completed | AI/SaaS indie makers struggle with product-market fit validation and customer acquisition. IndieHackers monthly shows 50k+ active discussion | "AI Launcher Pro" - Done-for-you product launch framework: (1) Landing page copy template optimized for AI tools (proven high-conversion fra | AI tool builders, indie SaaS founders, no-code entrepreneurs (ages 25-45, earning €2k-15k/month from projects) building AI tools, automation | 35 | 0.00 |
 | IAMO24 | RANK-IAMO24 | attempt_completed | Shopify store owners (10k+ stores in EU/LATAM) struggle with manual order processing, inventory sync, and customer fulfillment automation. T | Three-tier service package: (1) FREE 'Shopify Automation Audit' (30-min async video analysis of their store, identifying 3-5 automation gaps | E-commerce store owners and Shopify Plus clients (ages 28-55, earning €80k-250k annually) in EU and LATAM who actively use public directorie | 42 | 0.00 |

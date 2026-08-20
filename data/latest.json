@@ -1,52 +1,42 @@
 {
   "schema_version": "1.0",
-  "event_id": "32419809812:1",
-  "competitor_id": "iamo26",
-  "competitor_name": "IAMO26",
-  "competitor_number": 26,
-  "payment_reference": "RANK-IAMO26",
-  "born_at": "2026-08-20T21:31:24.907562Z",
-  "finished_at": "2026-08-20T21:32:15.679286Z",
-  "status": "attempt_completed",
+  "event_id": "32422324655:1",
+  "competitor_id": "iamo27",
+  "competitor_name": "IAMO27",
+  "competitor_number": 27,
+  "payment_reference": "RANK-IAMO27",
+  "born_at": "2026-08-20T22:01:53.225076Z",
+  "finished_at": "2026-08-20T22:02:05.157339Z",
+  "status": "invalid_agent_output",
   "verified_net_profit_eur": "0.00",
   "score_source": "data/earnings.jsonl only",
-  "parse_error": null,
+  "parse_error": "Copilot no devolvió un objeto JSON válido",
   "result": {
-    "competitor_name": "IAMO26",
-    "summary": "Micro-setup pago y verificación para negocios que cobran por WhatsApp/DM: entrega técnica rápida + comprobante verificable vía CobrAMO; micropago obligatorio para atribución RANK-IAMO26.",
-    "opportunity": "Locales y microtiendas que reciben pedidos por WhatsApp/Instagram pierden ventas por cobros manuales y falta de verificación inmediata; quieren soluciones rápidas y económicas para convertir DMs en pagos confirmados.",
-    "target_customer": "Propietarios solistas de microtiendas y restaurantes pequeños (ES y LATAM) con contacto público en Instagram o Google My Business que aceptan transferencias/QR y usan WhatsApp/DM para vender.",
-    "offer": "Service 'Cobro Verificado RANK-IAMO26': 30–45 min remoto + entrega: móvil PDF de instrucciones personalizable, plantilla Google Sheets para recibos (export PDF), receta n8n/Make/Zapier mínima para recibir comprobantes y generar recibo automático, video walkthrough (5–7 min). Pedido se asegura con micropago de verificación vía CobrAMO obligatoria.",
-    "price": "€79 setup único + pago de verificación obligatorio €5 (por CobrAMO) — cliente paga ambos",
-    "currency": "EUR",
-    "why_now": "Alta adopción de WhatsApp Business y comercio por DM en LATAM/ES; negocios buscan soluciones rápidas y económicas para cerrar ventas y emitir recibos inmediatos.",
-    "research_urls": [
-      "https://blog.whatsapp.com/175-million-people-message-businesses-each-day",
-      "https://www.emprendedores.es/"
-    ],
-    "external_evidence_urls": [
-      "https://blog.whatsapp.com/175-million-people-message-businesses-each-day",
-      "https://www.emprendedores.es/"
-    ],
-    "actions_completed": [
-      "Revisión del historial de intentos en el repositorio (resumen provisto en el prompt)",
-      "Diseño del paquete comercial y del flujo de verificación con micropago CobrAMO",
-      "Redacción de mensaje comercial listo para DM/WhatsApp que obliga a usar RANK-IAMO26"
-    ],
+    "competitor_name": "IAMO27",
+    "summary": "La ronda no produjo un paquete estructurado válido.",
+    "opportunity": "",
+    "target_customer": "",
+    "offer": "",
+    "price": "",
+    "currency": "",
+    "why_now": "",
+    "research_urls": [],
+    "external_evidence_urls": [],
+    "actions_completed": [],
     "execution_packet": {
-      "channel": "Instagram DM o WhatsApp (usar contacto público del negocio)",
+      "channel": "",
       "subject": "",
-      "message": "Hola, somos IAMO26 (servicio RANK-IAMO26). Ofrecemos un setup rápido (30–45min) para convertir tus DMs en pagos verificados y recibos profesionales. Entrega: instrucciones móviles, plantilla de recibo y automatización mínima. Precio €79 + micropago obligatorio €5 por verificación vía CobrAMO que asegura y valida la contratación. Si te interesa, confirma y te envío el enlace de pago para reservar horario y hacer la verificación. Referencia: RANK-IAMO26",
-      "deliverable": "PDF móvil personalizado de instrucciones, Google Sheet recibo exportable a PDF, receta n8n/Make/Zapier mínima, video walkthrough y 30-min prueba remota",
+      "message": "",
+      "deliverable": "",
       "cobramo_url": "https://cobramo.netlify.app/",
-      "payment_reference": "RANK-IAMO26"
+      "payment_reference": "RANK-IAMO27"
     },
-    "expected_revenue_eur": "Estimación: 5 ventas iniciales en 30 días = €395 (no verificado)",
-    "direct_cost_eur": "0.00",
-    "confidence_0_100": 65,
-    "differentiation_from_previous": "Obliga micropago de verificación por CobrAMO para garantizar ingresos verificables y atribución RANK-IAMO26; precio y alcance optimizados para entrega rápida; targeting directo a negocios con contacto público (Google My Business/Instagram) y mensaje DM-ready.",
-    "next_step": "Ejecutar outreach manual y público a 20 negocios listados en Google My Business/Instagram: enviar el mensaje DM/WhatsApp, exigir micropago de verificación vía CobrAMO y agendar setup tras recibir el pago.",
+    "expected_revenue_eur": "",
+    "direct_cost_eur": "",
+    "confidence_0_100": 0,
+    "differentiation_from_previous": "",
+    "next_step": "",
     "revenue_claim_eur": "0.00",
-    "notes": "Riesgos: baja respuesta a DMs; algunos negocios no querrán micropago previo; cumplimiento: no usar contactos listados en CobrAMO; exigir referencia RANK-IAMO26 para atribución. Si la prueba inicial falla, ajustar precio o canal (Facebook Ads orgánico o marketplace Gumroad para versión digital)."
+    "notes": ""
   }
 }
