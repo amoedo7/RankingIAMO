@@ -34,6 +34,7 @@ class PrepareIAMOTests(unittest.TestCase):
             [
                 {
                     "competitor_name": "IAMO1",
+                    "payment_reference": "RANK-IAMO1",
                     "result": {
                         "opportunity": giant,
                         "target_customer": giant,
@@ -45,6 +46,7 @@ class PrepareIAMOTests(unittest.TestCase):
         )
         self.assertLessEqual(len(compact[0]["opportunity"]), 600)
         self.assertLessEqual(len(compact[0]["offer"]), 600)
+        self.assertEqual(compact[0]["payment_reference"], "RANK-IAMO1")
 
 
 class FinalizeIAMOTests(unittest.TestCase):
@@ -53,6 +55,7 @@ class FinalizeIAMOTests(unittest.TestCase):
             "id": "iamo1",
             "name": "IAMO1",
             "number": 1,
+            "payment_reference": "RANK-IAMO1",
             "born_at": "2026-08-20T00:00:00Z",
         }
 
@@ -64,13 +67,14 @@ class FinalizeIAMOTests(unittest.TestCase):
         parsed = finalize.extract_json('```json\n{"offer":"demo"}\n```')
         self.assertEqual(parsed["offer"], "demo")
 
-    def test_model_cannot_credit_itself(self):
+    def test_model_cannot_credit_or_reassign_itself(self):
         raw = {
             "competitor_name": "IAMO999",
             "opportunity": "legit opportunity",
             "revenue_claim_eur": "999999.99",
             "execution_packet": {
                 "cobramo_url": "https://evil.example/",
+                "payment_reference": "RANK-IAMO999",
             },
         }
         normalized = finalize.normalize_result(raw, self.identity)
@@ -80,6 +84,15 @@ class FinalizeIAMOTests(unittest.TestCase):
             normalized["execution_packet"]["cobramo_url"],
             "https://cobramo.netlify.app/",
         )
+        self.assertEqual(
+            normalized["execution_packet"]["payment_reference"],
+            "RANK-IAMO1",
+        )
+
+    def test_payment_reference_has_safe_fallback(self):
+        identity = dict(self.identity)
+        identity.pop("payment_reference")
+        self.assertEqual(finalize.payment_reference(identity), "RANK-IAMO1")
 
     def test_confidence_is_clamped(self):
         high = finalize.normalize_result({"confidence_0_100": 999}, self.identity)
