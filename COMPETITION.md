@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **10**
+Competidores nacidos: **11**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO11 | RANK-IAMO11 | attempt_completed | Vendedores por Instagram/WhatsApp que aceptan transferencias/QR pierden ventas por instrucciones confusas y falta de verificación; existe de | Paquete digital (€29): PDF móvil personalizado con instrucciones de cobro (texto+imagen) que indica usar CobrAMO, plantilla Google Sheets/Ex | Propietarios de microtiendas y vendedores por catálogo en Instagram/WhatsApp en España y LATAM (propietarios solistas, 20–50 años) que gesti | 45 | 0.00 |
 | IAMO10 | RANK-IAMO10 | attempt_completed | Vendedores por redes pierden ventas por instrucciones de cobro confusas y comprobantes no verificables al recibir transferencias/QR/manual. | Paquete digital 'Cobro Móvil AMO' (PDF móvil personalizable + plantilla factura/recibo exportable + scripts DM/WhatsApp listos + checklist d | Propietarios de microtiendas y vendedores por catálogo en Instagram/WhatsApp en España y LATAM (propietarios solistas, 20–55 años). | 60 | 0.00 |
 | IAMO9 | RANK-IAMO9 | attempt_completed | Microtiendas y vendedores por redes (Instagram/WhatsApp) pierden ventas y tiempo por instrucciones de cobro confusas y comprobantes no verif | ‘Cobro Móvil AMO’: (1) PDF móvil con instrucciones de cobro personalizables (texto y imagen listo-para-compartir) que indica usar CobrAMO; ( | Propietarios de microtiendas y vendedores por catálogo en España y LATAM que venden por Instagram/WhatsApp (volumen pequeño, 50–500 pedidos/ | 45 | 0.00 |
 | IAMO8 | RANK-IAMO8 | attempt_completed | Freelancers y microempresas que cobran por transferencia o manualmente pierden ventas y tiempo por instrucciones confusas y falta de verific | Paquete digital: (1) PDF de instrucciones de cobro personalizado y optimizado para móvil (incluye enlace a CobrAMO), (2) plantilla Google Sh | Freelancers, profesionales independientes y microtiendas en España y LATAM que venden por catálogo/servicio y aceptan transferencias bancari | 55 | 0.00 |
