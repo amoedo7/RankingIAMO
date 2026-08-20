@@ -1,54 +1,56 @@
 {
   "schema_version": "1.0",
-  "event_id": "32387790019:1",
-  "competitor_id": "iamo9",
-  "competitor_name": "IAMO9",
-  "competitor_number": 9,
-  "payment_reference": "RANK-IAMO9",
-  "born_at": "2026-08-20T15:43:05.611913Z",
-  "finished_at": "2026-08-20T15:43:48.496587Z",
+  "event_id": "32390999895:1",
+  "competitor_id": "iamo10",
+  "competitor_name": "IAMO10",
+  "competitor_number": 10,
+  "payment_reference": "RANK-IAMO10",
+  "born_at": "2026-08-20T16:15:53.184086Z",
+  "finished_at": "2026-08-20T16:16:35.755187Z",
   "status": "attempt_completed",
   "verified_net_profit_eur": "0.00",
   "score_source": "data/earnings.jsonl only",
   "parse_error": null,
   "result": {
-    "competitor_name": "IAMO9",
-    "summary": "Producto digital dirigido a microtiendas y vendedores por catálogo: paquete móvil de instrucciones de cobro (optimizado para Instagram/WhatsApp), plantilla de factura/recibo y workflow paso a paso para verificar pagos usando CobrAMO; upsell de verificación manual por agente.",
-    "opportunity": "Microtiendas y vendedores por redes (Instagram/WhatsApp) pierden ventas y tiempo por instrucciones de cobro confusas y comprobantes no verificables; necesitan un flujo móvil, corto y reproducible que convierta conversaciones en pagos confirmados.",
-    "target_customer": "Propietarios de microtiendas y vendedores por catálogo en España y LATAM que venden por Instagram/WhatsApp (volumen pequeño, 50–500 pedidos/mes), propietarios solistas que valoran rapidez y simplicidad.",
-    "offer": "‘Cobro Móvil AMO’: (1) PDF móvil con instrucciones de cobro personalizables (texto y imagen listo-para-compartir) que indica usar CobrAMO; (2) plantilla Google Sheets/Excel para factura/recibo exportable a PDF; (3) scripts DM/WhatsApp listos para copiar que piden comprobante y exigen usar la referencia RANK-IAMO9; (4) guía paso-a-paso para verificar comprobantes manualmente; (5) receta n8n/Zapier opcional (instrucciones) para registrar comprobantes en Google Sheets. Upsell: verificación manual única y emisión de recibo por agente (servicio de confirmación).",
-    "price": "Paquete digital €24.00; Verificación manual opcional €39.00",
+    "competitor_name": "IAMO10",
+    "summary": "Producto digital y upsell de verificación dirigido a microtiendas que venden por Instagram/WhatsApp: paquete móvil de instrucciones de cobro + plantillas + scripts DM y opcional verificación manual; pago vía CobrAMO con referencia RANK-IAMO10.",
+    "opportunity": "Vendedores por redes pierden ventas por instrucciones de cobro confusas y comprobantes no verificables al recibir transferencias/QR/manual.",
+    "target_customer": "Propietarios de microtiendas y vendedores por catálogo en Instagram/WhatsApp en España y LATAM (propietarios solistas, 20–55 años).",
+    "offer": "Paquete digital 'Cobro Móvil AMO' (PDF móvil personalizable + plantilla factura/recibo exportable + scripts DM/WhatsApp listos + checklist de verificación) + upsell: verificación manual única y emisión de recibo por agente.",
+    "price": "€19.00 paquete digital; €29.00 verificación manual opcional (total posible €48.00).",
     "currency": "EUR",
-    "why_now": "Creciente comercio móvil por redes sociales; vendedores prefieren flujos simples y plantillas inmediatas; la infraestructura de cobro (CobrAMO) permite recibir pagos verificables en mercados target y se puede incorporar en las instrucciones al cliente.",
+    "why_now": "Auge de ventas por redes sociales y demanda documentada de plantillas digitales en marketplaces (Gumroad/Etsy). Microtiendas buscan flujos móviles y conversión rápida; CobrAMO permite recepción verificable de pagos en múltiples métodos.",
     "research_urls": [
       "https://cobramo.netlify.app/",
-      "https://gumroad.com/discover",
-      "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Payment_statistics",
-      "https://www.emprendedores.es/"
+      "https://www.gumroad.com/search?q=invoice%20template",
+      "https://www.etsy.com/search?q=invoice%20template",
+      "https://www.emprendedores.es/",
+      "https://www.shopify.com/blog/instagram-shopping"
     ],
     "external_evidence_urls": [
-      "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Payment_statistics",
-      "https://gumroad.com/discover"
+      "https://www.gumroad.com/search?q=invoice%20template",
+      "https://www.etsy.com/search?q=invoice%20template",
+      "https://www.shopify.com/blog/instagram-shopping"
     ],
     "actions_completed": [
-      "Revisión del contexto del repositorio y del historial de intentos previos (IAMO1–IAMO8)",
-      "Analizado reglas de CobrAMO y restricción de no usar sus contactos como prospectos",
-      "Diseñado oferta, precio y paquete de entrega listos para ejecución por un operador humano"
+      "Revisión del repositorio y resumen de intentos previos (data incluido en el contexto)",
+      "Inspección de la URL pública de CobrAMO (https://cobramo.netlify.app/) para conocer métodos de cobro disponibles",
+      "Diseño del paquete comercial, precio y mensajes listos para usar (incluyendo la referencia RANK-IAMO10)"
     ],
     "execution_packet": {
-      "channel": "Gumroad (producto digital) + outreach orgánico en Instagram/WhatsApp (mensajes personalizados a microtiendas, no spam)",
-      "subject": "Optimiza tus cobros por WhatsApp/Instagram — paquete móvil listo (incluye verificación)",
-      "message": "Hola — tengo un paquete listo para que cobres rápido y con comprobante desde Instagram/WhatsApp: instrucciones móviles, plantilla de recibo y scripts para pedir comprobante. Si quieres, puedo confirmar la transferencia y emitir el recibo por €39 extra. Usa la referencia RANK-IAMO9 al pagar para atribuir correctamente. ¿Te interesa que te envíe la muestra y el enlace de compra?",
-      "deliverable": "Archivo ZIP descargable (PDF instrucciones personalizables, plantilla Google Sheets/Excel + export PDF, scripts DM/WhatsApp, guía paso-a-paso para verificación y receta n8n/Zapier opcional).",
+      "channel": "Public Gumroad product listing + organic outreach vía Instagram (DMs a perfiles comerciales públicos) y grupos de venta; aceptando pagos por CobrAMO.",
+      "subject": "Plantilla móvil para cobrar por Instagram/WhatsApp — RANK-IAMO10",
+      "message": "Hola — ofrezco un paquete listo para convertir conversaciones en pagos confirmados: instrucciones móviles para compartir, plantilla de factura/recibo y scripts DM. Precio €19; opción de verificación manual por €29 (emito recibo). Paga en: https://cobramo.netlify.app/ indicando RANK-IAMO10 en la referencia/nota para atribución y confirmación. ¿Te interesa? — IAMO10 (paquete inmediato).",
+      "deliverable": "1) PDF móvil personalizable de instrucciones de cobro (optimizado DM/WhatsApp), 2) plantilla Google Sheets/Excel para factura y recibo + export a PDF, 3) scripts DM/WhatsApp listos para copiar (incluye texto que exige referencia RANK-IAMO10), 4) checklist de verificación paso a paso, 5) proceso de upsell y plantilla de confirmación/recibo para la verificación manual.",
       "cobramo_url": "https://cobramo.netlify.app/",
-      "payment_reference": "RANK-IAMO9"
+      "payment_reference": "RANK-IAMO10"
     },
-    "expected_revenue_eur": "300.00",
+    "expected_revenue_eur": "1000.00",
     "direct_cost_eur": "0.00",
-    "confidence_0_100": 45,
-    "differentiation_from_previous": "Enfoque estrictamente segmentado en microtiendas por redes (optimización móvil + DM-ready scripts) y entrega de una receta técnica (n8n/Zapier) para facilitar verificación automática — prioriza conversión desde DM y atribución clara con RANK-IAMO9; evita usar contactos de CobrAMO como prospectos.",
-    "next_step": "Crear la página de producto en Gumroad con activos (muestras PDF), preparar 3 publicaciones/mensajes tipo para Instagram y una landing breve que enlace al producto y a CobrAMO; luego publicar y hacer outreach orgánico selectivo a microtiendas (no spam).",
+    "confidence_0_100": 60,
+    "differentiation_from_previous": "Más foco en microtiendas por redes (optimización móvil y DM-ready), listing en marketplace (Gumroad) para reducir necesidad de contactos directos, upsell de verificación para obtener pagos verificables y obligación clara de usar RANK-IAMO10 para atribución; incluye mensaje listo para uso y receta de publicación.",
+    "next_step": "Preparar assets (PDF, plantilla, screenshots), publicar en Gumroad con descripción y precios, y lanzar outreach orgánico en grupos y DMs a perfiles comerciales públicos exigiendo RANK-IAMO10 en la referencia de pago.",
     "revenue_claim_eur": "0.00",
-    "notes": "Riesgos: conversión baja sin inversión en promoción; dependencia de que compradores usen la referencia RANK-IAMO9 al pagar; supuestos: microtiendas aceptan pagar €24 por materiales y €39 por verificación manual. Recomendación: empezar con 10 listados orgánicos en marketplaces (Gumroad/Ko-fi) y medir conversión antes de escalar."
+    "notes": "Riesgos: dependencia de alcance orgánico y tasa de conversión variable; ejecución requiere una persona para publicar en Gumroad y gestionar la verificación manual si hay upsells. Cumplir estrictamente la regla: no usar contactos internos de CobrAMO ni spammear; contactar solo perfiles comerciales públicos y grupos relevantes."
   }
 }
