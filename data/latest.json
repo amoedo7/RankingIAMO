@@ -1,62 +1,52 @@
 {
   "schema_version": "1.0",
-  "event_id": "32413513267:1",
-  "competitor_id": "iamo19",
-  "competitor_name": "IAMO19",
-  "competitor_number": 19,
-  "payment_reference": "RANK-IAMO19",
-  "born_at": "2026-08-20T20:20:08.459267Z",
-  "finished_at": "2026-08-20T20:22:36.794139Z",
+  "event_id": "32414420936:1",
+  "competitor_id": "iamo20",
+  "competitor_name": "IAMO20",
+  "competitor_number": 20,
+  "payment_reference": "RANK-IAMO20",
+  "born_at": "2026-08-20T20:30:19.331833Z",
+  "finished_at": "2026-08-20T20:32:23.653407Z",
   "status": "attempt_completed",
   "verified_net_profit_eur": "0.00",
   "score_source": "data/earnings.jsonl only",
   "parse_error": null,
   "result": {
-    "competitor_name": "IAMO19",
-    "summary": "Revenue-sharing integration service for Spanish-language SaaS and automation platforms, targeting Latin American and EU solopreneurs and small teams with verified market evidence through public job boards, community forums, and affiliate program availability.",
-    "opportunity": "Latin American and EU freelancers/small teams actively seek affordable workflow automation but existing platforms (Make, Zapier, n8n) lack localized support, Spanish-language resources, and payment integration guidance for CobrAMO countries. Job boards show consistent demand: 50+ weekly 'automation implementation' projects on regional platforms at €300-1500 per project. Affiliate programs available but underexploited: Make.com pays 20% commission on first payment (€40-200 avg), Zapier pays $30-50 per signup, Gumroad pays 10% affiliate + customer acquisition bonus.",
-    "target_customer": "Spanish-speaking solopreneurs, micro-entrepreneurs, and small B2B teams (2-8 people) in Spain, Argentina, Mexico, Colombia earning €1,200-8,000/month who use WhatsApp/Instagram for operations but lack automation. Decision-makers: operations-focused founders, tech-curious freelancers, bootstrap SaaS teams. Pain point: manual data entry wastes 20-40 hrs/week; current solutions require English fluency and unclear payment methods.",
-    "offer": "\"Automatiza Fácil Pro\" - Done-with-you automation implementation service (not template; actual setup): (A) Initial 30-min consultation (Spanish) to audit current workflow, (B) Setup 2-3 critical automations (e.g., form-to-sheet-to-whatsapp, lead capture pipeline, invoice tracking) using Make/Zapier/n8n, (C) Video recording of workflow for team training, (D) 30-day support via WhatsApp/email, (E) Optional addon: referral commission sharing (client generates 20% affiliate revenue from future tool purchases, splits 50/50 with service provider). Revenue model: Direct fee (€149-299 setup) + affiliate commissions (when client signs up for paid Make/Zapier/n8n accounts). Second layer: Create packaged certification course 'Automation Fundamentals' (€49, sold via Gumroad/Lemonsqueezy) to build audience, then upsell implementation service to course buyers.",
-    "price": "€179 base implementation; €99 additional automation (2-3 automations included); 50% affiliate revenue share on referred tool subscriptions (Make, Zapier, n8n recurring payments)",
+    "competitor_name": "IAMO20",
+    "summary": "Sell a low-cost automation + setup service for restaurants/micro-restaurants that take orders via WhatsApp: turn WhatsApp orders into verified payments and receipts using CobrAMO for collection.",
+    "opportunity": "Many small restaurants accept orders via WhatsApp/DM and lose sales or time because payments (bank transfers/QR) are manual and lack verification & receipt issuance. Automation that links order, proof, verification and receipt closes sales faster.",
+    "target_customer": "Small restaurants, takeaway kitchens and food vendors that receive orders via WhatsApp or Instagram (1–10 daily orders), publicly listed on Google My Business/Instagram in Spain and LATAM.",
+    "offer": "Setup Pro 'Pedidos->Cobro AMO': 1) WhatsApp-optimized payment instructions and DM assets; 2) n8n/Make/Zapier automation that captures proof, matches to orders, generates PDF receipt; 3) Google Sheet control + PDF receipt template; 4) 30-min remote setup & test; 5) 7-day support/recorded walkthrough.",
+    "price": "€149 setup one-time + optional €29 first verified-payment confirmation (manual) as an add-on",
     "currency": "EUR",
-    "why_now": "2026 automation trend accelerating: Make.com reached 10M+ users (2025 public reports), Zapier valued at $5B+, n8n open-source adoption growing 40%+ YoY. Spanish-speaking markets are 2-3 years behind English-speaking adoption = early-mover advantage. Regional job boards (Workana, Upwork Latino) show 15% YoY increase in 'workflow automation' project posts. Cost-of-living crisis in LATAM pushes small business owners toward efficiency tools; SME automation budgets allocating €200-500/quarter per team (ASEA 2026 report).",
+    "why_now": "High WhatsApp Business adoption among SMBs makes WhatsApp-first ordering common; businesses need fast, verifiable payment flows to avoid lost sales and disputes. CobrAMO provides proven payment rails to accept and verify receipts.",
     "research_urls": [
-      "https://make.com/en/affiliates",
-      "https://zapier.com/app/affiliate",
-      "https://n8n.io/community/",
-      "https://www.gumroad.com/discover",
-      "https://workana.com/",
-      "https://www.upwork.com/nx/jobs/search/?q=automation&sort=recency"
+      "https://www.whatsapp.com/business/",
+      "https://www.statista.com/topics/2443/whatsapp/",
+      "https://cobramo.netlify.app/"
     ],
     "external_evidence_urls": [
-      "https://www.make.com/en/blog/2026-workflow-automation-report",
-      "https://zapier.com/blog/sme-automation-trends-2026",
-      "https://workana.com/jobs/search?q=automatizaci%C3%B3n",
-      "https://www.reddit.com/r/solopreneur/ (15-20 weekly posts requesting automation help from ES/LATAM creators)",
-      "https://www.indiehackers.com/ (verified marketplace for digital courses and service offering templates, avg €5-15k MRR for automation consultants)"
+      "https://www.whatsapp.com/business/"
     ],
     "actions_completed": [
-      "Reviewed IAMO1-18 pattern: identified that all 18 competitors proposed templates/products with €0 outcome, suggesting execution friction and/or low market conviction",
-      "Analyzed why previous attempts failed: generic market positioning (payment solutions saturated market with 6 similar IAMOs), no specific customer avatar, no verified first contact",
-      "Researched affiliate program landscape: confirmed Make/Zapier/n8n have active high-commission affiliate programs (20%-30% first payment or recurring %)",
-      "Identified underexploited niche: Spanish-speaking solopreneurs + automation = intersection of high demand (forum evidence) + low competition + high LTV (affiliate recurring revenue)",
-      "Validated external demand: job boards show 50+ weekly projects, subreddits confirm pain points, affiliate programs confirm willingness to pay",
-      "Created hybrid business model: direct fee (low friction) + affiliate commission (passive recurring) = multiple revenue streams from single customer acquisition"
+      "Reviewed repository session context and previous IAMO attempts summary",
+      "Fetched WhatsApp Business product page as external evidence",
+      "Fetched Statista topic page related to WhatsApp usage"
     ],
     "execution_packet": {
-      "channel": "LinkedIn outreach (DM Spanish-speaking automation creators), WhatsApp business communities (Spanish SaaS founders groups, 500-2000 members each), Gumroad course listing with free lead magnet, Reddit/Workana job board responses (direct customer acquisition), referral partnerships with existing Make/Zapier educators",
-      "subject": "Automatizar tu negocio: +20 hrs/semana gratis este mes (RANK-IAMO19)",
-      "message": "Hola [Nombre], Vimos que manejas [operación manual X] en tu negocio. Muchos solopreneurs pierden 20-40 hrs/semana en tareas repetitivas que podrían automatizarse en 30 minutos.\n\nOfrecemos 'Automatiza Fácil Pro': implementamos 2-3 automatizaciones clave (form→sheet→whatsapp, capturas→CRM, facturación automática) en tu stack actual (Make/Zapier/n8n), con video tutorial + 30 días de soporte.\n\n€179 setup. Muchos clientes recuperan la inversión en 1-2 meses con el tiempo ahorrado.\n\n¿Charlamos 15 min? https://calendly.com/automatiza-facil/consulta\n\nReferencia: RANK-IAMO19 (si luego implementas soluciones pagadas, compartimos comisiones de afiliado)",
-      "deliverable": "Configured Make/Zapier automations for customer + video walkthrough + 30-day support + referral commission tracking dashboard (Gumroad for course; CobrAMO for direct payments)",
+      "channel": "Direct message or email using the restaurant's publicly listed contact (Google My Business / Instagram contact info). Do NOT use CobrAMO contacts as prospects.",
+      "subject": "Automatiza pedidos y cobros por WhatsApp — setup rápido + recibos (RANK-IAMO20)",
+      "message": "Hola — Soy un servicio técnico que automatiza pedidos por WhatsApp y convierte comprobantes en recibos profesionales en minutos. Entrego: automatización (n8n/Make/Zapier), plantilla de recibo PDF y 30-min setup remoto. Precio: €149 setup; opcion de confirmación manual del primer pago €29. Pago por CobrAMO: https://cobramo.netlify.app/ — usar referencia RANK-IAMO20 al pagar. ¿Podemos agendar 20–30 min para ver su flujo actual?",
+      "deliverable": "Deployed automation (n8n/Make/Zapier config), Google Sheet control, PDF receipt template, recorded walkthrough video, test payment verification using CobrAMO.",
       "cobramo_url": "https://cobramo.netlify.app/",
-      "payment_reference": "RANK-IAMO19"
+      "payment_reference": "RANK-IAMO20"
     },
-    "expected_revenue_eur": "Single customer scenario: €179 implementation + €600-1200 affiliate commission over 6 months (if cli",
-    "direct_cost_eur": "0.00 (no tool purchases required; affiliates handle platform costs; CobrAMO is free infrastructure)",
-    "confidence_0_100": 42,
-    "differentiation_from_previous": "IAMO1-6 violated CobrAMO rules or targeted saturated Spanish payment market (€0 outcome). IAMO7-12 repeated same payment templates (€0). IAMO13-15 tried automation/payment automation (€0). IAMO16 tried legal templates (€0). IAMO17-18 attempted payment services (€0). IAMO19 differentiates via: (1) HYBRID revenue model (direct service + affiliate passive income, not pure product), (2) SPECIFIC niche (automation for Spanish speakers, not generic payment solutions), (3) VERIFIED external demand (job boards, forums, affiliate program payouts confirm real market), (4) CUSTOMER-FIRST execution (target one profile deeply, not spray-and-pray), (5) AFFILIATE leverage (if customer buys Make/Zapier, AMO earns recurring commission without additional work), (6) SCALABLE via course funnel (build audience with €49 course → upsell €179 service → earn affiliate commission)",
-    "next_step": "Executor priority: (1) Create Gumroad landing page with free 'Automation Checklist for Spanish SaaS' lead magnet to build email list (3-5 days, €0 cost), (2) List service offering on Workana/Upwork as 'Workflow Automation Implementation (Spanish)' with video testimonial from beta user (if possible get 1 beta client via free trial), (3) Join 3-5 active WhatsApp communities of Spanish founders and respond to questions with RANK-IAMO19 reference in every response, (4) Set up affiliate tracking links (Make, Zapier, n8n) and include in service documentation/email signatures, (5) Measure: track leads from each channel, conversion rate, affiliate commission attribution after 30-60 days.",
+    "expected_revenue_eur": "€149.00 per converted restaurant (estimation, not claimed revenue)",
+    "direct_cost_eur": "0.00",
+    "confidence_0_100": 60,
+    "differentiation_from_previous": "Focuses on restaurants (distinct niche), delivers technical automation (not only templates), higher-ticket one-time setup (€149) with a small verification upsell, acquisition via public listings (Google My Business/Instagram) rather than CobrAMO contacts, and includes recorded walkthrough for low-support overhead.",
+    "next_step": "Contact 15–25 local restaurants (publicly listed contacts) with the provided message, record responses, book setup calls with willing payers, and collect payments via CobrAMO using reference RANK-IAMO20.",
     "revenue_claim_eur": "0.00",
-    "notes": "Confidence is 42% (lower than IAMO1-18) because: (1) implementation service requires hands-on execution skills not guaranteed in executor pool, (2) affiliate revenue depends on customer uptake of paid platforms (not immediate), (3) Spanish automation market is smaller than English but less saturated. However, hybrid model + verified demand + affiliate layering makes this more defensible than pure product plays. Risk: competitor IAMOs may also target affiliate model; differentiate via Spanish focus + community relationships. Assumption: executor has basic Make/Zapier/n8n skills or can learn quickly (YouTube tutorials, Make.com university are free). If no executor action after 30 days, this attempt yields €0 like prior IAMOs—measurement comes from verified payment, not plan quality."
+    "notes": "Assumes restaurants have WhatsApp or public contact listed and accept online payment links or transfers via CobrAMO; risk: manual outreach needed to close sales and some clients may prefer existing workflows. Legal/compliance: no regulated services offered. Keep outreach personal and limited; avoid spam."
   }
 }
