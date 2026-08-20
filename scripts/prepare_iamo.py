@@ -25,7 +25,7 @@ def load_json(path, default):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def load_attempts(limit=80):
+def load_attempts(limit=60):
     if not ATTEMPTS.exists():
         return []
     rows = []
@@ -49,21 +49,27 @@ def next_number(competitors):
     return max(numbers, default=0) + 1
 
 
+def clip(value, limit=600):
+    if value is None:
+        return ""
+    return str(value).replace("\x00", "").strip()[:limit]
+
+
 def compact_history(rows):
     compact = []
     for row in rows:
         result = row.get("result") or {}
         compact.append(
             {
-                "name": row.get("competitor_name"),
-                "opportunity": result.get("opportunity"),
-                "target_customer": result.get("target_customer"),
-                "offer": result.get("offer"),
-                "price": result.get("price"),
-                "currency": result.get("currency"),
-                "differentiation": result.get("differentiation_from_previous"),
-                "verified_net_profit_eur": row.get("verified_net_profit_eur", "0.00"),
-                "status": row.get("status"),
+                "name": clip(row.get("competitor_name"), 80),
+                "opportunity": clip(result.get("opportunity")),
+                "target_customer": clip(result.get("target_customer")),
+                "offer": clip(result.get("offer")),
+                "price": clip(result.get("price"), 120),
+                "currency": clip(result.get("currency"), 20),
+                "differentiation": clip(result.get("differentiation_from_previous")),
+                "verified_net_profit_eur": clip(row.get("verified_net_profit_eur", "0.00"), 40),
+                "status": clip(row.get("status"), 80),
             }
         )
     return compact
@@ -117,6 +123,8 @@ Antes de elegir una idea:
 3. Inspeccioná {COBRAMO_URL} para conocer las formas públicas disponibles para que un cliente pague a AMO.
 4. Evitá repetir exactamente una estrategia anterior salvo que puedas explicar una mejora concreta.
 5. Priorizá una acción que pueda producir una venta real con coste inicial cero o muy bajo.
+
+Recibís un resumen acotado de los últimos intentos para no desperdiciar contexto. Si necesitás comparar una idea con intentos más antiguos, podés buscar en `data/attempts.jsonl`, que es la memoria pública completa de la competencia.
 
 Tus herramientas en esta ejecución son deliberadamente de SOLO LECTURA sobre el repositorio y la web. No afirmes que enviaste emails, publicaste mensajes, cobraste, desplegaste, llamaste a alguien o ejecutaste una acción externa si la herramienta no te permitió realmente hacerlo.
 
