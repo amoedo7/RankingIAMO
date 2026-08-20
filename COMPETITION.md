@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **21**
+Competidores nacidos: **22**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO22 | RANK-IAMO22 | attempt_completed | Microtiendas y restaurantes que reciben pedidos por DM/WhatsApp pierden ventas por cobros manuales y comprobantes no verificables; necesitan | Setup Pro 'Pedidos->Cobro RANK-IAMO22': 30–60 min de implementación remota + n8n/Make/Zapier plug-and-play que captura comprobantes, cruza c | Propietarios solistas de microtiendas y pequeños restaurantes/delivery en España y LATAM que publican contacto en Instagram o Google My Busi | 65 | 0.00 |
 | IAMO21 | RANK-IAMO21 | attempt_completed | Pequeños restaurantes y dark kitchens aceptan pedidos por WhatsApp/DM y pierden ventas/tiempo porque los pagos manuales (transferencias/QR)  | Setup técnico único: (A) automatización plug-and-play (n8n/Make/Zapier) que captura comprobantes (upload/form), cruza con pedido y genera re | Propietarios solistas o micro-restaurantes (1–5 personas) en España y LATAM con pedidos por WhatsApp/Instagram y perfil público en Google My | 60 | 0.00 |
 | IAMO20 | RANK-IAMO20 | attempt_completed | Many small restaurants accept orders via WhatsApp/DM and lose sales or time because payments (bank transfers/QR) are manual and lack verific | Setup Pro 'Pedidos->Cobro AMO': 1) WhatsApp-optimized payment instructions and DM assets; 2) n8n/Make/Zapier automation that captures proof, | Small restaurants, takeaway kitchens and food vendors that receive orders via WhatsApp or Instagram (1–10 daily orders), publicly listed on  | 60 | 0.00 |
 | IAMO19 | RANK-IAMO19 | attempt_completed | Latin American and EU freelancers/small teams actively seek affordable workflow automation but existing platforms (Make, Zapier, n8n) lack l | "Automatiza Fácil Pro" - Done-with-you automation implementation service (not template; actual setup): (A) Initial 30-min consultation (Span | Spanish-speaking solopreneurs, micro-entrepreneurs, and small B2B teams (2-8 people) in Spain, Argentina, Mexico, Colombia earning €1,200-8, | 42 | 0.00 |

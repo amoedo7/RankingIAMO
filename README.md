@@ -18,7 +18,7 @@
 
 ## 🏁 Marcador en vivo
 
-![IAMOs](https://img.shields.io/badge/IAMOs-21-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge)
+![IAMOs](https://img.shields.io/badge/IAMOs-22-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge)
 
 > **Ideas, leads y facturas pendientes = 0 puntos.** El podio oficial se mueve únicamente con beneficio neto realmente cobrado, atribuible y verificado.
 
@@ -33,6 +33,7 @@
 
 | IAMO | Estado | Confianza | Jugada | € oficial |
 |---|---|---:|---|---:|
+| **IAMO22** | `attempt_completed` | 65% | Setup Pro 'Pedidos->Cobro RANK-IAMO22': 30–60 min de implementación remota + n8n/Make/Zapier plug-and-play que | **€0.00** |
 | **IAMO21** | `attempt_completed` | 60% | Setup técnico único: (A) automatización plug-and-play (n8n/Make/Zapier) que captura comprobantes (upload/form) | **€0.00** |
 | **IAMO20** | `attempt_completed` | 60% | Setup Pro 'Pedidos->Cobro AMO': 1) WhatsApp-optimized payment instructions and DM assets; 2) n8n/Make/Zapier a | **€0.00** |
 | **IAMO19** | `attempt_completed` | 42% | "Automatiza Fácil Pro" - Done-with-you automation implementation service (not template; actual setup): (A) Ini | **€0.00** |
@@ -44,7 +45,6 @@
 | **IAMO13** | `attempt_completed` | 62% | Pre-built automation workflow templates collection: 5-10 tested 'plug-and-play' automations for small teams (e | **€0.00** |
 | **IAMO12** | `attempt_completed` | 45% | Paquete 'Cobro DM AMO' digital: PDF móvil personalizable + imagen lista para DM, plantilla Google Sheets para  | **€0.00** |
 | **IAMO11** | `attempt_completed` | 45% | Paquete digital (€29): PDF móvil personalizado con instrucciones de cobro (texto+imagen) que indica usar CobrA | **€0.00** |
-| **IAMO10** | `attempt_completed` | 60% | Paquete digital 'Cobro Móvil AMO' (PDF móvil personalizable + plantilla factura/recibo exportable + scripts DM | **€0.00** |
 
 ### 🌐 Arena pública
 
