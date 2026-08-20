@@ -62,6 +62,7 @@ def compact_history(rows):
         compact.append(
             {
                 "name": clip(row.get("competitor_name"), 80),
+                "payment_reference": clip(row.get("payment_reference"), 120),
                 "opportunity": clip(result.get("opportunity")),
                 "target_customer": clip(result.get("target_customer")),
                 "offer": clip(result.get("offer")),
@@ -83,12 +84,14 @@ def main():
     competitors = state.setdefault("competitors", [])
     number = next_number(competitors)
     name = f"IAMO{number}"
+    payment_reference = f"RANK-{name}"
     born_at = now_iso()
 
     identity = {
         "id": name.lower(),
         "name": name,
         "number": number,
+        "payment_reference": payment_reference,
         "born_at": born_at,
         "workflow_run_id": os.environ.get("GITHUB_RUN_ID"),
         "workflow_run_attempt": os.environ.get("GITHUB_RUN_ATTEMPT"),
@@ -106,6 +109,7 @@ def main():
     context = {
         "your_identity": identity,
         "cobramo": COBRAMO_URL,
+        "payment_reference": payment_reference,
         "current_leaderboard": leaderboard.get("entries", [])[:20],
         "recent_competitor_attempts": history,
     }
@@ -115,6 +119,8 @@ def main():
 # RONDA AUTONOMA ACTUAL
 
 Tu identidad en ESTA ejecución es **{name}**. Sos un competidor nuevo e individual. No sos IAMO anteriores y no heredes sus afirmaciones como hechos.
+
+Tu referencia de atribución comercial es **{payment_reference}**. Es inmutable y te identifica ante RankingIAMO.
 
 Antes de elegir una idea:
 
@@ -130,7 +136,9 @@ Tus herramientas en esta ejecución son deliberadamente de SOLO LECTURA sobre el
 
 Tu trabajo debe producir un **paquete de ejecución** suficientemente concreto para que un ejecutor autorizado pueda materializarlo sin volver a inventar la estrategia: cliente objetivo, oferta, precio, canal, texto listo para usar, entregable o demo propuesta, URLs de investigación y el enlace de CobrAMO.
 
-El ranking financiero es soberano: esta respuesta NO puede adjudicarte dinero. Aunque encuentres una oportunidad excelente, `revenue_claim_eur` debe ser `"0.00"`. Solo `data/earnings.jsonl` con verificación externa puede darte puntos después.
+Todo paquete comercial debe conservar tu referencia **{payment_reference}**. Cuando el método de pago permita concepto, nota o referencia, el cliente debe usarla. Si el método no tiene ese campo, la referencia debe mantenerse en la propuesta, conversación o evidencia asociada. No inventes parámetros de URL que CobrAMO no publique.
+
+El ranking financiero es soberano: esta respuesta NO puede adjudicarte dinero. Aunque encuentres una oportunidad excelente, `revenue_claim_eur` debe ser `"0.00"`. Solo `data/earnings.jsonl` con verificación externa y referencia atribuible puede darte puntos después.
 
 Respondé exclusivamente con UN objeto JSON válido, sin Markdown, sin bloques de código y sin texto antes o después. Debe tener exactamente esta estructura lógica:
 
@@ -148,9 +156,10 @@ Respondé exclusivamente con UN objeto JSON válido, sin Markdown, sin bloques d
   "execution_packet": {{
     "channel": "canal autorizado recomendado",
     "subject": "asunto si aplica",
-    "message": "mensaje final listo para usar, sin spam masivo",
+    "message": "mensaje final listo para usar, incluyendo la referencia {payment_reference} cuando corresponda",
     "deliverable": "qué debe entregarse al cliente",
-    "cobramo_url": "{COBRAMO_URL}"
+    "cobramo_url": "{COBRAMO_URL}",
+    "payment_reference": "{payment_reference}"
   }},
   "expected_revenue_eur": "estimación, no ingreso real",
   "direct_cost_eur": "0.00 salvo coste inevitable conocido",
@@ -175,6 +184,7 @@ Respondé exclusivamente con UN objeto JSON válido, sin Markdown, sin bloques d
         with open(output_path, "a", encoding="utf-8") as fh:
             fh.write(f"iamo_name={name}\n")
             fh.write(f"iamo_number={number}\n")
+            fh.write(f"payment_reference={payment_reference}\n")
 
     print(name)
 
