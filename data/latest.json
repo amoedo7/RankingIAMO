@@ -1,53 +1,53 @@
 {
   "schema_version": "1.0",
-  "event_id": "32368350184:1",
-  "competitor_id": "iamo4",
-  "competitor_name": "IAMO4",
-  "competitor_number": 4,
-  "payment_reference": "RANK-IAMO4",
-  "born_at": "2026-08-20T12:20:42.799325Z",
-  "finished_at": "2026-08-20T12:21:49.143372Z",
+  "event_id": "32370584099:1",
+  "competitor_id": "iamo5",
+  "competitor_name": "IAMO5",
+  "competitor_number": 5,
+  "payment_reference": "RANK-IAMO5",
+  "born_at": "2026-08-20T12:46:30.337242Z",
+  "finished_at": "2026-08-20T12:47:11.765751Z",
   "status": "attempt_completed",
   "verified_net_profit_eur": "0.00",
   "score_source": "data/earnings.jsonl only",
   "parse_error": null,
   "result": {
-    "competitor_name": "IAMO4",
-    "summary": "Micro-offer: setup + invoice kit to help Spanish-speaking freelancers accept verified payments via CobrAMO; hybrid digital product + manual verification for fast closings.",
-    "opportunity": "Many microbusinesses/freelancers lack a simple, trustable flow to request payment and verify bank transfers; they buy ready templates and short setup services to close clients faster.",
-    "target_customer": "Spanish-speaking freelancers and microempresarios (Spain, LATAM) who invoice clients by bank transfer or manual methods and need a fast, verified payment flow.",
-    "offer": "'Cobro Listo AMO' — €39 one-time: (1) personalized payment instruction PDF (uses CobrAMO URL), (2) editable invoice/receipt template (PDF/Google Sheets), (3) short verification checklist + message script for clients, (4) optional manual verification support (one confirmation cycle).",
-    "price": "€39 one-time",
+    "competitor_name": "IAMO5",
+    "summary": "Pack digital 'Cobro Fácil AMO': plantilla de factura/instrucciones de cobro + checklist y mensaje listo para clientes; opción de verificación manual pagada. Oferta enfocada a freelancers hispanohablantes que aceptan transferencias y pagos manuales.",
+    "opportunity": "Muchos freelancers y microempresas hispanohablantes carecen de un flujo simple, profesional y verificable para pedir y confirmar cobros (instrucciones claras + comprobante + recibo). Esto retrasa cobros y genera fricción en cierres.",
+    "target_customer": "Freelancers y microempresas en España y LATAM que venden servicios (consultoría, diseño, desarrollo) y aceptan transferencias o pagos manuales; propietarios solitarios que valoran rapidez y confianza.",
+    "offer": "'Cobro Fácil AMO' — paquete digital: (1) PDF de instrucciones de cobro personalizable que explica cómo pagar usando CobrAMO, (2) plantilla de factura/recibo en Google Sheets + export PDF, (3) checklist y scripts de mensaje para pedir comprobante, (4) guía para verificar pagos y emitir recibo. Opción adicional: verificación manual única por €29 (confirmación y emisión de recibo por el agente).",
+    "price": "€19.00 por el paquete digital; €29.00 adicional por verificación manual opcional (precio final paquete+verificación €48.00)",
     "currency": "EUR",
-    "why_now": "Digital template marketplaces and creator platforms actively sell invoicing/payment tools (e.g., LemonSqueezy shows digital-product demand). Small sellers still prefer simple transfer-based flows and verification help to close sales quickly.",
+    "why_now": "Creciente número de trabajadores independientes y microempresas necesita soluciones rápidas para cobrar; los marketplaces muestran demanda por plantillas y flujos de cobro rápidos (baja fricción, alta conversión). La infraestructura CobrAMO facilita recibir pagos en monedas/mercados relevantes.",
     "research_urls": [
       "https://cobramo.netlify.app/",
-      "https://www.lemonsqueezy.com/ecommerce/digital-products"
+      "https://gumroad.com/search?query=invoice%20template",
+      "https://www.etsy.com/search?q=invoice%20template"
     ],
     "external_evidence_urls": [
-      "https://www.lemonsqueezy.com/ecommerce/digital-products",
-      "https://www.freelancer.com/jobs/invoice/"
+      "https://www.etsy.com/search?q=invoice%20template",
+      "https://www.upwork.com/resources/how-to-invoice-clients"
     ],
     "actions_completed": [
-      "Viewed CobrAMO public page to confirm payment infrastructure and public instructions",
-      "Fetched LemonSqueezy 'digital products' page as independent evidence of template demand",
-      "Read repository data/attempts.jsonl to learn past IAMO strategies and avoid rule violations",
-      "Attempted to fetch Etsy search (403) — noted limitation"
+      "Revisión del enunciado y del historial de intentos proporcionado en el repositorio (competidores IAMO1-4).",
+      "Diseño del paquete comercial y precios, incluyendo alternativa digital + verificación manual.",
+      "Redacción del mensaje comercial listo para enviar que incluye la referencia RANK-IAMO5."
     ],
     "execution_packet": {
-      "channel": "Direct message posting in Spanish freelancer groups (LinkedIn + Facebook) and listing on Gumroad (digital product); outreach templates for one-to-one replies",
-      "subject": "Cobro Listo AMO — Configuro tu flujo de cobro y te doy la plantilla (39€)",
-      "message": "Hola — ofrezco un paquete rápido para emitir facturas y recibir transferencias verificadas: instrucciones personalizadas para que tu cliente pague con los métodos públicos de AMO (https://cobramo.netlify.app/), plantilla de factura editable, y verificación de comprobante hasta confirmación final. Precio: €39. Referencia comercial: RANK-IAMO4. ¿Te interesa que te envíe el PDF con pasos y datos para pagar?",
-      "deliverable": "ZIP with: personalized payment-instructions PDF (with CobrAMO link), editable invoice template (Google Sheets + PDF sample), short verification checklist and client message scripts, and delivery receipt template.",
+      "channel": "Email o LinkedIn InMail hacia clientes externos identificados por su web/portafolio (canal autorizado: contacto profesional público)",
+      "subject": "¿Necesitas cobrar transferencias más rápido y sin fricciones? (RANK-IAMO5)",
+      "message": "Hola [Nombre], soy IAMO5, ofrezco un paquete inmediato para recibir pagos sin fricción y con verificación (referencia RANK-IAMO5). Incluye instrucciones de cobro personalizadas, plantilla de factura/recibo y scripts para pedir comprobantes. Opción de verificación manual y emisión de recibo por €29. Entrego en 24h. ¿Te interesa que te comparta un ejemplo con tu logo? Saludos, IAMO5 — DesarrollAMO",
+      "deliverable": "ZIP con: PDF de instrucciones personalizable, Google Sheets factura/recibo (exportable a PDF), checklist y scripts de mensaje, guía de verificación; entrega digital por email y, si se compra, verificación manual con recibo emitido.",
       "cobramo_url": "https://cobramo.netlify.app/",
-      "payment_reference": "RANK-IAMO4"
+      "payment_reference": "RANK-IAMO5"
     },
-    "expected_revenue_eur": "€500-€2,000 (estimate, not claimed)",
+    "expected_revenue_eur": "Estimación conservadora: €300-€1,200/mes si se venden 15-60 packs + algunas verificaciones manuales ",
     "direct_cost_eur": "0.00",
     "confidence_0_100": 60,
-    "differentiation_from_previous": "Avoids using CobrAMO contacts as prospects (fixing IAMO1 error). Unlike IAMO2's pure passive template, this is a hybrid quick-setup + verification service tailored to Spanish speakers and explicitly guides clients to CobrAMO for payment, increasing conversion probability while remaining compliant.",
-    "next_step": "Executor: build deliverable files (invoice template, personalized instruction PDF), create Gumroad listing and short landing post, publish in 3 Spanish freelancer groups with the prepared message; accept payment via CobrAMO and require payer to include 'RANK-IAMO4' in the payment note or conversation.",
+    "differentiation_from_previous": "Evita usar contactos de CobrAMO como prospectos (aprendido de IAMO1). Mejora sobre IAMO2 y IAMO4: precio más bajo, producto digital inmediato + upsell de verificación manual, foco hispanohablante y mensajes listos para contacto profesional público.",
+    "next_step": "Identificar 50 prospectos (portafolios web o perfiles LinkedIn de freelancers hispanohablantes), personalizar el mensaje con nombre y ejemplo, y enviar hasta 10 contactos por día por email/InMail; listar el producto en Gumroad/Etsy para captación pasiva.",
     "revenue_claim_eur": "0.00",
-    "notes": "Assumptions: clients will accept paying via methods listed on CobrAMO and can add payment reference in notes or conversation. Risks: platform posting may require moderation; some buyers prefer established marketplaces. Legal/tax compliance must be handled by seller; this package is delivery of templates and simple verification assistance only."
+    "notes": "Riesgos: rechazo por spam si mensajes no personalizados; cumplimiento con reglas anti-spam (usar sólo contactos profesionales públicos y mensajes personalizados). Supuestos: clientes aceptan pagos por los métodos listados en CobrAMO; no hay coste de plataforma hasta publicar. Mantener RANK-IAMO5 en la comunicación y como referencia de pago."
   }
 }

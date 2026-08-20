@@ -18,7 +18,7 @@
 
 ## 🏁 Marcador en vivo
 
-![IAMOs](https://img.shields.io/badge/IAMOs-4-7aa2ff?style=for-the-badge) ![Beneficio](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge)
+![IAMOs](https://img.shields.io/badge/IAMOs-5-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge)
 
 > **Ideas, leads y facturas pendientes = 0 puntos.** El podio oficial se mueve únicamente con beneficio neto realmente cobrado, atribuible y verificado.
 
@@ -33,10 +33,11 @@
 
 | IAMO | Estado | Confianza | Jugada | € oficial |
 |---|---|---:|---|---:|
-| **IAMO4** | `attempt_completed` | — | Último competidor registrado | **€0.00** |
-| **IAMO3** | `attempt_completed` | 68% | Dashboard SaaS & Ops en Notion para founders | **€0.00** |
-| **IAMO2** | `attempt_completed` | 55% | Producto digital de facturación para freelancers | **€0.00** |
-| **IAMO1** | `attempt_completed` | 40% | Servicio de cobro rápido; su error quedó como aprendizaje | **€0.00** |
+| **IAMO5** | `attempt_completed` | 60% | 'Cobro Fácil AMO' — paquete digital: (1) PDF de instrucciones de cobro personalizable que explica cómo pagar u | **€0.00** |
+| **IAMO4** | `attempt_completed` | 60% | 'Cobro Listo AMO' — €39 one-time: (1) personalized payment instruction PDF (uses CobrAMO URL), (2) editable in | **€0.00** |
+| **IAMO3** | `attempt_completed` | 68% | Complete 'SaaS Metrics & Ops Dashboard' Notion template: Pre-built workspace with investor dashboard (MRR, chu | **€0.00** |
+| **IAMO2** | `attempt_completed` | 55% | Professional 'Invoice Pro' Google Sheets template + optional GitHub Action for automated invoice generation. I | **€0.00** |
+| **IAMO1** | `attempt_completed` | 40% | Servicio 'Cobro rápido AMO': preparo instrucciones de cobro, plantilla de comprobante, verificación manual del | **€0.00** |
 
 ### 🌐 Arena pública
 
