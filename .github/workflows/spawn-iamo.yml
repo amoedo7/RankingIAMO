@@ -2,27 +2,33 @@ name: Spawn autonomous IAMO competitor
 
 on:
   workflow_dispatch:
+    inputs:
+      source:
+        description: "Who started this run"
+        required: false
+        default: "manual"
   push:
     branches:
       - main
     paths:
       - ".github/workflows/spawn-iamo.yml"
   schedule:
-    # Every 10 minutes, offset from the top of the hour to reduce scheduler congestion.
-    - cron: "3/10 * * * *"
+    # Watchdog only. Normal cadence is maintained by workflow_dispatch self-chaining.
+    - cron: "17,47 * * * *"
 
 concurrency:
   group: ranking-iamo-spawner
   cancel-in-progress: false
 
 permissions:
+  actions: write
   contents: write
   copilot-requests: write
 
 jobs:
   compete:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 15
 
     steps:
       - name: Checkout latest main
@@ -34,20 +40,33 @@ jobs:
       - name: Synchronize before birth
         run: git pull --ff-only origin main
 
+      - name: Prevent duplicate or early births
+        id: gate
+        env:
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+          IAMO_TRIGGER_SOURCE: ${{ inputs.source }}
+        run: python3 scripts/should_spawn.py
+
       - name: Prepare next IAMO and competition context
+        if: steps.gate.outputs.should_spawn == 'true'
         id: prepare
         run: python3 scripts/prepare_iamo.py
 
       - name: Set up Node.js
+        if: steps.gate.outputs.should_spawn == 'true'
         uses: actions/setup-node@v7
         with:
           node-version: "24"
           package-manager-cache: false
 
       - name: Install GitHub Copilot CLI
+        if: steps.gate.outputs.should_spawn == 'true'
         run: npm install -g @github/copilot
 
       - name: Run the new IAMO
+        if: steps.gate.outputs.should_spawn == 'true'
+        timeout-minutes: 6
+        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -62,15 +81,19 @@ jobs:
             > runtime/result.txt
 
       - name: Validate and persist the IAMO attempt
+        if: always() && steps.gate.outputs.should_spawn == 'true'
         run: python3 scripts/finalize_iamo.py runtime/result.txt
 
       - name: Verify financial ranking integrity
+        if: always() && steps.gate.outputs.should_spawn == 'true'
         run: python3 scripts/rebuild_ranking.py --check
 
       - name: Refresh visual GitHub ranking
+        if: always() && steps.gate.outputs.should_spawn == 'true'
         run: python3 scripts/update_readme.py
 
       - name: Commit immutable competition memory
+        if: always() && steps.gate.outputs.should_spawn == 'true'
         env:
           IAMO_NAME: ${{ steps.prepare.outputs.iamo_name }}
         run: |
@@ -79,21 +102,76 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -- data/competitors.json data/attempts.jsonl data/latest.json COMPETITION.md README.md
           git diff --cached --check
-          git commit -m "compete: ${IAMO_NAME} autonomous revenue attempt"
-          git push origin HEAD:main
+          if git diff --cached --quiet; then
+            echo "No competition changes to commit."
+          else
+            git commit -m "compete: ${IAMO_NAME:-IAMO} autonomous revenue attempt"
+            git push origin HEAD:main
+          fi
 
       - name: Run summary
+        if: always() && steps.gate.outputs.should_spawn == 'true'
         env:
           IAMO_NAME: ${{ steps.prepare.outputs.iamo_name }}
         run: |
           {
-            echo "### ${IAMO_NAME}"
+            echo "### ${IAMO_NAME:-IAMO}"
             echo
-            echo "New independent competitor completed one autonomous research/strategy round."
+            echo "Independent competitor completed one autonomous round."
+            echo
+            echo "Next competitor is self-dispatched around the 10-minute birth mark."
             echo
             echo "Financial score remains governed only by verified entries in data/earnings.jsonl."
             echo
-            echo "Live arena: https://rankingiamo.netlify.app/"
-            echo
             echo "Client payment destination: https://cobramo.netlify.app/"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Dispatch the next IAMO
+        if: always() && steps.gate.outputs.should_spawn == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          set -euo pipefail
+
+          if [ -f runtime/identity.json ]; then
+            BORN_AT=$(python3 -c 'import json; print(json.load(open("runtime/identity.json"))["born_at"])')
+          else
+            BORN_AT=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          fi
+          export BORN_AT EVENT_NAME
+
+          WAIT_SECONDS=$(python3 - <<'PY'
+          import os
+          from datetime import datetime, timezone
+
+          born = datetime.fromisoformat(os.environ["BORN_AT"].replace("Z", "+00:00"))
+          if born.tzinfo is None:
+              born = born.replace(tzinfo=timezone.utc)
+          now = datetime.now(timezone.utc)
+
+          # The workflow-file push is the one-time bootstrap/smoke run.
+          # Normal chained runs target 600 seconds between competitor births.
+          interval = 120 if os.environ.get("EVENT_NAME") == "push" else 600
+          elapsed = (now - born.astimezone(timezone.utc)).total_seconds()
+          print(max(0, int(interval - elapsed)))
+          PY
+          )
+
+          echo "Birth: $BORN_AT"
+          echo "Waiting ${WAIT_SECONDS}s before dispatching the next IAMO..."
+          sleep "$WAIT_SECONDS"
+
+          gh workflow run spawn-iamo.yml --ref main -f source=chain
+          echo "Next IAMO dispatched successfully."
+
+      - name: Watchdog skip summary
+        if: steps.gate.outputs.should_spawn != 'true'
+        run: |
+          {
+            echo "### No IAMO spawned"
+            echo
+            echo "${{ steps.gate.outputs.reason }}"
+            echo
+            echo "The active self-chain remains authoritative; this watchdog/manual event did not create a duplicate."
           } >> "$GITHUB_STEP_SUMMARY"
