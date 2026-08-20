@@ -40,6 +40,9 @@ jobs:
 
       - name: Set up Node.js
         uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          package-manager-cache: false
 
       - name: Install GitHub Copilot CLI
         run: npm install -g @github/copilot
@@ -53,6 +56,7 @@ jobs:
             -p "$(cat runtime/prompt.txt)" \
             -s \
             --available-tools='view,grep,glob,web_fetch,web_search' \
+            --allow-all-tools \
             --allow-all-urls \
             --no-ask-user \
             > runtime/result.txt
