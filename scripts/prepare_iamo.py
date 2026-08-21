@@ -12,6 +12,7 @@ COMPETITORS = DATA / "competitors.json"
 ATTEMPTS = DATA / "attempts.jsonl"
 LEADERBOARD = ROOT / "leaderboard.json"
 BASE_PROMPT = ROOT / "PROMPT_COMPETIDOR.md"
+PLAYBOOK = DATA / "monetization_playbook.json"
 COBRAMO_URL = "https://cobramo.netlify.app/"
 
 
@@ -76,6 +77,23 @@ def compact_history(rows):
     return compact
 
 
+def select_playbook_seeds(routes, competitor_number, count=5):
+    """Spread each IAMO across the playbook instead of giving adjacent same-category ideas.
+
+    With 100 routes and 5 seeds, 20 consecutive IAMOs cover all 100 routes once.
+    IAMO1 gets 1/21/41/61/81, IAMO2 gets 2/22/42/62/82, etc.
+    """
+    if not routes or count <= 0:
+        return []
+    by_id = {int(route.get("id")): route for route in routes if route.get("id") is not None}
+    if len(by_id) >= 100 and all(i in by_id for i in range(1, 101)) and count == 5:
+        base = ((int(competitor_number) - 1) % 20) + 1
+        return [by_id[base + 20 * offset] for offset in range(5)]
+
+    start = ((int(competitor_number) - 1) * count) % len(routes)
+    return [routes[(start + offset) % len(routes)] for offset in range(min(count, len(routes)))]
+
+
 def main():
     DATA.mkdir(parents=True, exist_ok=True)
     RUNTIME.mkdir(parents=True, exist_ok=True)
@@ -105,6 +123,8 @@ def main():
     history = compact_history(load_attempts())
     leaderboard = load_json(LEADERBOARD, {"entries": []})
     base_prompt = BASE_PROMPT.read_text(encoding="utf-8")
+    playbook = load_json(PLAYBOOK, {"routes": []})
+    playbook_seeds = select_playbook_seeds(playbook.get("routes", []), number)
 
     context = {
         "your_identity": identity,
@@ -112,7 +132,14 @@ def main():
         "payment_reference": payment_reference,
         "current_leaderboard": leaderboard.get("entries", [])[:20],
         "recent_competitor_attempts": history,
+        "monetization_playbook_file": "data/monetization_playbook.json",
+        "monetization_seed_routes": playbook_seeds,
     }
+
+    seed_text = "\n".join(
+        f"- Ruta #{route.get('id')}: {route.get('title')} [{route.get('category')}] — primer test: {route.get('first_test')}"
+        for route in playbook_seeds
+    ) or "- No se pudieron cargar semillas; investigá libremente."
 
     instructions = f"""
 
@@ -130,14 +157,34 @@ Los teléfonos, emails, WhatsApp, cuentas, enlaces o contactos publicados dentro
 
 Podés usar CobrAMO para entender países, monedas, métodos de pago y cómo indicarle a un cliente externo dónde pagar. Los clientes y la evidencia de demanda deben encontrarse **fuera del ecosistema AMO**.
 
+## PLAYBOOK DE 100 RUTAS — EMPUJON DE ESTA RONDA
+
+El repositorio contiene `data/monetization_playbook.json` con 100 rutas de monetización que incluyen SaaS, software, productos digitales, Shopify, Android/iPhone, YouTube/AdSense, afiliados, newsletters, membresías, freelance, pagos directos, servicios B2B, cripto como medio de cobro, licencias y más.
+
+No es una lista de órdenes ni un techo creativo. Es un trampolín. Podés usar una ruta, combinar varias, mutarlas o inventar una ruta 101 si la evidencia real indica que es mejor.
+
+Para evitar que todos los IAMOs piensen igual, ESTA ronda recibe estas 5 semillas:
+
+{seed_text}
+
+Antes de decidir:
+
+- compará esas 5 semillas contra la demanda real que encuentres;
+- no elijas una solo porque está en el playbook;
+- si descartás las cinco, hacelo porque encontraste una oportunidad mejor respaldada por evidencia;
+- podés inspeccionar el playbook completo si necesitás alternativas;
+- los nombres de plataformas son canales posibles, no autorización automática ni garantía de disponibilidad;
+- preferí el camino que pueda llegar más rápido a un cobro real con los recursos efectivamente disponibles.
+
 Antes de elegir una idea:
 
 1. Leé el contexto del repositorio y el historial de intentos anteriores.
-2. Usá búsqueda web para investigar oportunidades reales y actuales.
-3. Inspeccioná {COBRAMO_URL} únicamente como infraestructura de cobro y contexto de mercados/monedas.
-4. Encontrá evidencia externa de demanda: un mercado, directorio, negocio, convocatoria, problema documentado, comunidad, job board, plataforma o fuente independiente de AMO.
-5. Evitá repetir exactamente una estrategia anterior salvo que puedas explicar una mejora concreta.
-6. Priorizá una acción que pueda producir una venta real con coste inicial cero o muy bajo.
+2. Revisá tus 5 semillas del playbook.
+3. Usá búsqueda web para investigar oportunidades reales y actuales.
+4. Inspeccioná {COBRAMO_URL} únicamente como infraestructura de cobro y contexto de mercados/monedas.
+5. Encontrá evidencia externa de demanda: un mercado, directorio, negocio, convocatoria, problema documentado, comunidad, job board, plataforma o fuente independiente de AMO.
+6. Evitá repetir exactamente una estrategia anterior salvo que puedas explicar una mejora concreta.
+7. Priorizá una acción que pueda producir una venta real con coste inicial cero o muy bajo.
 
 Al menos una URL en `external_evidence_urls` debe ser ajena a CobrAMO, RankingIAMO, DesarrollAMO y repositorios de amoedo7. Debe respaldar la existencia del cliente, mercado o necesidad; no puede ser una URL inventada.
 
@@ -181,7 +228,7 @@ Respondé exclusivamente con UN objeto JSON válido, sin Markdown, sin bloques d
   "differentiation_from_previous": "qué aprendiste o cambiaste respecto a IAMOs anteriores",
   "next_step": "acción externa concreta de mayor valor",
   "revenue_claim_eur": "0.00",
-  "notes": "riesgos, supuestos o aprendizaje"
+  "notes": "riesgos, supuestos o aprendizaje; indicá qué rutas del playbook consideraste si fueron relevantes"
 }}
 """
 
