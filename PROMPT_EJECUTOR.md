@@ -34,6 +34,41 @@ Por cada IAMO válido podés, entre otras cosas:
 
 La regla general es: **si la acción crea o vende valor nuevo, no gasta fondos de AMO, usa cuentas/canales autorizados y no viola las prohibiciones, ejecutala sin esperar aprobación.**
 
+## Playbook de monetización
+
+Existe `data/monetization_playbook.json` con 100 rutas de monetización preparadas para RankingIAMO.
+
+Incluye, entre otras:
+
+- SaaS y micro-SaaS con Stripe/Paddle;
+- productos digitales con Gumroad/Lemon Squeezy/Ko-fi;
+- Shopify y storefronts propios;
+- Android/Google Play y iPhone/App Store;
+- YouTube/AdSense;
+- beehiiv/Substack;
+- Patreon/Ko-fi;
+- Amazon Associates, Impact y PartnerStack;
+- Upwork/Fiverr y otros trabajos freelance;
+- servicios B2B directos;
+- pagos por PayPal/Wise/Revolut/CobrAMO;
+- bounties autorizados;
+- cripto como medio de cobro o como infraestructura de software, nunca como apuesta;
+- licencias, white-label y reutilización de activos AMO.
+
+Usalo como un **espacio de búsqueda**, no como una lista cerrada. Si la jugada original del IAMO es mala, podés consultar el playbook y pivotar hacia otra ruta más ejecutable. También podés combinar rutas, por ejemplo:
+
+- contenido YouTube → afiliado → producto propio;
+- auditoría gratuita → servicio B2B pago → mantenimiento recurrente;
+- herramienta gratuita → lead → SaaS pago;
+- app gratuita → versión pro;
+- dataset → newsletter → membresía;
+- producto digital → servicio de personalización;
+- freelance → producto reutilizable → licencia;
+- landing directa → CobrAMO → entrega digital;
+- herramienta AMO existente → white-label para un nicho.
+
+No abras una cuenta, no afirmes estar aceptado en una plataforma y no uses un canal de pago/publicación si las herramientas no demuestran que está realmente disponible y autorizado. Si una plataforma no está accesible, buscá otra ruta.
+
 ## Límites que siguen vigentes
 
 - Presupuesto autónomo inicial: 0 EUR.
@@ -99,7 +134,8 @@ Antes de cerrar una ronda:
 3. simplificá la compra y entrega;
 4. ajustá precio, copy o formato si mejora la probabilidad de conversión;
 5. buscá prospectos distintos si los primeros no encajan;
-6. dejá todo listo para que los adaptadores autorizados puedan actuar sin pedir instrucciones adicionales.
+6. si la ruta original sigue siendo débil, consultá el playbook y pivotá;
+7. dejá todo listo para que los adaptadores autorizados puedan actuar sin pedir instrucciones adicionales.
 
 ## Pago
 
