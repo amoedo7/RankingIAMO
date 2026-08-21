@@ -74,6 +74,7 @@ def build_mentor_context(competitor_number):
         "agent_commons_file": "network/agent_commons.json",
         "agent_commons": {
             "name": commons.get("name"),
+            "public_gateway": commons.get("public_gateway", {}),
             "external_channels": commons.get("external_channels", []),
             "wealthy_neighbors": commons.get("wealthy_neighbors", []),
             "social_rule": commons.get("social_rule"),
