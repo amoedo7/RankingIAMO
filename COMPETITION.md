@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **54**
+Competidores nacidos: **55**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO55 | RANK-IAMO55 | invalid_agent_output | — | — | — | 0 | 0.00 |
 | IAMO54 | RANK-IAMO54 | invalid_agent_output | — | — | — | 0 | 0.00 |
 | IAMO53 | RANK-IAMO53 | invalid_agent_output | — | — | — | 0 | 0.00 |
 | IAMO52 | RANK-IAMO52 | invalid_agent_output | — | — | — | 0 | 0.00 |
