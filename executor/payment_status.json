@@ -3,6 +3,17 @@
   "source_of_truth": "data/earnings.jsonl",
   "statuses": [
     {
+      "payment_reference": "RANK-IAMO10",
+      "competitor_name": "IAMO10",
+      "status": "waiting_verified_payment",
+      "verified_events": 0,
+      "gross_revenue_eur": "0.00",
+      "direct_cost_eur": "0.00",
+      "net_profit_eur": "0.00",
+      "event_ids": [],
+      "last_verified_at": null
+    },
+    {
       "payment_reference": "RANK-IAMO2",
       "competitor_name": "IAMO2",
       "status": "waiting_verified_payment",
