@@ -100,6 +100,10 @@ jobs:
         if: always() && steps.gate.outputs.should_spawn == 'true'
         run: python3 scripts/rebuild_ranking.py --check
 
+      - name: Rebuild race-to-payment score
+        if: always() && steps.gate.outputs.should_spawn == 'true'
+        run: python3 scripts/rebuild_proximity.py
+
       - name: Refresh visual GitHub ranking
         if: always() && steps.gate.outputs.should_spawn == 'true'
         run: python3 scripts/update_readme.py
@@ -112,7 +116,7 @@ jobs:
           set -euo pipefail
           git config user.name "RankingIAMO Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- data/competitors.json data/attempts.jsonl data/latest.json data/system_status.json network/board.jsonl COMPETITION.md README.md
+          git add -- data/competitors.json data/attempts.jsonl data/latest.json data/system_status.json network/board.jsonl COMPETITION.md README.md proximity.json
           git diff --cached --check
           if git diff --cached --quiet; then
             echo "No competition changes to commit."
@@ -164,6 +168,8 @@ jobs:
             echo "If Copilot quota is unavailable, a local playbook/mentor fallback keeps the competitor non-empty."
             echo
             echo "Agent Commons receives a public structured broadcast for future IAMOs."
+            echo
+            echo "Money Proximity Score is refreshed without affecting the official financial ranking."
             echo
             echo "EjecutorIAMO is dispatched after the competitor is persisted."
             echo

@@ -90,6 +90,10 @@ jobs:
         if: always() && steps.prepare.outputs.should_execute == 'true'
         run: python3 scripts/executor_check_payments.py
 
+      - name: Rebuild race-to-payment score
+        if: always() && steps.prepare.outputs.should_execute == 'true'
+        run: python3 scripts/rebuild_proximity.py
+
       - name: Commit execution assets
         if: always() && steps.prepare.outputs.should_execute == 'true'
         env:
@@ -99,7 +103,7 @@ jobs:
           set -euo pipefail
           git config user.name "EjecutorIAMO Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- executor offers products artifacts
+          git add -- executor offers products artifacts proximity.json
           git diff --cached --check
           if git diff --cached --quiet; then
             echo "No executor changes to commit."
@@ -123,6 +127,8 @@ jobs:
               echo "Reference: \`${{ steps.prepare.outputs.payment_reference }}\`"
               echo
               echo "Public offer: ${{ steps.prepare.outputs.offer_url }}"
+              echo
+              echo "Money Proximity Score is recalculated from observable funnel events; it never awards financial points."
               echo
               echo "Product quality must pass before outreach or payment CTA is enabled."
               echo
