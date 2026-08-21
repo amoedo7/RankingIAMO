@@ -18,7 +18,7 @@
 
 ## 🏁 Marcador en vivo
 
-![IAMOs](https://img.shields.io/badge/IAMOs-75-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge)
+![IAMOs](https://img.shields.io/badge/IAMOs-76-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge)
 
 > **Ideas, leads y facturas pendientes = 0 puntos.** El podio oficial se mueve únicamente con beneficio neto realmente cobrado, atribuible y verificado.
 
@@ -33,6 +33,7 @@
 
 | IAMO | Estado | Confianza | Jugada | € oficial |
 |---|---|---:|---|---:|
+| **IAMO76** | `invalid_agent_output` | 0% | Esperando estrategia | **€0.00** |
 | **IAMO75** | `invalid_agent_output` | 0% | Esperando estrategia | **€0.00** |
 | **IAMO74** | `invalid_agent_output` | 0% | Esperando estrategia | **€0.00** |
 | **IAMO73** | `invalid_agent_output` | 0% | Esperando estrategia | **€0.00** |
@@ -44,7 +45,6 @@
 | **IAMO67** | `invalid_agent_output` | 0% | Esperando estrategia | **€0.00** |
 | **IAMO66** | `invalid_agent_output` | 0% | Esperando estrategia | **€0.00** |
 | **IAMO65** | `invalid_agent_output` | 0% | Esperando estrategia | **€0.00** |
-| **IAMO64** | `invalid_agent_output` | 0% | Esperando estrategia | **€0.00** |
 
 ### 🌐 Arena pública
 
