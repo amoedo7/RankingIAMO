@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Public real-world AI monetization and failure cases used as mentors, not as guarantees.",
+  "rules": [
+    "Treat reported revenue as evidence about a business model, not a promise of results for RankingIAMO.",
+    "Prefer repeatable mechanisms: painful task, clear buyer, concrete deliverable, distribution, payment, retention.",
+    "Negative cases are valuable: execution without demand can still make zero revenue.",
+    "Capital raised, token market cap and paper gains are not revenue and never count as RankingIAMO earnings."
+  ],
+  "cases": [
+    {
+      "id": "sierra-agents",
+      "name": "Sierra",
+      "model": "Enterprise customer-service AI agents",
+      "reported_result": "The company said it reached its first $100M ARR in seven quarters and added another $100M two quarters later.",
+      "lesson": "Sell an agent against an expensive recurring business workflow with a measurable service outcome.",
+      "source": "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/",
+      "evidence_quality": "major_media_company_reported"
+    },
+    {
+      "id": "glean-enterprise-search",
+      "name": "Glean",
+      "model": "Enterprise AI search and knowledge work",
+      "reported_result": "Glean announced that it crossed $300M ARR in May 2026.",
+      "lesson": "Knowledge access inside businesses is valuable when it saves employees repeated search and context-switching time.",
+      "source": "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/",
+      "evidence_quality": "major_media_company_reported"
+    },
+    {
+      "id": "prime-intellect",
+      "name": "Prime Intellect",
+      "model": "Infrastructure for companies building their own AI agents",
+      "reported_result": "TechCrunch reported a $100M annualized revenue run rate in July 2026.",
+      "lesson": "Selling picks-and-shovels to other agent builders can be more durable than competing on one end-user agent.",
+      "source": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/",
+      "evidence_quality": "major_media_company_reported"
+    },
+    {
+      "id": "naive-autonomous-businesses",
+      "name": "Naive",
+      "model": "Infrastructure for setting up and operating businesses with AI",
+      "reported_result": "TechCrunch reported low double-digit millions in annual run-rate revenue after 10x growth in six months; customers were using it for automation agencies, faceless content channels and other businesses.",
+      "lesson": "A practical agent business needs execution rails around the model: setup, operations, publishing, customer work and repeatable processes.",
+      "source": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
+      "evidence_quality": "major_media_company_reported"
+    },
+    {
+      "id": "remote-ai-operations",
+      "name": "Remote",
+      "model": "AI embedded throughout company operations",
+      "reported_result": "Remote said it surpassed $300M ARR and increased revenue per employee by 50% after adopting AI broadly without adding headcount.",
+      "lesson": "AI can generate economic value by multiplying an existing revenue engine rather than needing a standalone AI product.",
+      "source": "https://techcrunch.com/2026/05/27/payroll-startup-remote-says-it-grew-revenue-50-per-employee-without-adding-headcount/",
+      "evidence_quality": "major_media_company_reported"
+    },
+    {
+      "id": "lyzr-sivaclaw",
+      "name": "Lyzr / SivaClaw",
+      "model": "AI agent handling investor communication and fundraising workflow",
+      "reported_result": "TechCrunch reported that Lyzr used its own agent during a $100M fundraising process and attracted about $400M of investor interest.",
+      "lesson": "Agents can create value around high-stakes coordination, research, follow-up and information packaging even when the final capital decision stays human-controlled.",
+      "source": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+      "evidence_quality": "major_media_reported_capital_not_revenue"
+    },
+    {
+      "id": "pocket-ai-notetaker",
+      "name": "Pocket",
+      "model": "AI notetaking hardware plus transcription service",
+      "reported_result": "Business Insider reported a $100M revenue run rate about eight months after launch and more than 200,000 units sold.",
+      "lesson": "A narrow AI capability becomes easier to monetize when packaged into an obvious physical or software workflow with frequent professional use.",
+      "source": "https://www.businessinsider.com/pockets-ai-notetaker-launched-8-months-ago-revenue-is-soaring-2026-8",
+      "evidence_quality": "major_media_reported"
+    },
+    {
+      "id": "higgsfield-video",
+      "name": "Higgsfield",
+      "model": "AI video generation for creators and increasingly businesses",
+      "reported_result": "The Financial Times reported about $700M in annualized revenue in August 2026, with business clients becoming the dominant use case.",
+      "lesson": "Creative AI monetizes better when tied to business throughput: more campaigns, more variants and lower production friction.",
+      "source": "https://www.ft.com/content/719c8108-f4ae-466b-80f4-96f26558d642",
+      "evidence_quality": "major_media_reported"
+    },
+    {
+      "id": "coralogix-agent-monitoring",
+      "name": "Coralogix",
+      "model": "Observability and monitoring including AI-agent workloads",
+      "reported_result": "TechCrunch reported the company had surpassed $100M in annualized revenue and was growing revenue by more than 60% year over year.",
+      "lesson": "As agents proliferate, monitoring, evaluation, logs, QA and safety become sellable infrastructure.",
+      "source": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
+      "evidence_quality": "major_media_company_reported"
+    },
+    {
+      "id": "aitana-virtual-influencer",
+      "name": "Aitana Lopez",
+      "model": "AI-generated virtual influencer managed by an agency",
+      "reported_result": "Agency-reported estimates cited in educational material put income around EUR 3,000 to EUR 10,000 per month from advertising and subscription platforms.",
+      "lesson": "Synthetic media can earn when it has a consistent niche, audience and disclosure-aware brand/sponsorship model; the audience and distribution are the asset.",
+      "source": "https://recursos.edu.xunta.gal/sites/default/files/recurso/1639064573/estudio_de_caso_aitana_lpez.html",
+      "evidence_quality": "educational_source_agency_estimate"
+    },
+    {
+      "id": "virtuals-acp",
+      "name": "Virtuals Agent Commerce Protocol",
+      "model": "Agent-to-agent jobs and service commerce",
+      "reported_result": "A June 2026 Fundstrat report estimated roughly $452,000 in protocol revenue from ACP since inception and hundreds of thousands of completed jobs.",
+      "lesson": "Agents can become buyers and sellers of services when discovery, agreements, delivery and settlement are standardized; observe this as a market, not as permission to speculate.",
+      "source": "https://fundstrat.com/wp-content/uploads/2026/06/20260624-Digital-Asset-Strategy-Virtuals-Protocol-%E2%80%93-Growing-Agentic-GDP-Q2-Update.pdf",
+      "evidence_quality": "research_report_agent_economy"
+    },
+    {
+      "id": "automaton-zero",
+      "name": "Automaton Agency autonomous business experiment",
+      "model": "Autonomous agent given product, budget and revenue target",
+      "reported_result": "The published teardown says the agent ran a funnel and outreach sequence for a month but made $0.",
+      "lesson": "Execution capacity is not demand. Validate willingness to pay early instead of automating a weak offer harder.",
+      "source": "https://automatonagency.com/insights/autonomous-agent-revenue-experiment-teardown",
+      "evidence_quality": "practitioner_failure_report"
+    },
+    {
+      "id": "klarna-agent-lesson",
+      "name": "Klarna AI customer-service rollout",
+      "model": "Large-scale customer-service automation",
+      "reported_result": "The rollout initially handled a large share of customer conversations and projected major profit impact, but the company later restored human capacity after quality tradeoffs became clear.",
+      "lesson": "Automate routine, measurable work; preserve escalation paths for ambiguity and quality-sensitive cases.",
+      "source": "https://www.forbes.com/sites/bernardmarr/2026/07/16/how-klarnas-ai-agent-strategy-backfired-but-became-a-useful-lesson/",
+      "evidence_quality": "major_media_analysis"
+    }
+  ]
+}
