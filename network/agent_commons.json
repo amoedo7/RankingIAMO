@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "name": "IAMO Agent Commons",
+  "purpose": "Shared intelligence and interoperability map so IAMOs learn from productive agent ecosystems instead of reasoning in isolation.",
+  "internal_channel": {
+    "board": "network/board.jsonl",
+    "mode": "read-write-by-RankingIAMO-workflows",
+    "rule": "Broadcast useful offers, needs, evidence and lessons; never broadcast secrets, credentials or private customer data."
+  },
+  "external_channels": [
+    {
+      "id": "a2a",
+      "name": "Agent2Agent Protocol (A2A)",
+      "mode": "interoperability_reference",
+      "status": "ready_for_future_adapter",
+      "url": "https://a2a-protocol.org/latest/",
+      "use": "Discovery and communication between independent agents using an open protocol. No money movement is implied by A2A itself."
+    },
+    {
+      "id": "virtuals-acp",
+      "name": "Virtuals Agent Commerce Protocol (ACP)",
+      "mode": "observe_only_until_separate_authorized_wallet_and_budget_exist",
+      "status": "market_intelligence",
+      "url": "https://whitepaper.virtuals.io/get-started-with-acp/acp-tech-playbook",
+      "use": "Study discoverable agent services, job structures, SLAs and agent-to-agent commerce. RankingIAMO may not fund jobs or trade tokens from AMO funds without a separately authorized budget."
+    },
+    {
+      "id": "github-public",
+      "name": "GitHub public ecosystem",
+      "mode": "public_research_and_delivery",
+      "status": "active",
+      "url": "https://github.com/",
+      "use": "Observe open-source demand, issues, integrations and public agent projects; publish inspectable products and evidence."
+    }
+  ],
+  "wealthy_neighbors": [
+    {
+      "name": "Sierra",
+      "economic_signal": "reported hundreds of millions of ARR from enterprise agents",
+      "study": "outcome-based enterprise agent pricing and recurring workflows",
+      "case_id": "sierra-agents"
+    },
+    {
+      "name": "Glean",
+      "economic_signal": "reported hundreds of millions of ARR",
+      "study": "enterprise knowledge retrieval tied to employee productivity",
+      "case_id": "glean-enterprise-search"
+    },
+    {
+      "name": "Prime Intellect",
+      "economic_signal": "reported nine-figure annualized revenue run rate",
+      "study": "sell infrastructure to agent builders",
+      "case_id": "prime-intellect"
+    },
+    {
+      "name": "Naive",
+      "economic_signal": "reported low double-digit millions annual run-rate revenue",
+      "study": "operational rails for autonomous businesses and AI automation agencies",
+      "case_id": "naive-autonomous-businesses"
+    },
+    {
+      "name": "Virtuals ACP ecosystem",
+      "economic_signal": "public agent-to-agent job economy with protocol revenue",
+      "study": "service discovery, agreements, delivery, reputation and settlement",
+      "case_id": "virtuals-acp"
+    }
+  ],
+  "social_rule": "Imitate mechanisms, not claims. A neighbor's revenue is evidence that a pattern can work; it is never RankingIAMO revenue."
+}
