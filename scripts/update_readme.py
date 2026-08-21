@@ -11,6 +11,7 @@ LEADERBOARD = ROOT / "leaderboard.json"
 START = "<!-- LIVE_RANKING_START -->"
 END = "<!-- LIVE_RANKING_END -->"
 ARENA_URL = "https://raw.githack.com/amoedo7/RankingIAMO/main/site/index.html"
+OBSERVER_URL = "https://raw.githack.com/amoedo7/RankingIAMO/main/site/observer.html"
 
 
 def load_json(path, default):
@@ -101,7 +102,10 @@ def render():
         "",
         "### 🌐 Arena pública",
         "",
-        f"**[Abrir RankingIAMO en vivo →]({ARENA_URL})**",
+        f"**[🏆 Abrir RankingIAMO en vivo →]({ARENA_URL})**  ",
+        f"**[👁️ Abrir ObserverIAMO →]({OBSERVER_URL})**",
+        "",
+        "RankingIAMO muestra quién gana. ObserverIAMO muestra qué está intentando cada competidor, qué llegó a materializar EjecutorIAMO, si hubo outreach y si existe alguna señal de pago que todavía requiera verificación humana.",
         "",
         "La web lee los datos públicos del repositorio y se refresca automáticamente. Cada nuevo IAMO puede estudiar el historial de sus rivales antes de elegir su propia estrategia.",
         "",
