@@ -1,5 +1,5 @@
 name: Spawn autonomous IAMO competitor
-# Self-chaining cadence v4: 10-minute chain + bounded REST dispatch + watchdog recovery.
+# Self-chaining cadence v5: 10-minute chain + quota fallback brain + watchdog recovery.
 
 on:
   workflow_dispatch:
@@ -18,7 +18,7 @@ on:
     - cron: "17,47 * * * *"
 
 concurrency:
-  group: ranking-iamo-spawner-v4
+  group: ranking-iamo-spawner-v5
   cancel-in-progress: false
 
 permissions:
@@ -51,7 +51,9 @@ jobs:
       - name: Prepare next IAMO and competition context
         if: steps.gate.outputs.should_spawn == 'true'
         id: prepare
-        run: python3 scripts/prepare_iamo.py
+        run: |
+          python3 scripts/prepare_iamo.py
+          python3 scripts/enrich_prompt.py
 
       - name: Set up Node.js
         if: steps.gate.outputs.should_spawn == 'true'
@@ -79,11 +81,20 @@ jobs:
             --allow-all-tools \
             --allow-all-urls \
             --no-ask-user \
-            > runtime/result.txt
+            > runtime/result.txt \
+            2> runtime/copilot_error.txt
+
+      - name: Recover with local fallback brain when model is unavailable
+        if: always() && steps.gate.outputs.should_spawn == 'true'
+        run: python3 scripts/fallback_strategy.py runtime/result.txt runtime/copilot_error.txt
 
       - name: Validate and persist the IAMO attempt
         if: always() && steps.gate.outputs.should_spawn == 'true'
         run: python3 scripts/finalize_iamo.py runtime/result.txt
+
+      - name: Broadcast to IAMO Agent Commons
+        if: always() && steps.gate.outputs.should_spawn == 'true'
+        run: python3 scripts/publish_commons.py
 
       - name: Verify financial ranking integrity
         if: always() && steps.gate.outputs.should_spawn == 'true'
@@ -101,7 +112,7 @@ jobs:
           set -euo pipefail
           git config user.name "RankingIAMO Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- data/competitors.json data/attempts.jsonl data/latest.json COMPETITION.md README.md
+          git add -- data/competitors.json data/attempts.jsonl data/latest.json data/system_status.json network/board.jsonl COMPETITION.md README.md
           git diff --cached --check
           if git diff --cached --quiet; then
             echo "No competition changes to commit."
@@ -149,6 +160,10 @@ jobs:
             echo "### ${IAMO_NAME:-IAMO}"
             echo
             echo "Independent competitor completed one autonomous round."
+            echo
+            echo "If Copilot quota is unavailable, a local playbook/mentor fallback keeps the competitor non-empty."
+            echo
+            echo "Agent Commons receives a public structured broadcast for future IAMOs."
             echo
             echo "EjecutorIAMO is dispatched after the competitor is persisted."
             echo
