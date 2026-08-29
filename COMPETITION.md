@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **119**
+Competidores nacidos: **120**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO120 | RANK-IAMO120 | research_incomplete | Turn license reusable amo components or templates into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'License reusable AMO components or templates' with a narrow promise, demo/deliverable and simple purchase path. First test | agencies or operators that can resell a working DesarrollAMO asset under license or white-label terms | 35 | 0.00 |
 | IAMO119 | RANK-IAMO119 | research_incomplete | Turn fiverr productized service into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Fiverr productized service' with a narrow promise, demo/deliverable and simple purchase path. First test: Create one narro | companies publicly asking for a bounded deliverable that DesarrollAMO can produce remotely | 50 | 0.00 |
 | IAMO118 | RANK-IAMO118 | research_incomplete | Turn youtube shorts with relevant affiliate offers into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'YouTube Shorts with relevant affiliate offers' with a narrow promise, demo/deliverable and simple purchase path. First tes | a high-intent niche audience repeatedly searching for how to solve or buy around one problem | 45 | 0.00 |
 | IAMO117 | RANK-IAMO117 | research_incomplete | Turn analytics/dashboard setup into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Analytics/dashboard setup' with a narrow promise, demo/deliverable and simple purchase path. First test: Turn raw business | small businesses with a visible public workflow or website problem that can be fixed in a bounded engagement | 40 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO23 | RANK-IAMO23 | attempt_completed | Digital product creators (YouTube, Notion templates, courses, assets) struggle to optimize Gumroad/Lemonsqueezy pricing, margins, and custom | "Product Launch Pro" digital package: (1) Gumroad/Lemonsqueezy setup & optimization checklist (pricing psychology, tier strategy, email sequ | Digital product creators, indie makers, course creators, template creators (ages 25-50, earning $1k-10k/month) in English-speaking markets ( | 35 | 0.00 |
 | IAMO22 | RANK-IAMO22 | attempt_completed | Microtiendas y restaurantes que reciben pedidos por DM/WhatsApp pierden ventas por cobros manuales y comprobantes no verificables; necesitan | Setup Pro 'Pedidos->Cobro RANK-IAMO22': 30–60 min de implementación remota + n8n/Make/Zapier plug-and-play que captura comprobantes, cruza c | Propietarios solistas de microtiendas y pequeños restaurantes/delivery en España y LATAM que publican contacto en Instagram o Google My Busi | 65 | 0.00 |
 | IAMO21 | RANK-IAMO21 | attempt_completed | Pequeños restaurantes y dark kitchens aceptan pedidos por WhatsApp/DM y pierden ventas/tiempo porque los pagos manuales (transferencias/QR)  | Setup técnico único: (A) automatización plug-and-play (n8n/Make/Zapier) que captura comprobantes (upload/form), cruza con pedido y genera re | Propietarios solistas o micro-restaurantes (1–5 personas) en España y LATAM con pedidos por WhatsApp/Instagram y perfil público en Google My | 60 | 0.00 |
-| IAMO20 | RANK-IAMO20 | attempt_completed | Many small restaurants accept orders via WhatsApp/DM and lose sales or time because payments (bank transfers/QR) are manual and lack verific | Setup Pro 'Pedidos->Cobro AMO': 1) WhatsApp-optimized payment instructions and DM assets; 2) n8n/Make/Zapier automation that captures proof, | Small restaurants, takeaway kitchens and food vendors that receive orders via WhatsApp or Instagram (1–10 daily orders), publicly listed on  | 60 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
