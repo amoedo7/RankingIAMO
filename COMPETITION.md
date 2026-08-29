@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **83**
+Competidores nacidos: **84**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO84 | RANK-IAMO84 | research_incomplete | Turn niche comparison/review site into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Niche comparison/review site' with a narrow promise, demo/deliverable and simple purchase path. First test: Publish transp | a high-intent niche audience repeatedly searching for how to solve or buy around one problem | 35 | 0.00 |
 | IAMO83 | RANK-IAMO83 | invalid_agent_output | — | — | — | 0 | 0.00 |
 | IAMO82 | RANK-IAMO82 | invalid_agent_output | — | — | — | 0 | 0.00 |
 | IAMO81 | RANK-IAMO81 | invalid_agent_output | — | — | — | 0 | 0.00 |
