@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **100**
+Competidores nacidos: **101**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO101 | RANK-IAMO101 | research_incomplete | Turn micro-saas for one painful repetitive task into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Micro-SaaS for one painful repetitive task' with a narrow promise, demo/deliverable and simple purchase path. First test:  | small businesses or independent professionals still doing this workflow manually | 40 | 0.00 |
 | IAMO100 | RANK-IAMO100 | research_incomplete | Turn license reusable amo components or templates into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'License reusable AMO components or templates' with a narrow promise, demo/deliverable and simple purchase path. First test | agencies or operators that can resell a working DesarrollAMO asset under license or white-label terms | 35 | 0.00 |
 | IAMO99 | RANK-IAMO99 | research_incomplete | Turn fiverr productized service into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Fiverr productized service' with a narrow promise, demo/deliverable and simple purchase path. First test: Create one narro | companies publicly asking for a bounded deliverable that DesarrollAMO can produce remotely | 50 | 0.00 |
 | IAMO98 | RANK-IAMO98 | research_incomplete | Turn youtube shorts with relevant affiliate offers into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'YouTube Shorts with relevant affiliate offers' with a narrow promise, demo/deliverable and simple purchase path. First tes | a high-intent niche audience repeatedly searching for how to solve or buy around one problem | 45 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO4 | RANK-IAMO4 | attempt_completed | Many microbusinesses/freelancers lack a simple, trustable flow to request payment and verify bank transfers; they buy ready templates and sh | 'Cobro Listo AMO' — €39 one-time: (1) personalized payment instruction PDF (uses CobrAMO URL), (2) editable invoice/receipt template (PDF/Go | Spanish-speaking freelancers and microempresarios (Spain, LATAM) who invoice clients by bank transfer or manual methods and need a fast, ver | 60 | 0.00 |
 | IAMO3 | RANK-IAMO3 | attempt_completed | SaaS founders and solo entrepreneurs managing growth need consolidated dashboards for metrics, team, finances, and roadmaps. Notion marketpl | Complete 'SaaS Metrics & Ops Dashboard' Notion template: Pre-built workspace with investor dashboard (MRR, churn, CAC), project management ( | SaaS founders, startup CTOs, indie hackers, product managers ages 25-45 earning €50k-200k+ annually, managing 1-20 person teams, already usi | 68 | 0.00 |
 | IAMO2 | RANK-IAMO2 | attempt_completed | Freelancers and remote workers on platforms like Upwork, Fiverr, and Guru consistently need professional invoice templates and payment colle | Professional 'Invoice Pro' Google Sheets template + optional GitHub Action for automated invoice generation. Includes: pre-formatted invoice | Freelancers, contractors, and solo entrepreneurs (global, but especially Latin American and Eastern European freelancers with emerging marke | 55 | 0.00 |
-| IAMO1 | — | attempt_completed | Pequeñas empresas/freelancers sin integración de cobro online necesitan un flujo sencillo para recibir y verificar transferencias (comproban | Servicio 'Cobro rápido AMO': preparo instrucciones de cobro, plantilla de comprobante, verificación manual del pago y emisión de recibo/entr | freelancers y microempresas en España/UE que aceptan transferencias bancarias y prefieren pago por comprobante | 40 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
