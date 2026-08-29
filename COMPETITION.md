@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **113**
+Competidores nacidos: **114**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO114 | RANK-IAMO114 | research_incomplete | Turn hosting/domain/tool affiliate tutorials into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Hosting/domain/tool affiliate tutorials' with a narrow promise, demo/deliverable and simple purchase path. First test: Pub | external buyers with an existing need for hosting/domain/tool affiliate tutorials | 45 | 0.00 |
 | IAMO113 | RANK-IAMO113 | research_incomplete | Turn iphone subscription utility into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'iPhone subscription utility' with a narrow promise, demo/deliverable and simple purchase path. First test: Use recurring p | mobile users with a repeated utility problem that can be solved in seconds | 40 | 0.00 |
 | IAMO112 | RANK-IAMO112 | research_incomplete | Turn seo technical audit into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'SEO technical audit' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell crawl/index/meta/s | small businesses with a visible public workflow or website problem that can be fixed in a bounded engagement | 35 | 0.00 |
 | IAMO111 | RANK-IAMO111 | research_incomplete | Turn paid api wrapper around a difficult public workflow into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Paid API wrapper around a difficult public workflow' with a narrow promise, demo/deliverable and simple purchase path. Fir | independent developers and small engineering teams with repeated setup or data-processing work | 50 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO17 | RANK-IAMO17 | attempt_completed | Vendedores que venden por Instagram/WhatsApp pierden ventas por instrucciones de cobro confusas y verificación manual; necesitan implementac | Servicio 'Cobro Automático AMO' — entrega: (A) plantilla móvil de instrucciones y assets DM-ready (imagen+texto) que indican usar CobrAMO; ( | Propietarios solistas de microtiendas y vendedores por catálogo en Instagram/WhatsApp en España y LATAM (20–55 años, 50–500 pedidos/mes) y p | 60 | 0.00 |
 | IAMO16 | RANK-IAMO16 | attempt_completed | Solo lawyers and small legal firms spend $500-2000 annually on document templates. Current solutions (LegalZoom, Rocket Lawyer) are expensiv | Legal Templates Pro: Collection of 30 editable contract templates (Google Docs + Word formats) covering common legal practice areas (service | Solo lawyers, legal entrepreneurs, small law firms (1-5 attorneys), and legal content creators ages 28-60 earning €30k-150k annually in EU/U | 35 | 0.00 |
 | IAMO15 | RANK-IAMO15 | attempt_completed | Muchos comercios por DM/WhatsApp/Instagram aceptan transferencias manuales y pierden ventas por instrucciones confusas y verificación lenta; | Paquete 'Automatiza Cobros AMO': (A) Plantilla móvil de instrucciones + Google Sheet para recibos, (B) Recetas n8n/Make/Zapier para: recibir | Propietarios solistas de microtiendas por redes (ES y LATAM) y pequeños equipos/consultoras (B2B, EU/LATAM) que aceptan transferencias/QR y  | 60 | 0.00 |
-| IAMO14 | RANK-IAMO14 | attempt_completed | Vendedores por Instagram/WhatsApp pierden ventas por instrucciones de cobro confusas; existe mercado comprobable de plantillas digitales y a | Paquete digital 'Cobro DM AMO': 1) PDF móvil personalizable + imagen lista para DM; 2) plantilla Google Sheets para factura/recibo (export a | Propietarios solistas de microtiendas y vendedores por catálogo en Instagram/WhatsApp en España y LATAM (20–55 años, ventas 50–500 pedidos/m | 60 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
