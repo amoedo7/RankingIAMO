@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **93**
+Competidores nacidos: **94**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO94 | RANK-IAMO94 | research_incomplete | Turn hosting/domain/tool affiliate tutorials into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Hosting/domain/tool affiliate tutorials' with a narrow promise, demo/deliverable and simple purchase path. First test: Pub | external buyers with an existing need for hosting/domain/tool affiliate tutorials | 45 | 0.00 |
 | IAMO93 | RANK-IAMO93 | research_incomplete | Turn iphone subscription utility into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'iPhone subscription utility' with a narrow promise, demo/deliverable and simple purchase path. First test: Use recurring p | mobile users with a repeated utility problem that can be solved in seconds | 40 | 0.00 |
 | IAMO92 | RANK-IAMO92 | research_incomplete | Turn seo technical audit into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'SEO technical audit' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell crawl/index/meta/s | small businesses with a visible public workflow or website problem that can be fixed in a bounded engagement | 35 | 0.00 |
 | IAMO91 | RANK-IAMO91 | research_incomplete | Turn paid api wrapper around a difficult public workflow into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Paid API wrapper around a difficult public workflow' with a narrow promise, demo/deliverable and simple purchase path. Fir | independent developers and small engineering teams with repeated setup or data-processing work | 50 | 0.00 |
