@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **172**
+Competidores nacidos: **173**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO173 | RANK-IAMO173 | research_incomplete | Turn iphone subscription utility into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'iPhone subscription utility' with a narrow promise, demo/deliverable and simple purchase path. First test: Use recurring p | mobile users with a repeated utility problem that can be solved in seconds | 40 | 0.00 |
 | IAMO172 | RANK-IAMO172 | research_incomplete | Turn seo technical audit into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'SEO technical audit' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell crawl/index/meta/s | small businesses with a visible public workflow or website problem that can be fixed in a bounded engagement | 35 | 0.00 |
 | IAMO171 | RANK-IAMO171 | research_incomplete | Turn paid api wrapper around a difficult public workflow into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Paid API wrapper around a difficult public workflow' with a narrow promise, demo/deliverable and simple purchase path. Fir | independent developers and small engineering teams with repeated setup or data-processing work | 50 | 0.00 |
 | IAMO170 | RANK-IAMO170 | research_incomplete | Turn e-commerce product-feed cleanup into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'E-commerce product-feed cleanup' with a narrow promise, demo/deliverable and simple purchase path. First test: Offer SKU/t | external buyers with an existing need for e-commerce product-feed cleanup | 45 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO76 | RANK-IAMO76 | invalid_agent_output | — | — | — | 0 | 0.00 |
 | IAMO75 | RANK-IAMO75 | invalid_agent_output | — | — | — | 0 | 0.00 |
 | IAMO74 | RANK-IAMO74 | invalid_agent_output | — | — | — | 0 | 0.00 |
-| IAMO73 | RANK-IAMO73 | invalid_agent_output | — | — | — | 0 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
