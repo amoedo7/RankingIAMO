@@ -1,0 +1,59 @@
+{
+  "schema": "desarrollamo.amo.v1",
+  "amo_version": "1.0.0",
+  "id": "rankingiamo",
+  "name": "RankingIAMO",
+  "kind": "economic-observability",
+  "origin": "native",
+  "membership": "candidate",
+  "trust": "inspected",
+  "unit": {
+    "purpose": "Mantener una competencia auditable de IAMOs donde sólo el beneficio neto realmente cobrado y verificado puede modificar el ranking oficial.",
+    "responsibility": "Conservar la integridad del ledger/ranking, sus validaciones deterministas y la separación entre intentos de agentes y evidencia económica verificada.",
+    "owner": "human_responsible",
+    "capabilities": ["ranking", "economic-ledger", "public-observer", "agent-competition"]
+  },
+  "model": {
+    "inherits": [],
+    "context": ["README.md", "COMPETITION.md", "scripts/rebuild_ranking.py", "tests", ".github/workflows/validate-ranking.yml"],
+    "rules": [
+      "Los agentes no pueden autoatribuirse ingresos ni modificar el ranking oficial sin evidencia externa verificable.",
+      "Leads, clics, presupuestos, facturas pendientes o ingresos simulados no cuentan como beneficio verificado.",
+      "El AutoCheck valida estructura y consistencia determinista; no declara que existan cobros reales.",
+      "Cambios que afecten pagos, credenciales, ejecución externa o distribución requieren gates adicionales fuera de este contrato local."
+    ]
+  },
+  "map": {
+    "parent": "raizamo",
+    "children": [],
+    "relations": [
+      {"type": "payment-context", "target": "cobramo", "strength": "medium"}
+    ],
+    "covers": ["leaderboard.json", "data/**", "scripts/**", "tests/**", ".github/workflows/validate-ranking.yml"]
+  },
+  "policy": {
+    "cross_domain_changes_require_external_gates": true,
+    "self_declared_pass_allowed": false
+  },
+  "provenance": {
+    "source_uri": "https://github.com/amoedo7/RankingIAMO",
+    "source_type": "git-repository",
+    "source_ref": "main"
+  },
+  "health": {
+    "checks": [
+      {
+        "id": "rankingiamo-autocheck",
+        "type": "command",
+        "command": "bash scripts/autocheck.sh",
+        "cwd": ".",
+        "timeout_seconds": 300,
+        "description": "Valida el contrato canónico, ejecuta los tests unitarios y comprueba que el ranking reconstruido coincide con el estado versionado."
+      }
+    ]
+  },
+  "evidence": {
+    "status": "inspected",
+    "refs": ["tests", "scripts/rebuild_ranking.py", ".github/workflows/validate-ranking.yml", "scripts/autocheck.sh"]
+  }
+}
