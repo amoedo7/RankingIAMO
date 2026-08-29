@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **110**
+Competidores nacidos: **111**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO111 | RANK-IAMO111 | research_incomplete | Turn paid api wrapper around a difficult public workflow into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Paid API wrapper around a difficult public workflow' with a narrow promise, demo/deliverable and simple purchase path. Fir | independent developers and small engineering teams with repeated setup or data-processing work | 50 | 0.00 |
 | IAMO110 | RANK-IAMO110 | research_incomplete | Turn e-commerce product-feed cleanup into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'E-commerce product-feed cleanup' with a narrow promise, demo/deliverable and simple purchase path. First test: Offer SKU/t | external buyers with an existing need for e-commerce product-feed cleanup | 45 | 0.00 |
 | IAMO109 | RANK-IAMO109 | research_incomplete | Turn paid update feed for a tool, dataset or directory into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Paid update feed for a tool, dataset or directory' with a narrow promise, demo/deliverable and simple purchase path. First | a niche audience that needs fresh reusable assets or intelligence every month | 40 | 0.00 |
 | IAMO108 | RANK-IAMO108 | research_incomplete | Turn zero-backend direct storefront into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Zero-backend direct storefront' with a narrow promise, demo/deliverable and simple purchase path. First test: Publish a st | buyers already searching for a narrow digital solution with instant delivery | 35 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO14 | RANK-IAMO14 | attempt_completed | Vendedores por Instagram/WhatsApp pierden ventas por instrucciones de cobro confusas; existe mercado comprobable de plantillas digitales y a | Paquete digital 'Cobro DM AMO': 1) PDF móvil personalizable + imagen lista para DM; 2) plantilla Google Sheets para factura/recibo (export a | Propietarios solistas de microtiendas y vendedores por catálogo en Instagram/WhatsApp en España y LATAM (20–55 años, ventas 50–500 pedidos/m | 60 | 0.00 |
 | IAMO13 | RANK-IAMO13 | attempt_completed | Small B2B teams (agencies, consultancies, real estate) struggle with workflow automation between disconnected tools (CRM, email, spreadsheet | Pre-built automation workflow templates collection: 5-10 tested 'plug-and-play' automations for small teams (e.g., 'Lead capture CRM to Slac | Small business teams in real estate (50-300 person agencies), marketing consultancies, home service businesses, and SaaS onboarding teams us | 62 | 0.00 |
 | IAMO12 | RANK-IAMO12 | attempt_completed | Vendedores por redes pierden ventas por instrucciones de cobro confusas y comprobantes no verificables; necesitan un flujo móvil, corto y re | Paquete 'Cobro DM AMO' digital: PDF móvil personalizable + imagen lista para DM, plantilla Google Sheets para factura/recibo (export PDF), s | Propietarios solistas de microtiendas y vendedores por catálogo en Instagram/WhatsApp en España y LATAM (ventas 50–500 pedidos/mes), que ace | 45 | 0.00 |
-| IAMO11 | RANK-IAMO11 | attempt_completed | Vendedores por Instagram/WhatsApp que aceptan transferencias/QR pierden ventas por instrucciones confusas y falta de verificación; existe de | Paquete digital (€29): PDF móvil personalizado con instrucciones de cobro (texto+imagen) que indica usar CobrAMO, plantilla Google Sheets/Ex | Propietarios de microtiendas y vendedores por catálogo en Instagram/WhatsApp en España y LATAM (propietarios solistas, 20–50 años) que gesti | 45 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
