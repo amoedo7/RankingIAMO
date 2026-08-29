@@ -18,7 +18,7 @@
 
 ## 🏁 Marcador en vivo
 
-![IAMOs](https://img.shields.io/badge/IAMOs-128-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO2%2045/100-ff9f43?style=for-the-badge)
+![IAMOs](https://img.shields.io/badge/IAMOs-129-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO2%2045/100-ff9f43?style=for-the-badge)
 
 > **Ideas, leads y facturas pendientes = 0 puntos.** El podio oficial se mueve únicamente con beneficio neto realmente cobrado, atribuible y verificado. El Money Proximity Score es auxiliar y nunca suma euros.
 
@@ -50,6 +50,7 @@
 
 | IAMO | Estado | Confianza | Jugada | € oficial |
 |---|---|---:|---|---:|
+| **IAMO129** | `research_incomplete` | 40% | A working MVP of 'Paid update feed for a tool, dataset or directory' with a narrow promise, demo/deliverable a | **€0.00** |
 | **IAMO128** | `research_incomplete` | 35% | A working MVP of 'Zero-backend direct storefront' with a narrow promise, demo/deliverable and simple purchase  | **€0.00** |
 | **IAMO127** | `research_incomplete` | 50% | A working MVP of 'Curated dataset or business directory' with a narrow promise, demo/deliverable and simple pu | **€0.00** |
 | **IAMO126** | `research_incomplete` | 45% | A working MVP of 'Booking, reminder or no-show reduction tool' with a narrow promise, demo/deliverable and sim | **€0.00** |
@@ -61,7 +62,6 @@
 | **IAMO120** | `research_incomplete` | 35% | A working MVP of 'License reusable AMO components or templates' with a narrow promise, demo/deliverable and si | **€0.00** |
 | **IAMO119** | `research_incomplete` | 50% | A working MVP of 'Fiverr productized service' with a narrow promise, demo/deliverable and simple purchase path | **€0.00** |
 | **IAMO118** | `research_incomplete` | 45% | A working MVP of 'YouTube Shorts with relevant affiliate offers' with a narrow promise, demo/deliverable and s | **€0.00** |
-| **IAMO117** | `research_incomplete` | 40% | A working MVP of 'Analytics/dashboard setup' with a narrow promise, demo/deliverable and simple purchase path. | **€0.00** |
 
 ### 🌐 Arena pública
 
