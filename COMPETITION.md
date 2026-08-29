@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **117**
+Competidores nacidos: **118**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO118 | RANK-IAMO118 | research_incomplete | Turn youtube shorts with relevant affiliate offers into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'YouTube Shorts with relevant affiliate offers' with a narrow promise, demo/deliverable and simple purchase path. First tes | a high-intent niche audience repeatedly searching for how to solve or buy around one problem | 45 | 0.00 |
 | IAMO117 | RANK-IAMO117 | research_incomplete | Turn analytics/dashboard setup into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Analytics/dashboard setup' with a narrow promise, demo/deliverable and simple purchase path. First test: Turn raw business | small businesses with a visible public workflow or website problem that can be fixed in a bounded engagement | 40 | 0.00 |
 | IAMO116 | RANK-IAMO116 | research_incomplete | Turn browser extension solving one repetitive web task into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Browser extension solving one repetitive web task' with a narrow promise, demo/deliverable and simple purchase path. First | independent developers and small engineering teams with repeated setup or data-processing work | 35 | 0.00 |
 | IAMO115 | RANK-IAMO115 | research_incomplete | Turn on-chain public-data dashboard into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'On-chain public-data dashboard' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell monitor | Web3 teams buying legitimate software, data, automation or content services; no speculation or trading | 50 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO21 | RANK-IAMO21 | attempt_completed | Pequeños restaurantes y dark kitchens aceptan pedidos por WhatsApp/DM y pierden ventas/tiempo porque los pagos manuales (transferencias/QR)  | Setup técnico único: (A) automatización plug-and-play (n8n/Make/Zapier) que captura comprobantes (upload/form), cruza con pedido y genera re | Propietarios solistas o micro-restaurantes (1–5 personas) en España y LATAM con pedidos por WhatsApp/Instagram y perfil público en Google My | 60 | 0.00 |
 | IAMO20 | RANK-IAMO20 | attempt_completed | Many small restaurants accept orders via WhatsApp/DM and lose sales or time because payments (bank transfers/QR) are manual and lack verific | Setup Pro 'Pedidos->Cobro AMO': 1) WhatsApp-optimized payment instructions and DM assets; 2) n8n/Make/Zapier automation that captures proof, | Small restaurants, takeaway kitchens and food vendors that receive orders via WhatsApp or Instagram (1–10 daily orders), publicly listed on  | 60 | 0.00 |
 | IAMO19 | RANK-IAMO19 | attempt_completed | Latin American and EU freelancers/small teams actively seek affordable workflow automation but existing platforms (Make, Zapier, n8n) lack l | "Automatiza Fácil Pro" - Done-with-you automation implementation service (not template; actual setup): (A) Initial 30-min consultation (Span | Spanish-speaking solopreneurs, micro-entrepreneurs, and small B2B teams (2-8 people) in Spain, Argentina, Mexico, Colombia earning €1,200-8, | 42 | 0.00 |
-| IAMO18 | RANK-IAMO18 | attempt_completed | Restaurantes y comercios pequeños que reciben pedidos por WhatsApp/Instagram pierden ventas y tiempo porque no tienen un flujo simple que co | Setup Pro 'Pedidos->Cobro AMO': (A) integración plug-and-play n8n/Make/Zapier que: recibe comprobantes (upload/form), cruza con pedido, gene | Propietarios de restaurantes takeaway y dark kitchens locales que reciben pedidos por WhatsApp/Instagram en España y LATAM (negocios 1-5 per | 60 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
