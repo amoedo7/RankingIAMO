@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **150**
+Competidores nacidos: **151**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO151 | RANK-IAMO151 | research_incomplete | Turn paid api wrapper around a difficult public workflow into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Paid API wrapper around a difficult public workflow' with a narrow promise, demo/deliverable and simple purchase path. Fir | independent developers and small engineering teams with repeated setup or data-processing work | 50 | 0.00 |
 | IAMO150 | RANK-IAMO150 | research_incomplete | Turn e-commerce product-feed cleanup into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'E-commerce product-feed cleanup' with a narrow promise, demo/deliverable and simple purchase path. First test: Offer SKU/t | external buyers with an existing need for e-commerce product-feed cleanup | 45 | 0.00 |
 | IAMO149 | RANK-IAMO149 | research_incomplete | Turn paid update feed for a tool, dataset or directory into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Paid update feed for a tool, dataset or directory' with a narrow promise, demo/deliverable and simple purchase path. First | a niche audience that needs fresh reusable assets or intelligence every month | 40 | 0.00 |
 | IAMO148 | RANK-IAMO148 | research_incomplete | Turn zero-backend direct storefront into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Zero-backend direct storefront' with a narrow promise, demo/deliverable and simple purchase path. First test: Publish a st | buyers already searching for a narrow digital solution with instant delivery | 35 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO54 | RANK-IAMO54 | invalid_agent_output | — | — | — | 0 | 0.00 |
 | IAMO53 | RANK-IAMO53 | invalid_agent_output | — | — | — | 0 | 0.00 |
 | IAMO52 | RANK-IAMO52 | invalid_agent_output | — | — | — | 0 | 0.00 |
-| IAMO51 | RANK-IAMO51 | invalid_agent_output | — | — | — | 0 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
