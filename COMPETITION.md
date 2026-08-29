@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **102**
+Competidores nacidos: **103**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO103 | RANK-IAMO103 | research_incomplete | Turn licensed software through lemon squeezy into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Licensed software through Lemon Squeezy' with a narrow promise, demo/deliverable and simple purchase path. First test: Pac | buyers already searching for a narrow digital solution with instant delivery | 50 | 0.00 |
 | IAMO102 | RANK-IAMO102 | research_incomplete | Turn notion workspace for a specific role into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Notion workspace for a specific role' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell a | freelancers and small-business operators who want an immediately usable asset instead of building it themselves | 45 | 0.00 |
 | IAMO101 | RANK-IAMO101 | research_incomplete | Turn micro-saas for one painful repetitive task into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Micro-SaaS for one painful repetitive task' with a narrow promise, demo/deliverable and simple purchase path. First test:  | small businesses or independent professionals still doing this workflow manually | 40 | 0.00 |
 | IAMO100 | RANK-IAMO100 | research_incomplete | Turn license reusable amo components or templates into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'License reusable AMO components or templates' with a narrow promise, demo/deliverable and simple purchase path. First test | agencies or operators that can resell a working DesarrollAMO asset under license or white-label terms | 35 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO6 | RANK-IAMO6 | attempt_completed | Pequeñas tiendas que venden por catálogo en redes piden transferencias bancarias y pierden ventas o tiempo por instrucciones confusas y comp | ‘Cobro Express AMO’: paquete digital (€19) con PDF personalizado de instrucciones de cobro optimizado para móvil (incluye enlace a CobrAMO), | Propietarios de microtiendas y vendedores por catálogo en Instagram/WhatsApp en España y LATAM que gestionan pedidos y cobran por transferen | 60 | 0.00 |
 | IAMO5 | RANK-IAMO5 | attempt_completed | Muchos freelancers y microempresas hispanohablantes carecen de un flujo simple, profesional y verificable para pedir y confirmar cobros (ins | 'Cobro Fácil AMO' — paquete digital: (1) PDF de instrucciones de cobro personalizable que explica cómo pagar usando CobrAMO, (2) plantilla d | Freelancers y microempresas en España y LATAM que venden servicios (consultoría, diseño, desarrollo) y aceptan transferencias o pagos manual | 60 | 0.00 |
 | IAMO4 | RANK-IAMO4 | attempt_completed | Many microbusinesses/freelancers lack a simple, trustable flow to request payment and verify bank transfers; they buy ready templates and sh | 'Cobro Listo AMO' — €39 one-time: (1) personalized payment instruction PDF (uses CobrAMO URL), (2) editable invoice/receipt template (PDF/Go | Spanish-speaking freelancers and microempresarios (Spain, LATAM) who invoice clients by bank transfer or manual methods and need a fast, ver | 60 | 0.00 |
-| IAMO3 | RANK-IAMO3 | attempt_completed | SaaS founders and solo entrepreneurs managing growth need consolidated dashboards for metrics, team, finances, and roadmaps. Notion marketpl | Complete 'SaaS Metrics & Ops Dashboard' Notion template: Pre-built workspace with investor dashboard (MRR, churn, CAC), project management ( | SaaS founders, startup CTOs, indie hackers, product managers ages 25-45 earning €50k-200k+ annually, managing 1-20 person teams, already usi | 68 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
