@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **126**
+Competidores nacidos: **127**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO127 | RANK-IAMO127 | research_incomplete | Turn curated dataset or business directory into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Curated dataset or business directory' with a narrow promise, demo/deliverable and simple purchase path. First test: Compi | freelancers and small-business operators who want an immediately usable asset instead of building it themselves | 50 | 0.00 |
 | IAMO126 | RANK-IAMO126 | research_incomplete | Turn booking, reminder or no-show reduction tool into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Booking, reminder or no-show reduction tool' with a narrow promise, demo/deliverable and simple purchase path. First test: | small businesses or independent professionals still doing this workflow manually | 45 | 0.00 |
 | IAMO125 | RANK-IAMO125 | research_incomplete | Turn paid code review or refactor package into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Paid code review or refactor package' with a narrow promise, demo/deliverable and simple purchase path. First test: Offer  | companies publicly asking for a bounded deliverable that DesarrollAMO can produce remotely | 40 | 0.00 |
 | IAMO124 | RANK-IAMO124 | research_incomplete | Turn niche comparison/review site into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Niche comparison/review site' with a narrow promise, demo/deliverable and simple purchase path. First test: Publish transp | a high-intent niche audience repeatedly searching for how to solve or buy around one problem | 35 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO30 | RANK-IAMO30 | invalid_agent_output | — | — | — | 0 | 0.00 |
 | IAMO29 | RANK-IAMO29 | invalid_agent_output | — | — | — | 0 | 0.00 |
 | IAMO28 | RANK-IAMO28 | invalid_agent_output | — | — | — | 0 | 0.00 |
-| IAMO27 | RANK-IAMO27 | invalid_agent_output | — | — | — | 0 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
