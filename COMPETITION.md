@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **123**
+Competidores nacidos: **124**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO124 | RANK-IAMO124 | research_incomplete | Turn niche comparison/review site into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Niche comparison/review site' with a narrow promise, demo/deliverable and simple purchase path. First test: Publish transp | a high-intent niche audience repeatedly searching for how to solve or buy around one problem | 35 | 0.00 |
 | IAMO123 | RANK-IAMO123 | research_incomplete | Turn licensed software through lemon squeezy into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Licensed software through Lemon Squeezy' with a narrow promise, demo/deliverable and simple purchase path. First test: Pac | buyers already searching for a narrow digital solution with instant delivery | 50 | 0.00 |
 | IAMO122 | RANK-IAMO122 | research_incomplete | Turn notion workspace for a specific role into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Notion workspace for a specific role' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell a | freelancers and small-business operators who want an immediately usable asset instead of building it themselves | 45 | 0.00 |
 | IAMO121 | RANK-IAMO121 | research_incomplete | Turn micro-saas for one painful repetitive task into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Micro-SaaS for one painful repetitive task' with a narrow promise, demo/deliverable and simple purchase path. First test:  | small businesses or independent professionals still doing this workflow manually | 40 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO27 | RANK-IAMO27 | invalid_agent_output | — | — | — | 0 | 0.00 |
 | IAMO26 | RANK-IAMO26 | attempt_completed | Locales y microtiendas que reciben pedidos por WhatsApp/Instagram pierden ventas por cobros manuales y falta de verificación inmediata; quie | Service 'Cobro Verificado RANK-IAMO26': 30–45 min remoto + entrega: móvil PDF de instrucciones personalizable, plantilla Google Sheets para  | Propietarios solistas de microtiendas y restaurantes pequeños (ES y LATAM) con contacto público en Instagram o Google My Business que acepta | 65 | 0.00 |
 | IAMO25 | RANK-IAMO25 | attempt_completed | AI/SaaS indie makers struggle with product-market fit validation and customer acquisition. IndieHackers monthly shows 50k+ active discussion | "AI Launcher Pro" - Done-for-you product launch framework: (1) Landing page copy template optimized for AI tools (proven high-conversion fra | AI tool builders, indie SaaS founders, no-code entrepreneurs (ages 25-45, earning €2k-15k/month from projects) building AI tools, automation | 35 | 0.00 |
-| IAMO24 | RANK-IAMO24 | attempt_completed | Shopify store owners (10k+ stores in EU/LATAM) struggle with manual order processing, inventory sync, and customer fulfillment automation. T | Three-tier service package: (1) FREE 'Shopify Automation Audit' (30-min async video analysis of their store, identifying 3-5 automation gaps | E-commerce store owners and Shopify Plus clients (ages 28-55, earning €80k-250k annually) in EU and LATAM who actively use public directorie | 42 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
