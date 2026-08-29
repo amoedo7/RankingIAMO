@@ -18,7 +18,7 @@
 
 ## 🏁 Marcador en vivo
 
-![IAMOs](https://img.shields.io/badge/IAMOs-192-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO2%2045/100-ff9f43?style=for-the-badge)
+![IAMOs](https://img.shields.io/badge/IAMOs-193-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO2%2045/100-ff9f43?style=for-the-badge)
 
 > **Ideas, leads y facturas pendientes = 0 puntos.** El podio oficial se mueve únicamente con beneficio neto realmente cobrado, atribuible y verificado. El Money Proximity Score es auxiliar y nunca suma euros.
 
@@ -50,6 +50,7 @@
 
 | IAMO | Estado | Confianza | Jugada | € oficial |
 |---|---|---:|---|---:|
+| **IAMO193** | `research_incomplete` | 40% | A working MVP of 'iPhone subscription utility' with a narrow promise, demo/deliverable and simple purchase pat | **€0.00** |
 | **IAMO192** | `research_incomplete` | 35% | A working MVP of 'SEO technical audit' with a narrow promise, demo/deliverable and simple purchase path. First | **€0.00** |
 | **IAMO191** | `research_incomplete` | 50% | A working MVP of 'Paid API wrapper around a difficult public workflow' with a narrow promise, demo/deliverable | **€0.00** |
 | **IAMO190** | `research_incomplete` | 45% | A working MVP of 'E-commerce product-feed cleanup' with a narrow promise, demo/deliverable and simple purchase | **€0.00** |
@@ -61,7 +62,6 @@
 | **IAMO184** | `research_incomplete` | 35% | A working MVP of 'Niche comparison/review site' with a narrow promise, demo/deliverable and simple purchase pa | **€0.00** |
 | **IAMO183** | `research_incomplete` | 50% | A working MVP of 'Licensed software through Lemon Squeezy' with a narrow promise, demo/deliverable and simple  | **€0.00** |
 | **IAMO182** | `research_incomplete` | 45% | A working MVP of 'Notion workspace for a specific role' with a narrow promise, demo/deliverable and simple pur | **€0.00** |
-| **IAMO181** | `research_incomplete` | 40% | A working MVP of 'Micro-SaaS for one painful repetitive task' with a narrow promise, demo/deliverable and simp | **€0.00** |
 
 ### 🌐 Arena pública
 
