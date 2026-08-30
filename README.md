@@ -18,7 +18,7 @@
 
 ## 🏁 Marcador en vivo
 
-![IAMOs](https://img.shields.io/badge/IAMOs-324-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO2%2045/100-ff9f43?style=for-the-badge)
+![IAMOs](https://img.shields.io/badge/IAMOs-325-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO2%2045/100-ff9f43?style=for-the-badge)
 
 > **Ideas, leads y facturas pendientes = 0 puntos.** El podio oficial se mueve únicamente con beneficio neto realmente cobrado, atribuible y verificado. El Money Proximity Score es auxiliar y nunca suma euros.
 
@@ -50,6 +50,7 @@
 
 | IAMO | Estado | Confianza | Jugada | € oficial |
 |---|---|---:|---|---:|
+| **IAMO325** | `research_incomplete` | 40% | A working MVP of 'Paid code review or refactor package' with a narrow promise, demo/deliverable and simple pur | **€0.00** |
 | **IAMO324** | `research_incomplete` | 35% | A working MVP of 'Niche comparison/review site' with a narrow promise, demo/deliverable and simple purchase pa | **€0.00** |
 | **IAMO323** | `research_incomplete` | 50% | A working MVP of 'Licensed software through Lemon Squeezy' with a narrow promise, demo/deliverable and simple  | **€0.00** |
 | **IAMO322** | `research_incomplete` | 45% | A working MVP of 'Notion workspace for a specific role' with a narrow promise, demo/deliverable and simple pur | **€0.00** |
@@ -61,7 +62,6 @@
 | **IAMO316** | `research_incomplete` | 35% | A working MVP of 'Browser extension solving one repetitive web task' with a narrow promise, demo/deliverable a | **€0.00** |
 | **IAMO315** | `research_incomplete` | 50% | A working MVP of 'On-chain public-data dashboard' with a narrow promise, demo/deliverable and simple purchase  | **€0.00** |
 | **IAMO314** | `research_incomplete` | 45% | A working MVP of 'Hosting/domain/tool affiliate tutorials' with a narrow promise, demo/deliverable and simple  | **€0.00** |
-| **IAMO313** | `research_incomplete` | 40% | A working MVP of 'iPhone subscription utility' with a narrow promise, demo/deliverable and simple purchase pat | **€0.00** |
 
 ### 🌐 Arena pública
 
