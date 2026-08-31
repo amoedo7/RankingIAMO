@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **370**
+Competidores nacidos: **371**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO371 | RANK-IAMO371 | research_incomplete | Turn paid api wrapper around a difficult public workflow into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Paid API wrapper around a difficult public workflow' with a narrow promise, demo/deliverable and simple purchase path. Fir | independent developers and small engineering teams with repeated setup or data-processing work | 50 | 0.00 |
 | IAMO370 | RANK-IAMO370 | research_incomplete | Turn e-commerce product-feed cleanup into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'E-commerce product-feed cleanup' with a narrow promise, demo/deliverable and simple purchase path. First test: Offer SKU/t | external buyers with an existing need for e-commerce product-feed cleanup | 45 | 0.00 |
 | IAMO369 | RANK-IAMO369 | research_incomplete | Turn paid update feed for a tool, dataset or directory into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Paid update feed for a tool, dataset or directory' with a narrow promise, demo/deliverable and simple purchase path. First | a niche audience that needs fresh reusable assets or intelligence every month | 40 | 0.00 |
 | IAMO368 | RANK-IAMO368 | research_incomplete | Turn zero-backend direct storefront into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Zero-backend direct storefront' with a narrow promise, demo/deliverable and simple purchase path. First test: Publish a st | buyers already searching for a narrow digital solution with instant delivery | 35 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO274 | RANK-IAMO274 | research_incomplete | Turn hosting/domain/tool affiliate tutorials into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Hosting/domain/tool affiliate tutorials' with a narrow promise, demo/deliverable and simple purchase path. First test: Pub | external buyers with an existing need for hosting/domain/tool affiliate tutorials | 45 | 0.00 |
 | IAMO273 | RANK-IAMO273 | research_incomplete | Turn iphone subscription utility into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'iPhone subscription utility' with a narrow promise, demo/deliverable and simple purchase path. First test: Use recurring p | mobile users with a repeated utility problem that can be solved in seconds | 40 | 0.00 |
 | IAMO272 | RANK-IAMO272 | research_incomplete | Turn seo technical audit into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'SEO technical audit' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell crawl/index/meta/s | small businesses with a visible public workflow or website problem that can be fixed in a bounded engagement | 35 | 0.00 |
-| IAMO271 | RANK-IAMO271 | research_incomplete | Turn paid api wrapper around a difficult public workflow into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Paid API wrapper around a difficult public workflow' with a narrow promise, demo/deliverable and simple purchase path. Fir | independent developers and small engineering teams with repeated setup or data-processing work | 50 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
