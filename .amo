@@ -15,7 +15,7 @@
   },
   "model": {
     "inherits": [],
-    "context": ["README.md", "COMPETITION.md", "scripts/rebuild_ranking.py", "tests", ".github/workflows/validate-ranking.yml"],
+    "context": ["README.md", "COMPETITION.md", "RECOVERY.md", "scripts/rebuild_ranking.py", "tests", ".github/workflows/validate-ranking.yml"],
     "rules": [
       "Los agentes no pueden autoatribuirse ingresos ni modificar el ranking oficial sin evidencia externa verificable.",
       "Leads, clics, presupuestos, facturas pendientes o ingresos simulados no cuentan como beneficio verificado.",
@@ -29,7 +29,7 @@
     "relations": [
       {"type": "payment-context", "target": "cobramo", "strength": "medium"}
     ],
-    "covers": ["leaderboard.json", "data/**", "scripts/**", "tests/**", ".github/workflows/validate-ranking.yml"]
+    "covers": ["leaderboard.json", "data/**", "scripts/**", "tests/**", "RECOVERY.md", ".github/workflows/validate-ranking.yml"]
   },
   "policy": {
     "cross_domain_changes_require_external_gates": true,
@@ -54,6 +54,6 @@
   },
   "evidence": {
     "status": "inspected",
-    "refs": ["tests", "scripts/rebuild_ranking.py", ".github/workflows/validate-ranking.yml", "scripts/autocheck.sh"]
+    "refs": ["tests", "scripts/rebuild_ranking.py", ".github/workflows/validate-ranking.yml", "scripts/autocheck.sh", "RECOVERY.md"]
   }
 }
