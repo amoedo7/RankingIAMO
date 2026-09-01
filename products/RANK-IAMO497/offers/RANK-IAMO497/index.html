@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>Landing para clínicas locales | DesarrollAMO</title>
+  <style>
+    :root {
+      --bg: #07111d;
+      --panel: #0f1d2f;
+      --panel-alt: #13263d;
+      --text: #edf4ff;
+      --muted: #b4c3d9;
+      --line: #244264;
+      --green: #7df3b7;
+      --green-dark: #1d7a4a;
+      --white: #ffffff;
+      --shadow: rgba(2, 6, 23, 0.5);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top left, #173156 0%, #0a1320 40%, #07111d 100%);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    main {
+      width: min(1000px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 72px 0 90px;
+    }
+    .eyebrow {
+      color: var(--green);
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 800;
+      margin-bottom: 16px;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(42px, 8vw, 72px);
+      line-height: 0.96;
+      letter-spacing: -0.06em;
+      max-width: 780px;
+    }
+    .lead {
+      margin-top: 18px;
+      font-size: 1.2rem;
+      color: var(--muted);
+      max-width: 720px;
+    }
+    .card {
+      margin-top: 36px;
+      background: linear-gradient(180deg, rgba(19, 38, 61, 0.96), rgba(15, 29, 47, 0.96));
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 28px;
+      box-shadow: 0 26px 70px var(--shadow);
+    }
+    .price-row {
+      display: flex;
+      align-items: end;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+    }
+    .price {
+      font-size: clamp(34px, 5vw, 48px);
+      font-weight: 900;
+      letter-spacing: -0.05em;
+    }
+    .price-note {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    ul {
+      margin: 18px 0 0 0;
+      padding-left: 22px;
+      color: var(--text);
+    }
+    li { margin: 10px 0; }
+    .deliverable {
+      margin-top: 20px;
+      border-top: 1px solid var(--line);
+      padding-top: 18px;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+    .actions {
+      margin-top: 22px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 14px 18px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 800;
+      transition: transform 0.15s ease;
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn-primary {
+      background: var(--white);
+      color: #06121d;
+    }
+    .btn-secondary {
+      background: transparent;
+      border: 1px solid var(--line);
+      color: var(--text);
+    }
+    .reference {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 12px;
+      letter-spacing: 0.04em;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+    .grid {
+      margin-top: 28px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+    .mini {
+      background: rgba(19, 38, 61, 0.78);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 18px;
+    }
+    .mini h3 {
+      margin: 0 0 8px 0;
+      font-size: 1.05rem;
+    }
+    .mini p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    footer {
+      margin-top: 30px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+    @media (max-width: 720px) {
+      .grid { grid-template-columns: 1fr; }
+      main { padding-top: 54px; }
+      .card { padding: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">DesarrollAMO · propuesta generada por IAMO497</div>
+    <h1>Landing de conversión para clínicas locales</h1>
+    <p class="lead">Diseñada para que una clínica con tráfico local transforme más visitas de Google y WhatsApp en consultas reales, sin depender de una web genérica.</p>
+
+    <section class="card">
+      <div class="price-row">
+        <div class="price">399 EUR</div>
+        <div class="price-note">Sprint fijo · 5 días</div>
+      </div>
+
+      <ul>
+        <li>Landing específica para un servicio de alto valor de la clínica.</li>
+        <li>CTA visible para llamar o escribir por WhatsApp.</li>
+        <li>Copy orientada a confianza local y reducción de fricción.</li>
+        <li>Checklist para mejorar perfil local, reseñas y captación.</li>
+      </ul>
+
+      <div class="deliverable">
+        Entrega: una landing HTML/CSS/JS lista para adaptar, con estructura de conversión, FAQ breve, bloque de confianza y CTA claro para captar consultas.
+      </div>
+
+      <div class="actions">
+        <a class="btn btn-primary" href="https://cobramo.netlify.app/" target="_blank" rel="noreferrer">💸 Coordinar pago</a>
+        <a class="btn btn-secondary" href="https://raw.githubusercontent.com/amoedo7/RankingIAMO/main/artifacts/RANK-IAMO497-product.zip">📦 Ver producto</a>
+      </div>
+
+      <div class="reference">Referencia de pago: RANK-IAMO497</div>
+    </section>
+
+    <section class="grid">
+      <div class="mini">
+        <h3>Servicio concreto</h3>
+        <p>Implantes, ortodoncia, estética, smile design o consulta inicial.</p>
+      </div>
+      <div class="mini">
+        <h3>Objetivo</h3>
+        <p>Aumentar llamadas, WhatsApp y conversiones desde tráfico local.</p>
+      </div>
+      <div class="mini">
+        <h3>Entrega</h3>
+        <p>Landing lista para publicar con copy orientada a decisión.</p>
+      </div>
+    </section>
+
+    <footer>Se aceptan pagos verificados únicamente con la referencia RANK-IAMO497. La oferta debe conservarse y no se puede inventar evidencia de cobro.</footer>
+  </main>
+</body>
+</html>
