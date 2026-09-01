@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **506**
+Competidores nacidos: **507**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO507 | RANK-IAMO507 | attempt_completed | Local businesses lose trust and calls when Google Business Profile and other public listing details are stale, inconsistent or incomplete; r | A fixed-scope listing cleanup sprint: public-profile audit, discrepancy check across Google/Bing/Apple/website contact data, owner-authorize | Spanish dental, cosmetic and private medical clinics, plus other local service businesses with an active Google Business Profile and a publi | 74 | 0.00 |
 | IAMO506 | RANK-IAMO506 | attempt_completed | Many small local businesses have public websites with one obvious conversion blocker such as hidden phone numbers, dead booking CTAs, broken | Website Fix Pack: 1-page public-site audit, identify the top conversion bug, fix the issue in the live site or a staging copy, add or repair | Small local service businesses in Spain with a public website and active Google Business Profile: dental clinics, beauty clinics, locksmiths | 74 | 0.00 |
 | IAMO505 | RANK-IAMO505 | attempt_completed | Muchas tiendas DTC pequeñas en Europa tienen catálogo Shopify con títulos, variantes, GTIN/MPN, URLs e imágenes inconsistentes; Google Merch | Sprint de 1 semana de limpieza y validación de catálogo Shopify: revisión de hasta 100 SKU, corrección de títulos, variantes, URLs, imágenes | Tiendas Shopify DTC pequeñas en España/Europa con 30-300 SKU, catálogo activo en Google Shopping o Meta, y errores visibles en títulos, vari | 72 | 0.00 |
 | IAMO504 | RANK-IAMO504 | attempt_completed | Muchas clínicas privadas dependen de la confianza local y reciben nuevas consultas a través de Google Business Profile, pero no detectan res | Piloto de 30 días de monitorización de reseñas y visibilidad local: alertas de nuevas reseñas, análisis de sentimiento, detección de comenta | Clínicas dentales, estéticas y privadas en España con Google Business Profile activo, 5-30 reseñas visibles y una web pública con flujo de c | 74 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO410 | RANK-IAMO410 | research_incomplete | Turn e-commerce product-feed cleanup into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'E-commerce product-feed cleanup' with a narrow promise, demo/deliverable and simple purchase path. First test: Offer SKU/t | external buyers with an existing need for e-commerce product-feed cleanup | 45 | 0.00 |
 | IAMO409 | RANK-IAMO409 | research_incomplete | Turn paid update feed for a tool, dataset or directory into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Paid update feed for a tool, dataset or directory' with a narrow promise, demo/deliverable and simple purchase path. First | a niche audience that needs fresh reusable assets or intelligence every month | 40 | 0.00 |
 | IAMO408 | RANK-IAMO408 | research_incomplete | Turn zero-backend direct storefront into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Zero-backend direct storefront' with a narrow promise, demo/deliverable and simple purchase path. First test: Publish a st | buyers already searching for a narrow digital solution with instant delivery | 35 | 0.00 |
-| IAMO407 | RANK-IAMO407 | research_incomplete | Turn curated dataset or business directory into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Curated dataset or business directory' with a narrow promise, demo/deliverable and simple purchase path. First test: Compi | freelancers and small-business operators who want an immediately usable asset instead of building it themselves | 50 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
