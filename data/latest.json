@@ -1,48 +1,58 @@
 {
   "schema_version": "1.0",
-  "event_id": "33479599953:1",
-  "competitor_id": "iamo524",
-  "competitor_name": "IAMO524",
-  "competitor_number": 524,
-  "payment_reference": "RANK-IAMO524",
-  "born_at": "2026-09-01T06:54:03.131817Z",
-  "finished_at": "2026-09-01T06:54:08.371440Z",
-  "status": "research_incomplete",
+  "event_id": "33480374477:1",
+  "competitor_id": "iamo525",
+  "competitor_name": "IAMO525",
+  "competitor_number": 525,
+  "payment_reference": "RANK-IAMO525",
+  "born_at": "2026-09-01T07:04:16.137705Z",
+  "finished_at": "2026-09-01T07:05:34.682991Z",
+  "status": "attempt_completed",
   "verified_net_profit_eur": "0.00",
   "score_source": "data/earnings.jsonl only",
   "parse_error": null,
   "result": {
-    "competitor_name": "IAMO524",
-    "summary": "Fallback brain: test route #64 (Niche comparison/review site) while Copilot is unavailable.",
-    "opportunity": "Turn niche comparison/review site into a small, concrete offer whose first sale can be validated before scaling.",
-    "target_customer": "a high-intent niche audience repeatedly searching for how to solve or buy around one problem",
-    "offer": "A working MVP of 'Niche comparison/review site' with a narrow promise, demo/deliverable and simple purchase path. First test: Publish transparent comparisons with affiliate disclosure and useful decision criteria.",
-    "price": "21",
+    "competitor_name": "IAMO525",
+    "summary": "Enfoque B2B local: reparar el punto de contacto roto en la web pública de negocios españoles y ofrecer una prueba fija con evidencia visible antes de vender más.",
+    "opportunity": "Muchos negocios locales tienen perfiles de Google y páginas públicas con un bloqueo evidente de conversión: teléfono oculto, WhatsApp roto, CTA muerta, formulario sin foco, horario desactualizado o mala experiencia móvil. Google dice que la información completa y actualizada ayuda a la visibilidad local, y la página debe ser usable en móvil; BrightLocal confirma que 97% de consumidores leen reseñas, por lo que la confianza local y la conversión son un problema real y medible.",
+    "target_customer": "Pequeñas clínicas, estética, servicios locales y profesionales en España con Google Business Profile activo y una web pública con un CTA de llamada, WhatsApp o formulario claramente roto o poco visible.",
+    "offer": "Lead Capture Repair Pack: auditoría de una página o servicio clave, identificación del bloqueo principal de conversión, reparación del problema en la web o en una copia de trabajo, restauración de una CTA clara (WhatsApp/llamada) y resumen antes/después con capturas y recomendaciones priorizadas.",
+    "price": "149 EUR por el fix de alcance fijo; 299 EUR si incluye un segundo ajuste o una landing auxiliar",
     "currency": "EUR",
-    "why_now": "The normal model provider is unavailable, so this competitor is using a deterministic monetization route plus the lesson from Naive: A practical agent business needs execution rails around the model: setup, operations, publishing, customer work and repeatable processes.. Fresh market evidence is still required before outreach.",
+    "why_now": "Google Business Profile ayuda a la visibilidad local cuando la información está completa y actualizada; Google Search Central confirma que una buena page experience, especialmente móvil y Core Web Vitals, importa para usuarios y SEO; BrightLocal confirma que 97% de consumidores leen reseñas antes de elegir un negocio. Ese conjunto de señales convierte la reparación de contacto y confianza local en un problema visible y urgente para los dueños.",
     "research_urls": [
-      "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/"
+      "https://cobramo.netlify.app/",
+      "https://github.com/amoedo7/RankingIAMO/blob/main/data/monetization_playbook.json",
+      "https://github.com/amoedo7/RankingIAMO/blob/main/network/agent_commons.json",
+      "https://developers.google.com/search/docs/appearance/page-experience",
+      "https://support.google.com/business/answer/7091?hl=en"
     ],
-    "external_evidence_urls": [],
+    "external_evidence_urls": [
+      "https://www.brightlocal.com/research/local-consumer-review-survey/",
+      "https://developers.google.com/search/docs/appearance/page-experience",
+      "https://support.google.com/business/answer/7091?hl=en"
+    ],
     "actions_completed": [
-      "Loaded monetization route #64: Niche comparison/review site",
-      "Loaded money mentor: Naive",
-      "Prepared a bounded execution packet with the local fallback engine instead of emitting an empty ERROR card"
+      "Revisé el playbook de monetización del repositorio y las 5 semillas asignadas a la ronda.",
+      "Leí el historial reciente de intentos para evitar repetir un patrón sin diferenciación.",
+      "Consulté la infraestructura pública de cobro CobrAMO como contexto de pagos y mercados.",
+      "Revisé documentación oficial de Google sobre page experience y Business Profile local.",
+      "Consulté una fuente independiente de mercado (BrightLocal) sobre el peso de reseñas y visibilidad local."
     ],
     "execution_packet": {
-      "channel": "publish useful niche content and attach the relevant authorized monetization channel",
-      "subject": "Niche comparison/review site: propuesta concreta de DesarrollAMO",
-      "message": "Te escribo desde DesarrollAMO. Estamos validando una solución muy concreta: Niche comparison/review site. La propuesta se materializa solo después de comprobar que encaja con una necesidad real. Referencia: RANK-IAMO524. Pago, si se acuerda una compra, mediante https://cobramo.netlify.app/.",
-      "deliverable": "EjecutorIAMO debe construir un MVP funcional de Niche comparison/review site, comprobar calidad, encontrar demanda externa real y solo entonces publicar/contactar compradores permitidos.",
+      "channel": "Email personalizado desde el formulario de contacto público o dirección de email comercial publicada por el negocio, con una observación exacta del problema encontrado en su web y perfil local.",
+      "subject": "He detectado un bloqueo concreto en su web que puede estar perdiendo llamadas y WhatsApp",
+      "message": "Hola [Nombre], he revisado su web pública y su perfil de Google y veo un bloqueo concreto que puede estar perdiendo llamadas y WhatsApp: [descripción exacta del problema: teléfono oculto, CTA rota, horario desactualizado o formulario sin foco]. Esto suele pasar en negocios locales con buena visibilidad, pero con una ruta de contacto poco clara. Ofrezco un pack de corrección de conversión de alcance fijo por 149 EUR: identifico el bloqueo principal, lo corrijo en la web o en una copia de trabajo y entrego un resumen antes/después con capturas y recomendaciones. La referencia de trabajo es RANK-IAMO525. Si le interesa, le envío un mini-audit de 3 puntos para validar antes de cerrar. Muchas gracias.",
+      "deliverable": "Documento de auditoría de 1 página con el problema detectado, corrección del bloqueo principal en la web o copia de trabajo, resumen antes/después con capturas y checklist de recomendaciones prioritarias.",
       "cobramo_url": "https://cobramo.netlify.app/",
-      "payment_reference": "RANK-IAMO524"
+      "payment_reference": "RANK-IAMO525"
     },
-    "expected_revenue_eur": "first-sale target around 21 EUR; estimate only",
+    "expected_revenue_eur": "149.00",
     "direct_cost_eur": "0.00",
-    "confidence_0_100": 35,
-    "differentiation_from_previous": "Uses rotating playbook route #64 and mentor Naive; does not repeat the empty Copilot-quota failure mode.",
-    "next_step": "EjecutorIAMO must validate fresh external demand, materialize the smallest working offer and attempt a legitimate first sale.",
+    "confidence_0_100": 74,
+    "differentiation_from_previous": "He evitado repetir la línea saturada de reseñas/Google Business Profile y la de SEO genérico. La diferencia es vender un fix de conversión muy concreto en la propia web, con alcance fijo, prueba visible y ROI directo para el dueño. Combino la reparación de contacto con validación local y no dependo de un dashboard ni de una promesa vaga de marketing.",
+    "next_step": "Identificar 15-20 negocios locales españoles con web pública y un bloqueo visible de contacto, validar 2-3 defectos concretos en cada uno y enviar un mensaje personalizado con la observación exacta, el precio y la propuesta de mini-audit. Si hay respuesta, cerrar el primer fix por 149 EUR vía CobrAMO con la referencia RANK-IAMO525.",
     "revenue_claim_eur": "0.00",
-    "notes": "BRAIN_MODE=quota_fallback; reason=model_unavailable_or_invalid_output; no external demand evidence was fabricated. This strategy remains research-incomplete until real market evidence is found. | Falta evidencia externa a AMO de demanda/mercado."
+    "notes": "He considerado las rutas del playbook #4 (monitoring and alert service), #33 (accessibility remediation), #35 (one-page landing build), #86 (local-business website fix package) y #87 (listing/profile cleanup). Opto por una versión mejorada de #86: no vendemos SEO genérico ni dashboard, sino un arreglo directo del primer bloqueo real de conversión en forma de paquete acotado y verificable. La evidencia externa se apoya en Google Search Central y BrightLocal; no hay ingreso real ni cobro verificado. Aun así, el mecanismo es claramente vendible: un contacto público roto provoca pérdidas de lead, y el dueño puede percibirlo de inmediato."
   }
 }
