@@ -1,57 +1,48 @@
 {
   "schema_version": "1.0",
-  "event_id": "33477380326:1",
-  "competitor_id": "iamo521",
-  "competitor_name": "IAMO521",
-  "competitor_number": 521,
-  "payment_reference": "RANK-IAMO521",
-  "born_at": "2026-09-01T06:23:27.568492Z",
-  "finished_at": "2026-09-01T06:25:03.390425Z",
-  "status": "attempt_completed",
+  "event_id": "33478114074:1",
+  "competitor_id": "iamo522",
+  "competitor_name": "IAMO522",
+  "competitor_number": 522,
+  "payment_reference": "RANK-IAMO522",
+  "born_at": "2026-09-01T06:33:40.026531Z",
+  "finished_at": "2026-09-01T06:33:49.056569Z",
+  "status": "research_incomplete",
   "verified_net_profit_eur": "0.00",
   "score_source": "data/earnings.jsonl only",
   "parse_error": null,
   "result": {
-    "competitor_name": "IAMO521",
-    "summary": "Vender un fix de conversión de sitio web a negocios locales españoles con un bloqueo visible de contacto, con alcance fijo y pago vía CobrAMO.",
-    "opportunity": "Muchos negocios locales en España reciben tráfico desde Google Business Profile y búsquedas locales, pero sus sitios públicos tienen teléfonos ocultos, WhatsApp roto, CTA muerta, formulario sin foco, horarios desactualizados o mala experiencia móvil. Ese problema convierte visitas en leads perdidos y es fácil de demostrar en un alcance fijo sin vender SEO genérico.",
-    "target_customer": "Pequeñas clínicas, estética, servicios locales y profesionales en España con Google Business Profile activo y una web pública con un CTA de llamada, WhatsApp o formulario claramente roto o poco visible.",
-    "offer": "Website Fix Pack: auditoría de una página o servicio clave, identificación del bloqueo principal de conversión, reparación del problema en la web o en una copia de trabajo, restauración de una CTA clara (WhatsApp/llamada), y resumen antes/después con capturas y recomendaciones priorizadas. Alcance máximo: 1 problema visible en 3 páginas y 3 días de turnaround.",
-    "price": "149 EUR por el fix de alcance fijo; 299 EUR si incluye un segundo ajuste o una landing auxiliar",
+    "competitor_name": "IAMO522",
+    "summary": "Fallback brain: test route #22 (Notion workspace for a specific role) while Copilot is unavailable.",
+    "opportunity": "Turn notion workspace for a specific role into a small, concrete offer whose first sale can be validated before scaling.",
+    "target_customer": "freelancers and small-business operators who want an immediately usable asset instead of building it themselves",
+    "offer": "A working MVP of 'Notion workspace for a specific role' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell a complete operating system for one role rather than a generic pretty template.",
+    "price": "19",
     "currency": "EUR",
-    "why_now": "Google Business Profile recomienda mantener información local completa y actualizada porque afecta la visibilidad local; BrightLocal reporta que la mayoría de consumidores consultan reseñas y valoran perfiles frescos; Web Vitals demuestra que la calidad de experiencia y rendimiento móvil importan para la experiencia real del usuario. En la práctica, muchos negocios locales tienen un contacto claramente roto o poco visible, así que un fix concreto de conversión es más rápido de vender que un proyecto de SEO largo o un dashboard genérico.",
+    "why_now": "The normal model provider is unavailable, so this competitor is using a deterministic monetization route plus the lesson from Glean: Knowledge access inside businesses is valuable when it saves employees repeated search and context-switching time.. Fresh market evidence is still required before outreach.",
     "research_urls": [
-      "https://cobramo.netlify.app/",
-      "https://support.google.com/business/answer/7091?hl=en",
-      "https://www.google.com/business/",
-      "https://www.brightlocal.com/research/local-consumer-review-survey/",
-      "https://web.dev/articles/vitals"
+      "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/"
     ],
-    "external_evidence_urls": [
-      "https://support.google.com/business/answer/7091?hl=en",
-      "https://www.google.com/business/",
-      "https://www.brightlocal.com/research/local-consumer-review-survey/",
-      "https://web.dev/articles/vitals"
-    ],
+    "external_evidence_urls": [],
     "actions_completed": [
-      "Revisé el playbook de monetización y los intentos recientes de IAMO en el repositorio para no repetir una oferta genérica.",
-      "Consulté la infraestructura pública de cobro de CobrAMO para confirmar cómo recibiría un cliente real un pago.",
-      "Revisé evidencia externa pública sobre visibilidad local y experiencia web: Google Business Profile y Web Vitals, además de la encuesta de BrightLocal sobre reseñas locales."
+      "Loaded monetization route #22: Notion workspace for a specific role",
+      "Loaded money mentor: Glean",
+      "Prepared a bounded execution packet with the local fallback engine instead of emitting an empty ERROR card"
     ],
     "execution_packet": {
-      "channel": "Email o WhatsApp personalizado a negocios locales españoles con sitio público visible y bloqueo concreto de contacto, basado en dos observaciones exactas del sitio y un precio fijo.",
-      "subject": "Observación concreta de conversión en su web local — 149 EUR fix fijo",
-      "message": "Hola, he revisado su web pública y su perfil de Google y veo un bloqueo concreto que puede estar perdiendo llamadas y WhatsApp de clientes: [teléfono oculto / CTA muerta / formulario sin foco / horario desactualizado / WhatsApp roto]. No es una auditoría genérica ni un SEO vago; es un fix de alcance fijo para restaurar ese contacto y dejarlo visible en una página clave. El paquete cuesta 149 EUR y incluye auditoría de la página, corrección del problema principal, restauración de la CTA y un resumen antes/después con capturas. Si les interesa, puedo enviar un mini-audit de 3 puntos en 24h y cerrar la corrección con referencia RANK-IAMO521 a través de CobrAMO: https://cobramo.netlify.app/ .",
-      "deliverable": "Auditoría de 1 página clave, reparación del problema de conversión en la web o en una copia de trabajo, CTA restaurada y resumen antes/después con capturas y recomendaciones priorizadas.",
+      "channel": "publish a working demo/product and use an authorized marketplace or CobrAMO payment path",
+      "subject": "Notion workspace for a specific role: propuesta concreta de DesarrollAMO",
+      "message": "Te escribo desde DesarrollAMO. Estamos validando una solución muy concreta: Notion workspace for a specific role. La propuesta se materializa solo después de comprobar que encaja con una necesidad real. Referencia: RANK-IAMO522. Pago, si se acuerda una compra, mediante https://cobramo.netlify.app/.",
+      "deliverable": "EjecutorIAMO debe construir un MVP funcional de Notion workspace for a specific role, comprobar calidad, encontrar demanda externa real y solo entonces publicar/contactar compradores permitidos.",
       "cobramo_url": "https://cobramo.netlify.app/",
-      "payment_reference": "RANK-IAMO521"
+      "payment_reference": "RANK-IAMO522"
     },
-    "expected_revenue_eur": "149.00",
+    "expected_revenue_eur": "first-sale target around 19 EUR; estimate only",
     "direct_cost_eur": "0.00",
-    "confidence_0_100": 76,
-    "differentiation_from_previous": "He evitado la línea saturada de reseñas/Google Business Profile y la de SEO genérico practicado por IAMOs anteriores. Este enfoque es más concreto y más fácil de vender: un problema de conversión visible en la propia web, con alcance fijo, demostrable y ligado a pérdida de leads, en lugar de un dashboard o un servicio de monitorización amplio. Consideré rutas del playbook #4, #33, #35 y #86; me quedo con #86 por su rapidez de validación y su tipo de entrega.",
-    "next_step": "Identificar 15-20 negocios locales españoles con sitio público visible y un bloqueo concreto de contacto, validar 2-3 defectos reales en cada uno, y enviar un mensaje personalizado con la observación exacta, el precio y la propuesta de mini-audit. Si hay respuesta, cerrar la primera corrección por 149 EUR vía CobrAMO con referencia RANK-IAMO521.",
+    "confidence_0_100": 45,
+    "differentiation_from_previous": "Uses rotating playbook route #22 and mentor Glean; does not repeat the empty Copilot-quota failure mode.",
+    "next_step": "EjecutorIAMO must validate fresh external demand, materialize the smallest working offer and attempt a legitimate first sale.",
     "revenue_claim_eur": "0.00",
-    "notes": "Riesgo principal: la venta depende de conseguir respuesta útil puntual y de que el problema sea realmente visible y corregible. Suposición: muchos negocios locales tienen páginas viejas con un contacto roto o una CTA poco visible. No hay ingreso real aún, ni cobro verificado; esta es una propuesta ejecutable y no una afirmación de ingreso. Consideré las rutas del playbook #4 (monitoring/alertas), #33 (accessibility audit), #35 (landing page), y #86 (local-business website fix package); la elección final es #86 porque es la más barata y rápida de validar con evidencia pública real."
+    "notes": "BRAIN_MODE=quota_fallback; reason=model_unavailable_or_invalid_output; no external demand evidence was fabricated. This strategy remains research-incomplete until real market evidence is found. | Falta evidencia externa a AMO de demanda/mercado."
   }
 }

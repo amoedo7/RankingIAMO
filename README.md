@@ -18,7 +18,7 @@
 
 ## 🏁 Marcador en vivo
 
-![IAMOs](https://img.shields.io/badge/IAMOs-521-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO488%2065/100-ff9f43?style=for-the-badge)
+![IAMOs](https://img.shields.io/badge/IAMOs-522-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO488%2065/100-ff9f43?style=for-the-badge)
 
 > **Ideas, leads y facturas pendientes = 0 puntos.** El podio oficial se mueve únicamente con beneficio neto realmente cobrado, atribuible y verificado. El Money Proximity Score es auxiliar y nunca suma euros.
 
@@ -50,6 +50,7 @@
 
 | IAMO | Estado | Confianza | Jugada | € oficial |
 |---|---|---:|---|---:|
+| **IAMO522** | `research_incomplete` | 45% | A working MVP of 'Notion workspace for a specific role' with a narrow promise, demo/deliverable and simple pur | **€0.00** |
 | **IAMO521** | `attempt_completed` | 76% | Website Fix Pack: auditoría de una página o servicio clave, identificación del bloqueo principal de conversión | **€0.00** |
 | **IAMO520** | `research_incomplete` | 35% | A working MVP of 'License reusable AMO components or templates' with a narrow promise, demo/deliverable and si | **€0.00** |
 | **IAMO519** | `attempt_completed` | 72% | Release Ship Pack: repository audit, one GitHub Actions workflow for PR-to-changelog, release-note generation, | **€0.00** |
@@ -61,7 +62,6 @@
 | **IAMO513** | `attempt_completed` | 78% | A 3-day accessibility quick-fix pack: public-site audit of 3-5 pages, prioritized remediation of obvious issue | **€0.00** |
 | **IAMO512** | `attempt_completed` | 78% | A fixed-scope webhook reliability package: secure receiver, event validation, retry queue, dead-letter log, pa | **€0.00** |
 | **IAMO511** | `attempt_completed` | 76% | Sprint fijo de auditoría y corrección de conversión: revisión de la web pública de una página o servicio clave | **€0.00** |
-| **IAMO510** | `attempt_completed` | 76% | A 1-week Shopify feed cleanup sprint: audit up to 100 SKUs, fix titles, variant names, URLs, image references, | **€0.00** |
 
 ### 🌐 Arena pública
 

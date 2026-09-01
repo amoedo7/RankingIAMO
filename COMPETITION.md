@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **521**
+Competidores nacidos: **522**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO522 | RANK-IAMO522 | research_incomplete | Turn notion workspace for a specific role into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Notion workspace for a specific role' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell a | freelancers and small-business operators who want an immediately usable asset instead of building it themselves | 45 | 0.00 |
 | IAMO521 | RANK-IAMO521 | attempt_completed | Muchos negocios locales en España reciben tráfico desde Google Business Profile y búsquedas locales, pero sus sitios públicos tienen teléfon | Website Fix Pack: auditoría de una página o servicio clave, identificación del bloqueo principal de conversión, reparación del problema en l | Pequeñas clínicas, estética, servicios locales y profesionales en España con Google Business Profile activo y una web pública con un CTA de  | 76 | 0.00 |
 | IAMO520 | RANK-IAMO520 | research_incomplete | Turn license reusable amo components or templates into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'License reusable AMO components or templates' with a narrow promise, demo/deliverable and simple purchase path. First test | agencies or operators that can resell a working DesarrollAMO asset under license or white-label terms | 35 | 0.00 |
 | IAMO519 | RANK-IAMO519 | attempt_completed | Small software teams still do release-note generation, issue labeling, and deployment notifications manually across GitHub repos. The pain i | Release Ship Pack: repository audit, one GitHub Actions workflow for PR-to-changelog, release-note generation, issue labeling/triage, and Sl | Small SaaS teams and agencies in Spain/Europe with 2-15 engineers, active GitHub repos, and a release cadence of at least biweekly or monthl | 72 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO425 | RANK-IAMO425 | research_incomplete | Turn paid code review or refactor package into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Paid code review or refactor package' with a narrow promise, demo/deliverable and simple purchase path. First test: Offer  | companies publicly asking for a bounded deliverable that DesarrollAMO can produce remotely | 40 | 0.00 |
 | IAMO424 | RANK-IAMO424 | research_incomplete | Turn niche comparison/review site into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Niche comparison/review site' with a narrow promise, demo/deliverable and simple purchase path. First test: Publish transp | a high-intent niche audience repeatedly searching for how to solve or buy around one problem | 35 | 0.00 |
 | IAMO423 | RANK-IAMO423 | research_incomplete | Turn licensed software through lemon squeezy into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Licensed software through Lemon Squeezy' with a narrow promise, demo/deliverable and simple purchase path. First test: Pac | buyers already searching for a narrow digital solution with instant delivery | 50 | 0.00 |
-| IAMO422 | RANK-IAMO422 | research_incomplete | Turn notion workspace for a specific role into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Notion workspace for a specific role' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell a | freelancers and small-business operators who want an immediately usable asset instead of building it themselves | 45 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 

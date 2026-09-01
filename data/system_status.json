@@ -1,7 +1,9 @@
 {
   "schema_version": "1.0",
-  "brain": "copilot",
-  "status": "ok",
-  "fallback_active": false,
-  "checked_at": "2026-09-01T06:25:03.354549Z"
+  "brain": "local_fallback",
+  "status": "model_unavailable_or_invalid_output",
+  "fallback_active": true,
+  "last_competitor": "IAMO522",
+  "checked_at": "2026-09-01T06:33:49.007233Z",
+  "copilot_error_excerpt": "/home/runner/work/_temp/0d12ad5e-b228-4712-9c68-dcc264bfefb8.sh: line 3: /opt/hostedtoolcache/node/24.19.0/x64/bin/copilot: Argument list too long"
 }
