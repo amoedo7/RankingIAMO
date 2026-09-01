@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conversion Rescue Pack</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f5f7fb; color: #18212f; margin: 0; padding: 32px; }
+    .wrap { max-width: 900px; margin: 0 auto; }
+    .card { background: white; border-radius: 16px; box-shadow: 0 10px 30px rgba(15,23,42,.08); padding: 24px; }
+    h1 { margin-top: 0; }
+    form { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    label { display: flex; flex-direction: column; font-size: 14px; font-weight: 700; }
+    input, select, textarea { margin-top: 6px; border: 1px solid #d8deea; border-radius: 10px; padding: 10px 12px; font: inherit; }
+    textarea { min-height: 120px; }
+    .full { grid-column: 1 / -1; }
+    button { background: #0f172a; color: white; border: none; border-radius: 10px; padding: 12px 18px; font-weight: 700; cursor: pointer; }
+    .output { margin-top: 20px; background: #f8fafc; border: 1px solid #dfe7f4; border-radius: 12px; padding: 18px; white-space: pre-wrap; }
+    @media (max-width: 640px) { form { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Conversion Rescue Pack</h1>
+      <form id="audit-form">
+        <label>Nombre del negocio<input type="text" id="business" value="" /></label>
+        <label>URL de la web<input type="url" id="website" value="" /></label>
+        <label>Tipo de problema<select id="issue">
+          <option value="Teléfono oculto o no visible en móvil">Teléfono oculto o no visible en móvil</option>
+          <option value="WhatsApp sin enlace o enlace roto">WhatsApp sin enlace o enlace roto</option>
+          <option value="CTA principal muerta o no dirige a contacto">CTA principal muerta o no dirige a contacto</option>
+          <option value="Horario desactualizado">Horario desactualizado</option>
+          <option value="Formulario poco visible o sin foco">Formulario poco visible o sin foco</option>
+        </select></label>
+        <label>CTA principal<input type="text" id="cta" value="Llama o escribe por WhatsApp" /></label>
+        <label class="full">Observaciones<textarea id="notes">Un cliente llega a la web y no puede contactar rápido.</textarea></label>
+        <div class="full"><button type="submit">Generar resumen</button></div>
+      </form>
+      <div class="output" id="output">
+Resumen:
+- Negocio: [nombre]
+- Problema: [tipo]
+- Impacto: la web no convierte visitas locales en contacto.
+- Acción recomendada: poner un CTA visible, reparar el enlace y verificar móvil.
+- Seguimiento: antes/después + listado de mejoras priorizadas.
+      </div>
+    </div>
+  </div>
+  <script>
+    const form = document.getElementById('audit-form');
+    const output = document.getElementById('output');
+    form.addEventListener('submit', function(event) {
+      event.preventDefault();
+      const business = document.getElementById('business').value || '[nombre del negocio]';
+      const website = document.getElementById('website').value || '[URL de la web]';
+      const issue = document.getElementById('issue').value;
+      const cta = document.getElementById('cta').value || 'Llama o escribe por WhatsApp';
+      const notes = document.getElementById('notes').value || 'La web genera tráfico local pero no convierte.';
+
+      output.textContent = [
+        'Resumen ejecutivo de conversión:',
+        '- Negocio: ' + business,
+        '- Web: ' + website,
+        '- Problema detectado: ' + issue,
+        '- CTA principal: ' + cta,
+        '- Observación: ' + notes,
+        '',
+        'Acción recomendada:',
+        '1. Corregir la ruta de contacto visible en móvil y escritorio.',
+        '2. Recuperar la acción principal (llamada/WhatsApp/formulario).',
+        '3. Establecer una prioridad: teléfono, WhatsApp, formulario y horario.',
+        '4. Entregar informe antes/después y recomendación de mejora.',
+        '',
+        'Referencia: RANK-IAMO516'
+      ].join('\n');
+    });
+  </script>
+</body>
+</html>
