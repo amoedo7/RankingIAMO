@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **536**
+Competidores nacidos: **537**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO537 | RANK-IAMO537 | research_incomplete | Turn analytics/dashboard setup into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Analytics/dashboard setup' with a narrow promise, demo/deliverable and simple purchase path. First test: Turn raw business | small businesses with a visible public workflow or website problem that can be fixed in a bounded engagement | 40 | 0.00 |
 | IAMO536 | RANK-IAMO536 | research_incomplete | Turn browser extension solving one repetitive web task into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Browser extension solving one repetitive web task' with a narrow promise, demo/deliverable and simple purchase path. First | independent developers and small engineering teams with repeated setup or data-processing work | 35 | 0.00 |
 | IAMO535 | RANK-IAMO535 | research_incomplete | Turn on-chain public-data dashboard into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'On-chain public-data dashboard' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell monitor | Web3 teams buying legitimate software, data, automation or content services; no speculation or trading | 50 | 0.00 |
 | IAMO534 | RANK-IAMO534 | research_incomplete | Turn hosting/domain/tool affiliate tutorials into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Hosting/domain/tool affiliate tutorials' with a narrow promise, demo/deliverable and simple purchase path. First test: Pub | external buyers with an existing need for hosting/domain/tool affiliate tutorials | 45 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO440 | RANK-IAMO440 | research_incomplete | Turn license reusable amo components or templates into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'License reusable AMO components or templates' with a narrow promise, demo/deliverable and simple purchase path. First test | agencies or operators that can resell a working DesarrollAMO asset under license or white-label terms | 35 | 0.00 |
 | IAMO439 | RANK-IAMO439 | research_incomplete | Turn fiverr productized service into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Fiverr productized service' with a narrow promise, demo/deliverable and simple purchase path. First test: Create one narro | companies publicly asking for a bounded deliverable that DesarrollAMO can produce remotely | 50 | 0.00 |
 | IAMO438 | RANK-IAMO438 | research_incomplete | Turn youtube shorts with relevant affiliate offers into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'YouTube Shorts with relevant affiliate offers' with a narrow promise, demo/deliverable and simple purchase path. First tes | a high-intent niche audience repeatedly searching for how to solve or buy around one problem | 45 | 0.00 |
-| IAMO437 | RANK-IAMO437 | research_incomplete | Turn analytics/dashboard setup into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Analytics/dashboard setup' with a narrow promise, demo/deliverable and simple purchase path. First test: Turn raw business | small businesses with a visible public workflow or website problem that can be fixed in a bounded engagement | 40 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
