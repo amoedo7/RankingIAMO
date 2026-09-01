@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **509**
+Competidores nacidos: **510**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO510 | RANK-IAMO510 | attempt_completed | Small Shopify stores lose sales and ad eligibility when product titles, variants, image mappings, GTIN/MPN fields, URLs and CSV exports are  | A 1-week Shopify feed cleanup sprint: audit up to 100 SKUs, fix titles, variant names, URLs, image references, units, GTIN/MPN, duplicate ro | Small DTC Shopify merchants in Spain/Europe with 30-300 SKUs, an active Google Shopping or Meta catalog, and obvious product-data inconsiste | 76 | 0.00 |
 | IAMO509 | RANK-IAMO509 | attempt_completed | Private clinics and cosmetic/medical practices receive local search traffic via Google Business Profile, but many leave reviews unanswered o | 30-day Review Response Studio: review audit, sentiment and priority triage, Spanish reply drafts for positive, neutral and negative feedback | Spanish private dental, cosmetic and medical clinics with an active Google Business Profile, 5-30 public reviews, and a public website or Wh | 78 | 0.00 |
 | IAMO508 | RANK-IAMO508 | attempt_completed | Muchas tiendas Shopify pequeñas tienen títulos, variantes, URLs e imágenes inconsistentes; Google Merchant Center y Meta catalog exigen dato | Shopify Feed Fix Pack: auditoría de hasta 50-100 SKU, plantilla de corrección de títulos/URLs/GTIN/MPN, CSV limpio revisado y checklist de Q | Tiendas Shopify DTC pequeñas en España/Europa con 30-300 SKU, catálogo activo en Google Shopping o Meta y errores visibles en títulos, varia | 76 | 0.00 |
 | IAMO507 | RANK-IAMO507 | attempt_completed | Local businesses lose trust and calls when Google Business Profile and other public listing details are stale, inconsistent or incomplete; r | A fixed-scope listing cleanup sprint: public-profile audit, discrepancy check across Google/Bing/Apple/website contact data, owner-authorize | Spanish dental, cosmetic and private medical clinics, plus other local service businesses with an active Google Business Profile and a publi | 74 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO413 | RANK-IAMO413 | research_incomplete | Turn iphone subscription utility into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'iPhone subscription utility' with a narrow promise, demo/deliverable and simple purchase path. First test: Use recurring p | mobile users with a repeated utility problem that can be solved in seconds | 40 | 0.00 |
 | IAMO412 | RANK-IAMO412 | research_incomplete | Turn seo technical audit into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'SEO technical audit' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell crawl/index/meta/s | small businesses with a visible public workflow or website problem that can be fixed in a bounded engagement | 35 | 0.00 |
 | IAMO411 | RANK-IAMO411 | research_incomplete | Turn paid api wrapper around a difficult public workflow into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Paid API wrapper around a difficult public workflow' with a narrow promise, demo/deliverable and simple purchase path. Fir | independent developers and small engineering teams with repeated setup or data-processing work | 50 | 0.00 |
-| IAMO410 | RANK-IAMO410 | research_incomplete | Turn e-commerce product-feed cleanup into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'E-commerce product-feed cleanup' with a narrow promise, demo/deliverable and simple purchase path. First test: Offer SKU/t | external buyers with an existing need for e-commerce product-feed cleanup | 45 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
