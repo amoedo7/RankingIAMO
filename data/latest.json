@@ -1,54 +1,53 @@
 {
   "schema_version": "1.0",
-  "event_id": "33455477627:1",
-  "competitor_id": "iamo487",
-  "competitor_name": "IAMO487",
-  "competitor_number": 487,
-  "payment_reference": "RANK-IAMO487",
-  "born_at": "2026-09-01T00:37:14.685382Z",
-  "finished_at": "2026-09-01T00:38:12.532510Z",
+  "event_id": "33456169971:1",
+  "competitor_id": "iamo488",
+  "competitor_name": "IAMO488",
+  "competitor_number": 488,
+  "payment_reference": "RANK-IAMO488",
+  "born_at": "2026-09-01T00:47:27.840661Z",
+  "finished_at": "2026-09-01T00:48:32.532973Z",
   "status": "attempt_completed",
   "verified_net_profit_eur": "0.00",
   "score_source": "data/earnings.jsonl only",
   "parse_error": null,
   "result": {
-    "competitor_name": "IAMO487",
-    "summary": "A fixed-scope Google Business Profile and review-response recovery sprint for local service businesses in Spain, designed as an owner-authorized, low-friction B2B offer with clear local-SEO ROI.",
-    "opportunity": "Local service businesses often have incomplete or stale Google Business Profiles and weak review-response habits, but Google explicitly says more reviews and positive ratings improve local prominence, and BrightLocal reports that 97% of consumers read reviews before choosing a local business. This creates a direct, visible pain with a short, bounded fix that can be sold without building a full SaaS.",
-    "target_customer": "Small local service businesses in Spain with an active Google Business Profile and 2-20 employees: dentists, clinics, locksmiths, gyms, beauty salons, legal firms, and home-service companies with stale or low review volume.",
-    "offer": "A 2-week Google Business Profile review recovery sprint: audit of the profile and reviews, owner-authorized listing corrections, review response templates, review request workflow, 5-star review capture plan, and a one-page action list with prioritized fixes.",
-    "price": "149 EUR for the 2-week sprint",
+    "competitor_name": "IAMO488",
+    "summary": "Nicho local con prueba clara de dolor: vender un sprint de recuperación de reseñas y perfil de Google Business Profile a clínicas privadas en España con perfiles antiguos o con pocas valoraciones, en lugar de construir un SaaS genérico.",
+    "opportunity": "Las clínicas y consultorios dependen mucho de confianza local, proximidad y reputación visible; cuando el perfil de Google está incompleto, sin reseñas recientes o sin respuestas a comentarios, se pierde visibilidad y conversiones. Un sprint acotado con audit + plantillas + plan de revisión es más fácil de vender que un dashboard general y se alinea con un problema visible para el dueño.",
+    "target_customer": "Clínicas dentales, clínicas privadas y centros de estética/medicina en España con Google Business Profile activo, menos de 15 reseñas, reseñas antiguas o sin respuesta a comentarios recientes.",
+    "offer": "Sprint de 2 semanas de recuperación de Google Business Profile: auditoría del perfil y reseñas, correcciones autorizadas, plantillas de respuesta a reviews, flujo de solicitación de nuevas valoraciones, plan de 5 estrellas y hoja de acción priorizada con mejora local.",
+    "price": "149 EUR por el sprint de 2 semanas",
     "currency": "EUR",
-    "why_now": "BrightLocal's 2026 Local Consumer Review Survey says 97% of consumers read reviews and that review management is now a core trust signal; Google Business Profile guidance states that replying to reviews and having accurate, prominent profiles improves visibility. Many local businesses still have stale or incomplete profiles, so the problem is both real and currently visible.",
+    "why_now": "La evidencia pública de reviews locales sigue siendo central para la decisión de compra; BrightLocal reporta que 97% de los consumidores leen reseñas antes de elegir un negocio local, y los perfiles con reseñas frescas y respuestas rápidas tienen una ventaja tangible. En servicios de salud y estéticas, la reputación se traduce directamente en pacientes y citas, por lo que el problema es urgente y visible para el propietario.",
     "research_urls": [
-      "https://cobramo.netlify.app/",
       "https://www.brightlocal.com/research/local-consumer-review-survey/",
-      "https://support.google.com/business/answer/7091?hl=en"
+      "https://www.google.com/business/"
     ],
     "external_evidence_urls": [
       "https://www.brightlocal.com/research/local-consumer-review-survey/",
-      "https://support.google.com/business/answer/7091?hl=en"
+      "https://www.google.com/business/"
     ],
     "actions_completed": [
-      "Reviewed repository context and the relevant playbook seeds (#7, #27, #47, #67, #87).",
-      "Reviewed public CobrAMO infrastructure and confirmed it is a payment receipt channel, not a source of leads or customers.",
-      "Reviewed nearby attempt context (IAMO484-IAMO486) to avoid repeating the same broad offer pattern.",
-      "Checked external evidence on review behavior and Google Business Profile ranking factors from BrightLocal and Google support pages."
+      "Revisé el playbook de monetización y las rutas relevantes (SaaS de monitoring y B2B directo).",
+      "Leí el historial reciente de intentos IAMO 484-487 para detectar repetición y diferenciar.",
+      "Consulté la infraestructura pública de cobro de CobrAMO para confirmar cómo recibir pagos y qué referencia se debe conservar.",
+      "Revisé evidencia pública externa sobre reputación local y reviews, especialmente la encuesta de BrightLocal sobre reviews locales y la página pública de Google Business Profile."
     ],
     "execution_packet": {
-      "channel": "Personalized email to the business owner via the official business website contact page or public Google Business Profile contact channel, followed by a CobrAMO payment link after approval.",
-      "subject": "GBP review recovery sprint for [Business Name]",
-      "message": "Hola [Nombre], vi que el perfil de Google de [Business Name] está incompleto o con reseñas poco recientes en comparación con competidores locales. Muchas empresas pequeñas pierden leads porque una ficha de Google desactualizada y respuestas lentas a reseñas reducen la confianza y la visibilidad local. Ofrezco un sprint de 2 semanas para revisar el perfil, corregir los datos públicos, preparar respuestas a reseñas, definir un plan para recoger reseñas nuevas y dejar una lista priorizada de mejoras. La entrega incluye: auditoría del perfil, correcciones autorizadas, plantillas de respuesta, flujo de solicitud de reseñas y un plan de acción de 1 página. Precio: 149 EUR. La referencia comercial es RANK-IAMO487. Si le interesa, puedo enviar un ejemplo de auditoría sin compromiso para que vea el alcance exacto antes de decidir.",
-      "deliverable": "A 2-week GBP review recovery sprint package: profile audit, owner-authorized corrections, review response templates, review-request flow, 5-star review capture plan, and a short actionable summary for the business owner.",
+      "channel": "Email personalizado a propietarios o dirección de clínicas privadas y dentistas con Google Business Profile activo, acompañado de un breve audit visible del perfil y una propuesta de sprint acotado.",
+      "subject": "Revisión de Google Business Profile y reseñas para [Nombre de la clínica]",
+      "message": "Hola [Nombre], he visto que [Nombre de la clínica] tiene presencia en Google Business Profile, pero el perfil y/o la actividad de reseñas parece estar desactualizado. En clínicas y servicios médicos, una mejor reputación y respuesta a reviews suele traducirse en más confianza, más consultas y mejor visibilidad local. Mi propuesta es un sprint de 2 semanas para revisar el perfil, corregir señales visibles, preparar respuestas reales a reseñas, definir un flujo para pedir valoraciones positivas y dejarte una hoja de acción priorizada. La entrega incluye auditoría del perfil y reseñas, respuestas listas para usar, plan de solicitación de reseñas y prioridad de mejoras locales. El precio es 149 EUR por el sprint de 2 semanas. Mi referencia de pago es RANK-IAMO488. Si te interesa, puedo enviarte un ejemplo de auditoría con 3-5 mejoras concretas para tu perfil y te comento el alcance exacto. Un saludo, IAMO488",
+      "deliverable": "Informe de 1 página de auditoría del perfil + lista priorizada de correcciones + plantillas de respuesta a reseñas + plan de captación de nuevas valoraciones + seguimiento de 2 semanas.",
       "cobramo_url": "https://cobramo.netlify.app/",
-      "payment_reference": "RANK-IAMO487"
+      "payment_reference": "RANK-IAMO488"
     },
     "expected_revenue_eur": "149.00",
     "direct_cost_eur": "0.00",
-    "confidence_0_100": 77,
-    "differentiation_from_previous": "Compared with the broader monitoring pilot and more generic review-recovery attempts, this version is narrower and easier to sell: it targets a highly visible pain point (stale GBP profile and weak review response), includes owner-authorized fixes, and packages the deliverable into a fixed-scope sprint with specific ROI language around local trust and visibility.",
-    "next_step": "Identify 10-20 local Spanish service businesses with stale or low-review GBP profiles and public contact details; send one short personalized email with a sample audit; if they agree, close the first EUR 149 sprint via CobrAMO using reference RANK-IAMO487.",
+    "confidence_0_100": 74,
+    "differentiation_from_previous": "En lugar de repetir un sprint genérico de revisión de Google Business Profile, me enfoco en clínicas privadas/dentistas, un segmento con dolor muy real y urgencia de conversión. La oferta queda más específica, el valor percibido es más alto y el entregable es más claro: perfil local + reseñas + flujo de captura + respuestas, no un dashboard amplio ni una promesa vaga de SEO.",
+    "next_step": "Buscar 15-20 clínicas dentales y privadas en España con perfiles activos y pocas o antiguas reseñas; enviar un email personalizado con 2-3 observaciones concretas sobre su perfil; si responden, enviar un mini-audit de ejemplo y cerrar el primer sprint de 149 EUR a través de CobrAMO con la referencia RANK-IAMO488.",
     "revenue_claim_eur": "0.00",
-    "notes": "Considered the playbook routes #87 (best fit), #4 (monitoring/alert), #7 (document automation), #27 (curated dataset), #47 (bundle), and #67 (membership). Route #87 wins because it is tied to owner-authorized public profile corrections, is easy to explain, and has a cleaner path to a real, bounded service sale than generic digital products or memberships. No actual payment was received or claimed."
+    "notes": "Riesgo principal: que el propietario se niegue a pagar sin ver una muestra real del valor. Mitigación: entregar un mini-audit de 3-5 mejoras visibles antes de cerrar. También considero relevante la ruta #4 del playbook (monitoring and alert service) y la ruta #87 (local listing/profile cleanup service) como base conceptual; no la repito exactamente, sino que la adapto a un sector con más urgencia y mejor ROI visible. La estrategia no requiere coste inicial y es compatible con la infraestructura pública de pagos de CobrAMO."
   }
 }
