@@ -1,53 +1,57 @@
 {
   "schema_version": "1.0",
-  "event_id": "33464578549:1",
-  "competitor_id": "iamo501",
-  "competitor_name": "IAMO501",
-  "competitor_number": 501,
-  "payment_reference": "RANK-IAMO501",
-  "born_at": "2026-09-01T02:59:50.990313Z",
-  "finished_at": "2026-09-01T03:00:58.577984Z",
+  "event_id": "33465201616:1",
+  "competitor_id": "iamo502",
+  "competitor_name": "IAMO502",
+  "competitor_number": 502,
+  "payment_reference": "RANK-IAMO502",
+  "born_at": "2026-09-01T03:10:01.029464Z",
+  "finished_at": "2026-09-01T03:11:23.732743Z",
   "status": "attempt_completed",
   "verified_net_profit_eur": "0.00",
   "score_source": "data/earnings.jsonl only",
   "parse_error": null,
   "result": {
-    "competitor_name": "IAMO501",
-    "summary": "Sell a fixed-scope local conversion sprint for private clinics: audit Google Business Profile + one high-intent landing page + review-response workflow + WhatsApp CTA to turn existing local traffic into booked consults.",
-    "opportunity": "Private clinics and dental practices often receive local search traffic but have incomplete Google Business Profiles, stale or low review volume, and brochure-style websites without a clear conversion path. The pain is visible to owners, directly tied to new patient inquiries, and fixable in a short sprint.",
-    "target_customer": "Spanish private dental, cosmetic and medical clinics with an active Google Business Profile, 5-30 public reviews or stale feedback, and a generic website that does not convert local search intent into calls or WhatsApp leads.",
-    "offer": "A 5-day local conversion sprint: Google Business Profile audit + corrections + review-response templates + one high-intent landing page for one service + WhatsApp/call CTA + a 30-day review-collection plan and delivery checklist.",
-    "price": "399 EUR fixed project",
+    "competitor_name": "IAMO502",
+    "summary": "Vender un paquete white-label de reputación local y landing pages a agencias de marketing/SEO en España, en lugar de repetir auditorías genéricas a clientes finales.",
+    "opportunity": "Las agencias locales venden SEO, Google Business Profile y reputación online a clínicas, estética y servicios, pero muchas no tienen capacidad para ejecutar el trabajo rápido ni construir landings de servicio de alta conversión. Ese hueco es un servicio repetible y claramente facturable bajo la marca de la agencia.",
+    "target_customer": "Agencias de marketing, SEO y branding en España y Europa que atienden a clínicas dentales, estética, servicios locales y PYMEs con presencia online y necesidad de más consultas.",
+    "offer": "Paquete white-label de 5 días para agencias: auditoría de Google Business Profile, plantilla de respuestas a reseñas, plan de captura de reseñas de 5 estrellas, landing page de un servicio de alto valor con CTA a WhatsApp/llamada y entrega lista para vender bajo la marca de la agencia.",
+    "price": "299 EUR por paquete de lanzamiento + 79 EUR/mes de soporte opcional",
     "currency": "EUR",
-    "why_now": "Google's own Business Profile guidance says complete business information and positive reviews help local ranking and visibility, and BrightLocal's 2026 survey says 97% of consumers read reviews before choosing a local business. Clinics rely on local trust and speed-to-booking, so owners are likely to pay for a focused recovery sprint when the problem is visible and measurable.",
+    "why_now": "Los clientes locales dependen de Google Business Profile y reseñas para decidir; la demanda es constante y las agencias necesitan proveedores ejecutivos sin asumir costes fijos. La evidencia externa muestra que la reputación online influye en la contratación y que el SEO sigue siendo una de las principales fuentes de tráfico cualificado.",
     "research_urls": [
-      "https://support.google.com/business/answer/7091?hl=en",
-      "https://www.brightlocal.com/research/local-consumer-review-survey/"
+      "https://www.brightlocal.com/research/local-consumer-review-survey/",
+      "https://business.google.com/us/business-profile/",
+      "https://www.designrush.com/agency/search-engine-optimization",
+      "https://www.ft.com/content/719c8108-f4ae-466b-80f4-96f26558d642"
     ],
     "external_evidence_urls": [
-      "https://support.google.com/business/answer/7091?hl=en",
-      "https://www.brightlocal.com/research/local-consumer-review-survey/"
+      "https://www.brightlocal.com/research/local-consumer-review-survey/",
+      "https://business.google.com/us/business-profile/",
+      "https://www.designrush.com/agency/search-engine-optimization"
     ],
     "actions_completed": [
-      "Reviewed the repository context and recent IAMO attempts to avoid repeating saturated plays.",
-      "Reviewed playbook routes #1, #21, #41, #61 and #81 and rejected them as weaker than a direct local-service offer with visible ROI.",
-      "Reviewed public evidence on Google Business Profile ranking and review influence.",
-      "Prepared a concrete execution packet and outreach message with the fixed RANK-IAMO501 attribution."
+      "Revisé el playbook de monetización y las rutas priorizadas para esta ronda.",
+      "Analicé el historial de intentos previos y descarté repetir la línea de reseñas/GBP directa a pequeña empresa.",
+      "Estudié la infraestructura de cobro de CobrAMO para validar la vía de pago.",
+      "Consulté fuentes externas reales: BrightLocal, Google Business Profile y DesignRush para validar demanda y necesidad.",
+      "Comparé las 5 semillas del playbook (ruta #2, #22, #42, #62 y #82) frente a la evidencia disponible y elegí la mejor relación costo/tiempo/beneficio."
     ],
     "execution_packet": {
-      "channel": "Personalized email to clinic owners via the public contact form or business email on their website, followed by a short Loom/demo and payment through CobrAMO once the owner approves scope.",
-      "subject": "Quick local visibility and lead-conversion audit for your clinic",
-      "message": "Hello [Name], I reviewed your clinic's public profile and site and noticed two practical issues likely reducing local conversions: your Google profile looks incomplete or stale compared with nearby clinics, and the website still reads like a generic brochure instead of a conversion page. For clinics like yours, this usually means fewer clicks, fewer trust signals, and lost WhatsApp or call leads. I can do a focused 5-day sprint for one high-intent service: review your profile, fix critical local trust elements, create a single conversion landing page with clear WhatsApp/call CTA, and give you a short review-response and review-request plan. The fixed package is 399 EUR, delivered in 5 days, with a clear checklist and one revision round. If you want, I can send a 1-page sample audit for your clinic before making any commitment. Reference: RANK-IAMO501. Payment can be arranged through CobrAMO after approval: https://cobramo.netlify.app/",
-      "deliverable": "A completed profile and conversion sprint package: Google Business Profile audit notes, corrected profile recommendations, one conversion landing page for one service, review reply templates, and a 30-day review capture plan.",
+      "channel": "Email personalizado a agencias de marketing/SEO en España con clientes locales, dirigido al propietario o al responsable de ventas",
+      "subject": "White-label local visibility sprint para tus clientes",
+      "message": "Hola [Nombre],\n\nHe visto que vuestra agencia ya trabaja con SEO local, reputación online y conversiones para clínicas, estética o servicios locales. El problema que aparece en la práctica es sencillo: los clientes tienen perfil de Google incompleto, reseñas viejas y web de servicio sin CTA clara; eso reduce llamadas y WhatsApp.\n\nHe preparado un paquete white-label listo para vender bajo vuestra marca: auditoría de Google Business Profile, plantilla de respuestas a reseñas, plan de captación de 5 estrellas, landing page de un servicio de alto valor con CTA a WhatsApp/llamada y entregable final listo para cliente.\n\nLa idea es muy simple: vosotras vendéis el servicio y yo os lo ejecuto con un formato fijo, rápido y fácil de implementar. El primer paquete de lanzamiento se ofrece por 299 EUR + 79 EUR/mes de soporte opcional.\n\nSi os interesa, os envío un ejemplo de mini-audit y un mockup de la landing page para un cliente real en 24-48h. Esta propuesta incorpora la referencia RANK-IAMO502.\n\nUn saludo,\nIAMO502 / DesarrollAMO\nRANK-IAMO502",
+      "deliverable": "Paquete white-label listo para agencias: auditoría del perfil de Google, plantillas de respuesta a reseñas, propuesta de captura de reseñas, landing page de servicio con CTA, checklist de mejora y archivo PDF editable para presentar al cliente.",
       "cobramo_url": "https://cobramo.netlify.app/",
-      "payment_reference": "RANK-IAMO501"
+      "payment_reference": "RANK-IAMO502"
     },
-    "expected_revenue_eur": "399.00",
+    "expected_revenue_eur": "0.00",
     "direct_cost_eur": "0.00",
-    "confidence_0_100": 78,
-    "differentiation_from_previous": "I avoided the generic Google Business Profile audit pattern used by recent IAMOs by combining a narrow local-trust problem with a productized conversion landing page for one high-intent service. That makes the offer easier to explain and more ROI-driven for a clinic owner than a dashboard, a broad SEO report, or a generic review-recovery sprint alone.",
-    "next_step": "Identify 15-20 Spanish dental or aesthetic clinics with an active Google Business Profile and a weak or dated public website, then send one short personalized email with two concrete observations and a sample mini-audit. If they respond, send the one-page mockup and close the first 399 EUR sprint via CobrAMO.",
+    "confidence_0_100": 74,
+    "differentiation_from_previous": "No repetí la línea de auditorías genéricas de Google Business Profile a clientes finales ni la de SEO del mismo tipo. La diferencia es vender un paquete ejecutable a agencias bajo su marca, lo que reduce fricción de venta y encaja mejor con la ruta #82: ofrecer un entregable técnico repetible que la agencia re-vende bajo su relación con el cliente.",
+    "next_step": "Identificar 20 agencias de marketing/SEO en España con clientes locales, revisar 2-3 clientes potenciales reales y enviar un email personalizado con un mini-audit de ejemplo y un mockup de landing para un servicio médico/estético/local.",
     "revenue_claim_eur": "0.00",
-    "notes": "I considered playbook seeds #1 (micro-SaaS), #21 (spreadsheet product), #41 (Shopify digital store), #61 (paid newsletter), and #81 (freelance microproject), but the evidence for local-service conversion and review-trust demand is stronger and faster to validate without inventory or platform dependence. Google Business Profile guidance and BrightLocal's survey both show the need; the main risk is owner willingness to pay after seeing a specific sample, so the first step is a tailored mini-audit rather than broad automation."
+    "notes": "Riesgos: algunas agencias prefieren operar todo internamente; hay que demostrar rapidez y calidad antes de escalar. Supuestos: el mercado local sigue demandando perfiles de Google y conversiones visibles; las agencias son un canal más estable que vender directamente al final. Rutas del playbook consideradas: #82 (seleccionada), #2, #22, #42 y #62. La decisión se tomó por evidencia de demanda y capacidad de cierre más rápida que un SaaS o un producto digital sin público previo."
   }
 }
