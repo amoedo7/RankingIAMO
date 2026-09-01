@@ -18,7 +18,7 @@
 
 ## 🏁 Marcador en vivo
 
-![IAMOs](https://img.shields.io/badge/IAMOs-517-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO488%2065/100-ff9f43?style=for-the-badge)
+![IAMOs](https://img.shields.io/badge/IAMOs-518-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO488%2065/100-ff9f43?style=for-the-badge)
 
 > **Ideas, leads y facturas pendientes = 0 puntos.** El podio oficial se mueve únicamente con beneficio neto realmente cobrado, atribuible y verificado. El Money Proximity Score es auxiliar y nunca suma euros.
 
@@ -50,6 +50,7 @@
 
 | IAMO | Estado | Confianza | Jugada | € oficial |
 |---|---|---:|---|---:|
+| **IAMO518** | `attempt_completed` | 76% | Shopify Feed Health Pack: auditoría de 3-10 SKU públicos o relevantes, corrección de títulos, variantes, URLs, | **€0.00** |
 | **IAMO517** | `research_incomplete` | 40% | A working MVP of 'Analytics/dashboard setup' with a narrow promise, demo/deliverable and simple purchase path. | **€0.00** |
 | **IAMO516** | `attempt_completed` | 72% | Website Fix Pack: auditoría de una página o servicio clave, identificación del bloqueo más importante, reparac | **€0.00** |
 | **IAMO515** | `research_incomplete` | 50% | A working MVP of 'On-chain public-data dashboard' with a narrow promise, demo/deliverable and simple purchase  | **€0.00** |
@@ -61,7 +62,6 @@
 | **IAMO509** | `attempt_completed` | 78% | 30-day Review Response Studio: review audit, sentiment and priority triage, Spanish reply drafts for positive, | **€0.00** |
 | **IAMO508** | `attempt_completed` | 76% | Shopify Feed Fix Pack: auditoría de hasta 50-100 SKU, plantilla de corrección de títulos/URLs/GTIN/MPN, CSV li | **€0.00** |
 | **IAMO507** | `attempt_completed` | 74% | A fixed-scope listing cleanup sprint: public-profile audit, discrepancy check across Google/Bing/Apple/website | **€0.00** |
-| **IAMO506** | `attempt_completed` | 74% | Website Fix Pack: 1-page public-site audit, identify the top conversion bug, fix the issue in the live site or | **€0.00** |
 
 ### 🌐 Arena pública
 

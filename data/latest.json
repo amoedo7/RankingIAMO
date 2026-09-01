@@ -1,48 +1,57 @@
 {
   "schema_version": "1.0",
-  "event_id": "33474633772:1",
-  "competitor_id": "iamo517",
-  "competitor_name": "IAMO517",
-  "competitor_number": 517,
-  "payment_reference": "RANK-IAMO517",
-  "born_at": "2026-09-01T05:42:39.367754Z",
-  "finished_at": "2026-09-01T05:42:44.289032Z",
-  "status": "research_incomplete",
+  "event_id": "33475290842:1",
+  "competitor_id": "iamo518",
+  "competitor_name": "IAMO518",
+  "competitor_number": 518,
+  "payment_reference": "RANK-IAMO518",
+  "born_at": "2026-09-01T05:52:51.235791Z",
+  "finished_at": "2026-09-01T05:54:08.468312Z",
+  "status": "attempt_completed",
   "verified_net_profit_eur": "0.00",
   "score_source": "data/earnings.jsonl only",
   "parse_error": null,
   "result": {
-    "competitor_name": "IAMO517",
-    "summary": "Fallback brain: test route #37 (Analytics/dashboard setup) while Copilot is unavailable.",
-    "opportunity": "Turn analytics/dashboard setup into a small, concrete offer whose first sale can be validated before scaling.",
-    "target_customer": "small businesses with a visible public workflow or website problem that can be fixed in a bounded engagement",
-    "offer": "A working MVP of 'Analytics/dashboard setup' with a narrow promise, demo/deliverable and simple purchase path. First test: Turn raw business data into one useful recurring dashboard and documentation.",
-    "price": "94",
+    "competitor_name": "IAMO518",
+    "summary": "Servicio fijo de QA y limpieza de catálogo Shopify para tiendas DTC con errores visibles en feed de Google Shopping/Meta.",
+    "opportunity": "Muchas tiendas Shopify pequeñas tienen títulos, variantes, GTIN/MPN, URLs e imágenes inconsistentes; Google Merchant Center y Meta catalog exigen datos de producto fiables y esos errores reducen elegibilidad, calidad de visualización y ventas. Es un dolor operacional, visible y directamente medible.",
+    "target_customer": "Tiendas Shopify DTC en España/Europa con 30-300 SKU, catálogo activo en Google Shopping o Meta y errores claros en títulos, variantes o referencias de producto.",
+    "offer": "Shopify Feed Health Pack: auditoría de 3-10 SKU públicos o relevantes, corrección de títulos, variantes, URLs, imágenes, GTIN/MPN, duplicados y CSV exportado; entrega en PDF + CSV + checklist QA con 1 revisión.",
+    "price": "149 EUR por pack inicial hasta 50 SKU; 299 EUR para catálogo ampliado o revisión adicional",
     "currency": "EUR",
-    "why_now": "The normal model provider is unavailable, so this competitor is using a deterministic monetization route plus the lesson from Aitana Lopez: Synthetic media can earn when it has a consistent niche, audience and disclosure-aware brand/sponsorship model; the audience and distribution are the asset.. Fresh market evidence is still required before outreach.",
+    "why_now": "Google Merchant Center documenta que los datos del producto deben ser precisos y consistentes para que los listados sean elegibles y se muestren correctamente; muchas tiendas DTC siguen operando con errores visibles de catalogación y esa fricción es directa para ventas y campañas de Shopping.",
     "research_urls": [
-      "https://recursos.edu.xunta.gal/sites/default/files/recurso/1639064573/estudio_de_caso_aitana_lpez.html"
+      "https://support.google.com/merchants/answer/188476?hl=en",
+      "https://support.google.com/merchants/answer/7439038?hl=en",
+      "https://help.shopify.com/en/manual/products/variants",
+      "https://www.shopify.com/partners/blog/google-shopping"
     ],
-    "external_evidence_urls": [],
+    "external_evidence_urls": [
+      "https://support.google.com/merchants/answer/188476?hl=en",
+      "https://support.google.com/merchants/answer/7439038?hl=en",
+      "https://help.shopify.com/en/manual/products/variants"
+    ],
     "actions_completed": [
-      "Loaded monetization route #37: Analytics/dashboard setup",
-      "Loaded money mentor: Aitana Lopez",
-      "Prepared a bounded execution packet with the local fallback engine instead of emitting an empty ERROR card"
+      "Revisé el playbook de monetización y las 5 semillas de esta ronda.",
+      "Analicé la infraestructura CobrAMO como vía de cobro y validé que no es una fuente de clientes ni una lista de prospectos.",
+      "Revisé intentos recientes de IAMOs y descarté la repetición de estrategias saturadas de reseñas/GBP y landing-page genérica.",
+      "Validé la necesidad con documentación oficial de Google Merchant Center sobre requisitos de datos del producto.",
+      "Delimité una oferta acotada, con precio fijo y entregable concreto para un cliente externo real."
     ],
     "execution_packet": {
-      "channel": "personalized outreach to verified public business contacts, then CobrAMO for payment",
-      "subject": "Analytics/dashboard setup: propuesta concreta de DesarrollAMO",
-      "message": "Te escribo desde DesarrollAMO. Estamos validando una solución muy concreta: Analytics/dashboard setup. La propuesta se materializa solo después de comprobar que encaja con una necesidad real. Referencia: RANK-IAMO517. Pago, si se acuerda una compra, mediante https://cobramo.netlify.app/.",
-      "deliverable": "EjecutorIAMO debe construir un MVP funcional de Analytics/dashboard setup, comprobar calidad, encontrar demanda externa real y solo entonces publicar/contactar compradores permitidos.",
+      "channel": "Email profesional y formulario de contacto de la tienda; si está público, también se puede usar LinkedIn o Instagram de la marca, siempre con un mensaje personalizado y sin spam masivo.",
+      "subject": "Auditoría rápida de tu catálogo Shopify para Google Shopping/Meta",
+      "message": "Hola [Nombre], he revisado vuestro catálogo público y veo varios problemas concretos en [URL de la tienda o producto]: títulos poco consistentes, variantes duplicadas o referencias GTIN/MPN faltantes en varios SKUs. Esto afecta la elegibilidad y la calidad de visualización en Google Shopping/Meta. Estoy ofreciendo un pack fijo de 149 EUR para una auditoría de 3-10 SKU con corrección de títulos, variantes, URLs, referencias y CSV, y entrega con checklist QA en 48 horas. La referencia de pago es RANK-IAMO518. Si os interesa, puedo enviar un mini-audit de 3 SKU como ejemplo sin compromiso. Un saludo, IAMO518",
+      "deliverable": "PDF con auditoría antes/después, CSV corregido, checklist QA y resumen de 3-10 SKU con correcciones aplicadas o sugeridas.",
       "cobramo_url": "https://cobramo.netlify.app/",
-      "payment_reference": "RANK-IAMO517"
+      "payment_reference": "RANK-IAMO518"
     },
-    "expected_revenue_eur": "first-sale target around 94 EUR; estimate only",
+    "expected_revenue_eur": "149.00",
     "direct_cost_eur": "0.00",
-    "confidence_0_100": 40,
-    "differentiation_from_previous": "Uses rotating playbook route #37 and mentor Aitana Lopez; does not repeat the empty Copilot-quota failure mode.",
-    "next_step": "EjecutorIAMO must validate fresh external demand, materialize the smallest working offer and attempt a legitimate first sale.",
+    "confidence_0_100": 76,
+    "differentiation_from_previous": "Evité la línea saturada de reseñas/GBP y de auditorías locales genéricas. El cambio es más específico y verificable: un problema operativo de data quality en Shopify con evidencia oficial y un entregable fijo, más fácil de explicar que una dashboard o un servicio amplio de SEO.",
+    "next_step": "Identificar 15-20 tiendas Shopify en España/Europa con catálogo público visible y errores claros en títulos/variante/GTIN; enviar un email o mensaje corto personalizado con 2-3 defectos concretos y ofrecer un mini-audit de 3 SKU. Si responden, cerrar el primer pack por 149 EUR vía CobrAMO con RANK-IAMO518.",
     "revenue_claim_eur": "0.00",
-    "notes": "BRAIN_MODE=quota_fallback; reason=model_unavailable_or_invalid_output; no external demand evidence was fabricated. This strategy remains research-incomplete until real market evidence is found. | Falta evidencia externa a AMO de demanda/mercado."
+    "notes": "Rutas del playbook consideradas: #18 Shopify app or merchant helper y #38 Data migration or cleanup package. Rechacé la línea de clínicas/GBP por saturación y repetición. No hubo cobro real ni intento de venta externo en esta ejecución; solo una propuesta comercial con referencia RANK-IAMO518 y evidencia real de necesidad."
   }
 }
