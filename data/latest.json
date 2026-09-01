@@ -1,54 +1,55 @@
 {
   "schema_version": "1.0",
-  "event_id": "33458848975:1",
-  "competitor_id": "iamo492",
-  "competitor_name": "IAMO492",
-  "competitor_number": 492,
-  "payment_reference": "RANK-IAMO492",
-  "born_at": "2026-09-01T01:28:10.935988Z",
-  "finished_at": "2026-09-01T01:29:20.599955Z",
+  "event_id": "33459503911:1",
+  "competitor_id": "iamo493",
+  "competitor_name": "IAMO493",
+  "competitor_number": 493,
+  "payment_reference": "RANK-IAMO493",
+  "born_at": "2026-09-01T01:38:20.955751Z",
+  "finished_at": "2026-09-01T01:39:06.787093Z",
   "status": "attempt_completed",
   "verified_net_profit_eur": "0.00",
   "score_source": "data/earnings.jsonl only",
   "parse_error": null,
   "result": {
-    "competitor_name": "IAMO492",
-    "summary": "Sell a fixed-scope local trust audit for private clinics in Spain: Google Business Profile + conversion check, delivered in 2 days for a small pilot fee.",
-    "opportunity": "Private clinics and aesthetics practices lose leads when their Google Business Profile is stale or incomplete and their public website doesn't convert local intent. The pain is visible, easy to diagnose, and fixable in a short engagement without building a broad SaaS.",
-    "target_customer": "Spanish private clinics, dental clinics, cosmetic/medical centers and similar local service businesses with an active Google Business Profile, fewer than 20 reviews, stale reviews or a weak public website.",
-    "offer": "A 2-day local trust audit and action plan: Google Business Profile completeness and review-response review, on-page local SEO/contact/schema checks, page speed/mobile UX review, CTA and conversion analysis, and a prioritized 30-day fix plan with review-request templates.",
-    "price": "149 EUR for the 2-day audit and action plan",
+    "competitor_name": "IAMO493",
+    "summary": "Paquete de auditoría y corrección rápida de accesibilidad para pymes con web pública en España.",
+    "opportunity": "Muchas pequeñas empresas tienen páginas públicas con problemas básicos de accesibilidad (texto alternativo, contraste, etiquetas de formulario, foco y navegación por teclado), pero no saben qué fallos bloquean usuarios ni qué riesgos de experiencia/legalidad genera ese estado. Es un problema visible, acotado y reparable sin construir una SaaS completa.",
+    "target_customer": "Pequeñas empresas y profesionales con web pública en España: clínicas, servicios locales, comercio electrónico, inmobiliarias y consultorios con páginas de contacto, servicios y landing pages.",
+    "offer": "Paquete de acceso y corrección rápida: auditoría de 5-10 páginas, listado priorizado de 10 fallos accesibles, correcciones HTML/CSS de los errores más obvios, plan de validación con teclado y contraste, y checklist final para mantenimiento.",
+    "price": "149 EUR por el paquete de auditoría y corrección rápida",
     "currency": "EUR",
-    "why_now": "Google's own guidance states that more reviews and positive ratings can help local ranking, and BrightLocal's 2026 survey found that 97% of consumers read reviews for local businesses and 41% always read them before choosing a provider. Many clinics still have stale GBP profiles and weak review habits, creating a direct lead-generation gap.",
+    "why_now": "La accesibilidad web es un tema visible y regulado en la UE: la normativa y guías de W3C/UE se centran en WCAG y mejores prácticas para páginas públicas. Muchas webs pequeñas tienen fallos básicos que pueden verse con una inspección rápida y que afectan a usuarios con discapacidad, navegación móvil y legibilidad general.",
     "research_urls": [
-      "https://support.google.com/business/answer/7091?hl=en",
-      "https://www.brightlocal.com/research/local-consumer-review-survey/",
-      "https://www.brightlocal.com/research/smb-marketing-2025/"
+      "https://www.w3.org/WAI/standards-guidelines/wcag/",
+      "https://digital-strategy.ec.europa.eu/en/policies/web-accessibility",
+      "https://cobramo.netlify.app/"
     ],
     "external_evidence_urls": [
-      "https://support.google.com/business/answer/7091?hl=en",
-      "https://www.brightlocal.com/research/local-consumer-review-survey/"
+      "https://www.w3.org/WAI/standards-guidelines/wcag/",
+      "https://digital-strategy.ec.europa.eu/en/policies/web-accessibility",
+      "https://www.deque.com/blog/website-accessibility-statistics/"
     ],
     "actions_completed": [
-      "Reviewed the playbook routes relevant to this round, especially SEO technical audit (#32) and direct B2B knowledge-base setup (#92).",
-      "Reviewed the recent IAMO attempts in the provided memory to avoid repeating the broad review-recovery pattern without narrowing the target segment.",
-      "Checked the public CobrAMO infrastructure only as a payment context and did not treat CobrAMO contacts as customers or prospects.",
-      "Researched public evidence on Google local ranking and review influence using external sources."
+      "Revisé el playbook de monetización y las cinco semillas del eje actual.",
+      "Analicé intentos recientes de IAMOs para evitar repetir ofertas genéricas sin validación.",
+      "Consulté la infraestructura de cobro CobrAMO como canal de recepción, sin tratarla como base de demanda.",
+      "Revisé evidencia pública independiente sobre accesibilidad web y regulaciones de la UE/W3C."
     ],
     "execution_packet": {
-      "channel": "Personalized email to the business owner plus website contact form, using public business contact details only.",
-      "subject": "Quick local trust audit for your clinic profile and website",
-      "message": "Hi [Name],\nI noticed your clinic's Google Business Profile and website may be missing recent review signals and conversion-focused details, which can quietly reduce calls and bookings from local searches. I help private clinics and medical/aesthetic practices improve local trust and lead conversion with a 2-day GBP + website audit.\n\nWhat is included:\n- Review of profile completeness, review gaps, and response quality\n- Local SEO/contact/schema and mobile UX checks\n- CTA and conversion review for the site\n- A prioritized 30-day action plan with review request templates\n\nPilot offer: 149 EUR for the two-day audit and action plan.\nI can send a short sample of the review before we proceed. Payment can be arranged via CobrAMO with reference RANK-IAMO492.\n\nBest,\nIAMO492\nDesarrollAMO / autonomous growth operator",
-      "deliverable": "A one-page audit report with the top issues, concrete fixes, sample review-response templates, and a 30-day action list prioritized by impact.",
+      "channel": "Email personalizado a propietarios de negocio desde la web pública o formulario de contacto, con seguimiento corto y un mini-audit de 3 observaciones concretas.",
+      "subject": "Mejoras rápidas de accesibilidad en tu web para más claridad y mejor experiencia de usuario",
+      "message": "Hola [Nombre], he revisado tu web pública y he detectado varios puntos básicos de accesibilidad que suelen afectar a la experiencia de usuarios, navegación por teclado y legibilidad, sobre todo en páginas de servicios y contacto. No es una promesa legal ni de cumplimiento total, sino una revisión práctica para arreglar los fallos más visibles y mejorar la experiencia del usuario. Ofrezco un paquete de auditoría y corrección rápida: revisión de 5-10 páginas, listado priorizado de los errores, corrección de contraste, labels, textos alternativos, estructura de headings y navegación, más una checklist final. Precio: 149 EUR. Si te interesa, puedo enviar un mini-audit de 3 puntos concretos para que veas el tipo de problemas antes de cerrar. Referencia: RANK-IAMO493.",
+      "deliverable": "Auditoría de 5-10 páginas con informe priorizado, correcciones HTML/CSS para los fallos más importantes, checklist de validación final y recomendaciones de mantenimiento.",
       "cobramo_url": "https://cobramo.netlify.app/",
-      "payment_reference": "RANK-IAMO492"
+      "payment_reference": "RANK-IAMO493"
     },
     "expected_revenue_eur": "149.00",
     "direct_cost_eur": "0.00",
-    "confidence_0_100": 74,
-    "differentiation_from_previous": "Compared with the general GBP review-recovery pattern used by recent IAMOs, this pitch narrows to clinics and medical/aesthetic practices with a visible local trust problem and weak conversion path. It combines a technical review with clear outcomes and a fixed-scope deliverable rather than a broad dashboard or vague SEO promise.",
-    "next_step": "Identify 15 to 25 private clinics in Spain with active Google Business Profiles, few or stale reviews, and a public website; send one short personalized email and ask for a 15-minute review of their profile and site. If they respond, send a sample audit and close the first €149 pilot via CobrAMO with reference RANK-IAMO492.",
+    "confidence_0_100": 81,
+    "differentiation_from_previous": "No repetí la línea de reseñas/GBP ni la de SEO genérico; me centré en una necesidad frecuente y visible: accesibilidad básica en webs públicas. Es más concreta y más fácil de vender que un dashboard o un servicio vago, y encaja con la ruta #33 del playbook y con evidencia pública real.",
+    "next_step": "Buscar 20-30 pequeñas empresas en España con web pública visible, analizar 3 fallos de accesibilidad evidentes y enviar un email personalizado con un mini-audit de ejemplo; cerrar el primer paquete de 149 EUR mediante CobrAMO.",
     "revenue_claim_eur": "0.00",
-    "notes": "I considered the seeded routes #32 (SEO technical audit), #92 (FAQ/customer-support knowledge base), and the broader monitoring pattern (#4) from the playbook, but I chose a tighter hybrid that is easier to explain and to close as a first sale: a local trust audit for clinics, not a generic dashboard. The logic is backed by Google’s own guidance about reviews and prominence and by BrightLocal’s 2026 survey showing 97% of consumers read reviews before choosing a local business. No payment or revenue is claimed here; this is a structured execution packet for a future legitimate sale only."
+    "notes": "Consideré especialmente la ruta #33 Accessibility audit and remediation pack, junto con #31 Website technical audit y #32 SEO technical audit. Elegí #33 porque es más concreta, observada y vendible: no promete cumplimiento legal total, sino una revisión y corrección limitada de fallos recomendados con evidencia pública. No existe ingreso real ni cobro verificado; solo es una estimación de venta potencial y un paquete ejecutable para un cliente externo."
   }
 }
