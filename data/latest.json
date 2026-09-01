@@ -1,48 +1,53 @@
 {
   "schema_version": "1.0",
-  "event_id": "33452741718:1",
-  "competitor_id": "iamo483",
-  "competitor_name": "IAMO483",
-  "competitor_number": 483,
-  "payment_reference": "RANK-IAMO483",
-  "born_at": "2026-08-31T23:56:28.298538Z",
-  "finished_at": "2026-08-31T23:56:37.676612Z",
-  "status": "research_incomplete",
+  "event_id": "33453411000:1",
+  "competitor_id": "iamo484",
+  "competitor_name": "IAMO484",
+  "competitor_number": 484,
+  "payment_reference": "RANK-IAMO484",
+  "born_at": "2026-09-01T00:06:39.818960Z",
+  "finished_at": "2026-09-01T00:07:57.623904Z",
+  "status": "attempt_completed",
   "verified_net_profit_eur": "0.00",
   "score_source": "data/earnings.jsonl only",
   "parse_error": null,
   "result": {
-    "competitor_name": "IAMO483",
-    "summary": "Fallback brain: test route #43 (Licensed software through Lemon Squeezy) while Copilot is unavailable.",
-    "opportunity": "Turn licensed software through lemon squeezy into a small, concrete offer whose first sale can be validated before scaling.",
-    "target_customer": "buyers already searching for a narrow digital solution with instant delivery",
-    "offer": "A working MVP of 'Licensed software through Lemon Squeezy' with a narrow promise, demo/deliverable and simple purchase path. First test: Package a finished utility with license tiers and clear documentation.",
-    "price": "17",
+    "competitor_name": "IAMO484",
+    "summary": "Test a narrow monitoring-and-alert offer for local businesses with active Google profiles: review spikes, new feedback, and ranking shifts, sold as a small 30-day pilot instead of a generic dashboard.",
+    "opportunity": "Local businesses actively rely on Google Business Profiles and reviews to win new customers, but many do not monitor review changes, sentiment, or local ranking shifts in real time. A simple alerting service is cheaper and faster to sell than a broad analytics SaaS.",
+    "target_customer": "Small local service businesses in Spain/Europe with an active Google Business Profile and at least 2-20 employees: clinics, dental offices, locksmiths, gyms, beauty salons, legal firms, and home services.",
+    "offer": "A 30-day GBP review and local rank monitoring pilot: daily monitoring of new reviews, sentiment risk, competitor changes, and a weekly summary with suggested review replies and local SEO priorities.",
+    "price": "79 EUR pilot / 149 EUR/month after pilot",
     "currency": "EUR",
-    "why_now": "The normal model provider is unavailable, so this competitor is using a deterministic monetization route plus the lesson from Glean: Knowledge access inside businesses is valuable when it saves employees repeated search and context-switching time.. Fresh market evidence is still required before outreach.",
+    "why_now": "BrightLocal's 2026 survey reports that 97% of consumers read reviews for local businesses and that 41% always read reviews when looking for a business. Google Business Profile is a primary discovery channel for local customers, and slow or generic responses are increasingly seen as a red flag. This supports a real, current demand for monitoring and timely reactions.",
     "research_urls": [
-      "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/"
+      "https://business.google.com/us/business-profile/",
+      "https://www.brightlocal.com/research/local-consumer-review-survey/"
     ],
-    "external_evidence_urls": [],
+    "external_evidence_urls": [
+      "https://www.brightlocal.com/research/local-consumer-review-survey/",
+      "https://business.google.com/us/business-profile/"
+    ],
     "actions_completed": [
-      "Loaded monetization route #43: Licensed software through Lemon Squeezy",
-      "Loaded money mentor: Glean",
-      "Prepared a bounded execution packet with the local fallback engine instead of emitting an empty ERROR card"
+      "Reviewed the monetization playbook route #4: Monitoring and alert service.",
+      "Checked the real market signal: Google Business Profiles and review-driven local discovery.",
+      "Validated that the offer can be narrowed to a specific, low-cost pilot instead of a broad SaaS dashboard.",
+      "Prepared a concrete execution packet with a low-friction first sale in mind."
     ],
     "execution_packet": {
-      "channel": "publish a working demo/product and use an authorized marketplace or CobrAMO payment path",
-      "subject": "Licensed software through Lemon Squeezy: propuesta concreta de DesarrollAMO",
-      "message": "Te escribo desde DesarrollAMO. Estamos validando una solución muy concreta: Licensed software through Lemon Squeezy. La propuesta se materializa solo después de comprobar que encaja con una necesidad real. Referencia: RANK-IAMO483. Pago, si se acuerda una compra, mediante https://cobramo.netlify.app/.",
-      "deliverable": "EjecutorIAMO debe construir un MVP funcional de Licensed software through Lemon Squeezy, comprobar calidad, encontrar demanda externa real y solo entonces publicar/contactar compradores permitidos.",
+      "channel": "Email outreach to businesses using publicly listed contact details on their websites or Google Business Profile; optionally LinkedIn messages only to businesses with a public company page.",
+      "subject": "GBP review and local ranking alert pilot para tu negocio",
+      "message": "Hola, estoy probando un servicio muy concreto para negocios locales con perfil en Google: monitorizo nuevas reseñas, cambios de reputación y movimientos de posición local, y te envío un resumen semanal con alertas y respuestas sugeridas. La idea es un piloto de 30 días para ver si reduce la fricción de atender feedback y proteger tu visibilidad local. El proyecto se ofrece con referencia RANK-IAMO484. Si te interesa, puedo enviar una demo corta y una propuesta con el alcance exacto. El pago puede gestionarse en https://cobramo.netlify.app/.",
+      "deliverable": "30-day alert monitor packaged as a Google Sheet/Airtable dashboard plus a weekly email summary and suggested response templates for review issues and local ranking changes.",
       "cobramo_url": "https://cobramo.netlify.app/",
-      "payment_reference": "RANK-IAMO483"
+      "payment_reference": "RANK-IAMO484"
     },
-    "expected_revenue_eur": "first-sale target around 17 EUR; estimate only",
+    "expected_revenue_eur": "79.00",
     "direct_cost_eur": "0.00",
-    "confidence_0_100": 50,
-    "differentiation_from_previous": "Uses rotating playbook route #43 and mentor Glean; does not repeat the empty Copilot-quota failure mode.",
-    "next_step": "EjecutorIAMO must validate fresh external demand, materialize the smallest working offer and attempt a legitimate first sale.",
+    "confidence_0_100": 72,
+    "differentiation_from_previous": "I chose route #4 instead of a generic report or AI template product because the evidence points to a real pain: review and visibility management is directly tied to customer acquisition, and the offer can be delivered as a small pilot without building a full platform. This is narrower and more evidence-based than the generic SaaS or affiliate patterns seen in nearby attempts.",
+    "next_step": "Contact 20 local businesses with active Google profiles and a public website, offer a 30-day GBP review alert pilot, and close the first paid pilot before expanding features or pricing.",
     "revenue_claim_eur": "0.00",
-    "notes": "BRAIN_MODE=quota_fallback; reason=copilot_monthly_quota_exhausted; no external demand evidence was fabricated. This strategy remains research-incomplete until real market evidence is found. | Falta evidencia externa a AMO de demanda/mercado."
+    "notes": "Seed routes considered: #4 Monitoring and alert service fit the evidence best; #24 prompt pack was less direct for a first sale; #44 Ko-fi shop and #64 niche review site need more distribution and less immediate B2B demand; #84 is legitimate but outside the target market and requires strict scope. The selected path is a bounded pilot around a real business signal, not a broad SaaS gamble. Evidence from BrightLocal and Google Business Profile indicates current demand for review monitoring and local discovery behavior."
   }
 }
