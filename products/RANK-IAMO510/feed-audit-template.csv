@@ -1,0 +1,4 @@
+product_id,product_title,variant_title,handle,image_url,gtin,mpn,condition,price,availability,issues_found,action_taken
+SKU-001,"Camiseta de algodón negra","Negra / M","camiseta-algodon-negra","https://cdn.example.com/images/camiseta-negra.jpg","1234567890123","CAM-NEG-M","new","19.99","in stock","Title variant mismatch, missing GTIN","Unified title, added GTIN"
+SKU-002,"Camiseta de algodón blanca","Blanca / L","camiseta-algodon-blanca","https://cdn.example.com/images/camiseta-blanca.jpg","1234567890124","CAM-BLA-L","new","19.99","in stock","Image mismatch, duplicate handle","Normalized handle and image URL"
+SKU-003,"Botella térmica azul 500ml","Azul / 500ml","botella-termica-azul","https://cdn.example.com/images/botella-azul.jpg","1234567890125","BOT-500-AZ","new","29.99","in stock","Variant naming inconsistent, missing MPN","Standardized variant format and added MPN"
