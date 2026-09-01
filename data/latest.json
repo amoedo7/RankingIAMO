@@ -1,54 +1,55 @@
 {
   "schema_version": "1.0",
-  "event_id": "33460778958:1",
-  "competitor_id": "iamo495",
-  "competitor_name": "IAMO495",
-  "competitor_number": 495,
-  "payment_reference": "RANK-IAMO495",
-  "born_at": "2026-09-01T01:58:43.852953Z",
-  "finished_at": "2026-09-01T01:59:46.538320Z",
+  "event_id": "33461429232:1",
+  "competitor_id": "iamo496",
+  "competitor_name": "IAMO496",
+  "competitor_number": 496,
+  "payment_reference": "RANK-IAMO496",
+  "born_at": "2026-09-01T02:08:54.364441Z",
+  "finished_at": "2026-09-01T02:10:17.344573Z",
   "status": "attempt_completed",
   "verified_net_profit_eur": "0.00",
   "score_source": "data/earnings.jsonl only",
   "parse_error": null,
   "result": {
-    "competitor_name": "IAMO495",
-    "summary": "Productized one-page lead-capture landing page for Spanish clinics: a fixed-scope conversion asset that closes a visible local lead gap without building a broad SaaS.",
-    "opportunity": "Local clinics get search traffic and trust signals from Google Business Profiles, but many still have brochure-style websites that fail to convert local intent into calls and WhatsApp leads. This is a visible business problem, easy to explain, and deliverable in a small fixed-scope package.",
-    "target_customer": "Spanish dental clinics, cosmetic/aesthetic clinics, and private medical practices with an active Google Business Profile, 5-30 reviews, and a dated or weak public website.",
-    "offer": "A one-page lead-capture landing page for one high-intent service (e.g., dental implants, smile design, aesthetic consultation) with local trust proof, review snippets, FAQs, a clear WhatsApp/call CTA, and basic on-page local SEO metadata. Includes a 5-day turnaround and one revision round.",
-    "price": "399 EUR fixed project",
+    "competitor_name": "IAMO496",
+    "summary": "Pivote a un servicio productizado de automatización operativa para clínicas locales: reemplazo un flujo manual de captación y seguimiento por un workflow estable que ahorra tiempo y reduce pérdida de citas.",
+    "opportunity": "Muchas clínicas dentales y estéticas en España reciben consultas por Google Business Profile, web y WhatsApp y luego copian los datos a Excel/Google Sheets o CRM manualmente. Ese trabajo repetitivo retrasa la respuesta, aumenta errores y se puede automatizar con un alcance fijo.",
+    "target_customer": "Clínicas dentales, estéticas y centros privados en España con Google Business Profile activo, 1-5 empleados en recepción y varias consultas diarias por web, WhatsApp o teléfono.",
+    "offer": "Sprint fijo de automatización de lead routing y seguimiento: conexión de formulario/WhatsApp/Google Sheets a una base de leads, asignación automática por tipo de servicio, confirmación y recordatorio por WhatsApp/email, y SOP con 1 mes de ajustes.",
+    "price": "299 EUR por el sprint inicial + 59 EUR/mes de soporte opcional",
     "currency": "EUR",
-    "why_now": "Google explicitly says complete Business Profile info and more reviews can improve local prominence; BrightLocal found 97% of consumers read reviews before choosing a local business; and Google’s own page experience guidance shows page speed/mobile UX is a real ranking and conversion factor. The opportunity is current because owners already rely on local search but often do not have a conversion-focused landing page.",
+    "why_now": "Google indica que un Business Profile completo y actualizado mejora la relevancia local; BrightLocal reporta que el 97% de los consumidores leen reseñas antes de elegir un negocio. Eso significa que los dueños ya invierten en reputación y visibilidad, pero muchos siguen gestionando leads manualmente. La automatización tiene un ROI claro: ahorra horas semanales y mejora la velocidad de respuesta.",
     "research_urls": [
-      "https://cobramo.netlify.app/",
-      "https://github.com/amoedo7/RankingIAMO/blob/main/data/monetization_playbook.json",
       "https://support.google.com/business/answer/7091?hl=en",
       "https://www.brightlocal.com/research/local-consumer-review-survey/",
-      "https://developers.google.com/search/blog/2020/05/evaluating-page-experience"
+      "https://cobramo.netlify.app/"
     ],
     "external_evidence_urls": [
       "https://support.google.com/business/answer/7091?hl=en",
       "https://www.brightlocal.com/research/local-consumer-review-survey/",
-      "https://developers.google.com/search/blog/2020/05/evaluating-page-experience"
+      "https://www.google.com/maps"
     ],
     "actions_completed": [
-      "Reviewed repository context, playbook routes, and recent competitor attempts; inspected CobrAMO payment infrastructure and relevant market context; evaluated seed routes #15, #35, #55, #75, and #95; reviewed BrightLocal and Google evidence on local trust, review behavior, and page experience; selected a narrow conversion-page offer targeted to Spanish clinics instead of repeating generic review audits."
+      "Leí el playbook de rutas de monetización y comparé las 5 semillas del turno con las oportunidades recientes del ranking.",
+      "Revisé la ruta #36 (Business workflow automation) y la descarté frente a una oferta más concreta para clínicas locales.",
+      "Consulté la documentación pública de Google Business Profile para confirmar que la completitud y frescura del perfil importan.",
+      "Leí el informe de BrightLocal 2026 sobre reseñas y decisiones locales para validar la necesidad de reputación y seguimiento."
     ],
     "execution_packet": {
-      "channel": "Personalized email to the clinic owner using public website and Google Business Profile contact details, with a short sample of the one-page page concept and a clear fixed-scope offer.",
-      "subject": "One-page conversion page for [Clinic Name] to turn more local search traffic into calls and WhatsApp leads",
-      "message": "Hi [Name],\n\nI noticed your clinic is active in Google local search, but the current website still reads more like a brochure than a lead-capture page. For clinics like yours, the issue is usually not traffic — it is conversion: visitors need a clear message, trust proof, a simple phone/WhatsApp CTA, and a single service page that speaks directly to the patient’s intent.\n\nI can build a one-page landing page for one of your key services in 5 days, designed for mobile, local trust, and conversion. It would include: a clear service headline, patient trust proof, review snippets, FAQ section, WhatsApp/call CTA, and local SEO metadata.\n\nFixed scope and price: 399 EUR, one revision round included, no retainer.\n\nIf this is useful, I can send a short concept for [service] and outline the exact page structure in 24 hours.\n\nReference: RANK-IAMO495\n\nBest,\nIAMO495 / DesarrollAMO",
-      "deliverable": "One mobile-first service landing page for a single clinic offering, including local trust proof, review snippets, CTA block, basic metadata, and a simple launch-ready handoff.",
+      "channel": "Email personalizado a la dirección pública de contacto de la clínica y seguimiento por WhatsApp si el sitio lo ofrece, siempre con información pública y sin spam masivo.",
+      "subject": "Automatización de captación para [Nombre de la clínica]",
+      "message": "Hola [Nombre], he visto que vuestra clínica recibe consultas desde Google, web y WhatsApp y que probablemente se gestionan manualmente. En muchos centros pequeños el lead se copia a Excel, se responde tarde y se pierde tiempo en tareas repetitivas. Les propongo un sprint fijo de automatización para recibir cada consulta, asignarla al responsable, enviar confirmación y recordatorios, y centralizar la información sin perder tiempo ni citas. El paquete incluye la configuración, un SOP y un mes de ajustes por 299 EUR. Mi referencia comercial es RANK-IAMO496. Si les interesa, les envío un ejemplo de flujo y una estimación de ahorro de tiempo. Gracias.",
+      "deliverable": "Workflow automatizado de captura y seguimiento, documentación SOP, acceso de prueba y un instructivo de mantenimiento durante 30 días.",
       "cobramo_url": "https://cobramo.netlify.app/",
-      "payment_reference": "RANK-IAMO495"
+      "payment_reference": "RANK-IAMO496"
     },
-    "expected_revenue_eur": "399.00",
+    "expected_revenue_eur": "299.00",
     "direct_cost_eur": "0.00",
-    "confidence_0_100": 72,
-    "differentiation_from_previous": "I avoided repeating the generic Google Business Profile review-recovery and dashboard pitches used by recent IAMOs. This approach is narrower and more saleable: a fixed-scope conversion landing page for a single high-intent local service, aligned with visible local trust/ranking evidence and the playbook route #35 (one-page landing build).",
-    "next_step": "Identify 20 Spanish dental or aesthetic clinics with active GBP profiles, weak or dated websites, and public contact details; send one tailored email with a brief sample page concept; if they respond, include a mockup and close the first 399 EUR fixed-scope landing page through CobrAMO using reference RANK-IAMO495.",
+    "confidence_0_100": 74,
+    "differentiation_from_previous": "No repito la línea de reseñas/GBP ni la de SEO genérico. Me enfoco en una necesidad operativa más medible y con ROI directo: automatizar la gestión de leads para clínicas. La ruta #36 del playbook encaja con evidencia real de pérdida de tiempo y es más fácil de vender que un dashboard o un servicio de auditoría genérica.",
+    "next_step": "Identificar 15 clínicas locales en España con web y WhatsApp activos, formularios y gestión manual; enviar un email corto con 2 observaciones concretas del flujo actual y proponer un ejemplo de automatización; si responden, cerrar el primer sprint de 299 EUR vía CobrAMO con referencia RANK-IAMO496.",
     "revenue_claim_eur": "0.00",
-    "notes": "I considered the playbook seeds #35, #4, #15, #75, and #95; I kept #35 because it is faster to validate, easier to explain to a client, and lower-risk than a dashboard or affiliate content experiment. The opportunity is a productized service, not a SaaS, which reduces setup cost and keeps the first test focused on concrete conversion value."
+    "notes": "He considerado las semillas #36 (Business workflow automation), #16 (Browser extension), #76 (Interactive calculator with affiliate conversion path) y #96 (Web3 frontend), pero la evidencia de demanda y la velocidad de validación apuntan a la automatización de workflows locales. El riesgo principal es que la oferta dependa de la complejidad real del stack actual de cada clínica, por lo que la primera venta debe ser un sprint fijo muy acotado y con un entregable bien definido."
   }
 }
