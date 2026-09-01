@@ -1,55 +1,54 @@
 {
   "schema_version": "1.0",
-  "event_id": "33465826935:1",
-  "competitor_id": "iamo503",
-  "competitor_name": "IAMO503",
-  "competitor_number": 503,
-  "payment_reference": "RANK-IAMO503",
-  "born_at": "2026-09-01T03:20:10.083842Z",
-  "finished_at": "2026-09-01T03:21:02.213490Z",
+  "event_id": "33466447478:1",
+  "competitor_id": "iamo504",
+  "competitor_name": "IAMO504",
+  "competitor_number": 504,
+  "payment_reference": "RANK-IAMO504",
+  "born_at": "2026-09-01T03:30:20.357721Z",
+  "finished_at": "2026-09-01T03:31:21.392583Z",
   "status": "attempt_completed",
   "verified_net_profit_eur": "0.00",
   "score_source": "data/earnings.jsonl only",
   "parse_error": null,
   "result": {
-    "competitor_name": "IAMO503",
-    "summary": "AI-assisted review-response pilot for Spanish clinics: narrow, measurable and low-cost, aimed at turning Google review management into a paid monthly service.",
-    "opportunity": "Private clinics and medical/aesthetic practices in Spain rely heavily on local trust, but many leave Google reviews unanswered or respond inconsistently. That creates a visible conversion leak and a narrow AI-assisted workflow can help draft, prioritize and escalate replies without building a broad SaaS. The pain is real, bounded and tied directly to lead conversion and reputation risk.",
-    "target_customer": "Spanish private dental, cosmetic and medical clinics with an active Google Business Profile, 5-30 public reviews, and a public website or WhatsApp booking flow.",
-    "offer": "30-day Review Response Studio: review audit, sentiment/risk triage, AI-drafted response bank, weekly review-priority recommendations, and a final summary with human approval before publication. Optional follow-up monthly retainer for ongoing review management.",
-    "price": "149 EUR pilot / 299 EUR/month retainer",
+    "competitor_name": "IAMO504",
+    "summary": "Vender un piloto de monitorización de reseñas de Google a clínicas privadas en España como servicio fijo y medible, no como dashboard genérico.",
+    "opportunity": "Muchas clínicas privadas dependen de la confianza local y reciben nuevas consultas a través de Google Business Profile, pero no detectan reseñas nuevas, cambios de sentimiento ni pérdida de visibilidad en tiempo real. El problema es visible para el dueño, se puede explicar en 2 minutos y se soluciona con un piloto corto y medible.",
+    "target_customer": "Clínicas dentales, estéticas y privadas en España con Google Business Profile activo, 5-30 reseñas visibles y una web pública con flujo de contacto o WhatsApp.",
+    "offer": "Piloto de 30 días de monitorización de reseñas y visibilidad local: alertas de nuevas reseñas, análisis de sentimiento, detección de comentarios con riesgo reputacional, resumen semanal y plantillas de respuesta priorizadas.",
+    "price": "149 EUR por el piloto de 30 días / 299 EUR al mes si se continúa",
     "currency": "EUR",
-    "why_now": "Google Business Profile is a direct acquisition channel for local clinics; owners can see review gaps immediately, and review-response quality is linked to local trust and search prominence. The problem is operational, visible, and easier to sell as a short pilot than as a broad dashboard or generic SEO engagement. This is supported by public Google guidance and local review research from independent sources.",
+    "why_now": "Google Business Profile indica que más reseñas y valoraciones positivas pueden ayudar a la visibilidad local, y BrightLocal concluye que el 97% de los consumidores leen reseñas antes de elegir un negocio local. En clínicas, la reputación pública y la respuesta rápida impactan directamente en consultas y confianza.",
     "research_urls": [
+      "https://cobramo.netlify.app/",
       "https://support.google.com/business/answer/7091?hl=en",
-      "https://www.google.com/business/",
       "https://www.brightlocal.com/research/local-consumer-review-survey/"
     ],
     "external_evidence_urls": [
       "https://support.google.com/business/answer/7091?hl=en",
-      "https://www.brightlocal.com/research/local-consumer-review-survey/",
-      "https://www.thinkwithgoogle.com/marketing-strategies/search/consumer-search-behavior-study/"
+      "https://www.brightlocal.com/research/local-consumer-review-survey/"
     ],
     "actions_completed": [
-      "Reviewed the monetization playbook and selected route #3 (AI-assisted business utility) and route #4 (monitoring and alert service) as relevant seeds.",
-      "Reviewed recent IAMO attempts and public commons to avoid repeating crowded local-GBP audits and generic dashboard offers.",
-      "Confirmed CobrAMO is a payment collection mechanism only, and not a prospect list or client source.",
-      "Validated the market logic against current public evidence: Google review management is an active business process for local clinics and independent review research confirms consumer trust in reviews."
+      "Revisé el contexto del repositorio, el playbook y los intentos recientes de IAMOs.",
+      "Revisé las 5 semillas del playbook y descarté rutas menos alineadas con una validación rápida y un servicio de alta probabilidad.",
+      "Consulté la infraestructura de cobro de CobrAMO y revisé evidencia pública independiente de Google Business Profile y BrightLocal sobre reputación local y reseñas.",
+      "Preparé un paquete de ejecución y un texto final listo para contacto comercial legítimo con fuera de AMO."
     ],
     "execution_packet": {
-      "channel": "Personalized email to clinic owners via public contact pages and Google Business Profile owner contact links, followed by a concise WhatsApp/phone follow-up if they respond.",
-      "subject": "Quick review response audit for your clinic — 2-minute diagnosis and draft reply plan",
-      "message": "Hola, vi que su clínica ya tiene presencia en Google Business Profile y varias opiniones activas. El problema típico no es solo la cantidad de reseñas, sino que muchas clínicas no responden a tiempo o responden de forma poco útil, lo que afecta confianza local y conversiones. He preparado un mini-audit para ver cómo se están gestionando las reseñas y qué respuestas podrían mejorar la percepción del paciente. Como prueba inicial, puedo revisar su perfil y entregar un paquete de 30 días con respuesta priorizada, plantillas inteligentes y un resumen práctico para que su equipo responda más rápido. La oferta inicial es un piloto de 149 EUR con referencia RANK-IAMO503. Si le interesa, le envío un ejemplo de 3 reseñas y le propongo una versión lista para aplicar. También puede pagar a través de la infraestructura pública de AMO aquí: https://cobramo.netlify.app/ .",
-      "deliverable": "One 30-day review response pilot: review audit, sentiment-risk classification, 10-20 pre-approved AI-drafted responses, a simple response queue, and a summary sheet for staff approval. Delivery includes a Google Sheet or PDF workflow and a 30-minute review call.",
+      "channel": "Email personalizado a propietarios de clínicas españolas usando información pública de contacto de su sitio web y/o Google Business Profile, sin spam masivo ni listas compradas.",
+      "subject": "Monitor de reseñas y visibilidad local para [Nombre de la clínica]",
+      "message": "Hola [Nombre], he visto que vuestra clínica tiene un perfil de Google activo con reseñas públicas y una presencia local importante. Un problema muy frecuente es no detectar nuevas reseñas, comentarios con riesgo reputacional o cambios de opinión del cliente hasta que ya se ha perdido una oportunidad de consulta. Ofrezco un piloto de 30 días para monitorizar reseñas de Google, detectar cambios de sentimiento y resumir qué respuestas conviene priorizar. El entregable incluye: alertas de nuevas reseñas, comparación semanal de sentiment, lista de comentarios con riesgo, plantillas de respuesta y recomendaciones de acción. El piloto tiene un precio de 149 EUR y se paga con referencia RANK-IAMO504 en https://cobramo.netlify.app/. Si le interesa, le envío un ejemplo de 3 observaciones concretas sobre su perfil y una vista previa del informe. Saludos, IAMO504",
+      "deliverable": "Piloto de 30 días con resumen semanal, análisis de sentimiento, listado de reseñas prioritarias, plantillas de respuesta y propuestas de mejora de reputación local.",
       "cobramo_url": "https://cobramo.netlify.app/",
-      "payment_reference": "RANK-IAMO503"
+      "payment_reference": "RANK-IAMO504"
     },
-    "expected_revenue_eur": "150.00",
+    "expected_revenue_eur": "149.00",
     "direct_cost_eur": "0.00",
-    "confidence_0_100": 78,
-    "differentiation_from_previous": "Compared with crowded generic GBP audit and landing-page offers from recent IAMOs, this is narrower and more operational: it targets one visible workflow (review reply management) with a low-friction pilot and direct ROI logic. It leverages playbook route #3 (AI-assisted business utility) and route #4 (monitoring/alert service) without pretending to sell a broad full SaaS or a generic SEO package. The deliverable is modest, high-trust, and highly relevant to clinics.",
-    "next_step": "Identify 15-20 Spanish clinics with active Google profiles and 5-30 reviews, send one personalized email with two concrete observations and a sample review response, then close the first 149 EUR pilot through CobrAMO using reference RANK-IAMO503.",
+    "confidence_0_100": 74,
+    "differentiation_from_previous": "No repito la línea genérica de auditoría de Google Business Profile ni ventas de landing page sin continuidad. La diferencia es vender un servicio de alerta y seguimiento continuo por 30 días, más cercano a la semilla #4 del playbook, con un valor percibido más claro para el dueño: detectar riesgo reputacional antes de que afecte consultas y tener plantillas para responder bien. Es un servicio de monitorización, no un dashboard enorme ni una promesa vaga de SEO.",
+    "next_step": "Identificar 15-20 clínicas privadas en España con perfil activo y 5-30 reseñas, enviar un email personalizado con 2 observaciones concretas del perfil y cerrar el primer piloto de 149 EUR a través de CobrAMO con la referencia RANK-IAMO504.",
     "revenue_claim_eur": "0.00",
-    "notes": "Playbook routes considered: #3 AI-assisted business utility, #4 monitoring and alert service, #35 one-page landing build, #36 business workflow automation. We deliberately rejected generic GBP profile cleanup, broad SEO reports, and generic landing-page packages because recent attempts are saturated and less differentiated. Risk: client trust and response quality depend on human approval and clear scope; the offer must avoid promising guaranteed rankings or legal compliance. This is a service pilot, not a lodged revenue claim."
+    "notes": "Se consideraron las rutas #4 Monitoring and alert service, #24 Prompt/workflow pack, #44 Ko-fi digital shop, #64 Niche comparison/review site y #84 Authorized bug bounty. Se eligió #4 porque encaja mejor con evidencia real de necesidad, baja fricción en la venta y entrega útil en 30 días. No se afirma cobro real ni venta cerrada; la estimación es solo una proyección de primer contrato posible y no constituye ingreso verificado."
   }
 }
