@@ -1,54 +1,54 @@
 {
   "schema_version": "1.0",
-  "event_id": "33454777648:1",
-  "competitor_id": "iamo486",
-  "competitor_name": "IAMO486",
-  "competitor_number": 486,
-  "payment_reference": "RANK-IAMO486",
-  "born_at": "2026-09-01T00:27:02.580549Z",
-  "finished_at": "2026-09-01T00:28:12.629157Z",
+  "event_id": "33455477627:1",
+  "competitor_id": "iamo487",
+  "competitor_name": "IAMO487",
+  "competitor_number": 487,
+  "payment_reference": "RANK-IAMO487",
+  "born_at": "2026-09-01T00:37:14.685382Z",
+  "finished_at": "2026-09-01T00:38:12.532510Z",
   "status": "attempt_completed",
   "verified_net_profit_eur": "0.00",
   "score_source": "data/earnings.jsonl only",
   "parse_error": null,
   "result": {
-    "competitor_name": "IAMO486",
-    "summary": "Offer a fixed-scope Google Business Profile review-recovery sprint for local service businesses with weak or stale reviews; fix a visible problem, show a clear ROI story, and collect via CobrAMO.",
-    "opportunity": "Many small local service businesses have incomplete or stale Google Business Profiles and weak review response habits; this visibly damages trust and local visibility while being easy to improve in a short, bounded engagement.",
-    "target_customer": "Small local service businesses in Spain with an active Google Business Profile and 2-20 employees: dentists, clinics, locksmiths, gyms, beauty salons, home services, and legal firms with low review volume or stale feedback.",
-    "offer": "A 2-week Google Business Profile review recovery sprint: review audit, profile cleanup, reply templates, review request workflow, 5-star review tactic plan, and a short action list for collecting fresh customer feedback.",
+    "competitor_name": "IAMO487",
+    "summary": "A fixed-scope Google Business Profile and review-response recovery sprint for local service businesses in Spain, designed as an owner-authorized, low-friction B2B offer with clear local-SEO ROI.",
+    "opportunity": "Local service businesses often have incomplete or stale Google Business Profiles and weak review-response habits, but Google explicitly says more reviews and positive ratings improve local prominence, and BrightLocal reports that 97% of consumers read reviews before choosing a local business. This creates a direct, visible pain with a short, bounded fix that can be sold without building a full SaaS.",
+    "target_customer": "Small local service businesses in Spain with an active Google Business Profile and 2-20 employees: dentists, clinics, locksmiths, gyms, beauty salons, legal firms, and home-service companies with stale or low review volume.",
+    "offer": "A 2-week Google Business Profile review recovery sprint: audit of the profile and reviews, owner-authorized listing corrections, review response templates, review request workflow, 5-star review capture plan, and a one-page action list with prioritized fixes.",
     "price": "149 EUR for the 2-week sprint",
     "currency": "EUR",
-    "why_now": "BrightLocal's 2026 local-consumer review survey reports that 97% of consumers read reviews before buying, and consumers increasingly see slow or generic review responses as a red flag. Google Business Profile pages are central to local acquisition, so owners often pay for a quick fix when the problem is visible and concrete.",
+    "why_now": "BrightLocal's 2026 Local Consumer Review Survey says 97% of consumers read reviews and that review management is now a core trust signal; Google Business Profile guidance states that replying to reviews and having accurate, prominent profiles improves visibility. Many local businesses still have stale or incomplete profiles, so the problem is both real and currently visible.",
     "research_urls": [
       "https://cobramo.netlify.app/",
       "https://www.brightlocal.com/research/local-consumer-review-survey/",
-      "https://support.google.com/business/answer/3038177?hl=en"
+      "https://support.google.com/business/answer/7091?hl=en"
     ],
     "external_evidence_urls": [
       "https://www.brightlocal.com/research/local-consumer-review-survey/",
-      "https://support.google.com/business/answer/3038177?hl=en"
+      "https://support.google.com/business/answer/7091?hl=en"
     ],
     "actions_completed": [
-      "Reviewed the repository playbook and the recent IAMO attempts for local review and GBP-related opportunities.",
-      "Reviewed relevant monetization routes: #86 direct B2B local-business fix package, #4 monitoring and alert service, and #6 booking/no-show reduction tool to compare fastest validation paths.",
-      "Validated external market pain via BrightLocal's review survey and Google's Business Profile management guidance.",
-      "Drafted a concrete fixed-scope offer, price, and outreach message with the required RANK-IAMO486 attribution."
+      "Reviewed repository context and the relevant playbook seeds (#7, #27, #47, #67, #87).",
+      "Reviewed public CobrAMO infrastructure and confirmed it is a payment receipt channel, not a source of leads or customers.",
+      "Reviewed nearby attempt context (IAMO484-IAMO486) to avoid repeating the same broad offer pattern.",
+      "Checked external evidence on review behavior and Google Business Profile ranking factors from BrightLocal and Google support pages."
     ],
     "execution_packet": {
-      "channel": "Personalized email to the business owner or manager using publicly listed contact details on the business website or Google Business Profile; no mass outreach, no spam, one target per message.",
-      "subject": "Quick Google Business Profile review fix for [Business Name]",
-      "message": "Hi [Name],\n\nI noticed your Google Business Profile is active but could be doing more to convert local searches into calls and bookings. A lot of local service businesses lose leads because they have stale or weak review signals, slow review responses, or an incomplete profile.\n\nI offer a fixed-scope 2-week Google Business Profile review recovery sprint for EUR 149. It includes: a quick profile audit, review gap analysis, review-response templates, a simple review request workflow, and a short plan for collecting fresh 5-star feedback in a way that matches your business.\n\nThe goal is not vague SEO. It is a practical local visibility fix with a clear deliverable and a realistic business outcome.\n\nIf useful, I can send a short sample of the audit structure and a 15-minute review of your current profile before any commitment.\n\nReference: RANK-IAMO486\n\nBest,\nIAMO486\nDesarrollAMO",
-      "deliverable": "A 2-week GBP review-recovery sprint: audit workbook, prioritized fixes, review-response templates, review request scripts, and a one-page checklist for easy implementation.",
+      "channel": "Personalized email to the business owner via the official business website contact page or public Google Business Profile contact channel, followed by a CobrAMO payment link after approval.",
+      "subject": "GBP review recovery sprint for [Business Name]",
+      "message": "Hola [Nombre], vi que el perfil de Google de [Business Name] está incompleto o con reseñas poco recientes en comparación con competidores locales. Muchas empresas pequeñas pierden leads porque una ficha de Google desactualizada y respuestas lentas a reseñas reducen la confianza y la visibilidad local. Ofrezco un sprint de 2 semanas para revisar el perfil, corregir los datos públicos, preparar respuestas a reseñas, definir un plan para recoger reseñas nuevas y dejar una lista priorizada de mejoras. La entrega incluye: auditoría del perfil, correcciones autorizadas, plantillas de respuesta, flujo de solicitud de reseñas y un plan de acción de 1 página. Precio: 149 EUR. La referencia comercial es RANK-IAMO487. Si le interesa, puedo enviar un ejemplo de auditoría sin compromiso para que vea el alcance exacto antes de decidir.",
+      "deliverable": "A 2-week GBP review recovery sprint package: profile audit, owner-authorized corrections, review response templates, review-request flow, 5-star review capture plan, and a short actionable summary for the business owner.",
       "cobramo_url": "https://cobramo.netlify.app/",
-      "payment_reference": "RANK-IAMO486"
+      "payment_reference": "RANK-IAMO487"
     },
     "expected_revenue_eur": "149.00",
     "direct_cost_eur": "0.00",
-    "confidence_0_100": 72,
-    "differentiation_from_previous": "Compared with IAMO484's broader monitoring pilot and IAMO485's more general review-recovery sprint, this version is narrower and more sales-ready: it focuses on one visible GBP issue, sells a fixed-scope delivery, and uses a direct ROI framing for local visibility and review quality rather than a dashboard-first pitch.",
-    "next_step": "Identify 10-20 local service businesses in Spain with an active Google Business Profile, stale or low review volume, and public contact info; send one short personalized email with the sprint offer; if the owner agrees, send a sample audit and close the first EUR 149 sprint via CobrAMO.",
+    "confidence_0_100": 77,
+    "differentiation_from_previous": "Compared with the broader monitoring pilot and more generic review-recovery attempts, this version is narrower and easier to sell: it targets a highly visible pain point (stale GBP profile and weak review response), includes owner-authorized fixes, and packages the deliverable into a fixed-scope sprint with specific ROI language around local trust and visibility.",
+    "next_step": "Identify 10-20 local Spanish service businesses with stale or low-review GBP profiles and public contact details; send one short personalized email with a sample audit; if they agree, close the first EUR 149 sprint via CobrAMO using reference RANK-IAMO487.",
     "revenue_claim_eur": "0.00",
-    "notes": "I considered route #86 (local-business website fix package), route #4 (monitoring and alert service), and route #6 (appointment/no-show tools). Route #86 was chosen because it is the fastest, most concrete, and most visibly tied to local revenue: a short fix with a specific business outcome. This is an execution package, not a verified revenue claim. External evidence supports the need but no money has been earned yet."
+    "notes": "Considered the playbook routes #87 (best fit), #4 (monitoring/alert), #7 (document automation), #27 (curated dataset), #47 (bundle), and #67 (membership). Route #87 wins because it is tied to owner-authorized public profile corrections, is easy to explain, and has a cleaner path to a real, bounded service sale than generic digital products or memberships. No actual payment was received or claimed."
   }
 }

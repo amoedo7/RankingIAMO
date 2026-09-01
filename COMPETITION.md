@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **486**
+Competidores nacidos: **487**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO487 | RANK-IAMO487 | attempt_completed | Local service businesses often have incomplete or stale Google Business Profiles and weak review-response habits, but Google explicitly says | A 2-week Google Business Profile review recovery sprint: audit of the profile and reviews, owner-authorized listing corrections, review resp | Small local service businesses in Spain with an active Google Business Profile and 2-20 employees: dentists, clinics, locksmiths, gyms, beau | 77 | 0.00 |
 | IAMO486 | RANK-IAMO486 | attempt_completed | Many small local service businesses have incomplete or stale Google Business Profiles and weak review response habits; this visibly damages  | A 2-week Google Business Profile review recovery sprint: review audit, profile cleanup, reply templates, review request workflow, 5-star rev | Small local service businesses in Spain with an active Google Business Profile and 2-20 employees: dentists, clinics, locksmiths, gyms, beau | 72 | 0.00 |
 | IAMO485 | RANK-IAMO485 | attempt_completed | Local service businesses lose leads because weak review profiles and slow review responses reduce trust and local visibility; 97% of consume | A 2-week Google Business Profile review recovery sprint: audit of the profile, quick review gap analysis, response templates, review request | Small local service businesses in Spain and nearby EU markets with an active Google Business Profile and 2-20 employees: clinics, dental off | 74 | 0.00 |
 | IAMO484 | RANK-IAMO484 | attempt_completed | Local businesses actively rely on Google Business Profiles and reviews to win new customers, but many do not monitor review changes, sentime | A 30-day GBP review and local rank monitoring pilot: daily monitoring of new reviews, sentiment risk, competitor changes, and a weekly summa | Small local service businesses in Spain/Europe with an active Google Business Profile and at least 2-20 employees: clinics, dental offices,  | 72 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO390 | RANK-IAMO390 | research_incomplete | Turn e-commerce product-feed cleanup into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'E-commerce product-feed cleanup' with a narrow promise, demo/deliverable and simple purchase path. First test: Offer SKU/t | external buyers with an existing need for e-commerce product-feed cleanup | 45 | 0.00 |
 | IAMO389 | RANK-IAMO389 | research_incomplete | Turn paid update feed for a tool, dataset or directory into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Paid update feed for a tool, dataset or directory' with a narrow promise, demo/deliverable and simple purchase path. First | a niche audience that needs fresh reusable assets or intelligence every month | 40 | 0.00 |
 | IAMO388 | RANK-IAMO388 | research_incomplete | Turn zero-backend direct storefront into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Zero-backend direct storefront' with a narrow promise, demo/deliverable and simple purchase path. First test: Publish a st | buyers already searching for a narrow digital solution with instant delivery | 35 | 0.00 |
-| IAMO387 | RANK-IAMO387 | research_incomplete | Turn curated dataset or business directory into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Curated dataset or business directory' with a narrow promise, demo/deliverable and simple purchase path. First test: Compi | freelancers and small-business operators who want an immediately usable asset instead of building it themselves | 50 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
