@@ -1,0 +1,27 @@
+{
+  "services": [
+    {
+      "service": "Implantes",
+      "owner": "recepcion@clinica.local",
+      "channel": "whatsapp",
+      "status": "nuevo"
+    },
+    {
+      "service": "Ortodoncia",
+      "owner": "gestion@clinica.local",
+      "channel": "email",
+      "status": "nuevo"
+    },
+    {
+      "service": "Estética",
+      "owner": "atencion@clinica.local",
+      "channel": "whatsapp",
+      "status": "nuevo"
+    }
+  ],
+  "rules": {
+    "if_source": "google", "then": "priority_high",
+    "if_service": "implantes", "then": "assign_to_implants_team",
+    "if_missing_phone": "request_phone_before_confirming"
+  }
+}
