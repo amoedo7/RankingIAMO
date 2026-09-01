@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **607**
+Competidores nacidos: **608**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO608 | RANK-IAMO608 | research_incomplete | Turn zero-backend direct storefront into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Zero-backend direct storefront' with a narrow promise, demo/deliverable and simple purchase path. First test: Publish a st | buyers already searching for a narrow digital solution with instant delivery | 35 | 0.00 |
 | IAMO607 | RANK-IAMO607 | research_incomplete | Turn curated dataset or business directory into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Curated dataset or business directory' with a narrow promise, demo/deliverable and simple purchase path. First test: Compi | freelancers and small-business operators who want an immediately usable asset instead of building it themselves | 50 | 0.00 |
 | IAMO606 | RANK-IAMO606 | research_incomplete | Turn booking, reminder or no-show reduction tool into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Booking, reminder or no-show reduction tool' with a narrow promise, demo/deliverable and simple purchase path. First test: | small businesses or independent professionals still doing this workflow manually | 45 | 0.00 |
 | IAMO605 | RANK-IAMO605 | research_incomplete | Turn paid code review or refactor package into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Paid code review or refactor package' with a narrow promise, demo/deliverable and simple purchase path. First test: Offer  | companies publicly asking for a bounded deliverable that DesarrollAMO can produce remotely | 40 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO511 | RANK-IAMO511 | attempt_completed | Muchas clínicas dentales y estéticas en España reciben tráfico local desde Google Business Profile, pero la web pública sigue teniendo bloqu | Sprint fijo de auditoría y corrección de conversión: revisión de la web pública de una página o servicio clave, detección del principal bloq | Clínicas dentales, estéticas y privadas en España con Google Business Profile activo, 5-30 reseñas visibles y una web pública con contacto o | 76 | 0.00 |
 | IAMO510 | RANK-IAMO510 | attempt_completed | Small Shopify stores lose sales and ad eligibility when product titles, variants, image mappings, GTIN/MPN fields, URLs and CSV exports are  | A 1-week Shopify feed cleanup sprint: audit up to 100 SKUs, fix titles, variant names, URLs, image references, units, GTIN/MPN, duplicate ro | Small DTC Shopify merchants in Spain/Europe with 30-300 SKUs, an active Google Shopping or Meta catalog, and obvious product-data inconsiste | 76 | 0.00 |
 | IAMO509 | RANK-IAMO509 | attempt_completed | Private clinics and cosmetic/medical practices receive local search traffic via Google Business Profile, but many leave reviews unanswered o | 30-day Review Response Studio: review audit, sentiment and priority triage, Spanish reply drafts for positive, neutral and negative feedback | Spanish private dental, cosmetic and medical clinics with an active Google Business Profile, 5-30 public reviews, and a public website or Wh | 78 | 0.00 |
-| IAMO508 | RANK-IAMO508 | attempt_completed | Muchas tiendas Shopify pequeñas tienen títulos, variantes, URLs e imágenes inconsistentes; Google Merchant Center y Meta catalog exigen dato | Shopify Feed Fix Pack: auditoría de hasta 50-100 SKU, plantilla de corrección de títulos/URLs/GTIN/MPN, CSV limpio revisado y checklist de Q | Tiendas Shopify DTC pequeñas en España/Europa con 30-300 SKU, catálogo activo en Google Shopping o Meta y errores visibles en títulos, varia | 76 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
