@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Review Response Studio</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f5f7fb; color: #1b2430; margin: 0; padding: 24px; }
+    .wrap { max-width: 980px; margin: 0 auto; }
+    .card { background: #fff; border: 1px solid #dfe5ee; border-radius: 16px; padding: 20px; box-shadow: 0 12px 28px rgba(15,23,42,0.05); }
+    h1 { margin-top: 0; }
+    textarea, select, button { width: 100%; border-radius: 10px; border: 1px solid #cfd7e3; padding: 12px; font-size: 15px; }
+    textarea { min-height: 150px; resize: vertical; }
+    .two { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 16px 0; }
+    button { background: #0d6efd; color: #fff; font-weight: 700; cursor: pointer; border: none; }
+    .result { margin-top: 18px; background: #f8fafc; border: 1px solid #dfe5ee; border-radius: 12px; padding: 16px; }
+    .severity { font-weight: 700; margin-bottom: 6px; }
+    .suggestion { white-space: pre-wrap; line-height: 1.6; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Review Response Studio</h1>
+      <p>Resumen rápido para responder reseñas de Google con tono profesional y mayor capacidad operativa.</p>
+      <div class="two">
+        <div>
+          <label for="kind">Tipo de reseña</label>
+          <select id="kind">
+            <option value="positive">Positiva</option>
+            <option value="neutral">Neutral</option>
+            <option value="negative">Negativa</option>
+          </select>
+        </div>
+        <div>
+          <label for="service">Especialidad</label>
+          <select id="service">
+            <option value="General">General</option>
+            <option value="Implantes">Implantes</option>
+            <option value="Ortodoncia">Ortodoncia</option>
+            <option value="Estética">Estética</option>
+            <option value="Consulta inicial">Consulta inicial</option>
+          </select>
+        </div>
+      </div>
+      <label for="review">Texto de la reseña</label>
+      <textarea id="review" placeholder="Ejemplo: La atención fue excelente, pero tardaron más de lo esperado en la cita..."></textarea>
+      <div style="margin-top:12px;"><button id="generate">Generar respuesta</button></div>
+      <div class="result" id="resultBox">
+        <div class="severity">Lista para revisión</div>
+        <div class="suggestion">Selecciona una reseña y genera una respuesta sugerida.</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const templates = {
+      positive: {
+        General: "Gracias por tomarse el tiempo en compartir su experiencia. Nos alegra saber que su visita fue satisfactoria y que valoró la atención recibida. Apreciamos mucho su confianza y esperamos poder atenderle de nuevo en futuras necesidades. Muchas gracias por recomendarnos.",
+        Implantes: "Muchas gracias por su comentario. Nos alegra saber que el proceso y la atención recibida fueron satisfactorios. Valoramos mucho su confianza y esperamos poder seguir ayudándole en su cuidado dental. Gracias por recomendarnos.",
+        Ortodoncia: "Gracias por su valoración. Nos alegra saber que su experiencia con nuestro equipo fue positiva y que quedó satisfecha con la atención recibida. Gracias por confiar en nosotros para su tratamiento. Esperamos seguir apoyándole en su camino hacia una sonrisa más sana.",
+        Estética: "Muchas gracias por compartir su experiencia. Nos alegra saber que quedó satisfecha con la atención y los resultados. Apreciamos mucho su confianza y esperamos poder ayudarle en futuras necesidades. Gracias por recomendarnos.",
+        "Consulta inicial": "Muchas gracias por su comentario. Nos alegra saber que la consulta inicial fue una buena experiencia y que se sintió atendida con claridad. Apreciamos su confianza y estaremos encantados de seguir ayudándole en lo que necesite."
+      },
+      neutral: {
+        General: "Gracias por compartir su experiencia. Tomamos muy en cuenta sus comentarios y valoramos la oportunidad de mejorar. Si le parece, estaremos encantados de revisar cualquier detalle para ofrecer una atención aún más cuidada en futuras visitas.",
+        Implantes: "Gracias por su opinión. Valoramos mucho sus comentarios y nos ayuda a seguir mejorando. Si lo desea, podemos revisarlo con nuestro equipo para asegurar una experiencia aún más fluida en futuras visitas.",
+        Ortodoncia: "Gracias por su valoración. Tomamos nota de su comentario y lo tendremos en cuenta para seguir mejorando la experiencia. Estamos encantados de atenderle en todo lo que necesite y queremos asegurarle la mejor atención posible.",
+        Estética: "Muchas gracias por compartir su experiencia. Valoramos sus comentarios y nos ayudan a seguir mejorando cada detalle. Estamos a su disposición para cualquier consulta o necesidad posterior.",
+        "Consulta inicial": "Gracias por su comentario. Valoramos mucho su opinión y la tendremos en cuenta para seguir ofreciendo una atención clara y cercana. Estamos disponibles para cualquier duda posterior."
+      },
+      negative: {
+        General: "Lamentamos mucho que su experiencia no haya sido la esperada. Agradecemos que nos lo haya comentado, ya que es importante para nosotros seguir mejorando. Valoramos su opinión y nos gustaría revisar con detalle lo ocurrido para ofrecer una respuesta más adecuada en el futuro.",
+        Implantes: "Sentimos mucho que su experiencia no haya sido satisfactoria. Apreciamos que nos lo haya comentado, porque nos ayuda a revisar los puntos que requieren mejora. Queremos asegurar que cada paciente reciba una atención clara y cuidada; si lo desea, estaremos encantados de hablar con usted para revisar su caso.",
+        Ortodoncia: "Lamentamos mucho que no haya quedado satisfecha con la experiencia. Gracias por compartir su comentario, ya que nos ayuda a mejorar. Estamos abiertos a escuchar su caso y a revisar cómo podemos ofrecer una atención más cercana y efectiva en futuras intervenciones.",
+        Estética: "Sentimos mucho que su experiencia no cumpliera sus expectativas. Agradecemos que nos lo haga saber, porque nos ayuda a seguir mejorando. Valoramos su opinión y estamos a su disposición para escuchar cualquier detalle y ofrecer una respuesta adecuada.",
+        "Consulta inicial": "Lamentamos que la experiencia no haya sido la adecuada. Gracias por compartir su comentario; lo revisaremos con atención para mejorar cada detalle. Estamos encantados de escuchar su opinión y de ofrecer una atención más cuidadosa en futuras consultas."
+      }
+    };
+
+    function analyze(reviewText) {
+      const t = reviewText.toLowerCase();
+      if (/(no|muy|mal|terrible|pesimo|decepcion|problema|esperaba|tarde|delay|mal trato|incomodo)/.test(t) && !/(gracias|excelente|recomiendo|satisfecha)/.test(t)) return 'negative';
+      if (/(excelente|genial|satisfecha|muy bien|recomiendo|buena experiencia|gracias)/.test(t)) return 'positive';
+      return 'neutral';
+    }
+
+    function generate() {
+      const review = document.getElementById('review').value.trim();
+      const kind = document.getElementById('kind').value;
+      const service = document.getElementById('service').value;
+      const inputKind = review ? analyze(review) : kind;
+      const text = templates[inputKind][service] || templates.positive[service];
+      const resultBox = document.getElementById('resultBox');
+      resultBox.innerHTML = '<div class="severity">Severidad: ' + (inputKind === 'negative' ? 'Alta' : inputKind === 'neutral' ? 'Media' : 'Baja') + '</div><div class="suggestion">' + text + '</div>';
+    }
+
+    document.getElementById('generate').addEventListener('click', generate);
+  </script>
+</body>
+</html>
