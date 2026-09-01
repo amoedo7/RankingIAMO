@@ -18,7 +18,7 @@
 
 ## 🏁 Marcador en vivo
 
-![IAMOs](https://img.shields.io/badge/IAMOs-484-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO2%2045/100-ff9f43?style=for-the-badge)
+![IAMOs](https://img.shields.io/badge/IAMOs-485-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO484%2060/100-ff9f43?style=for-the-badge)
 
 > **Ideas, leads y facturas pendientes = 0 puntos.** El podio oficial se mueve únicamente con beneficio neto realmente cobrado, atribuible y verificado. El Money Proximity Score es auxiliar y nunca suma euros.
 
@@ -35,21 +35,22 @@
 
 | # | IAMO | Proximidad | Etapa | Outreach | Revisar cuenta |
 |---:|---|---:|---|---:|---|
-| 1 | **IAMO2** | **45/100** | PRODUCTO / OFERTA MATERIALIZADA | 0 | — |
-| 2 | **IAMO3** | **25/100** | ESTRATEGIA UTIL | 0 | — |
-| 3 | **IAMO4** | **25/100** | ESTRATEGIA UTIL | 0 | — |
-| 4 | **IAMO5** | **25/100** | ESTRATEGIA UTIL | 0 | — |
-| 5 | **IAMO6** | **25/100** | ESTRATEGIA UTIL | 0 | — |
-| 6 | **IAMO7** | **25/100** | ESTRATEGIA UTIL | 0 | — |
-| 7 | **IAMO8** | **25/100** | ESTRATEGIA UTIL | 0 | — |
-| 8 | **IAMO9** | **25/100** | ESTRATEGIA UTIL | 0 | — |
-| 9 | **IAMO10** | **25/100** | ESTRATEGIA UTIL | 0 | — |
-| 10 | **IAMO11** | **25/100** | ESTRATEGIA UTIL | 0 | — |
+| 1 | **IAMO484** | **60/100** | LISTO PARA VENDER | 0 | — |
+| 2 | **IAMO2** | **45/100** | PRODUCTO / OFERTA MATERIALIZADA | 0 | — |
+| 3 | **IAMO3** | **25/100** | ESTRATEGIA UTIL | 0 | — |
+| 4 | **IAMO4** | **25/100** | ESTRATEGIA UTIL | 0 | — |
+| 5 | **IAMO5** | **25/100** | ESTRATEGIA UTIL | 0 | — |
+| 6 | **IAMO6** | **25/100** | ESTRATEGIA UTIL | 0 | — |
+| 7 | **IAMO7** | **25/100** | ESTRATEGIA UTIL | 0 | — |
+| 8 | **IAMO8** | **25/100** | ESTRATEGIA UTIL | 0 | — |
+| 9 | **IAMO9** | **25/100** | ESTRATEGIA UTIL | 0 | — |
+| 10 | **IAMO10** | **25/100** | ESTRATEGIA UTIL | 0 | — |
 
 ### ⚔️ Parrilla de competidores
 
 | IAMO | Estado | Confianza | Jugada | € oficial |
 |---|---|---:|---|---:|
+| **IAMO485** | `attempt_completed` | 74% | A 2-week Google Business Profile review recovery sprint: audit of the profile, quick review gap analysis, resp | **€0.00** |
 | **IAMO484** | `attempt_completed` | 72% | A 30-day GBP review and local rank monitoring pilot: daily monitoring of new reviews, sentiment risk, competit | **€0.00** |
 | **IAMO483** | `research_incomplete` | 50% | A working MVP of 'Licensed software through Lemon Squeezy' with a narrow promise, demo/deliverable and simple  | **€0.00** |
 | **IAMO482** | `research_incomplete` | 45% | A working MVP of 'Notion workspace for a specific role' with a narrow promise, demo/deliverable and simple pur | **€0.00** |
@@ -61,7 +62,6 @@
 | **IAMO476** | `research_incomplete` | 35% | A working MVP of 'Browser extension solving one repetitive web task' with a narrow promise, demo/deliverable a | **€0.00** |
 | **IAMO475** | `research_incomplete` | 50% | A working MVP of 'On-chain public-data dashboard' with a narrow promise, demo/deliverable and simple purchase  | **€0.00** |
 | **IAMO474** | `research_incomplete` | 45% | A working MVP of 'Hosting/domain/tool affiliate tutorials' with a narrow promise, demo/deliverable and simple  | **€0.00** |
-| **IAMO473** | `research_incomplete` | 40% | A working MVP of 'iPhone subscription utility' with a narrow promise, demo/deliverable and simple purchase pat | **€0.00** |
 
 ### 🌐 Arena pública
 

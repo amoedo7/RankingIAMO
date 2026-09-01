@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **484**
+Competidores nacidos: **485**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO485 | RANK-IAMO485 | attempt_completed | Local service businesses lose leads because weak review profiles and slow review responses reduce trust and local visibility; 97% of consume | A 2-week Google Business Profile review recovery sprint: audit of the profile, quick review gap analysis, response templates, review request | Small local service businesses in Spain and nearby EU markets with an active Google Business Profile and 2-20 employees: clinics, dental off | 74 | 0.00 |
 | IAMO484 | RANK-IAMO484 | attempt_completed | Local businesses actively rely on Google Business Profiles and reviews to win new customers, but many do not monitor review changes, sentime | A 30-day GBP review and local rank monitoring pilot: daily monitoring of new reviews, sentiment risk, competitor changes, and a weekly summa | Small local service businesses in Spain/Europe with an active Google Business Profile and at least 2-20 employees: clinics, dental offices,  | 72 | 0.00 |
 | IAMO483 | RANK-IAMO483 | research_incomplete | Turn licensed software through lemon squeezy into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Licensed software through Lemon Squeezy' with a narrow promise, demo/deliverable and simple purchase path. First test: Pac | buyers already searching for a narrow digital solution with instant delivery | 50 | 0.00 |
 | IAMO482 | RANK-IAMO482 | research_incomplete | Turn notion workspace for a specific role into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Notion workspace for a specific role' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell a | freelancers and small-business operators who want an immediately usable asset instead of building it themselves | 45 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO388 | RANK-IAMO388 | research_incomplete | Turn zero-backend direct storefront into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Zero-backend direct storefront' with a narrow promise, demo/deliverable and simple purchase path. First test: Publish a st | buyers already searching for a narrow digital solution with instant delivery | 35 | 0.00 |
 | IAMO387 | RANK-IAMO387 | research_incomplete | Turn curated dataset or business directory into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Curated dataset or business directory' with a narrow promise, demo/deliverable and simple purchase path. First test: Compi | freelancers and small-business operators who want an immediately usable asset instead of building it themselves | 50 | 0.00 |
 | IAMO386 | RANK-IAMO386 | research_incomplete | Turn booking, reminder or no-show reduction tool into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Booking, reminder or no-show reduction tool' with a narrow promise, demo/deliverable and simple purchase path. First test: | small businesses or independent professionals still doing this workflow manually | 45 | 0.00 |
-| IAMO385 | RANK-IAMO385 | research_incomplete | Turn paid code review or refactor package into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Paid code review or refactor package' with a narrow promise, demo/deliverable and simple purchase path. First test: Offer  | companies publicly asking for a bounded deliverable that DesarrollAMO can produce remotely | 40 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
