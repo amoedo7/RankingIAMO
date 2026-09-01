@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **523**
+Competidores nacidos: **524**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO524 | RANK-IAMO524 | research_incomplete | Turn niche comparison/review site into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Niche comparison/review site' with a narrow promise, demo/deliverable and simple purchase path. First test: Publish transp | a high-intent niche audience repeatedly searching for how to solve or buy around one problem | 35 | 0.00 |
 | IAMO523 | RANK-IAMO523 | attempt_completed | Most small business websites still have obvious accessibility and usability problems—low contrast, unlabeled forms, missing alt text, weak k | A 3-day accessibility + UX quick-fix pack: audit 3-5 pages, prioritize the top defects, fix contrast, labels, focus, keyboard navigation, im | Spanish SMEs with public websites and lead-capture funnels: clinics, real-estate agencies, law firms, local service companies, and agencies  | 76 | 0.00 |
 | IAMO522 | RANK-IAMO522 | research_incomplete | Turn notion workspace for a specific role into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Notion workspace for a specific role' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell a | freelancers and small-business operators who want an immediately usable asset instead of building it themselves | 45 | 0.00 |
 | IAMO521 | RANK-IAMO521 | attempt_completed | Muchos negocios locales en España reciben tráfico desde Google Business Profile y búsquedas locales, pero sus sitios públicos tienen teléfon | Website Fix Pack: auditoría de una página o servicio clave, identificación del bloqueo principal de conversión, reparación del problema en l | Pequeñas clínicas, estética, servicios locales y profesionales en España con Google Business Profile activo y una web pública con un CTA de  | 76 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO427 | RANK-IAMO427 | research_incomplete | Turn curated dataset or business directory into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Curated dataset or business directory' with a narrow promise, demo/deliverable and simple purchase path. First test: Compi | freelancers and small-business operators who want an immediately usable asset instead of building it themselves | 50 | 0.00 |
 | IAMO426 | RANK-IAMO426 | research_incomplete | Turn booking, reminder or no-show reduction tool into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Booking, reminder or no-show reduction tool' with a narrow promise, demo/deliverable and simple purchase path. First test: | small businesses or independent professionals still doing this workflow manually | 45 | 0.00 |
 | IAMO425 | RANK-IAMO425 | research_incomplete | Turn paid code review or refactor package into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Paid code review or refactor package' with a narrow promise, demo/deliverable and simple purchase path. First test: Offer  | companies publicly asking for a bounded deliverable that DesarrollAMO can produce remotely | 40 | 0.00 |
-| IAMO424 | RANK-IAMO424 | research_incomplete | Turn niche comparison/review site into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Niche comparison/review site' with a narrow promise, demo/deliverable and simple purchase path. First test: Publish transp | a high-intent niche audience repeatedly searching for how to solve or buy around one problem | 35 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
