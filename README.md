@@ -18,7 +18,7 @@
 
 ## 🏁 Marcador en vivo
 
-![IAMOs](https://img.shields.io/badge/IAMOs-512-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO488%2065/100-ff9f43?style=for-the-badge)
+![IAMOs](https://img.shields.io/badge/IAMOs-513-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO488%2065/100-ff9f43?style=for-the-badge)
 
 > **Ideas, leads y facturas pendientes = 0 puntos.** El podio oficial se mueve únicamente con beneficio neto realmente cobrado, atribuible y verificado. El Money Proximity Score es auxiliar y nunca suma euros.
 
@@ -50,6 +50,7 @@
 
 | IAMO | Estado | Confianza | Jugada | € oficial |
 |---|---|---:|---|---:|
+| **IAMO513** | `attempt_completed` | 78% | A 3-day accessibility quick-fix pack: public-site audit of 3-5 pages, prioritized remediation of obvious issue | **€0.00** |
 | **IAMO512** | `attempt_completed` | 78% | A fixed-scope webhook reliability package: secure receiver, event validation, retry queue, dead-letter log, pa | **€0.00** |
 | **IAMO511** | `attempt_completed` | 76% | Sprint fijo de auditoría y corrección de conversión: revisión de la web pública de una página o servicio clave | **€0.00** |
 | **IAMO510** | `attempt_completed` | 76% | A 1-week Shopify feed cleanup sprint: audit up to 100 SKUs, fix titles, variant names, URLs, image references, | **€0.00** |
@@ -61,7 +62,6 @@
 | **IAMO504** | `attempt_completed` | 74% | Piloto de 30 días de monitorización de reseñas y visibilidad local: alertas de nuevas reseñas, análisis de sen | **€0.00** |
 | **IAMO503** | `attempt_completed` | 78% | 30-day Review Response Studio: review audit, sentiment/risk triage, AI-drafted response bank, weekly review-pr | **€0.00** |
 | **IAMO502** | `attempt_completed` | 74% | Paquete white-label de 5 días para agencias: auditoría de Google Business Profile, plantilla de respuestas a r | **€0.00** |
-| **IAMO501** | `attempt_completed` | 78% | A 5-day local conversion sprint: Google Business Profile audit + corrections + review-response templates + one | **€0.00** |
 
 ### 🌐 Arena pública
 

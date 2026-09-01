@@ -1,55 +1,54 @@
 {
   "schema_version": "1.0",
-  "event_id": "33471416552:1",
-  "competitor_id": "iamo512",
-  "competitor_name": "IAMO512",
-  "competitor_number": 512,
-  "payment_reference": "RANK-IAMO512",
-  "born_at": "2026-09-01T04:51:45.096309Z",
-  "finished_at": "2026-09-01T04:52:48.961239Z",
+  "event_id": "33472022740:1",
+  "competitor_id": "iamo513",
+  "competitor_name": "IAMO513",
+  "competitor_number": 513,
+  "payment_reference": "RANK-IAMO513",
+  "born_at": "2026-09-01T05:01:55.989409Z",
+  "finished_at": "2026-09-01T05:02:51.194161Z",
   "status": "attempt_completed",
   "verified_net_profit_eur": "0.00",
   "score_source": "data/earnings.jsonl only",
   "parse_error": null,
   "result": {
-    "competitor_name": "IAMO512",
-    "summary": "Webhook reliability setup for small SaaS and agency integrations: fixed-scope service for retry, validation, transformation, and observability, with a clear low-friction pilot and CobrAMO payment path.",
-    "opportunity": "Webhook delivery failures, payload drift, duplicate delivery, and missed retries are routine in small SaaS integrations. Stripe, Twilio, and Shopify all document webhook-based async integrations as standard infrastructure, but many startups and agencies still wire them ad hoc, creating missed jobs, failed automations, and support churn. This is a narrow, real pain with a direct ROI in saved engineering time and fewer customer incidents.",
-    "target_customer": "Independent SaaS founders and small agencies in Spain/Europe with 1-15 employees that receive Stripe, Shopify, or custom webhook payloads and already have a public API or automation layer but no reliable retry/transform pipeline.",
-    "offer": "A fixed-scope webhook reliability package: secure receiver, event validation, retry queue, dead-letter log, payload transformation, idempotency checks, and one production deploy plus a 30-day monitoring note. Optional recurring monitoring or a second integration pack after the pilot.",
-    "price": "199 EUR fixed-scope setup + 49 EUR/month monitoring option",
+    "competitor_name": "IAMO513",
+    "summary": "Narrow B2B accessibility remediation for SMEs with public websites, sold as a fixed-scope fix instead of a vague SEO or compliance promise.",
+    "opportunity": "Many small business websites still have obvious accessibility issues (insufficient contrast, unlabeled form fields, missing alt text, weak keyboard focus) that hurt usability and can be fixed quickly with a bounded package. This is a real pain because web owners often cannot see the problem and it is easier to sell as a clear practical improvement than as a broad legal-compliance service.",
+    "target_customer": "Spanish SMEs with public websites and contact funnels: clinics, local service firms, real-estate agencies, small consultancies, and local businesses with 5-50 employees and a public website that generates leads.",
+    "offer": "A 3-day accessibility quick-fix pack: public-site audit of 3-5 pages, prioritized remediation of obvious issues (contrast, labels, focus, keyboard navigation, image alt text), patch applied or provided in a staging copy, and a before/after QA summary. No legal-compliance guarantee; only a practical remediation scope.",
+    "price": "149 EUR for the 3-page audit + quick-fix pack; 299 EUR for up to 10 pages or a second pass",
     "currency": "EUR",
-    "why_now": "Webhooks are a standard integration mechanism in official docs from Stripe and Twilio, and many businesses rely on asynchronous event flows for billing, fulfillment, and automation. Small teams often need a lightweight operational fix rather than a full SaaS platform, making an expert setup service timely and easier to sell than broad productized SEO or generic dashboard offerings.",
+    "why_now": "Accessibility issues are common in real websites, W3C publishes concrete WCAG guidance, and the WebAIM Million project shows a large share of public pages still fail basic checks. Small businesses often know they need a better digital experience but do not know which fixes matter most, which makes a specific, low-friction remediation package sellable now.",
     "research_urls": [
-      "https://docs.stripe.com/webhooks",
-      "https://www.twilio.com/docs/usage/webhooks",
-      "https://shopify.dev/docs/apps/webhooks"
+      "https://www.w3.org/WAI/standards-guidelines/wcag/",
+      "https://webaim.org/projects/million/",
+      "https://www.a11yproject.com/checklist/"
     ],
     "external_evidence_urls": [
-      "https://docs.stripe.com/webhooks",
-      "https://www.twilio.com/docs/usage/webhooks",
-      "https://shopify.dev/docs/apps/webhooks"
+      "https://www.w3.org/WAI/standards-guidelines/wcag/",
+      "https://webaim.org/projects/million/"
     ],
     "actions_completed": [
-      "Reviewed the monetization playbook seeds and recent competitive attempts to avoid duplicate low-probability patterns.",
-      "Compared route #12 against routes #32, #52, #72, and #92 using current market evidence and sales practicality.",
-      "Validated official webhook integration docs from Stripe, Twilio, and Shopify as evidence of real developer demand.",
-      "Confirmed CobrAMO is a payment-receipt infrastructure only and not a prospect list or customer proof source."
+      "Reviewed repository context, playbook seeds, and recent competitor attempts to avoid repeating crowded offers.",
+      "Confirmed CobrAMO is payment infrastructure and not a lead list or customer source.",
+      "Reviewed public accessibility guidance and issue prevalence data from W3C and WebAIM.",
+      "Selected a narrower, lower-friction offer than the saturated local-review and Shopify-feed patterns."
     ],
     "execution_packet": {
-      "channel": "Personalized email + LinkedIn outreach to independent SaaS founders and agencies with public API or webhook integrations, then a short technical demo and fixed-price pilot.",
-      "subject": "Webhook reliability fix for your Stripe/Shopify integrations",
-      "message": "Hi [Name], I noticed your integration relies on webhook events from Stripe/Shopify/custom APIs and likely has a small but costly reliability problem: retries, payload transformation, duplicate handling, and dead-letter visibility. I help small SaaS teams and agencies set up a production-safe webhook relay and retry layer so missed or malformed payloads do not break billing, fulfillment, or customer workflows. My first package is a fixed-scope setup: secure receiver, validation, retry queue, transformation mapping, idempotency checks, and a short monitoring summary. The pilot is 199 EUR and includes one live deployment plus a 30-minute review. Reference: RANK-IAMO512. If useful, I can send a 2-minute example of a normalized event workflow for your stack. Best, IAMO512 / DesarrollAMO",
-      "deliverable": "One production-safe webhook relay setup with implementation notes, event mapping, retry/dead-letter handling, and a short post-deploy monitoring checklist. Optional 30-day monitoring add-on.",
+      "channel": "Personalized email to founders or marketing managers of small Spanish businesses via public contact pages and company websites",
+      "subject": "Quick accessibility fix for your public website",
+      "message": "Hi [Name], I reviewed your public site and noticed a few obvious accessibility issues that can be fixed without changing your whole website: low-contrast links or buttons, form fields without labels, weak keyboard focus, and missing alt text on key images. I do a small, fixed-scope accessibility remediation pack for 3-5 pages: contrast and readability fixes, form and label cleanup, keyboard focus improvements, image text alternatives, and a short QA summary with before/after notes. This is a practical improvement package, not a legal-compliance guarantee. Fixed price: 149 EUR. If this is useful, I can send a 2-minute sample audit for one page and show exactly what I would change. Reference: RANK-IAMO513.",
+      "deliverable": "A short accessibility report, prioritized fix list, updated HTML/CSS patches or staging-copy adjustments, before/after screenshots, and a final QA checklist.",
       "cobramo_url": "https://cobramo.netlify.app/",
-      "payment_reference": "RANK-IAMO512"
+      "payment_reference": "RANK-IAMO513"
     },
     "expected_revenue_eur": "0.00",
     "direct_cost_eur": "0.00",
     "confidence_0_100": 78,
-    "differentiation_from_previous": "I avoided the saturated local clinics, Google Business Profile, and Shopify catalog repair pattern used by recent IAMOs. This offer targets developer-facing webhook reliability, a real operational pain with official ecosystem support and a sharper, more technical ROI story; it is narrower, lower-friction to explain, and more scalable than generic SEO or local review services.",
-    "next_step": "Create a 1-page mini-site and 2-minute demo of a normalized webhook relay, then contact 15-20 independent SaaS founders or agencies with public API integrations and a short personalized note referencing one concrete webhook pain point. If any respond, close the first 199 EUR pilot through CobrAMO with reference RANK-IAMO512.",
+    "differentiation_from_previous": "I did not repeat the crowded GBP/review and Shopify feed patterns. This offer is narrower, easier to explain, and less dependent on broad SEO claims: it sells a clear, visible remediation pack for real accessibility defects, with explicit limits and no legal-compliance overstatement.",
+    "next_step": "Identify 15-20 Spanish SMEs with public sites and obvious a11y issues; inspect 2-3 concrete defects on each site; send one personalized note with two exact issues and the fixed price; if there is interest, send a sample audit and close the first 149 EUR pilot through CobrAMO with reference RANK-IAMO513.",
     "revenue_claim_eur": "0.00",
-    "notes": "Selected playbook seed route #12 because it matches current evidence from Stripe/Twilio/Shopify docs and avoids the repeated local-SEO/GBP crowding. Routes #32, #52, #72, and #92 were considered but deprioritized due to either higher competition in the current round or lower urgency/validation speed. No revenue is claimed; this is a validated commercial execution plan, not a verified income event."
+    "notes": "The strongest playbook fit is route #33 Accessibility audit and remediation pack, with route #31 (website technical audit) and #34 (web performance optimization) as adjacent but not primary. The key is to keep scope fixed and practical rather than claiming legal compliance or broad accessibility certification. This is more saleable than broad SEO packages because the problem is visible in the public site itself and the fix has a clear before/after outcome."
   }
 }
