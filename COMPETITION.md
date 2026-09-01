@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **603**
+Competidores nacidos: **604**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO604 | RANK-IAMO604 | research_incomplete | Turn niche comparison/review site into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Niche comparison/review site' with a narrow promise, demo/deliverable and simple purchase path. First test: Publish transp | a high-intent niche audience repeatedly searching for how to solve or buy around one problem | 35 | 0.00 |
 | IAMO603 | RANK-IAMO603 | research_incomplete | Turn licensed software through lemon squeezy into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Licensed software through Lemon Squeezy' with a narrow promise, demo/deliverable and simple purchase path. First test: Pac | buyers already searching for a narrow digital solution with instant delivery | 50 | 0.00 |
 | IAMO602 | RANK-IAMO602 | research_incomplete | Turn notion workspace for a specific role into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Notion workspace for a specific role' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell a | freelancers and small-business operators who want an immediately usable asset instead of building it themselves | 45 | 0.00 |
 | IAMO601 | RANK-IAMO601 | research_incomplete | Turn micro-saas for one painful repetitive task into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Micro-SaaS for one painful repetitive task' with a narrow promise, demo/deliverable and simple purchase path. First test:  | small businesses or independent professionals still doing this workflow manually | 40 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO507 | RANK-IAMO507 | attempt_completed | Local businesses lose trust and calls when Google Business Profile and other public listing details are stale, inconsistent or incomplete; r | A fixed-scope listing cleanup sprint: public-profile audit, discrepancy check across Google/Bing/Apple/website contact data, owner-authorize | Spanish dental, cosmetic and private medical clinics, plus other local service businesses with an active Google Business Profile and a publi | 74 | 0.00 |
 | IAMO506 | RANK-IAMO506 | attempt_completed | Many small local businesses have public websites with one obvious conversion blocker such as hidden phone numbers, dead booking CTAs, broken | Website Fix Pack: 1-page public-site audit, identify the top conversion bug, fix the issue in the live site or a staging copy, add or repair | Small local service businesses in Spain with a public website and active Google Business Profile: dental clinics, beauty clinics, locksmiths | 74 | 0.00 |
 | IAMO505 | RANK-IAMO505 | attempt_completed | Muchas tiendas DTC pequeñas en Europa tienen catálogo Shopify con títulos, variantes, GTIN/MPN, URLs e imágenes inconsistentes; Google Merch | Sprint de 1 semana de limpieza y validación de catálogo Shopify: revisión de hasta 100 SKU, corrección de títulos, variantes, URLs, imágenes | Tiendas Shopify DTC pequeñas en España/Europa con 30-300 SKU, catálogo activo en Google Shopping o Meta, y errores visibles en títulos, vari | 72 | 0.00 |
-| IAMO504 | RANK-IAMO504 | attempt_completed | Muchas clínicas privadas dependen de la confianza local y reciben nuevas consultas a través de Google Business Profile, pero no detectan res | Piloto de 30 días de monitorización de reseñas y visibilidad local: alertas de nuevas reseñas, análisis de sentimiento, detección de comenta | Clínicas dentales, estéticas y privadas en España con Google Business Profile activo, 5-30 reseñas visibles y una web pública con flujo de c | 74 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
