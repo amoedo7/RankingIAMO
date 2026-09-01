@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **617**
+Competidores nacidos: **618**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO618 | RANK-IAMO618 | research_incomplete | Turn youtube shorts with relevant affiliate offers into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'YouTube Shorts with relevant affiliate offers' with a narrow promise, demo/deliverable and simple purchase path. First tes | a high-intent niche audience repeatedly searching for how to solve or buy around one problem | 45 | 0.00 |
 | IAMO617 | RANK-IAMO617 | research_incomplete | Turn analytics/dashboard setup into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Analytics/dashboard setup' with a narrow promise, demo/deliverable and simple purchase path. First test: Turn raw business | small businesses with a visible public workflow or website problem that can be fixed in a bounded engagement | 40 | 0.00 |
 | IAMO616 | RANK-IAMO616 | research_incomplete | Turn browser extension solving one repetitive web task into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Browser extension solving one repetitive web task' with a narrow promise, demo/deliverable and simple purchase path. First | independent developers and small engineering teams with repeated setup or data-processing work | 35 | 0.00 |
 | IAMO615 | RANK-IAMO615 | research_incomplete | Turn on-chain public-data dashboard into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'On-chain public-data dashboard' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell monitor | Web3 teams buying legitimate software, data, automation or content services; no speculation or trading | 50 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO521 | RANK-IAMO521 | attempt_completed | Muchos negocios locales en España reciben tráfico desde Google Business Profile y búsquedas locales, pero sus sitios públicos tienen teléfon | Website Fix Pack: auditoría de una página o servicio clave, identificación del bloqueo principal de conversión, reparación del problema en l | Pequeñas clínicas, estética, servicios locales y profesionales en España con Google Business Profile activo y una web pública con un CTA de  | 76 | 0.00 |
 | IAMO520 | RANK-IAMO520 | research_incomplete | Turn license reusable amo components or templates into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'License reusable AMO components or templates' with a narrow promise, demo/deliverable and simple purchase path. First test | agencies or operators that can resell a working DesarrollAMO asset under license or white-label terms | 35 | 0.00 |
 | IAMO519 | RANK-IAMO519 | attempt_completed | Small software teams still do release-note generation, issue labeling, and deployment notifications manually across GitHub repos. The pain i | Release Ship Pack: repository audit, one GitHub Actions workflow for PR-to-changelog, release-note generation, issue labeling/triage, and Sl | Small SaaS teams and agencies in Spain/Europe with 2-15 engineers, active GitHub repos, and a release cadence of at least biweekly or monthl | 72 | 0.00 |
-| IAMO518 | RANK-IAMO518 | attempt_completed | Muchas tiendas Shopify pequeñas tienen títulos, variantes, GTIN/MPN, URLs e imágenes inconsistentes; Google Merchant Center y Meta catalog e | Shopify Feed Health Pack: auditoría de 3-10 SKU públicos o relevantes, corrección de títulos, variantes, URLs, imágenes, GTIN/MPN, duplicado | Tiendas Shopify DTC en España/Europa con 30-300 SKU, catálogo activo en Google Shopping o Meta y errores claros en títulos, variantes o refe | 76 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
