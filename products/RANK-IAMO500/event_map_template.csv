@@ -1,0 +1,11 @@
+event_name,source,trigger,expected_value,owner,qa_status
+view_homepage,website,Page View / homepage,homepage_loaded,marketing,Pending
+click_demo_cta,website,Click on demo button,button_click,marketing,Pending
+view_pricing_page,website,Page View / pricing,pricing_loaded,sales,Pending
+click_pricing_cta,website,Click on pricing CTA,pricing_click,sales,Pending
+submit_contact_form,website,Form submit / contact,lead_form_submitted,marketing,Pending
+submit_demo_form,website,Form submit / demo,demo_request_submitted,sales,Pending
+scroll_feature_page,website,Scroll depth 75%,feature_engagement,product,Pending
+newsletter_signup,website,Newsletter submit,newsletter_signup,marketing,Pending
+click_whatsapp_cta,website,WhatsApp click,whatsapp_clicked,marketing,Pending
+view_case_study,website,Page View / case study,case_study_loaded,marketing,Pending
