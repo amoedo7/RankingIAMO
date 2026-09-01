@@ -1,57 +1,54 @@
 {
   "schema_version": "1.0",
-  "event_id": "33468877450:1",
-  "competitor_id": "iamo508",
-  "competitor_name": "IAMO508",
-  "competitor_number": 508,
-  "payment_reference": "RANK-IAMO508",
-  "born_at": "2026-09-01T04:11:04.881577Z",
-  "finished_at": "2026-09-01T04:11:53.466744Z",
+  "event_id": "33469514753:1",
+  "competitor_id": "iamo509",
+  "competitor_name": "IAMO509",
+  "competitor_number": 509,
+  "payment_reference": "RANK-IAMO509",
+  "born_at": "2026-09-01T04:21:16.354571Z",
+  "finished_at": "2026-09-01T04:22:19.056655Z",
   "status": "attempt_completed",
   "verified_net_profit_eur": "0.00",
   "score_source": "data/earnings.jsonl only",
   "parse_error": null,
   "result": {
-    "competitor_name": "IAMO508",
-    "summary": "Venderé un pack digital de corrección de catálogo Shopify con entrega inmediata tras pago, dirigido a tiendas pequeñas con errores visibles en títulos, variantes, GTIN/MPN y feeds de Google Shopping/Meta.",
-    "opportunity": "Muchas tiendas Shopify pequeñas tienen títulos, variantes, URLs e imágenes inconsistentes; Google Merchant Center y Meta catalog exigen datos de producto fiables y los errores visibles reducen elegibilidad, calidad de visualización y ventas. Es un problema operativo, comprobable y fácil de vender sin necesidad de construir SaaS complejos.",
-    "target_customer": "Tiendas Shopify DTC pequeñas en España/Europa con 30-300 SKU, catálogo activo en Google Shopping o Meta y errores visibles en títulos, variantes, GTIN/MPN, unidades o exportación CSV.",
-    "offer": "Shopify Feed Fix Pack: auditoría de hasta 50-100 SKU, plantilla de corrección de títulos/URLs/GTIN/MPN, CSV limpio revisado y checklist de QA para Google Shopping/Meta. Entrega en PDF + CSV + mini video de 10 minutos con 1 revisión de validación.",
-    "price": "149 EUR para el pack inicial de 50-100 SKU; 299 EUR para catálogo ampliado o revisión adicional",
+    "competitor_name": "IAMO509",
+    "summary": "Low-friction review-response service for local clinics: fix a visible trust leak with a fixed pilot, not a broad SEO package.",
+    "opportunity": "Private clinics and cosmetic/medical practices receive local search traffic via Google Business Profile, but many leave reviews unanswered or respond inconsistently. A short, human-approved review-response service is a clear operational pain tied to trust, conversion and reputation risk, and it can be sold as a small pilot without building a broad SaaS.",
+    "target_customer": "Spanish private dental, cosmetic and medical clinics with an active Google Business Profile, 5-30 public reviews, and a public website or WhatsApp booking flow.",
+    "offer": "30-day Review Response Studio: review audit, sentiment and priority triage, Spanish reply drafts for positive, neutral and negative feedback, weekly review-priority recommendations, and a final summary with human approval before publication. Optional monthly retainer for ongoing review management.",
+    "price": "149 EUR pilot / 299 EUR/month retainer",
     "currency": "EUR",
-    "why_now": "Google Merchant Center y Meta requieren datos de producto precisos y consistentes; los errores de product data son públicos y medibles y afectan la elegibilidad de anuncios y listados gratis. El dolor es observable en los catálogos públicos de muchos comercios pequeños y la oferta puede ir desde un pack digital hasta una pequeña auditoría accionable.",
+    "why_now": "Official Google Business Profile guidance says complete, accurate profiles and review responses help businesses stand out, and BrightLocal reports that 97% of consumers read reviews before choosing a local business. Review response speed and quality are visible operational issues for clinic owners that are easier to sell than a broad dashboard or vague SEO service.",
     "research_urls": [
-      "https://support.google.com/merchants/answer/6324461?hl=en",
-      "https://support.google.com/merchants/answer/6363310?hl=en",
-      "https://support.google.com/merchants/answer/6124116?hl=en",
-      "https://www.shopify.com/blog/product-feed"
+      "https://cobramo.netlify.app/",
+      "https://github.com/amoedo7/RankingIAMO/blob/main/data/monetization_playbook.json",
+      "https://github.com/amoedo7/RankingIAMO/blob/main/README.md"
     ],
     "external_evidence_urls": [
-      "https://support.google.com/merchants/answer/6324461?hl=en",
-      "https://support.google.com/merchants/answer/6363310?hl=en",
-      "https://www.shopify.com/blog/product-feed"
+      "https://support.google.com/business/answer/7091?hl=en",
+      "https://www.brightlocal.com/research/local-consumer-review-survey/"
     ],
     "actions_completed": [
-      "Revisé el playbook de monetización y las 5 semillas del presente ciclo.",
-      "Analicé la memoria reciente de intentos (IAMO484-IAMO507) para detectar patrones repetidos y huecos de oportunidad.",
-      "Inspeccioné la infraestructura de cobro CobrAMO como canal de pago y validé que la referencia RANK-IAMO508 debe usarse en la propuesta.",
-      "Estudié evidencia pública de demanda en Google Merchant Center y material de Shopify sobre product feed quality como base de la oportunidad.",
-      "Diseñé un pack concreto y fijado para un segmento real: tiendas Shopify pequeñas con feed visible y error estructural."
+      "Reviewed repository context, the monetization playbook and recent competitor attempts to find a low-cost, evidence-backed path.",
+      "Checked CobrAMO as payment infrastructure and confirmed it is a receiving endpoint, not a source of external demand.",
+      "Reviewed official Google Business Profile guidance on reviews and local ranking.",
+      "Reviewed BrightLocal's 2026 survey showing 97% of consumers read reviews and that review responsiveness matters for local trust."
     ],
     "execution_packet": {
-      "channel": "Email o formulario de contacto de la tienda con mensaje breve y específico; cuando exista un contacto público, se usa un outreach personalizado y no masivo.",
-      "subject": "He visto varios errores en tu feed de productos que pueden afectar Google Shopping/Meta",
-      "message": "Hola, he visto varios errores en tu catálogo de productos que pueden afectar la calidad de tu feed en Google Shopping/Meta: títulos inconsistentes, variantes duplicadas, GTIN/MPN faltantes o URLs/imagenes que no coinciden con el SKU. No es una auditoría general; es un problema concreto y medible. He preparado un ejemplo de corrección y un pack de 50-100 SKU para tiendas pequeñas con 149 EUR, entregado en PDF + CSV + checklist QA. Si te interesa, te envío un mini ejemplo con 3 productos y te lo cierro con CobrAMO usando la referencia RANK-IAMO508. Gracias, IAMO508.",
-      "deliverable": "Un pack digital con auditoría de 50-100 SKU, lista de correcciones de feed, CSV corregido de ejemplo, checklist QA y mini video de validación. Si el cliente quiere, se ofrece una revisión extra o ampliación a catálogo mayor.",
+      "channel": "Personalized email to the clinic manager or front-desk lead using a publicly published website contact address or Google Business Profile contact information.",
+      "subject": "Two quick observations on your Google reviews and reply workflow",
+      "message": "Hola [Nombre],\n\nHe visto que vuestro perfil de Google Business Profile está activo y que tenéis varias reseñas públicas, pero no he visto una respuesta sistemática a comentarios nuevos. En clínicas dentales y estéticas, la forma en que se responden las opiniones es una señal visible de confianza, rapidez y profesionalidad para pacientes nuevos. \n\nQuería proponeros un piloto muy acotado: Review Response Studio por 149 EUR para 30 días. Incluye auditoría de reseñas, priorización por riesgo/sentimiento, redacción de respuestas en español para comentarios positivos, neutrales y negativos, resumen semanal y una versión final con aprobación humana antes de publicar. \n\nLa idea no es vender un dashboard ni un servicio SEO genérico, sino resolver un cuello de botella real: responder bien a reseñas y reducir el riesgo reputacional sin añadir carga operativa al equipo. \n\nSi os interesa, puedo enviar un ejemplo de 3 respuestas preparadas para vuestro perfil con una propuesta breve y concreta. \n\nReferencia de pago: RANK-IAMO509.\n\nSaludos,\nIAMO509 / DesarrollAMO",
+      "deliverable": "A 30-day review-response pilot: review audit, risk triage, reply bank in Spanish, weekly summary, and final owner-approved response pack with a short implementation note.",
       "cobramo_url": "https://cobramo.netlify.app/",
-      "payment_reference": "RANK-IAMO508"
+      "payment_reference": "RANK-IAMO509"
     },
     "expected_revenue_eur": "149.00",
     "direct_cost_eur": "0.00",
-    "confidence_0_100": 76,
-    "differentiation_from_previous": "No repito la línea masiva de reseñas/GBP ni servicios genéricos de SEO. El cambio es más concreto y más verificable: un problema de product data en Shopify con evidencia oficial de Google/Merchant Center y un pack fijo con entrega digital inmediata tras pago. Es un producto de bajo coste, más fácil de explicar que un dashboard y más directo que una auditoría local genérica.",
-    "next_step": "Identificar 15-20 tiendas Shopify españolas o europeas con catálogo público visible y errores claros en títulos/variante/GTIN; enviar un email o mensaje corto con 2-3 problemas concretos y ofrecer un mini ejemplo. Si responden, enviar el sample con 3 SKU y cerrar el primer pack por 149 EUR vía CobrAMO con la referencia RANK-IAMO508.",
+    "confidence_0_100": 78,
+    "differentiation_from_previous": "I avoided the generic Google Business Profile cleanup and landing-page patterns used by recent IAMOs. This version is narrower and more operational: it targets a single visible, recurring workflow—responding to reviews with speed and tone control—rather than a broad profile audit or dashboard. It is closer to playbook route #3 (AI-assisted business utility) and route #4 (monitoring and alerts), with a concrete deliverable and low-friction pilot.",
+    "next_step": "Identify 15-20 Spanish dental/cosmetic clinics with active Google profiles and 5-30 reviews, inspect their public profile and review flow, then send one personalized message with 2 concrete observations and the 149 EUR pilot offer. If they respond, send a 3-sample reply pack and close the first pilot via CobrAMO using reference RANK-IAMO509.",
     "revenue_claim_eur": "0.00",
-    "notes": "Riesgos: la demanda puede estar más concentrada en tiendas con tráfico activo y feed visible; la estrategia funciona mejor si el cliente tiene catálogo con errores obvios y compra en Google Shopping/Meta. Supuesto principal: un pack digital de calidad y una demostración con 3 SKU es suficiente para cerrar el primer cliente sin construir una infraestructura SaaS. Ruta del playbook considerada: #48 Zero-backend direct storefront, reforzada por la evidencia de #28 (report/research product) y con enfoque comercial B2C/B2B ligero; también encaja con la semilla #4 de pain observable en la práctica, aunque el trato real se centra en un pack de corrección de feed y no en un dashboard."
+    "notes": "This strategy leverages real evidence from official Google guidance and BrightLocal survey data. Considered playbook routes #3 (AI-assisted business utility), #4 (monitoring and alert service), and #87 (local listing/profile cleanup service). No payment has been received and no revenue is claimed; the value is an execution plan only."
   }
 }
