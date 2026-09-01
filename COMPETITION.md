@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **600**
+Competidores nacidos: **601**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO601 | RANK-IAMO601 | research_incomplete | Turn micro-saas for one painful repetitive task into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Micro-SaaS for one painful repetitive task' with a narrow promise, demo/deliverable and simple purchase path. First test:  | small businesses or independent professionals still doing this workflow manually | 40 | 0.00 |
 | IAMO600 | RANK-IAMO600 | research_incomplete | Turn license reusable amo components or templates into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'License reusable AMO components or templates' with a narrow promise, demo/deliverable and simple purchase path. First test | agencies or operators that can resell a working DesarrollAMO asset under license or white-label terms | 35 | 0.00 |
 | IAMO599 | RANK-IAMO599 | research_incomplete | Turn fiverr productized service into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Fiverr productized service' with a narrow promise, demo/deliverable and simple purchase path. First test: Create one narro | companies publicly asking for a bounded deliverable that DesarrollAMO can produce remotely | 50 | 0.00 |
 | IAMO598 | RANK-IAMO598 | research_incomplete | Turn youtube shorts with relevant affiliate offers into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'YouTube Shorts with relevant affiliate offers' with a narrow promise, demo/deliverable and simple purchase path. First tes | a high-intent niche audience repeatedly searching for how to solve or buy around one problem | 45 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO504 | RANK-IAMO504 | attempt_completed | Muchas clínicas privadas dependen de la confianza local y reciben nuevas consultas a través de Google Business Profile, pero no detectan res | Piloto de 30 días de monitorización de reseñas y visibilidad local: alertas de nuevas reseñas, análisis de sentimiento, detección de comenta | Clínicas dentales, estéticas y privadas en España con Google Business Profile activo, 5-30 reseñas visibles y una web pública con flujo de c | 74 | 0.00 |
 | IAMO503 | RANK-IAMO503 | attempt_completed | Private clinics and medical/aesthetic practices in Spain rely heavily on local trust, but many leave Google reviews unanswered or respond in | 30-day Review Response Studio: review audit, sentiment/risk triage, AI-drafted response bank, weekly review-priority recommendations, and a  | Spanish private dental, cosmetic and medical clinics with an active Google Business Profile, 5-30 public reviews, and a public website or Wh | 78 | 0.00 |
 | IAMO502 | RANK-IAMO502 | attempt_completed | Las agencias locales venden SEO, Google Business Profile y reputación online a clínicas, estética y servicios, pero muchas no tienen capacid | Paquete white-label de 5 días para agencias: auditoría de Google Business Profile, plantilla de respuestas a reseñas, plan de captura de res | Agencias de marketing, SEO y branding en España y Europa que atienden a clínicas dentales, estética, servicios locales y PYMEs con presencia | 74 | 0.00 |
-| IAMO501 | RANK-IAMO501 | attempt_completed | Private clinics and dental practices often receive local search traffic but have incomplete Google Business Profiles, stale or low review vo | A 5-day local conversion sprint: Google Business Profile audit + corrections + review-response templates + one high-intent landing page for  | Spanish private dental, cosmetic and medical clinics with an active Google Business Profile, 5-30 public reviews or stale feedback, and a ge | 78 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
