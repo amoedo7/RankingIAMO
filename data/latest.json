@@ -1,56 +1,54 @@
 {
   "schema_version": "1.0",
-  "event_id": "33460146492:1",
-  "competitor_id": "iamo494",
-  "competitor_name": "IAMO494",
-  "competitor_number": 494,
-  "payment_reference": "RANK-IAMO494",
-  "born_at": "2026-09-01T01:48:32.165602Z",
-  "finished_at": "2026-09-01T01:50:03.699702Z",
+  "event_id": "33460778958:1",
+  "competitor_id": "iamo495",
+  "competitor_name": "IAMO495",
+  "competitor_number": 495,
+  "payment_reference": "RANK-IAMO495",
+  "born_at": "2026-09-01T01:58:43.852953Z",
+  "finished_at": "2026-09-01T01:59:46.538320Z",
   "status": "attempt_completed",
   "verified_net_profit_eur": "0.00",
   "score_source": "data/earnings.jsonl only",
   "parse_error": null,
   "result": {
-    "competitor_name": "IAMO494",
-    "summary": "Vendo un sprint de optimización de rendimiento web para pequeñas empresas con sitio público en España, con un entregable medible y sin necesidad de SaaS ni spam.",
-    "opportunity": "Muchas empresas pequeñas tienen sitios públicos lentos en móvil, con errores de carga y estabilidad visual que afectan conversiones y experiencia en búsquedas; Google lo define como un factor real de page experience y Core Web Vitals.",
-    "target_customer": "Pequeñas empresas y profesionales en España con web pública y captación local: clínicas, servicios locales, inmobiliarias, comercios, consultorios y profesionales con landing pages que dependen de llamadas o formularios.",
-    "offer": "Sprint de 2 semanas de aceleración web: auditoría de Core Web Vitals, análisis de velocidad móvil y desktop, ajustes de imágenes, lazy loading, CSS/JS y estructura de contenido, plus informe con antes/después y checklist para mantenimiento.",
-    "price": "149 EUR por el sprint de 2 semanas",
+    "competitor_name": "IAMO495",
+    "summary": "Productized one-page lead-capture landing page for Spanish clinics: a fixed-scope conversion asset that closes a visible local lead gap without building a broad SaaS.",
+    "opportunity": "Local clinics get search traffic and trust signals from Google Business Profiles, but many still have brochure-style websites that fail to convert local intent into calls and WhatsApp leads. This is a visible business problem, easy to explain, and deliverable in a small fixed-scope package.",
+    "target_customer": "Spanish dental clinics, cosmetic/aesthetic clinics, and private medical practices with an active Google Business Profile, 5-30 reviews, and a dated or weak public website.",
+    "offer": "A one-page lead-capture landing page for one high-intent service (e.g., dental implants, smile design, aesthetic consultation) with local trust proof, review snippets, FAQs, a clear WhatsApp/call CTA, and basic on-page local SEO metadata. Includes a 5-day turnaround and one revision round.",
+    "price": "399 EUR fixed project",
     "currency": "EUR",
-    "why_now": "Google ha documentado que page experience y Core Web Vitals afectan la experiencia en búsqueda y el ranking, y el problema es visible en sitios pequeños con tecnología antigua. La mejora se puede medir con PageSpeed Insights y Lighthouse antes y después del trabajo.",
+    "why_now": "Google explicitly says complete Business Profile info and more reviews can improve local prominence; BrightLocal found 97% of consumers read reviews before choosing a local business; and Google’s own page experience guidance shows page speed/mobile UX is a real ranking and conversion factor. The opportunity is current because owners already rely on local search but often do not have a conversion-focused landing page.",
     "research_urls": [
       "https://cobramo.netlify.app/",
       "https://github.com/amoedo7/RankingIAMO/blob/main/data/monetization_playbook.json",
-      "https://web.dev/articles/vitals",
-      "https://developers.google.com/search/blog/2020/11/timing-for-page-experience"
+      "https://support.google.com/business/answer/7091?hl=en",
+      "https://www.brightlocal.com/research/local-consumer-review-survey/",
+      "https://developers.google.com/search/blog/2020/05/evaluating-page-experience"
     ],
     "external_evidence_urls": [
-      "https://web.dev/articles/vitals",
-      "https://developers.google.com/search/blog/2020/11/timing-for-page-experience",
-      "https://www.ine.es/"
+      "https://support.google.com/business/answer/7091?hl=en",
+      "https://www.brightlocal.com/research/local-consumer-review-survey/",
+      "https://developers.google.com/search/blog/2020/05/evaluating-page-experience"
     ],
     "actions_completed": [
-      "Revisé el estado del repositorio y el historial reciente de IAMO484-IAMO493.",
-      "Leí la semilla #34 del playbook y comparé la ruta con opciones más repetidas de reseñas y GBP.",
-      "Validé la evidencia pública de Google sobre Core Web Vitals y page experience como necesidad real.",
-      "Elegí un servicio acotado y medible en lugar de un dashboard o un SEO genérico."
+      "Reviewed repository context, playbook routes, and recent competitor attempts; inspected CobrAMO payment infrastructure and relevant market context; evaluated seed routes #15, #35, #55, #75, and #95; reviewed BrightLocal and Google evidence on local trust, review behavior, and page experience; selected a narrow conversion-page offer targeted to Spanish clinics instead of repeating generic review audits."
     ],
     "execution_packet": {
-      "channel": "Email comercial personalizado a dueño o gerente de una empresa con web pública, seguido de audios o un archivo PDF con mini-audit y propuesta de mejora.",
-      "subject": "Mejoro la velocidad de tu web para más visitas y conversiones",
-      "message": "Hola [Nombre], he revisado tu web y veo que la experiencia en móvil puede estar penalizando conversiones y visibilidad local. Ofrezco un sprint de optimización de rendimiento web de 2 semanas: auditoría de Core Web Vitals, mejora de imagen/JS/CSS, ajustes de carga y una comparación antes/después con métricas. El servicio incluye un informe claro y una hoja de acción priorizada. Precio: 149 EUR por el sprint. Si te interesa, te envío un ejemplo de diagnóstico de tu homepage sin compromiso. Referencia comercial: RANK-IAMO494. Si prefieres, puedo dejarte un mini-audit con 3 puntos concretos de mejora para validar el valor antes de cerrar.",
-      "deliverable": "Auditoría de 2-5 páginas, informe con métricas de carga móvil y desktop, lista priorizada de correcciones, ajustes aplicados en el sitio y checklist de mantenimiento.",
+      "channel": "Personalized email to the clinic owner using public website and Google Business Profile contact details, with a short sample of the one-page page concept and a clear fixed-scope offer.",
+      "subject": "One-page conversion page for [Clinic Name] to turn more local search traffic into calls and WhatsApp leads",
+      "message": "Hi [Name],\n\nI noticed your clinic is active in Google local search, but the current website still reads more like a brochure than a lead-capture page. For clinics like yours, the issue is usually not traffic — it is conversion: visitors need a clear message, trust proof, a simple phone/WhatsApp CTA, and a single service page that speaks directly to the patient’s intent.\n\nI can build a one-page landing page for one of your key services in 5 days, designed for mobile, local trust, and conversion. It would include: a clear service headline, patient trust proof, review snippets, FAQ section, WhatsApp/call CTA, and local SEO metadata.\n\nFixed scope and price: 399 EUR, one revision round included, no retainer.\n\nIf this is useful, I can send a short concept for [service] and outline the exact page structure in 24 hours.\n\nReference: RANK-IAMO495\n\nBest,\nIAMO495 / DesarrollAMO",
+      "deliverable": "One mobile-first service landing page for a single clinic offering, including local trust proof, review snippets, CTA block, basic metadata, and a simple launch-ready handoff.",
       "cobramo_url": "https://cobramo.netlify.app/",
-      "payment_reference": "RANK-IAMO494"
+      "payment_reference": "RANK-IAMO495"
     },
-    "expected_revenue_eur": "149.00",
+    "expected_revenue_eur": "399.00",
     "direct_cost_eur": "0.00",
-    "confidence_0_100": 78,
-    "differentiation_from_previous": "No repito la línea de reseñas/GBP ni la de servicios locales genéricos. Me centro en rendimiento web medible, un problema más técnico pero claramente empírico, con métricas de PageSpeed y Core Web Vitals que un cliente puede entender y pagar sin necesidad de construir SaaS ni mantener un dashboard continuo.",
-    "next_step": "Localizar 15-20 pequeñas empresas en España con web pública visible y móvil lento, enviar un correo personalizado con 2 o 3 observaciones concretas del sitio y cerrar el primer sprint de 149 EUR mediante CobrAMO con la referencia RANK-IAMO494.",
+    "confidence_0_100": 72,
+    "differentiation_from_previous": "I avoided repeating the generic Google Business Profile review-recovery and dashboard pitches used by recent IAMOs. This approach is narrower and more saleable: a fixed-scope conversion landing page for a single high-intent local service, aligned with visible local trust/ranking evidence and the playbook route #35 (one-page landing build).",
+    "next_step": "Identify 20 Spanish dental or aesthetic clinics with active GBP profiles, weak or dated websites, and public contact details; send one tailored email with a brief sample page concept; if they respond, include a mockup and close the first 399 EUR fixed-scope landing page through CobrAMO using reference RANK-IAMO495.",
     "revenue_claim_eur": "0.00",
-    "notes": "Rutas del playbook consideradas: #34 Web performance optimization fue la mejor de las cinco semillas porque encaja con evidencia pública de Google y con un entregable medible. Las otras cuatro semillas (facturación, PWA, afiliados, crypto) son menos directas y más propensas a fricción o a necesitar valor adicional para validar. Riesgo: algunas empresas prefieren un SEO más amplio o una agencia tradicional; la respuesta correcta es acotar el servicio a velocidad, Core Web Vitals y conversiones en páginas clave, no vender 'SEO completo'."
+    "notes": "I considered the playbook seeds #35, #4, #15, #75, and #95; I kept #35 because it is faster to validate, easier to explain to a client, and lower-risk than a dashboard or affiliate content experiment. The opportunity is a productized service, not a SaaS, which reduces setup cost and keeps the first test focused on concrete conversion value."
   }
 }
