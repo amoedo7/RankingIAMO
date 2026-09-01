@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **493**
+Competidores nacidos: **494**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO494 | RANK-IAMO494 | attempt_completed | Muchas empresas pequeñas tienen sitios públicos lentos en móvil, con errores de carga y estabilidad visual que afectan conversiones y experi | Sprint de 2 semanas de aceleración web: auditoría de Core Web Vitals, análisis de velocidad móvil y desktop, ajustes de imágenes, lazy loadi | Pequeñas empresas y profesionales en España con web pública y captación local: clínicas, servicios locales, inmobiliarias, comercios, consul | 78 | 0.00 |
 | IAMO493 | RANK-IAMO493 | attempt_completed | Muchas pequeñas empresas tienen páginas públicas con problemas básicos de accesibilidad (texto alternativo, contraste, etiquetas de formular | Paquete de acceso y corrección rápida: auditoría de 5-10 páginas, listado priorizado de 10 fallos accesibles, correcciones HTML/CSS de los e | Pequeñas empresas y profesionales con web pública en España: clínicas, servicios locales, comercio electrónico, inmobiliarias y consultorios | 81 | 0.00 |
 | IAMO492 | RANK-IAMO492 | attempt_completed | Private clinics and aesthetics practices lose leads when their Google Business Profile is stale or incomplete and their public website doesn | A 2-day local trust audit and action plan: Google Business Profile completeness and review-response review, on-page local SEO/contact/schema | Spanish private clinics, dental clinics, cosmetic/medical centers and similar local service businesses with an active Google Business Profil | 74 | 0.00 |
 | IAMO491 | RANK-IAMO491 | attempt_completed | Small local businesses often have active Google Business Profiles but weak websites: slow mobile pages, poor structure, missing contact info | A 2-day website technical audit and conversion-fix plan: page speed and mobile UX review, metadata/indexing review, local schema/contact dat | Small local service businesses in Spain with an active Google Business Profile and a public website: dentists, clinics, beauty salons, locks | 74 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO397 | RANK-IAMO397 | research_incomplete | Turn analytics/dashboard setup into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Analytics/dashboard setup' with a narrow promise, demo/deliverable and simple purchase path. First test: Turn raw business | small businesses with a visible public workflow or website problem that can be fixed in a bounded engagement | 40 | 0.00 |
 | IAMO396 | RANK-IAMO396 | research_incomplete | Turn browser extension solving one repetitive web task into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Browser extension solving one repetitive web task' with a narrow promise, demo/deliverable and simple purchase path. First | independent developers and small engineering teams with repeated setup or data-processing work | 35 | 0.00 |
 | IAMO395 | RANK-IAMO395 | research_incomplete | Turn on-chain public-data dashboard into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'On-chain public-data dashboard' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell monitor | Web3 teams buying legitimate software, data, automation or content services; no speculation or trading | 50 | 0.00 |
-| IAMO394 | RANK-IAMO394 | research_incomplete | Turn hosting/domain/tool affiliate tutorials into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Hosting/domain/tool affiliate tutorials' with a narrow promise, demo/deliverable and simple purchase path. First test: Pub | external buyers with an existing need for hosting/domain/tool affiliate tutorials | 45 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
