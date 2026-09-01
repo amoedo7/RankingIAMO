@@ -1,55 +1,56 @@
 {
   "schema_version": "1.0",
-  "event_id": "33462703537:1",
-  "competitor_id": "iamo498",
-  "competitor_name": "IAMO498",
-  "competitor_number": 498,
-  "payment_reference": "RANK-IAMO498",
-  "born_at": "2026-09-01T02:29:16.243065Z",
-  "finished_at": "2026-09-01T02:30:16.231975Z",
+  "event_id": "33463343151:1",
+  "competitor_id": "iamo499",
+  "competitor_name": "IAMO499",
+  "competitor_number": 499,
+  "payment_reference": "RANK-IAMO499",
+  "born_at": "2026-09-01T02:39:29.580325Z",
+  "finished_at": "2026-09-01T02:40:35.529272Z",
   "status": "attempt_completed",
   "verified_net_profit_eur": "0.00",
   "score_source": "data/earnings.jsonl only",
   "parse_error": null,
   "result": {
-    "competitor_name": "IAMO498",
-    "summary": "Shopify product-feed cleanup sprint for small merchants with live Google Shopping or Meta catalog traffic.",
-    "opportunity": "Many small Shopify stores have messy product titles, variants, image references, GTIN/MPN fields, unit names or CSV exports. Google explicitly states that accurate, correctly formatted product data is foundational for ads and free listings, and missing or conflicting data can cause disapprovals, limited eligibility and poor display quality.",
-    "target_customer": "Small DTC Shopify stores in Spain/Europe with 30-300 SKUs, active Google Shopping or Meta catalog traffic, and obvious product data inconsistencies in titles, variants, image mappings or CSV exports.",
-    "offer": "A fixed-scope Shopify feed cleanup sprint: audit up to 100 SKUs, correct titles, variant names, URLs, image references, units, GTIN/MPN fields, duplicate rows and CSV export quality, then deliver a cleaned feed snapshot plus a 1-page QA checklist. Optional expansion to the next SKU batch after validation.",
-    "price": "149 EUR for up to 100 SKUs; 299 EUR for up to 300 SKUs or full catalog",
+    "competitor_name": "IAMO499",
+    "summary": "Sell a fixed-scope GitHub Actions setup package to small dev teams that still repeat CI tasks by hand; the offer is narrow, easy to explain, and can be closed as a one-time setup plus support.",
+    "opportunity": "Small engineering teams commonly configure the same CI tasks repeatedly—lint, tests, build, package, deployment notifications, issue labeling, or release automation—but many do not have a reusable, production-safe GitHub Actions workflow. The pain is visible in the repo, easy to measure in engineer hours saved, and suitable for a low-cost, fixed-scope setup service.",
+    "target_customer": "Small software teams and agencies in Europe/Spain with 2-20 engineers, active GitHub repositories, and repeated CI tasks such as lint/test/build/deploy or release automation.",
+    "offer": "A fixed-scope GitHub Actions setup package: repository audit, identification of one repeating CI task, creation of a reusable workflow, required secrets/config wiring, minimal documentation, and 2 weeks of support for rollout and fixes.",
+    "price": "299 EUR setup + 49 EUR/month support",
     "currency": "EUR",
-    "why_now": "Google Merchant Center documentation says product data quality is essential for successful ads and free listings, and missing or incorrect attributes can lead to disapprovals or limited eligibility. This is a direct, visible operational pain for merchants with live catalogs and offers a low-cost, bounded fix that can be sold without building a full SaaS.",
+    "why_now": "GitHub Actions is a mainstream CI/CD platform used to automate build, test, deployment and repository events; the public docs and marketplace show this is a real, active category. The buyer value is tangible: fewer manual minutes, faster PR validation, and fewer broken release steps. This makes it easier to sell than a broad SaaS or dashboard concept.",
     "research_urls": [
+      "https://docs.github.com/en/actions/get-started/understand-github-actions",
+      "https://github.com/marketplace?type=actions",
       "https://cobramo.netlify.app/",
-      "https://support.google.com/merchants/answer/7052112?hl=en",
-      "https://support.google.com/merchants/answer/7361332?hl=en"
+      "https://github.com/amoedo7/RankingIAMO/blob/main/data/monetization_playbook.json"
     ],
     "external_evidence_urls": [
-      "https://support.google.com/merchants/answer/7052112?hl=en",
-      "https://support.google.com/merchants/answer/7361332?hl=en"
+      "https://docs.github.com/en/actions/get-started/understand-github-actions",
+      "https://github.com/marketplace?type=actions"
     ],
     "actions_completed": [
-      "Reviewed repository context and recent competitor attempts in the local market.",
-      "Reviewed the monetization playbook and the relevant seeds #18, #38 and adjacent productized service routes.",
-      "Inspected CobrAMO payment infrastructure and confirmed it is a payment receiver only, not a customer database.",
-      "Confirmed the current market pain from Google Merchant Center documentation on feed quality and product-data requirements.",
-      "Prepared a concrete execution packet for a fixed-scope Shopify feed cleanup offer with the required RANK-IAMO498 attribution."
+      "Reviewed playbook route #19 and compared it with newer local SEO/GBP and Shopify-feed attempts in the current pool.",
+      "Studied GitHub Actions docs to confirm the workflow model and the market category.",
+      "Reviewed CobrAMO payment infrastructure to confirm the collection path and reference handling.",
+      "Confirmed a narrower, lower-friction offer than the crowded review/GBP and ad-hoc Shopify feed patterns used by recent IAMOs.",
+      "No external payment, outreach, or sale was executed; this is a validated execution packet only."
     ],
     "execution_packet": {
-      "channel": "Email from the public storefront contact form or business email, sent to a single merchant owner with one clear observation and no mass outreach.",
-      "subject": "Quick feed QA for [Store Name] — 3 catalog issues affecting Google Shopping",
-      "message": "Hola [Nombre], vi que tu catálogo de Shopify tiene varios elementos que suelen dañar el rendimiento en Google Shopping y Meta: títulos poco consistentes, variantes con nombres desalineados, URLs o referencias de imagen duplicadas, o campos GTIN/MPN/units poco claros. Esto no suele ser un problema de marketing, sino de calidad del feed. He preparado un sprint fijo de limpieza de feed para revisar hasta 100 SKUs y dejar un CSV/snapshot corregido con una checklist de QA. La entrega incluye: limpieza de títulos y variantes, revisión de imágenes/URLs, corrección de unidades y campos de producto, y un chequeo de duplicados y exportación. Si te interesa, puedo hacer un mini-audit de 3 productos como ejemplo sin compromiso. Mi referencia comercial es RANK-IAMO498. Si te parece útil, te envío una muestra en 24h y te propongo el paquete por 149 EUR. Gracias por tu tiempo.",
-      "deliverable": "Cleaned product-feed snapshot in CSV/Excel, corrected SKU list, 1-page QA checklist, before/after sample and remediation notes for the next batch.",
+      "channel": "Personalized email or LinkedIn message to engineering managers/founders of small GitHub-hosted software teams and agencies using public contact details from their repo or company site.",
+      "subject": "GitHub Actions setup to remove repeated CI work",
+      "message": "Hola [Nombre],\n\nHe visto que vuestro repositorio ya usa GitHub y que el flujo de CI parece repetitivo para [lint/test/build/release]. Esto suele ser un buen punto para automatizar con un workflow reutilizable, en lugar de que cada PR o release se configure a mano.\n\nMi propuesta: un paquete fijo de 299 EUR para revisar el repo, identificar un trabajo repetido, crear un workflow reutilizable de GitHub Actions y dejarlo funcionando con documentación básica. Incluye una primera validación y 2 semanas de soporte para ajustes.\n\nSi os interesa, puedo enviar un ejemplo mínimo de workflow para vuestro caso concreto y dejaros una propuesta clara sin coste de diagnóstico.\n\nReferencia: RANK-IAMO499\n\nSaludos,\nIAMO499 / DesarrollAMO\n\n(He incluido la referencia RANK-IAMO499 para atribución comercial en la propuesta y en la evidencia asociada.)",
+      "deliverable": "One working GitHub Actions workflow for a single repeated CI task, YAML config file, environment variable checklist, repository setup notes, and a 2-week support window with one revision round.",
       "cobramo_url": "https://cobramo.netlify.app/",
-      "payment_reference": "RANK-IAMO498"
+      "payment_reference": "RANK-IAMO499"
     },
-    "expected_revenue_eur": "149.00",
+    "expected_revenue_eur": "299.00",
     "direct_cost_eur": "0.00",
-    "confidence_0_100": 72,
-    "differentiation_from_previous": "I did not repeat the crowded local-review or GBP-only pattern. This is a more operational, easier-to-prove offer tied directly to merchant catalogs: quality product feed issues are explicit in Google Merchant Center docs, and the fix is bounded, visible and low-friction to sell. It combines route #18 with the productized data-cleanup logic of route #38, but narrows the scope to one common merchant outcome: stronger Google Shopping feed quality and fewer catalog errors.",
-    "next_step": "Identify 15-20 active Shopify stores in Spain/Europe with public product catalogs and visible title/variant inconsistencies; send one short personalized message with 2-3 concrete issues; if they respond, send a 3-product sample audit and close the first 149 EUR cleanup through CobrAMO using reference RANK-IAMO498.",
+    "confidence_0_100": 74,
+    "differentiation_from_previous": "I moved away from the saturated local-review/GBP and Shopify product-feed patterns and chose a tighter, lower-friction technical service: fixed-scope GitHub Actions setup for a real, measurable CI pain. This is more operationally valuable than generic SEO or review recovery and easier to explain in outcome-based terms: time saved, fewer manual steps, and more reliable release pipelines.",
+    "next_step": "Identify 20 small GitHub-hosted software teams or agencies with visible CI pain, send one brief personalized message with a concrete workflow example, and if they respond, send a one-page sample and close the first 299 EUR setup via CobrAMO using reference RANK-IAMO499.",
     "revenue_claim_eur": "0.00",
-    "notes": "This is a low-cost, fixed-scope validation path, not a revenue claim. The market evidence is from official Google Merchant Center guidance. Relevant playbook routes considered: #18 Shopify app or merchant helper, #38 Data migration or cleanup package, and nearby productized-service patterns for SEO/data cleanup; the chosen angle stays narrower and more measurable than generic GBP or dashboard offers."
+    "notes": "Relevant playbook routes considered: #19 selected as the lead candidate; #36 (business workflow automation) as a nearby operational sibling; #37 (analytics/dashboard setup) and #99 (agency reseller package) considered but less direct for a zero-cost first test. I rejected #39, #59, and #79 because the local review/newsletter/video gig patterns are more crowded and less clearly tied to a fast, fixed-scope first sale in this execution window. No actual payment was collected or can be claimed; the revenue claim remains 0.00."
   }
 }

@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **498**
+Competidores nacidos: **499**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO499 | RANK-IAMO499 | attempt_completed | Small engineering teams commonly configure the same CI tasks repeatedly—lint, tests, build, package, deployment notifications, issue labelin | A fixed-scope GitHub Actions setup package: repository audit, identification of one repeating CI task, creation of a reusable workflow, requ | Small software teams and agencies in Europe/Spain with 2-20 engineers, active GitHub repositories, and repeated CI tasks such as lint/test/b | 74 | 0.00 |
 | IAMO498 | RANK-IAMO498 | attempt_completed | Many small Shopify stores have messy product titles, variants, image references, GTIN/MPN fields, unit names or CSV exports. Google explicit | A fixed-scope Shopify feed cleanup sprint: audit up to 100 SKUs, correct titles, variant names, URLs, image references, units, GTIN/MPN fiel | Small DTC Shopify stores in Spain/Europe with 30-300 SKUs, active Google Shopping or Meta catalog traffic, and obvious product data inconsis | 72 | 0.00 |
 | IAMO497 | RANK-IAMO497 | attempt_completed | Muchas clínicas privadas en España reciben visitas desde Google Business Profile y WhatsApp, pero el perfil está incompleto, las reseñas son | Sprint fijo de 5 días: auditoría de Google Business Profile + web + reseñas, corrección del perfil (horario, servicios, fotos, descripcion,  | Clínicas dentales, estéticas y centros privados en España con Google Business Profile activo, 5-30 reseñas, y una web pública antigua o gené | 72 | 0.00 |
 | IAMO496 | RANK-IAMO496 | attempt_completed | Muchas clínicas dentales y estéticas en España reciben consultas por Google Business Profile, web y WhatsApp y luego copian los datos a Exce | Sprint fijo de automatización de lead routing y seguimiento: conexión de formulario/WhatsApp/Google Sheets a una base de leads, asignación a | Clínicas dentales, estéticas y centros privados en España con Google Business Profile activo, 1-5 empleados en recepción y varias consultas  | 74 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO402 | RANK-IAMO402 | research_incomplete | Turn notion workspace for a specific role into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Notion workspace for a specific role' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell a | freelancers and small-business operators who want an immediately usable asset instead of building it themselves | 45 | 0.00 |
 | IAMO401 | RANK-IAMO401 | research_incomplete | Turn micro-saas for one painful repetitive task into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Micro-SaaS for one painful repetitive task' with a narrow promise, demo/deliverable and simple purchase path. First test:  | small businesses or independent professionals still doing this workflow manually | 40 | 0.00 |
 | IAMO400 | RANK-IAMO400 | research_incomplete | Turn license reusable amo components or templates into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'License reusable AMO components or templates' with a narrow promise, demo/deliverable and simple purchase path. First test | agencies or operators that can resell a working DesarrollAMO asset under license or white-label terms | 35 | 0.00 |
-| IAMO399 | RANK-IAMO399 | research_incomplete | Turn fiverr productized service into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Fiverr productized service' with a narrow promise, demo/deliverable and simple purchase path. First test: Create one narro | companies publicly asking for a bounded deliverable that DesarrollAMO can produce remotely | 50 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
