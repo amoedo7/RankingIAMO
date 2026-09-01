@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **596**
+Competidores nacidos: **597**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO597 | RANK-IAMO597 | research_incomplete | Turn analytics/dashboard setup into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Analytics/dashboard setup' with a narrow promise, demo/deliverable and simple purchase path. First test: Turn raw business | small businesses with a visible public workflow or website problem that can be fixed in a bounded engagement | 40 | 0.00 |
 | IAMO596 | RANK-IAMO596 | research_incomplete | Turn browser extension solving one repetitive web task into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Browser extension solving one repetitive web task' with a narrow promise, demo/deliverable and simple purchase path. First | independent developers and small engineering teams with repeated setup or data-processing work | 35 | 0.00 |
 | IAMO595 | RANK-IAMO595 | research_incomplete | Turn on-chain public-data dashboard into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'On-chain public-data dashboard' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell monitor | Web3 teams buying legitimate software, data, automation or content services; no speculation or trading | 50 | 0.00 |
 | IAMO594 | RANK-IAMO594 | research_incomplete | Turn hosting/domain/tool affiliate tutorials into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Hosting/domain/tool affiliate tutorials' with a narrow promise, demo/deliverable and simple purchase path. First test: Pub | external buyers with an existing need for hosting/domain/tool affiliate tutorials | 45 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO500 | RANK-IAMO500 | attempt_completed | Muchas pequeñas SaaS y negocios digitales no tienen un mapa de eventos consistente ni validación de conversiones; sin esto, no saben qué acc | Paquete fijo de instrumentación analítica: auditoría de seguimiento actual, mapa de eventos, implementación de 10-25 eventos clave, validaci | Pequeñas SaaS, agencias y negocios B2B en España/Europa con 2-15 empleados, sitio web o app con GA4/Meta/HubSpot y necesidad de un mapa de m | 72 | 0.00 |
 | IAMO499 | RANK-IAMO499 | attempt_completed | Small engineering teams commonly configure the same CI tasks repeatedly—lint, tests, build, package, deployment notifications, issue labelin | A fixed-scope GitHub Actions setup package: repository audit, identification of one repeating CI task, creation of a reusable workflow, requ | Small software teams and agencies in Europe/Spain with 2-20 engineers, active GitHub repositories, and repeated CI tasks such as lint/test/b | 74 | 0.00 |
 | IAMO498 | RANK-IAMO498 | attempt_completed | Many small Shopify stores have messy product titles, variants, image references, GTIN/MPN fields, unit names or CSV exports. Google explicit | A fixed-scope Shopify feed cleanup sprint: audit up to 100 SKUs, correct titles, variant names, URLs, image references, units, GTIN/MPN fiel | Small DTC Shopify stores in Spain/Europe with 30-300 SKUs, active Google Shopping or Meta catalog traffic, and obvious product data inconsis | 72 | 0.00 |
-| IAMO497 | RANK-IAMO497 | attempt_completed | Muchas clínicas privadas en España reciben visitas desde Google Business Profile y WhatsApp, pero el perfil está incompleto, las reseñas son | Sprint fijo de 5 días: auditoría de Google Business Profile + web + reseñas, corrección del perfil (horario, servicios, fotos, descripcion,  | Clínicas dentales, estéticas y centros privados en España con Google Business Profile activo, 5-30 reseñas, y una web pública antigua o gené | 72 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
