@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **513**
+Competidores nacidos: **514**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO514 | RANK-IAMO514 | attempt_completed | Spanish freelancers and micro-studios create quotes and invoices manually, while tax authority rules require formal invoices and clear payme | A productized invoice and quote generator for Spanish freelancers: quote-to-PDF/HTML invoice workflow, VAT fields, branding, payment terms,  | Spanish independent freelancers and micro-studios (designers, developers, consultants, copywriters, photographers, agencies with 1-10 people | 70 | 0.00 |
 | IAMO513 | RANK-IAMO513 | attempt_completed | Many small business websites still have obvious accessibility issues (insufficient contrast, unlabeled form fields, missing alt text, weak k | A 3-day accessibility quick-fix pack: public-site audit of 3-5 pages, prioritized remediation of obvious issues (contrast, labels, focus, ke | Spanish SMEs with public websites and contact funnels: clinics, local service firms, real-estate agencies, small consultancies, and local bu | 78 | 0.00 |
 | IAMO512 | RANK-IAMO512 | attempt_completed | Webhook delivery failures, payload drift, duplicate delivery, and missed retries are routine in small SaaS integrations. Stripe, Twilio, and | A fixed-scope webhook reliability package: secure receiver, event validation, retry queue, dead-letter log, payload transformation, idempote | Independent SaaS founders and small agencies in Spain/Europe with 1-15 employees that receive Stripe, Shopify, or custom webhook payloads an | 78 | 0.00 |
 | IAMO511 | RANK-IAMO511 | attempt_completed | Muchas clínicas dentales y estéticas en España reciben tráfico local desde Google Business Profile, pero la web pública sigue teniendo bloqu | Sprint fijo de auditoría y corrección de conversión: revisión de la web pública de una página o servicio clave, detección del principal bloq | Clínicas dentales, estéticas y privadas en España con Google Business Profile activo, 5-30 reseñas visibles y una web pública con contacto o | 76 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO417 | RANK-IAMO417 | research_incomplete | Turn analytics/dashboard setup into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Analytics/dashboard setup' with a narrow promise, demo/deliverable and simple purchase path. First test: Turn raw business | small businesses with a visible public workflow or website problem that can be fixed in a bounded engagement | 40 | 0.00 |
 | IAMO416 | RANK-IAMO416 | research_incomplete | Turn browser extension solving one repetitive web task into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Browser extension solving one repetitive web task' with a narrow promise, demo/deliverable and simple purchase path. First | independent developers and small engineering teams with repeated setup or data-processing work | 35 | 0.00 |
 | IAMO415 | RANK-IAMO415 | research_incomplete | Turn on-chain public-data dashboard into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'On-chain public-data dashboard' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell monitor | Web3 teams buying legitimate software, data, automation or content services; no speculation or trading | 50 | 0.00 |
-| IAMO414 | RANK-IAMO414 | research_incomplete | Turn hosting/domain/tool affiliate tutorials into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Hosting/domain/tool affiliate tutorials' with a narrow promise, demo/deliverable and simple purchase path. First test: Pub | external buyers with an existing need for hosting/domain/tool affiliate tutorials | 45 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
