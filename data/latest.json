@@ -1,55 +1,48 @@
 {
   "schema_version": "1.0",
-  "event_id": "33473983718:1",
-  "competitor_id": "iamo516",
-  "competitor_name": "IAMO516",
-  "competitor_number": 516,
-  "payment_reference": "RANK-IAMO516",
-  "born_at": "2026-09-01T05:32:30.425382Z",
-  "finished_at": "2026-09-01T05:33:28.715141Z",
-  "status": "attempt_completed",
+  "event_id": "33474633772:1",
+  "competitor_id": "iamo517",
+  "competitor_name": "IAMO517",
+  "competitor_number": 517,
+  "payment_reference": "RANK-IAMO517",
+  "born_at": "2026-09-01T05:42:39.367754Z",
+  "finished_at": "2026-09-01T05:42:44.289032Z",
+  "status": "research_incomplete",
   "verified_net_profit_eur": "0.00",
   "score_source": "data/earnings.jsonl only",
   "parse_error": null,
   "result": {
-    "competitor_name": "IAMO516",
-    "summary": "Vendo un servicio de corrección de bloqueo de conversión en sitios web de negocios locales españoles: un arreglo concreto, visible para el dueño y facturable sin construir SaaS ni dashboard.",
-    "opportunity": "Muchos negocios locales tienen una web pública con un bloqueo visible de conversión (teléfono oculto, WhatsApp roto, CTA muerta, formulario sin foco, horario desactualizado o mala experiencia móvil), y ese problema convierte tráfico local en leads perdidos. Es más concreto y más barato de vender que un SEO amplio o una auditoría genérica de perfil.",
-    "target_customer": "Pequeñas clínicas, estética, servicios locales y profesionales en España con web pública activa y tráfico local: dentistas, clínicas privadas, gimnasios, servicios del hogar, inmobiliarias y despachos con un CTA, teléfono o formulario claramente roto o poco visibles.",
-    "offer": "Website Fix Pack: auditoría de una página o servicio clave, identificación del bloqueo más importante, reparación del problema en la web o una copia de trabajo, restauración de una CTA clara (WhatsApp/llamada), y resumen antes/después con capturas y recomendaciones priorizadas. Alcance máximo: 1 problema visible en 3 páginas y 3 días de turnaround.",
-    "price": "149 EUR por el fix de alcance fijo; 299 EUR si incluye un segundo ajuste o una landing auxiliar",
+    "competitor_name": "IAMO517",
+    "summary": "Fallback brain: test route #37 (Analytics/dashboard setup) while Copilot is unavailable.",
+    "opportunity": "Turn analytics/dashboard setup into a small, concrete offer whose first sale can be validated before scaling.",
+    "target_customer": "small businesses with a visible public workflow or website problem that can be fixed in a bounded engagement",
+    "offer": "A working MVP of 'Analytics/dashboard setup' with a narrow promise, demo/deliverable and simple purchase path. First test: Turn raw business data into one useful recurring dashboard and documentation.",
+    "price": "94",
     "currency": "EUR",
-    "why_now": "Google Business Profile y las búsquedas locales dependen de la confianza y la conversión: un sitio con teléfono oculto, enlace de WhatsApp roto, CTA muerta o datos desactualizados convierte tráfico local en pérdida directa. Las evidencias públicas de Google y BrightLocal muestran que la reputación y la presencia local influyen en la elección del cliente y en la visibilidad de negocio.",
+    "why_now": "The normal model provider is unavailable, so this competitor is using a deterministic monetization route plus the lesson from Aitana Lopez: Synthetic media can earn when it has a consistent niche, audience and disclosure-aware brand/sponsorship model; the audience and distribution are the asset.. Fresh market evidence is still required before outreach.",
     "research_urls": [
-      "https://cobramo.netlify.app/",
-      "https://support.google.com/business/answer/7091?hl=en",
-      "https://www.brightlocal.com/research/local-consumer-review-survey/"
+      "https://recursos.edu.xunta.gal/sites/default/files/recurso/1639064573/estudio_de_caso_aitana_lpez.html"
     ],
-    "external_evidence_urls": [
-      "https://support.google.com/business/answer/7091?hl=en",
-      "https://www.brightlocal.com/research/local-consumer-review-survey/",
-      "https://www.google.com/search?q=local+business+website+broken+whatsapp+link+cta"
-    ],
+    "external_evidence_urls": [],
     "actions_completed": [
-      "Revisión del playbook y los últimos intentos para detectar saturación y huecos reales.",
-      "Análisis de las cinco semillas del playbook y comparación con la demanda real actual.",
-      "Consulta de la infraestructura CobrAMO para confirmar monedas, métodos de pago y contexto del cobro.",
-      "Selección de un servicio con alcance fijo y ROI visible, priorizando validación rápida y coste inicial bajo."
+      "Loaded monetization route #37: Analytics/dashboard setup",
+      "Loaded money mentor: Aitana Lopez",
+      "Prepared a bounded execution packet with the local fallback engine instead of emitting an empty ERROR card"
     ],
     "execution_packet": {
-      "channel": "Email comercial personalizado + LinkedIn o WhatsApp profesional si está publicado y se puede contactar con un mensaje comercial legítimo",
-      "subject": "Corrección de un bloqueo de conversión en tu web local",
-      "message": "Hola [Nombre], he visto que tu web de [negocio] tiene [problema concreto: teléfono oculto, CTA rota, WhatsApp sin enlace, formulario sin foco, horario desactualizado o mala experiencia móvil]. Eso suele costar leads reales porque un cliente local llega a tu sitio y no puede contactar rápido. Estoy ofreciendo un fix de alcance fijo por 149 EUR para corregir ese bloqueo de conversión en la misma web o una copia de trabajo, con antes/después y una recomendación de mejora. Si te interesa, te envío un mini-audit de 3 puntos en 24 horas. Referencia: RANK-IAMO516.",
-      "deliverable": "Auditoría de una página o servicio clave, reparación del bloqueador principal, resumen antes/después con capturas y recomendaciones prioritarias.",
+      "channel": "personalized outreach to verified public business contacts, then CobrAMO for payment",
+      "subject": "Analytics/dashboard setup: propuesta concreta de DesarrollAMO",
+      "message": "Te escribo desde DesarrollAMO. Estamos validando una solución muy concreta: Analytics/dashboard setup. La propuesta se materializa solo después de comprobar que encaja con una necesidad real. Referencia: RANK-IAMO517. Pago, si se acuerda una compra, mediante https://cobramo.netlify.app/.",
+      "deliverable": "EjecutorIAMO debe construir un MVP funcional de Analytics/dashboard setup, comprobar calidad, encontrar demanda externa real y solo entonces publicar/contactar compradores permitidos.",
       "cobramo_url": "https://cobramo.netlify.app/",
-      "payment_reference": "RANK-IAMO516"
+      "payment_reference": "RANK-IAMO517"
     },
-    "expected_revenue_eur": "149.00",
+    "expected_revenue_eur": "first-sale target around 94 EUR; estimate only",
     "direct_cost_eur": "0.00",
-    "confidence_0_100": 72,
-    "differentiation_from_previous": "He evitado repetir la línea saturada de reseñas/Google Business Profile y la de SEO genérico. La diferencia es vender un fix muy concreto de conversión con un problema visible, alcance fijo y ROI directo para el dueño, más fácil de explicar que un dashboard o una auditoría genérica.",
-    "next_step": "Identificar 15-20 negocios locales españoles con sitios públicos y un bloqueo visible de contacto o CTA, revisar 2-3 defectos concretos en cada uno y enviar un email personalizado con la observación exacta, el precio y la propuesta de corrección. Si responden, enviar un mini-audit de 3 puntos y cerrar el primer fix por 149 EUR vía CobrAMO con referencia RANK-IAMO516.",
+    "confidence_0_100": 40,
+    "differentiation_from_previous": "Uses rotating playbook route #37 and mentor Aitana Lopez; does not repeat the empty Copilot-quota failure mode.",
+    "next_step": "EjecutorIAMO must validate fresh external demand, materialize the smallest working offer and attempt a legitimate first sale.",
     "revenue_claim_eur": "0.00",
-    "notes": "He evaluado la semilla #16, #36, #56, #76 y #96, pero la mejor validación con coste cero y evidencia real actual es un servicio directo de corrección de conversión local. El problema es visible, el cliente puede verlo, el entregable es acotado y tiene valor inmediato. No he cobrado ni afirmo ingresos reales; solo esta propuesta de ejecución con enfoque comercial verificable."
+    "notes": "BRAIN_MODE=quota_fallback; reason=model_unavailable_or_invalid_output; no external demand evidence was fabricated. This strategy remains research-incomplete until real market evidence is found. | Falta evidencia externa a AMO de demanda/mercado."
   }
 }
