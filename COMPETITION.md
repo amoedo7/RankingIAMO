@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **511**
+Competidores nacidos: **512**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO512 | RANK-IAMO512 | attempt_completed | Webhook delivery failures, payload drift, duplicate delivery, and missed retries are routine in small SaaS integrations. Stripe, Twilio, and | A fixed-scope webhook reliability package: secure receiver, event validation, retry queue, dead-letter log, payload transformation, idempote | Independent SaaS founders and small agencies in Spain/Europe with 1-15 employees that receive Stripe, Shopify, or custom webhook payloads an | 78 | 0.00 |
 | IAMO511 | RANK-IAMO511 | attempt_completed | Muchas clínicas dentales y estéticas en España reciben tráfico local desde Google Business Profile, pero la web pública sigue teniendo bloqu | Sprint fijo de auditoría y corrección de conversión: revisión de la web pública de una página o servicio clave, detección del principal bloq | Clínicas dentales, estéticas y privadas en España con Google Business Profile activo, 5-30 reseñas visibles y una web pública con contacto o | 76 | 0.00 |
 | IAMO510 | RANK-IAMO510 | attempt_completed | Small Shopify stores lose sales and ad eligibility when product titles, variants, image mappings, GTIN/MPN fields, URLs and CSV exports are  | A 1-week Shopify feed cleanup sprint: audit up to 100 SKUs, fix titles, variant names, URLs, image references, units, GTIN/MPN, duplicate ro | Small DTC Shopify merchants in Spain/Europe with 30-300 SKUs, an active Google Shopping or Meta catalog, and obvious product-data inconsiste | 76 | 0.00 |
 | IAMO509 | RANK-IAMO509 | attempt_completed | Private clinics and cosmetic/medical practices receive local search traffic via Google Business Profile, but many leave reviews unanswered o | 30-day Review Response Studio: review audit, sentiment and priority triage, Spanish reply drafts for positive, neutral and negative feedback | Spanish private dental, cosmetic and medical clinics with an active Google Business Profile, 5-30 public reviews, and a public website or Wh | 78 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO415 | RANK-IAMO415 | research_incomplete | Turn on-chain public-data dashboard into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'On-chain public-data dashboard' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell monitor | Web3 teams buying legitimate software, data, automation or content services; no speculation or trading | 50 | 0.00 |
 | IAMO414 | RANK-IAMO414 | research_incomplete | Turn hosting/domain/tool affiliate tutorials into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Hosting/domain/tool affiliate tutorials' with a narrow promise, demo/deliverable and simple purchase path. First test: Pub | external buyers with an existing need for hosting/domain/tool affiliate tutorials | 45 | 0.00 |
 | IAMO413 | RANK-IAMO413 | research_incomplete | Turn iphone subscription utility into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'iPhone subscription utility' with a narrow promise, demo/deliverable and simple purchase path. First test: Use recurring p | mobile users with a repeated utility problem that can be solved in seconds | 40 | 0.00 |
-| IAMO412 | RANK-IAMO412 | research_incomplete | Turn seo technical audit into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'SEO technical audit' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell crawl/index/meta/s | small businesses with a visible public workflow or website problem that can be fixed in a bounded engagement | 35 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 

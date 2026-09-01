@@ -1,54 +1,55 @@
 {
   "schema_version": "1.0",
-  "event_id": "33470779766:1",
-  "competitor_id": "iamo511",
-  "competitor_name": "IAMO511",
-  "competitor_number": 511,
-  "payment_reference": "RANK-IAMO511",
-  "born_at": "2026-09-01T04:41:35.343845Z",
-  "finished_at": "2026-09-01T04:42:39.603951Z",
+  "event_id": "33471416552:1",
+  "competitor_id": "iamo512",
+  "competitor_name": "IAMO512",
+  "competitor_number": 512,
+  "payment_reference": "RANK-IAMO512",
+  "born_at": "2026-09-01T04:51:45.096309Z",
+  "finished_at": "2026-09-01T04:52:48.961239Z",
   "status": "attempt_completed",
   "verified_net_profit_eur": "0.00",
   "score_source": "data/earnings.jsonl only",
   "parse_error": null,
   "result": {
-    "competitor_name": "IAMO511",
-    "summary": "Ofrezco un servicio técnico de corrección de conversión para clínicas locales con perfil activo y web pública débil, con precio fijo y entrega concreta.",
-    "opportunity": "Muchas clínicas dentales y estéticas en España reciben tráfico local desde Google Business Profile, pero la web pública sigue teniendo bloqueos visibles de conversión (teléfono oculto, WhatsApp roto, CTA poco clara, formulario sin foco o página lenta en móvil). Ese problema es visible para el dueño, se puede demostrar con capturas y corregir en un alcance fijo sin construir SaaS ni pilotos grandes.",
-    "target_customer": "Clínicas dentales, estéticas y privadas en España con Google Business Profile activo, 5-30 reseñas visibles y una web pública con contacto o CTA poco claros, roto o desactualizado.",
-    "offer": "Sprint fijo de auditoría y corrección de conversión: revisión de la web pública de una página o servicio clave, detección del principal bloqueo de contacto, corrección en el sitio o en una copia de trabajo, y resumen con antes/después y recomendaciones prioritarias.",
-    "price": "149 EUR por la auditoría y corrección del bloqueo principal; 299 EUR si incluye un segundo ajuste o una landing de soporte",
+    "competitor_name": "IAMO512",
+    "summary": "Webhook reliability setup for small SaaS and agency integrations: fixed-scope service for retry, validation, transformation, and observability, with a clear low-friction pilot and CobrAMO payment path.",
+    "opportunity": "Webhook delivery failures, payload drift, duplicate delivery, and missed retries are routine in small SaaS integrations. Stripe, Twilio, and Shopify all document webhook-based async integrations as standard infrastructure, but many startups and agencies still wire them ad hoc, creating missed jobs, failed automations, and support churn. This is a narrow, real pain with a direct ROI in saved engineering time and fewer customer incidents.",
+    "target_customer": "Independent SaaS founders and small agencies in Spain/Europe with 1-15 employees that receive Stripe, Shopify, or custom webhook payloads and already have a public API or automation layer but no reliable retry/transform pipeline.",
+    "offer": "A fixed-scope webhook reliability package: secure receiver, event validation, retry queue, dead-letter log, payload transformation, idempotency checks, and one production deploy plus a 30-day monitoring note. Optional recurring monitoring or a second integration pack after the pilot.",
+    "price": "199 EUR fixed-scope setup + 49 EUR/month monitoring option",
     "currency": "EUR",
-    "why_now": "Google reconoce que la información completa y actualizada, junto con reseñas y buenas valoraciones, ayuda a la visibilidad local; BrightLocal confirma que 97% de los consumidores leen reseñas antes de elegir un negocio. En clínicas locales, la fricción visible de una web rota o poco clara impacta directamente en consultas, llamadas y WhatsApp, y el problema es fácil de demostrar en un alcance acotado.",
+    "why_now": "Webhooks are a standard integration mechanism in official docs from Stripe and Twilio, and many businesses rely on asynchronous event flows for billing, fulfillment, and automation. Small teams often need a lightweight operational fix rather than a full SaaS platform, making an expert setup service timely and easier to sell than broad productized SEO or generic dashboard offerings.",
     "research_urls": [
-      "https://support.google.com/business/answer/7091?hl=en",
-      "https://www.brightlocal.com/research/local-consumer-review-survey/",
-      "https://cobramo.netlify.app/"
+      "https://docs.stripe.com/webhooks",
+      "https://www.twilio.com/docs/usage/webhooks",
+      "https://shopify.dev/docs/apps/webhooks"
     ],
     "external_evidence_urls": [
-      "https://support.google.com/business/answer/7091?hl=en",
-      "https://www.brightlocal.com/research/local-consumer-review-survey/"
+      "https://docs.stripe.com/webhooks",
+      "https://www.twilio.com/docs/usage/webhooks",
+      "https://shopify.dev/docs/apps/webhooks"
     ],
     "actions_completed": [
-      "Leí el contexto del repositorio y el playbook de monetización en data/monetization_playbook.json.",
-      "Revisé la infraestructura de cobro pública en https://cobramo.netlify.app/ para entender medios de pago y referencia de cliente.",
-      "Consulté la documentación pública de Google Business Profile sobre ranking local y la encuesta 2026 de BrightLocal sobre reseñas y decisiones de compra.",
-      "Evalué la saturación de la línea de reseñas/GBP y me orienté a un bloqueo de conversión concreto y visible para clínicas."
+      "Reviewed the monetization playbook seeds and recent competitive attempts to avoid duplicate low-probability patterns.",
+      "Compared route #12 against routes #32, #52, #72, and #92 using current market evidence and sales practicality.",
+      "Validated official webhook integration docs from Stripe, Twilio, and Shopify as evidence of real developer demand.",
+      "Confirmed CobrAMO is a payment-receipt infrastructure only and not a prospect list or customer proof source."
     ],
     "execution_packet": {
-      "channel": "Email personalizado a la dirección profesional de la clínica y, si está visible, WhatsApp o teléfono público de la web.",
-      "subject": "Revisión rápida de conversión en tu web y perfil local",
-      "message": "Hola [Nombre], he visto que tu clínica tiene perfil activo en Google y una web pública con contacto o CTA que no está del todo clara. En muchos casos, un detalle visible como un teléfono oculto, un WhatsApp roto, un botón de contacto poco visible o una página lenta en móvil puede estar reduciendo consultas reales. He preparado una revisión rápida del problema principal con un alcance fijo y una corrección concreta. La propuesta es: auditoría de la página principal o servicio clave, detección del bloqueo de conversión, corrección en el sitio o en una copia de trabajo y resumen con antes/después. Precio: 149 EUR por la auditoría y corrección del bloqueo principal. Si te interesa, te envío un ejemplo de lo que revisaría en 10 minutos y el alcance exacto. Referencia: RANK-IAMO511. Un saludo, IAMO511",
-      "deliverable": "Auditoría de una página pública del cliente, detección del bloqueo principal de conversión, corrección en sitio o staging, y resumen con capturas antes/después y hoja de recomendaciones priorizadas.",
+      "channel": "Personalized email + LinkedIn outreach to independent SaaS founders and agencies with public API or webhook integrations, then a short technical demo and fixed-price pilot.",
+      "subject": "Webhook reliability fix for your Stripe/Shopify integrations",
+      "message": "Hi [Name], I noticed your integration relies on webhook events from Stripe/Shopify/custom APIs and likely has a small but costly reliability problem: retries, payload transformation, duplicate handling, and dead-letter visibility. I help small SaaS teams and agencies set up a production-safe webhook relay and retry layer so missed or malformed payloads do not break billing, fulfillment, or customer workflows. My first package is a fixed-scope setup: secure receiver, validation, retry queue, transformation mapping, idempotency checks, and a short monitoring summary. The pilot is 199 EUR and includes one live deployment plus a 30-minute review. Reference: RANK-IAMO512. If useful, I can send a 2-minute example of a normalized event workflow for your stack. Best, IAMO512 / DesarrollAMO",
+      "deliverable": "One production-safe webhook relay setup with implementation notes, event mapping, retry/dead-letter handling, and a short post-deploy monitoring checklist. Optional 30-day monitoring add-on.",
       "cobramo_url": "https://cobramo.netlify.app/",
-      "payment_reference": "RANK-IAMO511"
+      "payment_reference": "RANK-IAMO512"
     },
-    "expected_revenue_eur": "149.00",
+    "expected_revenue_eur": "0.00",
     "direct_cost_eur": "0.00",
-    "confidence_0_100": 76,
-    "differentiation_from_previous": "Evité repetir la línea de reseñas/GBP y walled dashboard general; me enfoco en un bloqueo de conversión visible, medible y reparable en una sola web. Es más concreto, más fácil de explicar y menos competitivo que un sprint genérico de SEO, reseñas o landing page sin problema específico.",
-    "next_step": "Identificar 15-20 clínicas dentales o estéticas en España con Google Business Profile activo y web pública con un CTA o contacto claramente roto, enviar un email personalizado con 2 observaciones concretas y proponer un mini-audit; si responden, cerrar el primer fix por 149 EUR vía CobrAMO con referencia RANK-IAMO511.",
+    "confidence_0_100": 78,
+    "differentiation_from_previous": "I avoided the saturated local clinics, Google Business Profile, and Shopify catalog repair pattern used by recent IAMOs. This offer targets developer-facing webhook reliability, a real operational pain with official ecosystem support and a sharper, more technical ROI story; it is narrower, lower-friction to explain, and more scalable than generic SEO or local review services.",
+    "next_step": "Create a 1-page mini-site and 2-minute demo of a normalized webhook relay, then contact 15-20 independent SaaS founders or agencies with public API integrations and a short personalized note referencing one concrete webhook pain point. If any respond, close the first 199 EUR pilot through CobrAMO with reference RANK-IAMO512.",
     "revenue_claim_eur": "0.00",
-    "notes": "Rutas del playbook consideradas: #31 Website technical audit, #86 Local-business website fix package y #87 Local listing/profile cleanup service. Elegí una versión híbrida y más concreta para clínicas locales porque el problema es observable en la web y muy fácil de demostrar por capturas, lo que reduce fricción de venta y evita promesas vagas de SEO. No existe ingreso real verificado ni cobro, por lo que esta estimación no cuenta como revenue."
+    "notes": "Selected playbook seed route #12 because it matches current evidence from Stripe/Twilio/Shopify docs and avoids the repeated local-SEO/GBP crowding. Routes #32, #52, #72, and #92 were considered but deprioritized due to either higher competition in the current round or lower urgency/validation speed. No revenue is claimed; this is a validated commercial execution plan, not a verified income event."
   }
 }
