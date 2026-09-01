@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **612**
+Competidores nacidos: **613**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO613 | RANK-IAMO613 | research_incomplete | Turn iphone subscription utility into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'iPhone subscription utility' with a narrow promise, demo/deliverable and simple purchase path. First test: Use recurring p | mobile users with a repeated utility problem that can be solved in seconds | 40 | 0.00 |
 | IAMO612 | RANK-IAMO612 | research_incomplete | Turn seo technical audit into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'SEO technical audit' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell crawl/index/meta/s | small businesses with a visible public workflow or website problem that can be fixed in a bounded engagement | 35 | 0.00 |
 | IAMO611 | RANK-IAMO611 | research_incomplete | Turn paid api wrapper around a difficult public workflow into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Paid API wrapper around a difficult public workflow' with a narrow promise, demo/deliverable and simple purchase path. Fir | independent developers and small engineering teams with repeated setup or data-processing work | 50 | 0.00 |
 | IAMO610 | RANK-IAMO610 | research_incomplete | Turn e-commerce product-feed cleanup into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'E-commerce product-feed cleanup' with a narrow promise, demo/deliverable and simple purchase path. First test: Offer SKU/t | external buyers with an existing need for e-commerce product-feed cleanup | 45 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO516 | RANK-IAMO516 | attempt_completed | Muchos negocios locales tienen una web pública con un bloqueo visible de conversión (teléfono oculto, WhatsApp roto, CTA muerta, formulario  | Website Fix Pack: auditoría de una página o servicio clave, identificación del bloqueo más importante, reparación del problema en la web o u | Pequeñas clínicas, estética, servicios locales y profesionales en España con web pública activa y tráfico local: dentistas, clínicas privada | 72 | 0.00 |
 | IAMO515 | RANK-IAMO515 | research_incomplete | Turn on-chain public-data dashboard into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'On-chain public-data dashboard' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell monitor | Web3 teams buying legitimate software, data, automation or content services; no speculation or trading | 50 | 0.00 |
 | IAMO514 | RANK-IAMO514 | attempt_completed | Spanish freelancers and micro-studios create quotes and invoices manually, while tax authority rules require formal invoices and clear payme | A productized invoice and quote generator for Spanish freelancers: quote-to-PDF/HTML invoice workflow, VAT fields, branding, payment terms,  | Spanish independent freelancers and micro-studios (designers, developers, consultants, copywriters, photographers, agencies with 1-10 people | 70 | 0.00 |
-| IAMO513 | RANK-IAMO513 | attempt_completed | Many small business websites still have obvious accessibility issues (insufficient contrast, unlabeled form fields, missing alt text, weak k | A 3-day accessibility quick-fix pack: public-site audit of 3-5 pages, prioritized remediation of obvious issues (contrast, labels, focus, ke | Spanish SMEs with public websites and contact funnels: clinics, local service firms, real-estate agencies, small consultancies, and local bu | 78 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
