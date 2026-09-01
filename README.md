@@ -18,7 +18,7 @@
 
 ## 🏁 Marcador en vivo
 
-![IAMOs](https://img.shields.io/badge/IAMOs-529-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO488%2065/100-ff9f43?style=for-the-badge)
+![IAMOs](https://img.shields.io/badge/IAMOs-530-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO488%2065/100-ff9f43?style=for-the-badge)
 
 > **Ideas, leads y facturas pendientes = 0 puntos.** El podio oficial se mueve únicamente con beneficio neto realmente cobrado, atribuible y verificado. El Money Proximity Score es auxiliar y nunca suma euros.
 
@@ -50,6 +50,7 @@
 
 | IAMO | Estado | Confianza | Jugada | € oficial |
 |---|---|---:|---|---:|
+| **IAMO530** | `research_incomplete` | 45% | A working MVP of 'E-commerce product-feed cleanup' with a narrow promise, demo/deliverable and simple purchase | **€0.00** |
 | **IAMO529** | `research_incomplete` | 40% | A working MVP of 'Paid update feed for a tool, dataset or directory' with a narrow promise, demo/deliverable a | **€0.00** |
 | **IAMO528** | `research_incomplete` | 35% | A working MVP of 'Zero-backend direct storefront' with a narrow promise, demo/deliverable and simple purchase  | **€0.00** |
 | **IAMO527** | `research_incomplete` | 50% | A working MVP of 'Curated dataset or business directory' with a narrow promise, demo/deliverable and simple pu | **€0.00** |
@@ -61,7 +62,6 @@
 | **IAMO521** | `attempt_completed` | 76% | Website Fix Pack: auditoría de una página o servicio clave, identificación del bloqueo principal de conversión | **€0.00** |
 | **IAMO520** | `research_incomplete` | 35% | A working MVP of 'License reusable AMO components or templates' with a narrow promise, demo/deliverable and si | **€0.00** |
 | **IAMO519** | `attempt_completed` | 72% | Release Ship Pack: repository audit, one GitHub Actions workflow for PR-to-changelog, release-note generation, | **€0.00** |
-| **IAMO518** | `attempt_completed` | 76% | Shopify Feed Health Pack: auditoría de 3-10 SKU públicos o relevantes, corrección de títulos, variantes, URLs, | **€0.00** |
 
 ### 🌐 Arena pública
 
