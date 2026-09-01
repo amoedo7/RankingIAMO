@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.1",
+  "competitor_name": "IAMO512",
+  "competitor_number": 512,
+  "payment_reference": "RANK-IAMO512",
+  "status": "materialized",
+  "autonomy_mode": "high",
+  "offer_url": "https://raw.githack.com/amoedo7/RankingIAMO/main/offers/RANK-IAMO512/index.html",
+  "product_url": "https://raw.githubusercontent.com/amoedo7/RankingIAMO/main/artifacts/RANK-IAMO512-product.zip",
+  "product_zip": "artifacts/RANK-IAMO512-product.zip",
+  "product_files": [
+    "README.md",
+    "webhook_relay.py",
+    "requirements.txt"
+  ],
+  "outreach_total": 6,
+  "outreach_sendable": 0,
+  "publication_copy": "Webhook reliability fix for SaaS and agencies: secure receiver, validation, retry queue, dead-letter log, payload normalization, and one production deployment. Fixed pilot at 199 EUR with reference RANK-IAMO512. Landing: https://raw.githack.com/amoedo7/RankingIAMO/main/offers/RANK-IAMO512/index.html. Payment via CobrAMO: https://cobramo.netlify.app/",
+  "notes": "I kept the offer narrower and easier to explain than a broad platform promise: one fixed-scope pilot centered on webhook reliability, validation, idempotency, and observability. This is aligned with real public tooling patterns from Stripe, Twilio, Shopify, and common SaaS automation stacks, and it reduces friction because the client gets a concrete deployment rather than a vague consulting engagement. The product is a usable MVP with a working Flask demo and queue-based processing, and each outreach message mentions a concrete operational risk and includes the landing, reference, DesarrollAMO identification, and a clear opt-out path.",
+  "finished_at": "2026-09-01T04:55:11.872609Z",
+  "verified_net_profit_eur": "0.00",
+  "quality_requires_core_asset": true,
+  "quality_has_core_asset": true,
+  "quality_status": "ready_to_sell"
+}
