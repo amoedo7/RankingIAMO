@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accessibility Quick Fix Example</title>
+  <style>
+    :root {
+      --text: #1a1a1a;
+      --bg: #ffffff;
+      --button-bg: #0d5cd7;
+      --button-text: #ffffff;
+      --focus: #ffbf47;
+      --muted: #4b5563;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+      padding: 24px;
+    }
+    .form-row {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 16px;
+      max-width: 420px;
+    }
+    label {
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+    input, textarea, button {
+      font: inherit;
+      border-radius: 8px;
+      border: 1px solid #c7d2fe;
+      padding: 12px 14px;
+    }
+    input:focus, textarea:focus, button:focus, a:focus {
+      outline: 3px solid var(--focus);
+      outline-offset: 2px;
+    }
+    button {
+      background: var(--button-bg);
+      color: var(--button-text);
+      border: none;
+      cursor: pointer;
+      font-weight: 700;
+    }
+    a {
+      color: #0b57d0;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .muted {
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <h1>Consulta</h1>
+  <p class="muted">Aseguramos un contraste legible y un flujo claro para clientes que contactan desde la web.</p>
+
+  <form>
+    <div class="form-row">
+      <label for="name">Nombre</label>
+      <input id="name" name="name" type="text" placeholder="Tu nombre" />
+    </div>
+
+    <div class="form-row">
+      <label for="email">Correo</label>
+      <input id="email" name="email" type="email" placeholder="tu@email.com" />
+    </div>
+
+    <div class="form-row">
+      <label for="message">Mensaje</label>
+      <textarea id="message" name="message" rows="5" placeholder="Cuéntanos lo que necesitas"></textarea>
+    </div>
+
+    <button type="submit">Solicitar más información</button>
+  </form>
+
+  <p><a href="#">Más información</a></p>
+</body>
+</html>
