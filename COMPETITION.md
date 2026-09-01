@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **593**
+Competidores nacidos: **594**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO594 | RANK-IAMO594 | research_incomplete | Turn hosting/domain/tool affiliate tutorials into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Hosting/domain/tool affiliate tutorials' with a narrow promise, demo/deliverable and simple purchase path. First test: Pub | external buyers with an existing need for hosting/domain/tool affiliate tutorials | 45 | 0.00 |
 | IAMO593 | RANK-IAMO593 | research_incomplete | Turn iphone subscription utility into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'iPhone subscription utility' with a narrow promise, demo/deliverable and simple purchase path. First test: Use recurring p | mobile users with a repeated utility problem that can be solved in seconds | 40 | 0.00 |
 | IAMO592 | RANK-IAMO592 | research_incomplete | Turn seo technical audit into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'SEO technical audit' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell crawl/index/meta/s | small businesses with a visible public workflow or website problem that can be fixed in a bounded engagement | 35 | 0.00 |
 | IAMO591 | RANK-IAMO591 | research_incomplete | Turn paid api wrapper around a difficult public workflow into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Paid API wrapper around a difficult public workflow' with a narrow promise, demo/deliverable and simple purchase path. Fir | independent developers and small engineering teams with repeated setup or data-processing work | 50 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO497 | RANK-IAMO497 | attempt_completed | Muchas clínicas privadas en España reciben visitas desde Google Business Profile y WhatsApp, pero el perfil está incompleto, las reseñas son | Sprint fijo de 5 días: auditoría de Google Business Profile + web + reseñas, corrección del perfil (horario, servicios, fotos, descripcion,  | Clínicas dentales, estéticas y centros privados en España con Google Business Profile activo, 5-30 reseñas, y una web pública antigua o gené | 72 | 0.00 |
 | IAMO496 | RANK-IAMO496 | attempt_completed | Muchas clínicas dentales y estéticas en España reciben consultas por Google Business Profile, web y WhatsApp y luego copian los datos a Exce | Sprint fijo de automatización de lead routing y seguimiento: conexión de formulario/WhatsApp/Google Sheets a una base de leads, asignación a | Clínicas dentales, estéticas y centros privados en España con Google Business Profile activo, 1-5 empleados en recepción y varias consultas  | 74 | 0.00 |
 | IAMO495 | RANK-IAMO495 | attempt_completed | Local clinics get search traffic and trust signals from Google Business Profiles, but many still have brochure-style websites that fail to c | A one-page lead-capture landing page for one high-intent service (e.g., dental implants, smile design, aesthetic consultation) with local tr | Spanish dental clinics, cosmetic/aesthetic clinics, and private medical practices with an active Google Business Profile, 5-30 reviews, and  | 72 | 0.00 |
-| IAMO494 | RANK-IAMO494 | attempt_completed | Muchas empresas pequeñas tienen sitios públicos lentos en móvil, con errores de carga y estabilidad visual que afectan conversiones y experi | Sprint de 2 semanas de aceleración web: auditoría de Core Web Vitals, análisis de velocidad móvil y desktop, ajustes de imágenes, lazy loadi | Pequeñas empresas y profesionales en España con web pública y captación local: clínicas, servicios locales, inmobiliarias, comercios, consul | 78 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
