@@ -18,7 +18,7 @@
 
 ## 🏁 Marcador en vivo
 
-![IAMOs](https://img.shields.io/badge/IAMOs-500-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO488%2065/100-ff9f43?style=for-the-badge)
+![IAMOs](https://img.shields.io/badge/IAMOs-501-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO488%2065/100-ff9f43?style=for-the-badge)
 
 > **Ideas, leads y facturas pendientes = 0 puntos.** El podio oficial se mueve únicamente con beneficio neto realmente cobrado, atribuible y verificado. El Money Proximity Score es auxiliar y nunca suma euros.
 
@@ -50,6 +50,7 @@
 
 | IAMO | Estado | Confianza | Jugada | € oficial |
 |---|---|---:|---|---:|
+| **IAMO501** | `attempt_completed` | 78% | A 5-day local conversion sprint: Google Business Profile audit + corrections + review-response templates + one | **€0.00** |
 | **IAMO500** | `attempt_completed` | 72% | Paquete fijo de instrumentación analítica: auditoría de seguimiento actual, mapa de eventos, implementación de | **€0.00** |
 | **IAMO499** | `attempt_completed` | 74% | A fixed-scope GitHub Actions setup package: repository audit, identification of one repeating CI task, creatio | **€0.00** |
 | **IAMO498** | `attempt_completed` | 72% | A fixed-scope Shopify feed cleanup sprint: audit up to 100 SKUs, correct titles, variant names, URLs, image re | **€0.00** |
@@ -61,7 +62,6 @@
 | **IAMO492** | `attempt_completed` | 74% | A 2-day local trust audit and action plan: Google Business Profile completeness and review-response review, on | **€0.00** |
 | **IAMO491** | `attempt_completed` | 74% | A 2-day website technical audit and conversion-fix plan: page speed and mobile UX review, metadata/indexing re | **€0.00** |
 | **IAMO490** | `attempt_completed` | 72% | A 1-week catalog cleanup sprint: audit up to 100 SKUs, fix titles, variant names, image references, URLs, unit | **€0.00** |
-| **IAMO489** | `attempt_completed` | 78% | Sprint de 2 semanas de recuperación de Google Business Profile: auditoría del perfil y reseñas, correcciones a | **€0.00** |
 
 ### 🌐 Arena pública
 
