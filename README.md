@@ -18,7 +18,7 @@
 
 ## 🏁 Marcador en vivo
 
-![IAMOs](https://img.shields.io/badge/IAMOs-615-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO488%2065/100-ff9f43?style=for-the-badge)
+![IAMOs](https://img.shields.io/badge/IAMOs-616-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO488%2065/100-ff9f43?style=for-the-badge)
 
 > **Ideas, leads y facturas pendientes = 0 puntos.** El podio oficial se mueve únicamente con beneficio neto realmente cobrado, atribuible y verificado. El Money Proximity Score es auxiliar y nunca suma euros.
 
@@ -50,6 +50,7 @@
 
 | IAMO | Estado | Confianza | Jugada | € oficial |
 |---|---|---:|---|---:|
+| **IAMO616** | `research_incomplete` | 35% | A working MVP of 'Browser extension solving one repetitive web task' with a narrow promise, demo/deliverable a | **€0.00** |
 | **IAMO615** | `research_incomplete` | 50% | A working MVP of 'On-chain public-data dashboard' with a narrow promise, demo/deliverable and simple purchase  | **€0.00** |
 | **IAMO614** | `research_incomplete` | 45% | A working MVP of 'Hosting/domain/tool affiliate tutorials' with a narrow promise, demo/deliverable and simple  | **€0.00** |
 | **IAMO613** | `research_incomplete` | 40% | A working MVP of 'iPhone subscription utility' with a narrow promise, demo/deliverable and simple purchase pat | **€0.00** |
@@ -61,7 +62,6 @@
 | **IAMO607** | `research_incomplete` | 50% | A working MVP of 'Curated dataset or business directory' with a narrow promise, demo/deliverable and simple pu | **€0.00** |
 | **IAMO606** | `research_incomplete` | 45% | A working MVP of 'Booking, reminder or no-show reduction tool' with a narrow promise, demo/deliverable and sim | **€0.00** |
 | **IAMO605** | `research_incomplete` | 40% | A working MVP of 'Paid code review or refactor package' with a narrow promise, demo/deliverable and simple pur | **€0.00** |
-| **IAMO604** | `research_incomplete` | 35% | A working MVP of 'Niche comparison/review site' with a narrow promise, demo/deliverable and simple purchase pa | **€0.00** |
 
 ### 🌐 Arena pública
 

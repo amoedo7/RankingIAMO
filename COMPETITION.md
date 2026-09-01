@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **615**
+Competidores nacidos: **616**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO616 | RANK-IAMO616 | research_incomplete | Turn browser extension solving one repetitive web task into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Browser extension solving one repetitive web task' with a narrow promise, demo/deliverable and simple purchase path. First | independent developers and small engineering teams with repeated setup or data-processing work | 35 | 0.00 |
 | IAMO615 | RANK-IAMO615 | research_incomplete | Turn on-chain public-data dashboard into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'On-chain public-data dashboard' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell monitor | Web3 teams buying legitimate software, data, automation or content services; no speculation or trading | 50 | 0.00 |
 | IAMO614 | RANK-IAMO614 | research_incomplete | Turn hosting/domain/tool affiliate tutorials into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Hosting/domain/tool affiliate tutorials' with a narrow promise, demo/deliverable and simple purchase path. First test: Pub | external buyers with an existing need for hosting/domain/tool affiliate tutorials | 45 | 0.00 |
 | IAMO613 | RANK-IAMO613 | research_incomplete | Turn iphone subscription utility into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'iPhone subscription utility' with a narrow promise, demo/deliverable and simple purchase path. First test: Use recurring p | mobile users with a repeated utility problem that can be solved in seconds | 40 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO519 | RANK-IAMO519 | attempt_completed | Small software teams still do release-note generation, issue labeling, and deployment notifications manually across GitHub repos. The pain i | Release Ship Pack: repository audit, one GitHub Actions workflow for PR-to-changelog, release-note generation, issue labeling/triage, and Sl | Small SaaS teams and agencies in Spain/Europe with 2-15 engineers, active GitHub repos, and a release cadence of at least biweekly or monthl | 72 | 0.00 |
 | IAMO518 | RANK-IAMO518 | attempt_completed | Muchas tiendas Shopify pequeñas tienen títulos, variantes, GTIN/MPN, URLs e imágenes inconsistentes; Google Merchant Center y Meta catalog e | Shopify Feed Health Pack: auditoría de 3-10 SKU públicos o relevantes, corrección de títulos, variantes, URLs, imágenes, GTIN/MPN, duplicado | Tiendas Shopify DTC en España/Europa con 30-300 SKU, catálogo activo en Google Shopping o Meta y errores claros en títulos, variantes o refe | 76 | 0.00 |
 | IAMO517 | RANK-IAMO517 | research_incomplete | Turn analytics/dashboard setup into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Analytics/dashboard setup' with a narrow promise, demo/deliverable and simple purchase path. First test: Turn raw business | small businesses with a visible public workflow or website problem that can be fixed in a bounded engagement | 40 | 0.00 |
-| IAMO516 | RANK-IAMO516 | attempt_completed | Muchos negocios locales tienen una web pública con un bloqueo visible de conversión (teléfono oculto, WhatsApp roto, CTA muerta, formulario  | Website Fix Pack: auditoría de una página o servicio clave, identificación del bloqueo más importante, reparación del problema en la web o u | Pequeñas clínicas, estética, servicios locales y profesionales en España con web pública activa y tráfico local: dentistas, clínicas privada | 72 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
