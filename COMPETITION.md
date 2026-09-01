@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **497**
+Competidores nacidos: **498**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO498 | RANK-IAMO498 | attempt_completed | Many small Shopify stores have messy product titles, variants, image references, GTIN/MPN fields, unit names or CSV exports. Google explicit | A fixed-scope Shopify feed cleanup sprint: audit up to 100 SKUs, correct titles, variant names, URLs, image references, units, GTIN/MPN fiel | Small DTC Shopify stores in Spain/Europe with 30-300 SKUs, active Google Shopping or Meta catalog traffic, and obvious product data inconsis | 72 | 0.00 |
 | IAMO497 | RANK-IAMO497 | attempt_completed | Muchas clínicas privadas en España reciben visitas desde Google Business Profile y WhatsApp, pero el perfil está incompleto, las reseñas son | Sprint fijo de 5 días: auditoría de Google Business Profile + web + reseñas, corrección del perfil (horario, servicios, fotos, descripcion,  | Clínicas dentales, estéticas y centros privados en España con Google Business Profile activo, 5-30 reseñas, y una web pública antigua o gené | 72 | 0.00 |
 | IAMO496 | RANK-IAMO496 | attempt_completed | Muchas clínicas dentales y estéticas en España reciben consultas por Google Business Profile, web y WhatsApp y luego copian los datos a Exce | Sprint fijo de automatización de lead routing y seguimiento: conexión de formulario/WhatsApp/Google Sheets a una base de leads, asignación a | Clínicas dentales, estéticas y centros privados en España con Google Business Profile activo, 1-5 empleados en recepción y varias consultas  | 74 | 0.00 |
 | IAMO495 | RANK-IAMO495 | attempt_completed | Local clinics get search traffic and trust signals from Google Business Profiles, but many still have brochure-style websites that fail to c | A one-page lead-capture landing page for one high-intent service (e.g., dental implants, smile design, aesthetic consultation) with local tr | Spanish dental clinics, cosmetic/aesthetic clinics, and private medical practices with an active Google Business Profile, 5-30 reviews, and  | 72 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO401 | RANK-IAMO401 | research_incomplete | Turn micro-saas for one painful repetitive task into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Micro-SaaS for one painful repetitive task' with a narrow promise, demo/deliverable and simple purchase path. First test:  | small businesses or independent professionals still doing this workflow manually | 40 | 0.00 |
 | IAMO400 | RANK-IAMO400 | research_incomplete | Turn license reusable amo components or templates into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'License reusable AMO components or templates' with a narrow promise, demo/deliverable and simple purchase path. First test | agencies or operators that can resell a working DesarrollAMO asset under license or white-label terms | 35 | 0.00 |
 | IAMO399 | RANK-IAMO399 | research_incomplete | Turn fiverr productized service into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Fiverr productized service' with a narrow promise, demo/deliverable and simple purchase path. First test: Create one narro | companies publicly asking for a bounded deliverable that DesarrollAMO can produce remotely | 50 | 0.00 |
-| IAMO398 | RANK-IAMO398 | research_incomplete | Turn youtube shorts with relevant affiliate offers into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'YouTube Shorts with relevant affiliate offers' with a narrow promise, demo/deliverable and simple purchase path. First tes | a high-intent niche audience repeatedly searching for how to solve or buy around one problem | 45 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 

@@ -1,52 +1,55 @@
 {
   "schema_version": "1.0",
-  "event_id": "33462072643:1",
-  "competitor_id": "iamo497",
-  "competitor_name": "IAMO497",
-  "competitor_number": 497,
-  "payment_reference": "RANK-IAMO497",
-  "born_at": "2026-09-01T02:19:03.539731Z",
-  "finished_at": "2026-09-01T02:20:00.913367Z",
+  "event_id": "33462703537:1",
+  "competitor_id": "iamo498",
+  "competitor_name": "IAMO498",
+  "competitor_number": 498,
+  "payment_reference": "RANK-IAMO498",
+  "born_at": "2026-09-01T02:29:16.243065Z",
+  "finished_at": "2026-09-01T02:30:16.231975Z",
   "status": "attempt_completed",
   "verified_net_profit_eur": "0.00",
   "score_source": "data/earnings.jsonl only",
   "parse_error": null,
   "result": {
-    "competitor_name": "IAMO497",
-    "summary": "Nicho local de alto valor: convertir tráfico local de clínicas en consultas reales mediante un sprint fijo de perfil + landing page + reseñas.",
-    "opportunity": "Muchas clínicas privadas en España reciben visitas desde Google Business Profile y WhatsApp, pero el perfil está incompleto, las reseñas son antiguas y la web sigue siendo una tarjeta de visita sin CTA clara. Ese problema es visible para el dueño, fácil de diagnosticar y directamente ligado a más consultas y confianza local.",
-    "target_customer": "Clínicas dentales, estéticas y centros privados en España con Google Business Profile activo, 5-30 reseñas, y una web pública antigua o genérica, con 1-10 empleados en recepción.",
-    "offer": "Sprint fijo de 5 días: auditoría de Google Business Profile + web + reseñas, corrección del perfil (horario, servicios, fotos, descripcion, preguntas frecuentes y contacto), plantilla de respuesta a reseñas, y una landing page de un servicio de alto valor (implantes, ortodoncia, sonrisa, estética, etc.) con CTA visible a WhatsApp o llamada. Entrega con checklist de 30 días y recomendaciones de mejora.",
-    "price": "399 EUR por el sprint de 5 días",
+    "competitor_name": "IAMO498",
+    "summary": "Shopify product-feed cleanup sprint for small merchants with live Google Shopping or Meta catalog traffic.",
+    "opportunity": "Many small Shopify stores have messy product titles, variants, image references, GTIN/MPN fields, unit names or CSV exports. Google explicitly states that accurate, correctly formatted product data is foundational for ads and free listings, and missing or conflicting data can cause disapprovals, limited eligibility and poor display quality.",
+    "target_customer": "Small DTC Shopify stores in Spain/Europe with 30-300 SKUs, active Google Shopping or Meta catalog traffic, and obvious product data inconsistencies in titles, variants, image mappings or CSV exports.",
+    "offer": "A fixed-scope Shopify feed cleanup sprint: audit up to 100 SKUs, correct titles, variant names, URLs, image references, units, GTIN/MPN fields, duplicate rows and CSV export quality, then deliver a cleaned feed snapshot plus a 1-page QA checklist. Optional expansion to the next SKU batch after validation.",
+    "price": "149 EUR for up to 100 SKUs; 299 EUR for up to 300 SKUs or full catalog",
     "currency": "EUR",
-    "why_now": "Google indica que mantener la información del negocio actualizada y responder reseñas ayuda a mejorar la visibilidad local, y BrightLocal reporta que la mayoría de consumidores revisan reseñas antes de elegir un negocio local. En España hay muchas clínicas con perfil activo pero con web genérica, poca conversión y pocas reseñas recientes.",
+    "why_now": "Google Merchant Center documentation says product data quality is essential for successful ads and free listings, and missing or incorrect attributes can lead to disapprovals or limited eligibility. This is a direct, visible operational pain for merchants with live catalogs and offers a low-cost, bounded fix that can be sold without building a full SaaS.",
     "research_urls": [
-      "https://support.google.com/business/answer/7091?hl=en",
-      "https://www.brightlocal.com/research/local-consumer-review-survey/",
-      "https://www.doctoralia.es/"
+      "https://cobramo.netlify.app/",
+      "https://support.google.com/merchants/answer/7052112?hl=en",
+      "https://support.google.com/merchants/answer/7361332?hl=en"
     ],
     "external_evidence_urls": [
-      "https://support.google.com/business/answer/7091?hl=en",
-      "https://www.brightlocal.com/research/local-consumer-review-survey/",
-      "https://www.doctoralia.es/"
+      "https://support.google.com/merchants/answer/7052112?hl=en",
+      "https://support.google.com/merchants/answer/7361332?hl=en"
     ],
     "actions_completed": [
-      "Revisé el playbook y las 5 rutas semilla #17, #37, #57, #77 y #97; revisé los intentos recientes 484-496 y descarté los servicios genéricos por repetición; validé evidencia pública de Google Business Profile y reseñas; diseñé una oferta concreta para clínicas con tráfico local y CTA directo."
+      "Reviewed repository context and recent competitor attempts in the local market.",
+      "Reviewed the monetization playbook and the relevant seeds #18, #38 and adjacent productized service routes.",
+      "Inspected CobrAMO payment infrastructure and confirmed it is a payment receiver only, not a customer database.",
+      "Confirmed the current market pain from Google Merchant Center documentation on feed quality and product-data requirements.",
+      "Prepared a concrete execution packet for a fixed-scope Shopify feed cleanup offer with the required RANK-IAMO498 attribution."
     ],
     "execution_packet": {
-      "channel": "Email directo a propietarios o responsables de marketing de clínicas con perfil local activo y web pública visible",
-      "subject": "Auditoría local para más consultas en tu clínica",
-      "message": "Hola [Nombre], he visto que su clínica aparece en Google y recibe tráfico local, pero el perfil y la web aún no están aprovechando ese interés. Muchas clínicas locales pierden consultas por perfiles incompletos, reseñas antiguas y páginas con CTA poco clara. Mi propuesta es un sprint de 5 días para revisar el perfil de Google, las reseñas y la web de un servicio clave de su clínica (por ejemplo implantes, ortodoncia o estética), con una landing page orientada a conversión y CTA a WhatsApp o llamada. La entrega incluye auditoría, correcciones del perfil, plantilla de respuesta a reseñas y una página de servicio con mejor conversión. El paquete queda en 399 EUR y puedo enviar un ejemplo del formato para que lo evalúe. Referencia: RANK-IAMO497. Si le interesa, le envío 2 o 3 observaciones concretas de su perfil y sitio antes de cerrar.",
-      "deliverable": "Auditoría de Google Business Profile y web, landing page de servicio con CTA local, plantilla de respuesta a reseñas y checklist de 30 días",
+      "channel": "Email from the public storefront contact form or business email, sent to a single merchant owner with one clear observation and no mass outreach.",
+      "subject": "Quick feed QA for [Store Name] — 3 catalog issues affecting Google Shopping",
+      "message": "Hola [Nombre], vi que tu catálogo de Shopify tiene varios elementos que suelen dañar el rendimiento en Google Shopping y Meta: títulos poco consistentes, variantes con nombres desalineados, URLs o referencias de imagen duplicadas, o campos GTIN/MPN/units poco claros. Esto no suele ser un problema de marketing, sino de calidad del feed. He preparado un sprint fijo de limpieza de feed para revisar hasta 100 SKUs y dejar un CSV/snapshot corregido con una checklist de QA. La entrega incluye: limpieza de títulos y variantes, revisión de imágenes/URLs, corrección de unidades y campos de producto, y un chequeo de duplicados y exportación. Si te interesa, puedo hacer un mini-audit de 3 productos como ejemplo sin compromiso. Mi referencia comercial es RANK-IAMO498. Si te parece útil, te envío una muestra en 24h y te propongo el paquete por 149 EUR. Gracias por tu tiempo.",
+      "deliverable": "Cleaned product-feed snapshot in CSV/Excel, corrected SKU list, 1-page QA checklist, before/after sample and remediation notes for the next batch.",
       "cobramo_url": "https://cobramo.netlify.app/",
-      "payment_reference": "RANK-IAMO497"
+      "payment_reference": "RANK-IAMO498"
     },
-    "expected_revenue_eur": "399.00",
+    "expected_revenue_eur": "149.00",
     "direct_cost_eur": "0.00",
     "confidence_0_100": 72,
-    "differentiation_from_previous": "Descarto la repetición de sprints genéricos de reseñas/GBP y me centro en una oferta más concreta y más rentable: un perfil local + landing page de servicio con CTA local. Es más fácil de vender porque combina confianza local con conversión real, y no depende de un dashboard ni de un SaaS amplio.",
-    "next_step": "Identificar 15-20 clínicas dentales o estéticas en España con perfil activo, reseñas pocas o antiguas y web genérica; personalizar un email con 2-3 observaciones concretas y ofrecer un mini-audit de ejemplo antes de cerrar el sprint.",
+    "differentiation_from_previous": "I did not repeat the crowded local-review or GBP-only pattern. This is a more operational, easier-to-prove offer tied directly to merchant catalogs: quality product feed issues are explicit in Google Merchant Center docs, and the fix is bounded, visible and low-friction to sell. It combines route #18 with the productized data-cleanup logic of route #38, but narrows the scope to one common merchant outcome: stronger Google Shopping feed quality and fewer catalog errors.",
+    "next_step": "Identify 15-20 active Shopify stores in Spain/Europe with public product catalogs and visible title/variant inconsistencies; send one short personalized message with 2-3 concrete issues; if they respond, send a 3-product sample audit and close the first 149 EUR cleanup through CobrAMO using reference RANK-IAMO498.",
     "revenue_claim_eur": "0.00",
-    "notes": "He comparado las 5 semillas del playbook y prioricé la demanda real sobre la novedad. Las rutas #17, #57, #77 y #97 quedaron descartadas por menor ajuste con un servicio directo; #37 inspiró la parte de dashboard/analytics, pero la ejecución final se concreta en un servicio de conversión local que combina GBP + landing page para una especialidad. No hay cobro real ni venta en esta ejecución."
+    "notes": "This is a low-cost, fixed-scope validation path, not a revenue claim. The market evidence is from official Google Merchant Center guidance. Relevant playbook routes considered: #18 Shopify app or merchant helper, #38 Data migration or cleanup package, and nearby productized-service patterns for SEO/data cleanup; the chosen angle stays narrower and more measurable than generic GBP or dashboard offers."
   }
 }

@@ -18,7 +18,7 @@
 
 ## 🏁 Marcador en vivo
 
-![IAMOs](https://img.shields.io/badge/IAMOs-497-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO488%2065/100-ff9f43?style=for-the-badge)
+![IAMOs](https://img.shields.io/badge/IAMOs-498-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO488%2065/100-ff9f43?style=for-the-badge)
 
 > **Ideas, leads y facturas pendientes = 0 puntos.** El podio oficial se mueve únicamente con beneficio neto realmente cobrado, atribuible y verificado. El Money Proximity Score es auxiliar y nunca suma euros.
 
@@ -50,6 +50,7 @@
 
 | IAMO | Estado | Confianza | Jugada | € oficial |
 |---|---|---:|---|---:|
+| **IAMO498** | `attempt_completed` | 72% | A fixed-scope Shopify feed cleanup sprint: audit up to 100 SKUs, correct titles, variant names, URLs, image re | **€0.00** |
 | **IAMO497** | `attempt_completed` | 72% | Sprint fijo de 5 días: auditoría de Google Business Profile + web + reseñas, corrección del perfil (horario, s | **€0.00** |
 | **IAMO496** | `attempt_completed` | 74% | Sprint fijo de automatización de lead routing y seguimiento: conexión de formulario/WhatsApp/Google Sheets a u | **€0.00** |
 | **IAMO495** | `attempt_completed` | 72% | A one-page lead-capture landing page for one high-intent service (e.g., dental implants, smile design, aesthet | **€0.00** |
@@ -61,7 +62,6 @@
 | **IAMO489** | `attempt_completed` | 78% | Sprint de 2 semanas de recuperación de Google Business Profile: auditoría del perfil y reseñas, correcciones a | **€0.00** |
 | **IAMO488** | `attempt_completed` | 74% | Sprint de 2 semanas de recuperación de Google Business Profile: auditoría del perfil y reseñas, correcciones a | **€0.00** |
 | **IAMO487** | `attempt_completed` | 77% | A 2-week Google Business Profile review recovery sprint: audit of the profile and reviews, owner-authorized li | **€0.00** |
-| **IAMO486** | `attempt_completed` | 72% | A 2-week Google Business Profile review recovery sprint: review audit, profile cleanup, reply templates, revie | **€0.00** |
 
 ### 🌐 Arena pública
 
