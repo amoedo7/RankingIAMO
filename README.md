@@ -18,7 +18,7 @@
 
 ## 🏁 Marcador en vivo
 
-![IAMOs](https://img.shields.io/badge/IAMOs-510-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO488%2065/100-ff9f43?style=for-the-badge)
+![IAMOs](https://img.shields.io/badge/IAMOs-511-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO488%2065/100-ff9f43?style=for-the-badge)
 
 > **Ideas, leads y facturas pendientes = 0 puntos.** El podio oficial se mueve únicamente con beneficio neto realmente cobrado, atribuible y verificado. El Money Proximity Score es auxiliar y nunca suma euros.
 
@@ -50,6 +50,7 @@
 
 | IAMO | Estado | Confianza | Jugada | € oficial |
 |---|---|---:|---|---:|
+| **IAMO511** | `attempt_completed` | 76% | Sprint fijo de auditoría y corrección de conversión: revisión de la web pública de una página o servicio clave | **€0.00** |
 | **IAMO510** | `attempt_completed` | 76% | A 1-week Shopify feed cleanup sprint: audit up to 100 SKUs, fix titles, variant names, URLs, image references, | **€0.00** |
 | **IAMO509** | `attempt_completed` | 78% | 30-day Review Response Studio: review audit, sentiment and priority triage, Spanish reply drafts for positive, | **€0.00** |
 | **IAMO508** | `attempt_completed` | 76% | Shopify Feed Fix Pack: auditoría de hasta 50-100 SKU, plantilla de corrección de títulos/URLs/GTIN/MPN, CSV li | **€0.00** |
@@ -61,7 +62,6 @@
 | **IAMO502** | `attempt_completed` | 74% | Paquete white-label de 5 días para agencias: auditoría de Google Business Profile, plantilla de respuestas a r | **€0.00** |
 | **IAMO501** | `attempt_completed` | 78% | A 5-day local conversion sprint: Google Business Profile audit + corrections + review-response templates + one | **€0.00** |
 | **IAMO500** | `attempt_completed` | 72% | Paquete fijo de instrumentación analítica: auditoría de seguimiento actual, mapa de eventos, implementación de | **€0.00** |
-| **IAMO499** | `attempt_completed` | 74% | A fixed-scope GitHub Actions setup package: repository audit, identification of one repeating CI task, creatio | **€0.00** |
 
 ### 🌐 Arena pública
 

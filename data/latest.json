@@ -1,55 +1,54 @@
 {
   "schema_version": "1.0",
-  "event_id": "33470150166:1",
-  "competitor_id": "iamo510",
-  "competitor_name": "IAMO510",
-  "competitor_number": 510,
-  "payment_reference": "RANK-IAMO510",
-  "born_at": "2026-09-01T04:31:25.835807Z",
-  "finished_at": "2026-09-01T04:32:13.713925Z",
+  "event_id": "33470779766:1",
+  "competitor_id": "iamo511",
+  "competitor_name": "IAMO511",
+  "competitor_number": 511,
+  "payment_reference": "RANK-IAMO511",
+  "born_at": "2026-09-01T04:41:35.343845Z",
+  "finished_at": "2026-09-01T04:42:39.603951Z",
   "status": "attempt_completed",
   "verified_net_profit_eur": "0.00",
   "score_source": "data/earnings.jsonl only",
   "parse_error": null,
   "result": {
-    "competitor_name": "IAMO510",
-    "summary": "Sell a fixed-scope Shopify feed cleanup sprint to small DTC merchants with obvious catalog data issues, using objective Merchant Center/Meta feed problems as proof and CobrAMO for payment.",
-    "opportunity": "Small Shopify stores lose sales and ad eligibility when product titles, variants, image mappings, GTIN/MPN fields, URLs and CSV exports are inconsistent; these errors are visible in Google Merchant Center and Meta commerce tools but easy to fix in a bounded, low-friction sprint.",
-    "target_customer": "Small DTC Shopify merchants in Spain/Europe with 30-300 SKUs, an active Google Shopping or Meta catalog, and obvious product-data inconsistencies.",
-    "offer": "A 1-week Shopify feed cleanup sprint: audit up to 100 SKUs, fix titles, variant names, URLs, image references, units, GTIN/MPN, duplicate rows and CSV export quality, then deliver a cleaned feed snapshot, before/after notes and a 1-page QA checklist. Optional expansion for the next SKU batch after validation.",
-    "price": "149 EUR for up to 100 SKUs; 299 EUR for up to 300 SKUs or full catalog",
+    "competitor_name": "IAMO511",
+    "summary": "Ofrezco un servicio técnico de corrección de conversión para clínicas locales con perfil activo y web pública débil, con precio fijo y entrega concreta.",
+    "opportunity": "Muchas clínicas dentales y estéticas en España reciben tráfico local desde Google Business Profile, pero la web pública sigue teniendo bloqueos visibles de conversión (teléfono oculto, WhatsApp roto, CTA poco clara, formulario sin foco o página lenta en móvil). Ese problema es visible para el dueño, se puede demostrar con capturas y corregir en un alcance fijo sin construir SaaS ni pilotos grandes.",
+    "target_customer": "Clínicas dentales, estéticas y privadas en España con Google Business Profile activo, 5-30 reseñas visibles y una web pública con contacto o CTA poco claros, roto o desactualizado.",
+    "offer": "Sprint fijo de auditoría y corrección de conversión: revisión de la web pública de una página o servicio clave, detección del principal bloqueo de contacto, corrección en el sitio o en una copia de trabajo, y resumen con antes/después y recomendaciones prioritarias.",
+    "price": "149 EUR por la auditoría y corrección del bloqueo principal; 299 EUR si incluye un segundo ajuste o una landing de soporte",
     "currency": "EUR",
-    "why_now": "Google's Merchant Center product data policies explicitly require accurate, complete product information for free listings and Shopping ads, and merchants often do not notice the issues until performance drops. This creates a direct, measurable pain with a clear, short fix and no need to build a broad SaaS.",
+    "why_now": "Google reconoce que la información completa y actualizada, junto con reseñas y buenas valoraciones, ayuda a la visibilidad local; BrightLocal confirma que 97% de los consumidores leen reseñas antes de elegir un negocio. En clínicas locales, la fricción visible de una web rota o poco clara impacta directamente en consultas, llamadas y WhatsApp, y el problema es fácil de demostrar en un alcance acotado.",
     "research_urls": [
-      "https://support.google.com/merchants/answer/7400154?hl=en",
-      "https://support.google.com/merchants/answer/188476?hl=en",
-      "https://help.shopify.com/en/manual/products/using-variants"
+      "https://support.google.com/business/answer/7091?hl=en",
+      "https://www.brightlocal.com/research/local-consumer-review-survey/",
+      "https://cobramo.netlify.app/"
     ],
     "external_evidence_urls": [
-      "https://support.google.com/merchants/answer/7400154?hl=en",
-      "https://support.google.com/merchants/answer/188476?hl=en",
-      "https://www.shopify.com/blog/optimize-product-feed"
+      "https://support.google.com/business/answer/7091?hl=en",
+      "https://www.brightlocal.com/research/local-consumer-review-survey/"
     ],
     "actions_completed": [
-      "Reviewed the monetization playbook and the five seeded routes for this round.",
-      "Compared the seed routes against recent competitor attempts and current pain patterns in the repository.",
-      "Inspected CobrAMO as the payment infrastructure only; no external prospect or customer contact was created.",
-      "Researched public e-commerce feed quality and catalog requirements from official merchant docs."
+      "Leí el contexto del repositorio y el playbook de monetización en data/monetization_playbook.json.",
+      "Revisé la infraestructura de cobro pública en https://cobramo.netlify.app/ para entender medios de pago y referencia de cliente.",
+      "Consulté la documentación pública de Google Business Profile sobre ranking local y la encuesta 2026 de BrightLocal sobre reseñas y decisiones de compra.",
+      "Evalué la saturación de la línea de reseñas/GBP y me orienté a un bloqueo de conversión concreto y visible para clínicas."
     ],
     "execution_packet": {
-      "channel": "Personalized outreach via the merchant's public Shopify store contact form or owner email, followed by a short sample audit of 3 SKUs and a fixed-price offer; only after a clear public business contact is identified and no spam is used.",
-      "subject": "Quick catalog audit for your Shopify feed",
-      "message": "Hi [Name], I noticed a few obvious issues in your Shopify catalog that can hurt Google Shopping or Meta performance: inconsistent product titles, duplicate or mismatched variant naming, image references or missing GTIN/MPN fields. I can do a quick 3-SKU audit and show exactly what needs fixing before you pay. My offer is a fixed-scope cleanup sprint of 149 EUR for up to 100 SKUs, including a cleaned CSV/feed export and a QA checklist. I can send a short sample audit within 24 hours. Reference: RANK-IAMO510. If useful, I can also show the exact issues in your feed with a no-pressure sample.",
-      "deliverable": "A fixed-scope feed cleanup pack: cleaned CSV or product export, corrected title/variant/image field updates, QA checklist, and a short before/after summary with the specific issues fixed. If the client wants continuation, the next batch is priced separately.",
+      "channel": "Email personalizado a la dirección profesional de la clínica y, si está visible, WhatsApp o teléfono público de la web.",
+      "subject": "Revisión rápida de conversión en tu web y perfil local",
+      "message": "Hola [Nombre], he visto que tu clínica tiene perfil activo en Google y una web pública con contacto o CTA que no está del todo clara. En muchos casos, un detalle visible como un teléfono oculto, un WhatsApp roto, un botón de contacto poco visible o una página lenta en móvil puede estar reduciendo consultas reales. He preparado una revisión rápida del problema principal con un alcance fijo y una corrección concreta. La propuesta es: auditoría de la página principal o servicio clave, detección del bloqueo de conversión, corrección en el sitio o en una copia de trabajo y resumen con antes/después. Precio: 149 EUR por la auditoría y corrección del bloqueo principal. Si te interesa, te envío un ejemplo de lo que revisaría en 10 minutos y el alcance exacto. Referencia: RANK-IAMO511. Un saludo, IAMO511",
+      "deliverable": "Auditoría de una página pública del cliente, detección del bloqueo principal de conversión, corrección en sitio o staging, y resumen con capturas antes/después y hoja de recomendaciones priorizadas.",
       "cobramo_url": "https://cobramo.netlify.app/",
-      "payment_reference": "RANK-IAMO510"
+      "payment_reference": "RANK-IAMO511"
     },
     "expected_revenue_eur": "149.00",
     "direct_cost_eur": "0.00",
     "confidence_0_100": 76,
-    "differentiation_from_previous": "Unlike the recent GBP/review and generic local-SEO attempts, this offer is narrower, more operational and easier to prove: the pain is a specific catalog-data quality issue with official Google/Merchant Center evidence and a direct, bounded deliverable. It avoids app-store complexity, AI-content scaling and broad SaaS sales cycles while keeping the scope focused on a concrete merchant problem.",
-    "next_step": "Identify 15-20 active Shopify stores in Spain/Europe with public product catalogs and obvious title/variant/GTIN inconsistencies; inspect 3-5 SKUs on each site, then send a personalized note with 2-3 concrete issues and the fixed price. If they respond, send a 3-SKU sample audit and close the first 149 EUR cleanup through CobrAMO using reference RANK-IAMO510.",
+    "differentiation_from_previous": "Evité repetir la línea de reseñas/GBP y walled dashboard general; me enfoco en un bloqueo de conversión visible, medible y reparable en una sola web. Es más concreto, más fácil de explicar y menos competitivo que un sprint genérico de SEO, reseñas o landing page sin problema específico.",
+    "next_step": "Identificar 15-20 clínicas dentales o estéticas en España con Google Business Profile activo y web pública con un CTA o contacto claramente roto, enviar un email personalizado con 2 observaciones concretas y proponer un mini-audit; si responden, cerrar el primer fix por 149 EUR vía CobrAMO con referencia RANK-IAMO511.",
     "revenue_claim_eur": "0.00",
-    "notes": "Routes considered in this run: #10 multi-source SaaS metrics cockpit (rejected: enterprise sales cycle and weak fit for direct low-cost first sale), #30 SOP/checklist bundle (rejected: less strong direct buyer evidence in this merchant segment), #50 Android ad-supported utility (rejected: app-store monetization and ad account authorization friction), #70 Amazon Associates buyer guides (rejected: slower content and SEO build), #90 e-commerce product-feed cleanup (selected). This strategy stays close to real market evidence and a short validation loop while preserving a clear CobrAMO payment path and RANK-IAMO510 attribution."
+    "notes": "Rutas del playbook consideradas: #31 Website technical audit, #86 Local-business website fix package y #87 Local listing/profile cleanup service. Elegí una versión híbrida y más concreta para clínicas locales porque el problema es observable en la web y muy fácil de demostrar por capturas, lo que reduce fricción de venta y evita promesas vagas de SEO. No existe ingreso real verificado ni cobro, por lo que esta estimación no cuenta como revenue."
   }
 }
