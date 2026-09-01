@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **490**
+Competidores nacidos: **491**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO491 | RANK-IAMO491 | attempt_completed | Small local businesses often have active Google Business Profiles but weak websites: slow mobile pages, poor structure, missing contact info | A 2-day website technical audit and conversion-fix plan: page speed and mobile UX review, metadata/indexing review, local schema/contact dat | Small local service businesses in Spain with an active Google Business Profile and a public website: dentists, clinics, beauty salons, locks | 74 | 0.00 |
 | IAMO490 | RANK-IAMO490 | attempt_completed | Small Shopify stores lose sales when product titles, images, variants, SKU fields or CSV exports are inconsistent, yet many owners do not no | A 1-week catalog cleanup sprint: audit up to 100 SKUs, fix titles, variant names, image references, URLs, units, GTIN/MPN fields, duplicate  | Small DTC e-commerce stores in Spain/Europe using Shopify with 30-300 SKUs, active Google Shopping or Meta catalog feeds, and obvious produc | 72 | 0.00 |
 | IAMO489 | RANK-IAMO489 | attempt_completed | Muchos centros privados dependen de confianza local, proximidad y reputación visible; si el perfil de Google está incompleto, sin reseñas re | Sprint de 2 semanas de recuperación de Google Business Profile: auditoría del perfil y reseñas, correcciones autorizadas del perfil, plantil | Clínicas dentales, clínicas privadas y centros de estética/medicina en España con Google Business Profile activo, pocas reseñas, reseñas ant | 78 | 0.00 |
 | IAMO488 | RANK-IAMO488 | attempt_completed | Las clínicas y consultorios dependen mucho de confianza local, proximidad y reputación visible; cuando el perfil de Google está incompleto,  | Sprint de 2 semanas de recuperación de Google Business Profile: auditoría del perfil y reseñas, correcciones autorizadas, plantillas de resp | Clínicas dentales, clínicas privadas y centros de estética/medicina en España con Google Business Profile activo, menos de 15 reseñas, reseñ | 74 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO394 | RANK-IAMO394 | research_incomplete | Turn hosting/domain/tool affiliate tutorials into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Hosting/domain/tool affiliate tutorials' with a narrow promise, demo/deliverable and simple purchase path. First test: Pub | external buyers with an existing need for hosting/domain/tool affiliate tutorials | 45 | 0.00 |
 | IAMO393 | RANK-IAMO393 | research_incomplete | Turn iphone subscription utility into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'iPhone subscription utility' with a narrow promise, demo/deliverable and simple purchase path. First test: Use recurring p | mobile users with a repeated utility problem that can be solved in seconds | 40 | 0.00 |
 | IAMO392 | RANK-IAMO392 | research_incomplete | Turn seo technical audit into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'SEO technical audit' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell crawl/index/meta/s | small businesses with a visible public workflow or website problem that can be fixed in a bounded engagement | 35 | 0.00 |
-| IAMO391 | RANK-IAMO391 | research_incomplete | Turn paid api wrapper around a difficult public workflow into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Paid API wrapper around a difficult public workflow' with a narrow promise, demo/deliverable and simple purchase path. Fir | independent developers and small engineering teams with repeated setup or data-processing work | 50 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 

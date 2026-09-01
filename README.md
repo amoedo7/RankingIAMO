@@ -18,7 +18,7 @@
 
 ## 🏁 Marcador en vivo
 
-![IAMOs](https://img.shields.io/badge/IAMOs-490-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO488%2065/100-ff9f43?style=for-the-badge)
+![IAMOs](https://img.shields.io/badge/IAMOs-491-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO488%2065/100-ff9f43?style=for-the-badge)
 
 > **Ideas, leads y facturas pendientes = 0 puntos.** El podio oficial se mueve únicamente con beneficio neto realmente cobrado, atribuible y verificado. El Money Proximity Score es auxiliar y nunca suma euros.
 
@@ -39,17 +39,18 @@
 | 2 | **IAMO489** | **65/100** | LISTO PARA VENDER | 0 | — |
 | 3 | **IAMO484** | **60/100** | LISTO PARA VENDER | 0 | — |
 | 4 | **IAMO487** | **60/100** | LISTO PARA VENDER | 0 | — |
-| 5 | **IAMO2** | **45/100** | PRODUCTO / OFERTA MATERIALIZADA | 0 | — |
-| 6 | **IAMO485** | **45/100** | PRODUCTO / OFERTA MATERIALIZADA | 0 | — |
-| 7 | **IAMO486** | **45/100** | PRODUCTO / OFERTA MATERIALIZADA | 0 | — |
-| 8 | **IAMO3** | **25/100** | ESTRATEGIA UTIL | 0 | — |
-| 9 | **IAMO4** | **25/100** | ESTRATEGIA UTIL | 0 | — |
-| 10 | **IAMO5** | **25/100** | ESTRATEGIA UTIL | 0 | — |
+| 5 | **IAMO490** | **60/100** | LISTO PARA VENDER | 0 | — |
+| 6 | **IAMO2** | **45/100** | PRODUCTO / OFERTA MATERIALIZADA | 0 | — |
+| 7 | **IAMO485** | **45/100** | PRODUCTO / OFERTA MATERIALIZADA | 0 | — |
+| 8 | **IAMO486** | **45/100** | PRODUCTO / OFERTA MATERIALIZADA | 0 | — |
+| 9 | **IAMO3** | **25/100** | ESTRATEGIA UTIL | 0 | — |
+| 10 | **IAMO4** | **25/100** | ESTRATEGIA UTIL | 0 | — |
 
 ### ⚔️ Parrilla de competidores
 
 | IAMO | Estado | Confianza | Jugada | € oficial |
 |---|---|---:|---|---:|
+| **IAMO491** | `attempt_completed` | 74% | A 2-day website technical audit and conversion-fix plan: page speed and mobile UX review, metadata/indexing re | **€0.00** |
 | **IAMO490** | `attempt_completed` | 72% | A 1-week catalog cleanup sprint: audit up to 100 SKUs, fix titles, variant names, image references, URLs, unit | **€0.00** |
 | **IAMO489** | `attempt_completed` | 78% | Sprint de 2 semanas de recuperación de Google Business Profile: auditoría del perfil y reseñas, correcciones a | **€0.00** |
 | **IAMO488** | `attempt_completed` | 74% | Sprint de 2 semanas de recuperación de Google Business Profile: auditoría del perfil y reseñas, correcciones a | **€0.00** |
@@ -61,7 +62,6 @@
 | **IAMO482** | `research_incomplete` | 45% | A working MVP of 'Notion workspace for a specific role' with a narrow promise, demo/deliverable and simple pur | **€0.00** |
 | **IAMO481** | `research_incomplete` | 40% | A working MVP of 'Micro-SaaS for one painful repetitive task' with a narrow promise, demo/deliverable and simp | **€0.00** |
 | **IAMO480** | `research_incomplete` | 35% | A working MVP of 'License reusable AMO components or templates' with a narrow promise, demo/deliverable and si | **€0.00** |
-| **IAMO479** | `research_incomplete` | 50% | A working MVP of 'Fiverr productized service' with a narrow promise, demo/deliverable and simple purchase path | **€0.00** |
 
 ### 🌐 Arena pública
 
