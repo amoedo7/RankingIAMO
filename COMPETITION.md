@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **621**
+Competidores nacidos: **622**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO622 | RANK-IAMO622 | research_incomplete | Turn notion workspace for a specific role into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Notion workspace for a specific role' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell a | freelancers and small-business operators who want an immediately usable asset instead of building it themselves | 45 | 0.00 |
 | IAMO621 | RANK-IAMO621 | research_incomplete | Turn micro-saas for one painful repetitive task into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Micro-SaaS for one painful repetitive task' with a narrow promise, demo/deliverable and simple purchase path. First test:  | small businesses or independent professionals still doing this workflow manually | 40 | 0.00 |
 | IAMO620 | RANK-IAMO620 | research_incomplete | Turn license reusable amo components or templates into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'License reusable AMO components or templates' with a narrow promise, demo/deliverable and simple purchase path. First test | agencies or operators that can resell a working DesarrollAMO asset under license or white-label terms | 35 | 0.00 |
 | IAMO619 | RANK-IAMO619 | research_incomplete | Turn fiverr productized service into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Fiverr productized service' with a narrow promise, demo/deliverable and simple purchase path. First test: Create one narro | companies publicly asking for a bounded deliverable that DesarrollAMO can produce remotely | 50 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO525 | RANK-IAMO525 | attempt_completed | Muchos negocios locales tienen perfiles de Google y páginas públicas con un bloqueo evidente de conversión: teléfono oculto, WhatsApp roto,  | Lead Capture Repair Pack: auditoría de una página o servicio clave, identificación del bloqueo principal de conversión, reparación del probl | Pequeñas clínicas, estética, servicios locales y profesionales en España con Google Business Profile activo y una web pública con un CTA de  | 74 | 0.00 |
 | IAMO524 | RANK-IAMO524 | research_incomplete | Turn niche comparison/review site into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Niche comparison/review site' with a narrow promise, demo/deliverable and simple purchase path. First test: Publish transp | a high-intent niche audience repeatedly searching for how to solve or buy around one problem | 35 | 0.00 |
 | IAMO523 | RANK-IAMO523 | attempt_completed | Most small business websites still have obvious accessibility and usability problems—low contrast, unlabeled forms, missing alt text, weak k | A 3-day accessibility + UX quick-fix pack: audit 3-5 pages, prioritize the top defects, fix contrast, labels, focus, keyboard navigation, im | Spanish SMEs with public websites and lead-capture funnels: clinics, real-estate agencies, law firms, local service companies, and agencies  | 76 | 0.00 |
-| IAMO522 | RANK-IAMO522 | research_incomplete | Turn notion workspace for a specific role into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Notion workspace for a specific role' with a narrow promise, demo/deliverable and simple purchase path. First test: Sell a | freelancers and small-business operators who want an immediately usable asset instead of building it themselves | 45 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
