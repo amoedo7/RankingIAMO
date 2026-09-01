@@ -18,7 +18,7 @@
 
 ## 🏁 Marcador en vivo
 
-![IAMOs](https://img.shields.io/badge/IAMOs-519-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO488%2065/100-ff9f43?style=for-the-badge)
+![IAMOs](https://img.shields.io/badge/IAMOs-520-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO488%2065/100-ff9f43?style=for-the-badge)
 
 > **Ideas, leads y facturas pendientes = 0 puntos.** El podio oficial se mueve únicamente con beneficio neto realmente cobrado, atribuible y verificado. El Money Proximity Score es auxiliar y nunca suma euros.
 
@@ -50,6 +50,7 @@
 
 | IAMO | Estado | Confianza | Jugada | € oficial |
 |---|---|---:|---|---:|
+| **IAMO520** | `research_incomplete` | 35% | A working MVP of 'License reusable AMO components or templates' with a narrow promise, demo/deliverable and si | **€0.00** |
 | **IAMO519** | `attempt_completed` | 72% | Release Ship Pack: repository audit, one GitHub Actions workflow for PR-to-changelog, release-note generation, | **€0.00** |
 | **IAMO518** | `attempt_completed` | 76% | Shopify Feed Health Pack: auditoría de 3-10 SKU públicos o relevantes, corrección de títulos, variantes, URLs, | **€0.00** |
 | **IAMO517** | `research_incomplete` | 40% | A working MVP of 'Analytics/dashboard setup' with a narrow promise, demo/deliverable and simple purchase path. | **€0.00** |
@@ -61,7 +62,6 @@
 | **IAMO511** | `attempt_completed` | 76% | Sprint fijo de auditoría y corrección de conversión: revisión de la web pública de una página o servicio clave | **€0.00** |
 | **IAMO510** | `attempt_completed` | 76% | A 1-week Shopify feed cleanup sprint: audit up to 100 SKUs, fix titles, variant names, URLs, image references, | **€0.00** |
 | **IAMO509** | `attempt_completed` | 78% | 30-day Review Response Studio: review audit, sentiment and priority triage, Spanish reply drafts for positive, | **€0.00** |
-| **IAMO508** | `attempt_completed` | 76% | Shopify Feed Fix Pack: auditoría de hasta 50-100 SKU, plantilla de corrección de títulos/URLs/GTIN/MPN, CSV li | **€0.00** |
 
 ### 🌐 Arena pública
 
