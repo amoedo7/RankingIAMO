@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Auditoría de accesibilidad web</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 32px; color: #1f2937; }
+    h1, h2 { color: #0f172a; }
+    .card { border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px; margin: 18px 0; }
+    .badge { display: inline-block; background: #e0f2fe; color: #0f766e; padding: 6px 10px; border-radius: 999px; font-size: 12px; font-weight: bold; }
+    table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+    th, td { border: 1px solid #e5e7eb; padding: 10px; text-align: left; }
+    .critical { color: #b91c1c; font-weight: bold; }
+    .medium { color: #b45309; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>Auditoría de accesibilidad web</h1>
+  <p class="badge">PYME / web pública</p>
+
+  <div class="card">
+    <h2>1. Resumen ejecutivo</h2>
+    <p>La web tiene margen para mejorar la claridad de lectura, la navegación por teclado, la experiencia en móvil y la identificación del CTA principal. La mejora no requiere rediseño completo, sino ajustes básicos y bien priorizados.</p>
+  </div>
+
+  <div class="card">
+    <h2>2. Hallazgos prioritarios</h2>
+    <table>
+      <tr><th>Área</th><th>Hallazgo</th><th>Impacto</th><th>Prioridad</th></tr>
+      <tr><td>Contraste</td><td>Texto y botones con poca diferenciación visual</td><td>Alto</td><td class="critical">Alta</td></tr>
+      <tr><td>Foco</td><td>Falta de foco visible en enlaces y formularios</td><td>Alto</td><td class="critical">Alta</td></tr>
+      <tr><td>Imágenes</td><td>Faltan alt text o son redundantes</td><td>Medio</td><td class="medium">Media</td></tr>
+      <tr><td>Formularios</td><td>Etiquetas poco claras o campos sin identificar</td><td>Alto</td><td class="critical">Alta</td></tr>
+      <tr><td>Navegación</td><td>Menú y enlaces difíciles de seguir por teclado</td><td>Medio</td><td class="medium">Media</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>3. Correcciones sugeridas</h2>
+    <ul>
+      <li>Mejorar contraste de texto y botones.</li>
+      <li>Añadir estilos de foco visibles para enlaces y inputs.</li>
+      <li>Revisar headings y orden semántico del contenido.</li>
+      <li>Corregir etiquetas y textos alternativos.</li>
+      <li>Hacer más visibles los CTA de contacto y reserva.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>4. Checklist final</h2>
+    <ol>
+      <li>Validar contraste mínimo en textos y botones.</li>
+      <li>Comprobar navegación con teclado.</li>
+      <li>Revisar formularios y mensajes de error.</li>
+      <li>Verificar alt text en imágenes relevantes.</li>
+      <li>Confirmar enlaces y CTA visibles en móvil.</li>
+    </ol>
+  </div>
+</body>
+</html>
