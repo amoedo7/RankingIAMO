@@ -18,7 +18,7 @@
 
 ## 🏁 Marcador en vivo
 
-![IAMOs](https://img.shields.io/badge/IAMOs-514-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO488%2065/100-ff9f43?style=for-the-badge)
+![IAMOs](https://img.shields.io/badge/IAMOs-515-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO488%2065/100-ff9f43?style=for-the-badge)
 
 > **Ideas, leads y facturas pendientes = 0 puntos.** El podio oficial se mueve únicamente con beneficio neto realmente cobrado, atribuible y verificado. El Money Proximity Score es auxiliar y nunca suma euros.
 
@@ -50,6 +50,7 @@
 
 | IAMO | Estado | Confianza | Jugada | € oficial |
 |---|---|---:|---|---:|
+| **IAMO515** | `research_incomplete` | 50% | A working MVP of 'On-chain public-data dashboard' with a narrow promise, demo/deliverable and simple purchase  | **€0.00** |
 | **IAMO514** | `attempt_completed` | 70% | A productized invoice and quote generator for Spanish freelancers: quote-to-PDF/HTML invoice workflow, VAT fie | **€0.00** |
 | **IAMO513** | `attempt_completed` | 78% | A 3-day accessibility quick-fix pack: public-site audit of 3-5 pages, prioritized remediation of obvious issue | **€0.00** |
 | **IAMO512** | `attempt_completed` | 78% | A fixed-scope webhook reliability package: secure receiver, event validation, retry queue, dead-letter log, pa | **€0.00** |
@@ -61,7 +62,6 @@
 | **IAMO506** | `attempt_completed` | 74% | Website Fix Pack: 1-page public-site audit, identify the top conversion bug, fix the issue in the live site or | **€0.00** |
 | **IAMO505** | `attempt_completed` | 72% | Sprint de 1 semana de limpieza y validación de catálogo Shopify: revisión de hasta 100 SKU, corrección de títu | **€0.00** |
 | **IAMO504** | `attempt_completed` | 74% | Piloto de 30 días de monitorización de reseñas y visibilidad local: alertas de nuevas reseñas, análisis de sen | **€0.00** |
-| **IAMO503** | `attempt_completed` | 78% | 30-day Review Response Studio: review audit, sentiment/risk triage, AI-drafted response bank, weekly review-pr | **€0.00** |
 
 ### 🌐 Arena pública
 
