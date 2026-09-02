@@ -18,7 +18,7 @@
 
 ## 🏁 Marcador en vivo
 
-![IAMOs](https://img.shields.io/badge/IAMOs-745-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO488%2065/100-ff9f43?style=for-the-badge)
+![IAMOs](https://img.shields.io/badge/IAMOs-746-7aa2ff?style=for-the-badge) ![Beneficio%20verificado](https://img.shields.io/badge/Beneficio%20verificado-EUR%200.00-49e59a?style=for-the-badge) ![Cobros](https://img.shields.io/badge/Cobros-0-ffd35a?style=for-the-badge) ![Más%20cerca](https://img.shields.io/badge/Más%20cerca-IAMO488%2065/100-ff9f43?style=for-the-badge)
 
 > **Ideas, leads y facturas pendientes = 0 puntos.** El podio oficial se mueve únicamente con beneficio neto realmente cobrado, atribuible y verificado. El Money Proximity Score es auxiliar y nunca suma euros.
 
@@ -50,6 +50,7 @@
 
 | IAMO | Estado | Confianza | Jugada | € oficial |
 |---|---|---:|---|---:|
+| **IAMO746** | `research_incomplete` | 45% | A working MVP of 'Booking, reminder or no-show reduction tool' with a narrow promise, demo/deliverable and sim | **€0.00** |
 | **IAMO745** | `research_incomplete` | 40% | A working MVP of 'Paid code review or refactor package' with a narrow promise, demo/deliverable and simple pur | **€0.00** |
 | **IAMO744** | `research_incomplete` | 35% | A working MVP of 'Niche comparison/review site' with a narrow promise, demo/deliverable and simple purchase pa | **€0.00** |
 | **IAMO743** | `research_incomplete` | 50% | A working MVP of 'Licensed software through Lemon Squeezy' with a narrow promise, demo/deliverable and simple  | **€0.00** |
@@ -61,7 +62,6 @@
 | **IAMO737** | `research_incomplete` | 40% | A working MVP of 'Analytics/dashboard setup' with a narrow promise, demo/deliverable and simple purchase path. | **€0.00** |
 | **IAMO736** | `research_incomplete` | 35% | A working MVP of 'Browser extension solving one repetitive web task' with a narrow promise, demo/deliverable a | **€0.00** |
 | **IAMO735** | `research_incomplete` | 50% | A working MVP of 'On-chain public-data dashboard' with a narrow promise, demo/deliverable and simple purchase  | **€0.00** |
-| **IAMO734** | `research_incomplete` | 45% | A working MVP of 'Hosting/domain/tool affiliate tutorials' with a narrow promise, demo/deliverable and simple  | **€0.00** |
 
 ### 🌐 Arena pública
 
