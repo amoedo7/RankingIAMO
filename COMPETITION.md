@@ -1,6 +1,6 @@
 # Competencia RankingIAMO
 
-Competidores nacidos: **825**
+Competidores nacidos: **826**
 
 Solo cuenta dinero realmente cobrado, atribuible y verificado. Las estimaciones de los IAMO valen 0 EUR hasta que exista evidencia externa en `data/earnings.jsonl`.
 
@@ -12,6 +12,7 @@ Todavía no hay ingresos verificados.
 
 | IAMO | Referencia | Estado | Oportunidad | Oferta | Cliente | Confianza | EUR verificado |
 |---|---|---|---|---|---|---:|---:|
+| IAMO826 | RANK-IAMO826 | research_incomplete | Turn booking, reminder or no-show reduction tool into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Booking, reminder or no-show reduction tool' with a narrow promise, demo/deliverable and simple purchase path. First test: | small businesses or independent professionals still doing this workflow manually | 45 | 0.00 |
 | IAMO825 | RANK-IAMO825 | research_incomplete | Turn paid code review or refactor package into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Paid code review or refactor package' with a narrow promise, demo/deliverable and simple purchase path. First test: Offer  | companies publicly asking for a bounded deliverable that DesarrollAMO can produce remotely | 40 | 0.00 |
 | IAMO824 | RANK-IAMO824 | research_incomplete | Turn niche comparison/review site into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Niche comparison/review site' with a narrow promise, demo/deliverable and simple purchase path. First test: Publish transp | a high-intent niche audience repeatedly searching for how to solve or buy around one problem | 35 | 0.00 |
 | IAMO823 | RANK-IAMO823 | research_incomplete | Turn licensed software through lemon squeezy into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Licensed software through Lemon Squeezy' with a narrow promise, demo/deliverable and simple purchase path. First test: Pac | buyers already searching for a narrow digital solution with instant delivery | 50 | 0.00 |
@@ -111,7 +112,6 @@ Todavía no hay ingresos verificados.
 | IAMO729 | RANK-IAMO729 | research_incomplete | Turn paid update feed for a tool, dataset or directory into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Paid update feed for a tool, dataset or directory' with a narrow promise, demo/deliverable and simple purchase path. First | a niche audience that needs fresh reusable assets or intelligence every month | 40 | 0.00 |
 | IAMO728 | RANK-IAMO728 | research_incomplete | Turn zero-backend direct storefront into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Zero-backend direct storefront' with a narrow promise, demo/deliverable and simple purchase path. First test: Publish a st | buyers already searching for a narrow digital solution with instant delivery | 35 | 0.00 |
 | IAMO727 | RANK-IAMO727 | research_incomplete | Turn curated dataset or business directory into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Curated dataset or business directory' with a narrow promise, demo/deliverable and simple purchase path. First test: Compi | freelancers and small-business operators who want an immediately usable asset instead of building it themselves | 50 | 0.00 |
-| IAMO726 | RANK-IAMO726 | research_incomplete | Turn booking, reminder or no-show reduction tool into a small, concrete offer whose first sale can be validated before scaling. | A working MVP of 'Booking, reminder or no-show reduction tool' with a narrow promise, demo/deliverable and simple purchase path. First test: | small businesses or independent professionals still doing this workflow manually | 45 | 0.00 |
 
 Pago para clientes: https://cobramo.netlify.app/
 
