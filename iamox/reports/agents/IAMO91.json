@@ -8,15 +8,15 @@
         "relationship": "origin_affinity"
       },
       "archetype": "merchant",
-      "confidence": 0.496,
-      "intent": "seek_external_evidence",
-      "interpretation": "'White-label an existing working AMO utility' necesita evidencia externa antes de avanzar desde research.",
+      "confidence": 0.566,
+      "intent": "look_for_useful_problem",
+      "interpretation": "No tengo una tarea asignada; elijo look_for_useful_problem según mi experiencia y temperamento.",
       "signature": "cd9b7a7d753e81c9",
       "version": "0.3.0-individual"
     },
-    "cell_id": "cell-0252786833",
+    "cell_id": null,
     "encounter_name": "IAMO91",
-    "heartbeat_at": "2026-09-04T21:33:06Z",
+    "heartbeat_at": "2026-09-04T23:17:29Z",
     "id": "iamo91",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:21fb0e47cf86e75994aa",
@@ -29,7 +29,7 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 3,
+      "heartbeats": 4,
       "progress_events": 1,
       "reproduction": {
         "births": 0,
@@ -58,25 +58,19 @@
       "peer_help": 0
     },
     "role": "seller",
-    "state": "peer_review",
-    "task": {
-      "blocking_reason": null,
-      "gate": "research",
-      "id": "task-0252786833",
-      "status": "review",
-      "title": "White-label an existing working AMO utility"
-    },
-    "task_id": "task-0252786833",
+    "state": "learn",
+    "task": null,
+    "task_id": null,
     "world": {
-      "heading": 2.67252,
-      "steps": 4,
+      "heading": 0.10031,
+      "steps": 5,
       "version": "0.2.0",
-      "x": 659.91,
-      "y": 323.57,
-      "zone": "forest",
-      "zone_name": "Bosque de Exploración"
+      "x": 679.59,
+      "y": 325.55,
+      "zone": "market",
+      "zone_name": "Mercado de Oportunidades"
     }
   },
-  "reported_at": "2026-09-04T21:33:06Z",
+  "reported_at": "2026-09-04T23:17:29Z",
   "schema": "iamox.report.v1"
 }

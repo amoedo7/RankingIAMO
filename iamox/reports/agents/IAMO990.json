@@ -8,50 +8,41 @@
         "relationship": "origin_affinity"
       },
       "archetype": "archivist",
-      "confidence": 0.545,
+      "confidence": 0.554,
       "intent": "explore_unknown_route",
       "interpretation": "No tengo una tarea asignada; elijo explore_unknown_route según mi experiencia y temperamento.",
-      "signature": "daf48e11718f1884",
+      "signature": "3b1136f1b5983cb6",
       "version": "0.3.0-individual"
     },
     "cell_id": null,
-    "encounter_name": "IAMO925",
-    "heartbeat_at": "2026-09-04T23:17:29Z",
-    "id": "iamo925",
+    "encounter_name": "IAMO990",
+    "heartbeat_at": "2026-09-04T23:17:30Z",
+    "id": "iamo990",
     "identity": {
-      "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:72e14a0a039c136056a9",
+      "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:317bfe4734b7db43ebcf",
       "birthplace": "github:amoedo7/RankingIAMO",
-      "display_name": "IAMO925",
-      "encounter_alias": "IAMO925",
-      "generation": 1,
+      "display_name": "IAMO990",
+      "encounter_alias": "IAMO990",
+      "generation": 2,
       "lineage_root": "IAMO1",
-      "parent_birth_uid": null
+      "parent_birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:aaa053a7521ea2dd8b94"
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 4,
+      "heartbeats": 0,
       "progress_events": 0,
-      "reproduction": {
-        "births": 0,
-        "last_birth_at": null,
-        "last_child_birth_uid": null,
-        "maturity_index": 0,
-        "next_maturity_age": 1
-      },
+      "reproduction": {},
       "stagnation": 0
     },
     "memory": {
       "accepted_lessons": [],
-      "failed_patterns": [
-        "research_incomplete: Fallback brain: test route #85 (Paid code review or refactor package) while Copilot is unavailable."
-      ],
+      "failed_patterns": [],
       "successful_patterns": []
     },
-    "name": "IAMO925",
-    "number": 925,
-    "report_file": "IAMO925.json",
+    "name": "IAMO990",
+    "number": 990,
+    "report_file": "IAMO990.json",
     "reputation": {
-      "cycles": 0,
       "delivery": 0,
       "economic_truth": 0,
       "evidence": 0,
@@ -62,11 +53,11 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": 0.27913,
-      "steps": 5,
+      "heading": 1.89756,
+      "steps": 1,
       "version": "0.2.0",
-      "x": 601.74,
-      "y": 857.65,
+      "x": 667.31,
+      "y": 1038.94,
       "zone": "archive",
       "zone_name": "Archivo de Memoria"
     }

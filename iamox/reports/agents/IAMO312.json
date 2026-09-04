@@ -9,14 +9,14 @@
       },
       "archetype": "pathfinder",
       "confidence": 0.474,
-      "intent": "prepare_to_help_peer",
-      "interpretation": "No tengo una tarea asignada; elijo prepare_to_help_peer según mi experiencia y temperamento.",
+      "intent": "explore_unknown_route",
+      "interpretation": "No tengo una tarea asignada; elijo explore_unknown_route según mi experiencia y temperamento.",
       "signature": "61cb48424104ffe9",
       "version": "0.3.0-individual"
     },
     "cell_id": null,
     "encounter_name": "IAMO312",
-    "heartbeat_at": "2026-09-04T21:33:06Z",
+    "heartbeat_at": "2026-09-04T23:17:29Z",
     "id": "iamo312",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:f825ddd243259dea4ade",
@@ -29,7 +29,7 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 3,
+      "heartbeats": 4,
       "progress_events": 1,
       "reproduction": {
         "births": 0,
@@ -58,19 +58,19 @@
       "peer_help": 0
     },
     "role": "scout",
-    "state": "learn",
+    "state": "idle",
     "task": null,
     "task_id": null,
     "world": {
-      "heading": 0.45574,
-      "steps": 4,
+      "heading": 0.00021,
+      "steps": 5,
       "version": "0.2.0",
-      "x": 218.45,
+      "x": 238.24,
       "y": 321.05,
-      "zone": "plaza",
-      "zone_name": "Plaza DesarrollAMO"
+      "zone": "forest",
+      "zone_name": "Bosque de Exploración"
     }
   },
-  "reported_at": "2026-09-04T21:33:06Z",
+  "reported_at": "2026-09-04T23:17:29Z",
   "schema": "iamox.report.v1"
 }
