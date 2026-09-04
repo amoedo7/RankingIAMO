@@ -5,6 +5,8 @@ import os
 from datetime import datetime, timezone
 from pathlib import Path
 
+from iamo_runtime import choose_agent_for_round, persist_runtime
+
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 RUNTIME = ROOT / "runtime"
@@ -94,28 +96,65 @@ def select_playbook_seeds(routes, competitor_number, count=5):
     return [routes[(start + offset) % len(routes)] for offset in range(min(count, len(routes)))]
 
 
+def parse_bool_env(name, default=False):
+    value = str(os.environ.get(name, "")).strip().lower()
+    if not value:
+        return default
+    return value in {"1", "true", "yes", "on"}
+
+
+def existing_identity_from_agent(agent):
+    return {
+        "id": agent["id"],
+        "name": agent["name"],
+        "number": agent["number"],
+        "payment_reference": agent["payment_reference"],
+        "born_at": agent["born_at"],
+        "workflow_run_id": os.environ.get("GITHUB_RUN_ID"),
+        "workflow_run_attempt": os.environ.get("GITHUB_RUN_ATTEMPT"),
+        "repository": os.environ.get("GITHUB_REPOSITORY", "amoedo7/RankingIAMO"),
+        "score_eur": agent.get("evidence", {}).get("verified_net_profit_eur", "0.00"),
+        "mode": "heartbeat",
+        "agent_runtime_file": "data/agents.json",
+        "cell_id": ((agent.get("cell") or {}).get("id")),
+    }
+
+
+def new_identity(competitors):
+    number = next_number(competitors)
+    name = f"IAMO{number}"
+    return {
+        "id": name.lower(),
+        "name": name,
+        "number": number,
+        "payment_reference": f"RANK-{name}",
+        "born_at": now_iso(),
+        "workflow_run_id": os.environ.get("GITHUB_RUN_ID"),
+        "workflow_run_attempt": os.environ.get("GITHUB_RUN_ATTEMPT"),
+        "repository": os.environ.get("GITHUB_REPOSITORY", "amoedo7/RankingIAMO"),
+        "score_eur": "0.00",
+        "mode": "birth",
+        "agent_runtime_file": "data/agents.json",
+    }
+
+
 def main():
     DATA.mkdir(parents=True, exist_ok=True)
     RUNTIME.mkdir(parents=True, exist_ok=True)
 
     state = load_json(COMPETITORS, {"schema_version": "1.0", "competitors": []})
     competitors = state.setdefault("competitors", [])
-    number = next_number(competitors)
-    name = f"IAMO{number}"
-    payment_reference = f"RANK-{name}"
-    born_at = now_iso()
-
-    identity = {
-        "id": name.lower(),
-        "name": name,
-        "number": number,
-        "payment_reference": payment_reference,
-        "born_at": born_at,
-        "workflow_run_id": os.environ.get("GITHUB_RUN_ID"),
-        "workflow_run_attempt": os.environ.get("GITHUB_RUN_ATTEMPT"),
-        "repository": os.environ.get("GITHUB_REPOSITORY", "amoedo7/RankingIAMO"),
-        "score_eur": "0.00",
-    }
+    allow_birth = parse_bool_env("IAMO_ALLOW_BIRTH", False)
+    runtime = persist_runtime()
+    selected_agent = choose_agent_for_round(runtime.get("agents", []))
+    identity = (
+        new_identity(competitors)
+        if allow_birth or not selected_agent
+        else existing_identity_from_agent(selected_agent)
+    )
+    number = identity["number"]
+    name = identity["name"]
+    payment_reference = identity["payment_reference"]
     (RUNTIME / "identity.json").write_text(
         json.dumps(identity, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
@@ -128,12 +167,17 @@ def main():
 
     context = {
         "your_identity": identity,
+        "runtime_mode": identity.get("mode", "heartbeat"),
         "cobramo": COBRAMO_URL,
         "payment_reference": payment_reference,
         "current_leaderboard": leaderboard.get("entries", [])[:20],
         "recent_competitor_attempts": history,
         "monetization_playbook_file": "data/monetization_playbook.json",
         "monetization_seed_routes": playbook_seeds,
+        "agent_runtime_file": "data/agents.json",
+        "cells_file": "network/cells.json",
+        "opportunities_file": "data/opportunities.json",
+        "selected_agent": selected_agent,
     }
 
     seed_text = "\n".join(
@@ -145,9 +189,13 @@ def main():
 
 # RONDA AUTONOMA ACTUAL
 
-Tu identidad en ESTA ejecución es **{name}**. Sos un competidor nuevo e individual. No sos IAMO anteriores y no heredes sus afirmaciones como hechos.
+Tu identidad en ESTA ejecución es **{name}**. Sos un IAMO operativo dentro de una red de agentes auditables. No inventes memoria; usá sólo la persistida en el repo.
 
 Tu referencia de atribución comercial es **{payment_reference}**. Es inmutable y te identifica ante RankingIAMO.
+
+Modo actual: **{identity.get("mode", "heartbeat")}**.
+
+Si el modo es `heartbeat`, no estás creando un IAMO nuevo: estás retomando y mejorando un agente existente del repositorio. Solo puede nacer un IAMO nuevo cuando la variable `IAMO_ALLOW_BIRTH=true` lo autoriza explícitamente.
 
 ## LECCION OBLIGATORIA DE LA COMPETENCIA
 
@@ -179,12 +227,23 @@ Antes de decidir:
 Antes de elegir una idea:
 
 1. Leé el contexto del repositorio y el historial de intentos anteriores.
-2. Revisá tus 5 semillas del playbook.
-3. Usá búsqueda web para investigar oportunidades reales y actuales.
-4. Inspeccioná {COBRAMO_URL} únicamente como infraestructura de cobro y contexto de mercados/monedas.
-5. Encontrá evidencia externa de demanda: un mercado, directorio, negocio, convocatoria, problema documentado, comunidad, job board, plataforma o fuente independiente de AMO.
-6. Evitá repetir exactamente una estrategia anterior salvo que puedas explicar una mejora concreta.
-7. Priorizá una acción que pueda producir una venta real con coste inicial cero o muy bajo.
+2. Leé `data/agents.json`, `network/cells.json` y `data/opportunities.json` para ubicar tu célula, tus tareas y tus colaboradores sugeridos.
+3. Revisá tus 5 semillas del playbook.
+4. Usá búsqueda web para investigar oportunidades reales y actuales.
+5. Inspeccioná {COBRAMO_URL} únicamente como infraestructura de cobro y contexto de mercados/monedas.
+6. Encontrá evidencia externa de demanda: un mercado, directorio, negocio, convocatoria, problema documentado, comunidad, job board, plataforma o fuente independiente de AMO.
+7. Evitá repetir exactamente una estrategia anterior salvo que puedas explicar una mejora concreta.
+8. Priorizá una acción que pueda producir una venta real con coste inicial cero o muy bajo.
+
+## ALGORITMO COMUN OBLIGATORIO PARA TODOS LOS IAMOS
+
+1. Leé tu identidad, memoria mínima, tareas y célula.
+2. Elegí la tarea de mayor prioridad que no viole políticas.
+3. Si te falta evidencia externa, no avances a ejecución comercial.
+4. Si existe colaboración sugerida, proponé una mejora concreta y acotada; no ordenes a otros agentes ni inventes que respondieron.
+5. Si tu tarea es de materialización o outreach preparado, dejá un handoff claro para `EjecutorIAMO`.
+6. Si hay señales de pago, pedí revisión humana; no te autoacredites dinero.
+7. Nunca te auto-propagues fuera de este repo, nunca generes spam y nunca muevas fondos existentes de AMO.
 
 Al menos una URL en `external_evidence_urls` debe ser ajena a CobrAMO, RankingIAMO, DesarrollAMO y repositorios de amoedo7. Debe respaldar la existencia del cliente, mercado o necesidad; no puede ser una URL inventada.
 
