@@ -6,6 +6,7 @@ import os
 from typing import Any
 
 import learning
+import life
 import runtime
 
 HANDOFFS = runtime.IAMOX / "handoffs" / "pending.json"
@@ -22,6 +23,7 @@ def rotating_choice(pool: list[dict[str, Any]], role: str, used: set[str]) -> di
     candidates.sort(
         key=lambda a: (
             int(a.get("reputation", {}).get("cycles", 0) or 0),
+            int(a.get("life", {}).get("stagnation", 0) or 0),
             -(1 if a.get("role") == role else 0),
             -float(a.get("traits", {}).get(trait, 0) or 0),
             -float(runtime.evidence_score(a)),
@@ -117,12 +119,14 @@ def run() -> dict[str, Any]:
                 rep = agent.setdefault("reputation", {})
                 rep["cycles"] = int(rep.get("cycles", 0) or 0) + 1
     runtime.advance_simulation(agents, queue, cells)
+    life_summary = life.heartbeat_population(agents, queue, at)
     runtime.write_json(runtime.AGENTS, agents)
     runtime.write_json(HANDOFFS, handoffs[:21])
     result = runtime.summary(agents, queue, cells)
     result["pending_handoffs"] = len(handoffs)
     result["learning_enabled"] = True
     result["repaired_orphans"] = repaired_orphans
+    result["life"] = life_summary
     runtime.write_json(runtime.SUMMARY, result)
     return result
 
