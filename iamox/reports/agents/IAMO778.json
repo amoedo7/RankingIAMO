@@ -8,19 +8,30 @@
         "relationship": "origin_affinity"
       },
       "archetype": "merchant",
-      "confidence": 0.501,
-      "intent": "review_personal_memory",
-      "interpretation": "No tengo una tarea asignada; elijo review_personal_memory según mi experiencia y temperamento.",
+      "confidence": 0.563,
+      "intent": "seek_external_evidence",
+      "interpretation": "'Ko-fi supporter membership' necesita evidencia externa antes de avanzar desde research.",
       "signature": "b70a6970f2d17704",
       "version": "0.3.0-individual"
     },
-    "cell_id": null,
-    "heartbeat_at": "2026-09-04T15:34:31Z",
+    "cell_id": "cell-4c6437e51b",
+    "encounter_name": "IAMO778",
+    "heartbeat_at": "2026-09-04T16:47:42Z",
     "id": "iamo778",
+    "identity": {
+      "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:a39dc1c4897617322a24",
+      "birthplace": "github:amoedo7/RankingIAMO",
+      "display_name": "IAMO778",
+      "encounter_alias": "IAMO778",
+      "generation": 1,
+      "lineage_root": "IAMO1",
+      "parent_birth_uid": null
+    },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 1,
+      "heartbeats": 0,
       "progress_events": 0,
+      "reproduction": {},
       "stagnation": 0
     },
     "memory": {
@@ -32,27 +43,34 @@
     },
     "name": "IAMO778",
     "number": 778,
+    "report_file": "IAMO778.json",
     "reputation": {
-      "cycles": 0,
+      "cycles": 1,
       "delivery": 0,
       "economic_truth": 0,
       "evidence": 0,
       "peer_help": 0
     },
     "role": "seller",
-    "state": "idle",
-    "task": null,
-    "task_id": null,
+    "state": "peer_review",
+    "task": {
+      "blocking_reason": null,
+      "gate": "research",
+      "id": "task-4c6437e51b",
+      "status": "review",
+      "title": "Ko-fi supporter membership"
+    },
+    "task_id": "task-4c6437e51b",
     "world": {
-      "heading": 3.02826,
+      "heading": 0.59521,
       "steps": 1,
-      "version": "0.1.0",
-      "x": 1559.91,
-      "y": 340.88,
-      "zone": "market",
-      "zone_name": "Mercado de Oportunidades"
+      "version": "0.2.0",
+      "x": 399.3,
+      "y": 413.46,
+      "zone": "forest",
+      "zone_name": "Bosque de Exploración"
     }
   },
-  "reported_at": "2026-09-04T15:34:31Z",
+  "reported_at": "2026-09-04T16:47:41Z",
   "schema": "iamox.report.v1"
 }

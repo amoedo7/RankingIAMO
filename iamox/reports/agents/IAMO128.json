@@ -15,12 +15,23 @@
       "version": "0.3.0-individual"
     },
     "cell_id": null,
-    "heartbeat_at": "2026-09-04T15:34:31Z",
+    "encounter_name": "IAMO128",
+    "heartbeat_at": "2026-09-04T16:47:42Z",
     "id": "iamo128",
+    "identity": {
+      "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:70370d305cdb87a3e063",
+      "birthplace": "github:amoedo7/RankingIAMO",
+      "display_name": "IAMO128",
+      "encounter_alias": "IAMO128",
+      "generation": 1,
+      "lineage_root": "IAMO1",
+      "parent_birth_uid": null
+    },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 1,
+      "heartbeats": 0,
       "progress_events": 0,
+      "reproduction": {},
       "stagnation": 0
     },
     "memory": {
@@ -32,6 +43,7 @@
     },
     "name": "IAMO128",
     "number": 128,
+    "report_file": "IAMO128.json",
     "reputation": {
       "cycles": 0,
       "delivery": 0,
@@ -44,15 +56,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": 1.94334,
+      "heading": 6.63634,
       "steps": 1,
-      "version": "0.1.0",
-      "x": 1782.41,
-      "y": 946.85,
+      "version": "0.2.0",
+      "x": 1770.03,
+      "y": 1067.9,
       "zone": "observatory",
       "zone_name": "Observatorio"
     }
   },
-  "reported_at": "2026-09-04T15:34:31Z",
+  "reported_at": "2026-09-04T16:47:41Z",
   "schema": "iamox.report.v1"
 }

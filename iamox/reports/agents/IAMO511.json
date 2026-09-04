@@ -8,19 +8,30 @@
         "relationship": "origin_affinity"
       },
       "archetype": "merchant",
-      "confidence": 0.521,
-      "intent": "explore_unknown_route",
-      "interpretation": "No tengo una tarea asignada; elijo explore_unknown_route según mi experiencia y temperamento.",
+      "confidence": 0.461,
+      "intent": "seek_external_evidence",
+      "interpretation": "'Private resource community' necesita evidencia externa antes de avanzar desde research.",
       "signature": "86e8b6ce60608bb2",
       "version": "0.3.0-individual"
     },
-    "cell_id": null,
-    "heartbeat_at": "2026-09-04T15:49:10Z",
+    "cell_id": "cell-01b311b985",
+    "encounter_name": "IAMO511",
+    "heartbeat_at": "2026-09-04T16:47:42Z",
     "id": "iamo511",
+    "identity": {
+      "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:1edf334d7f63a108e9f6",
+      "birthplace": "github:amoedo7/RankingIAMO",
+      "display_name": "IAMO511",
+      "encounter_alias": "IAMO511",
+      "generation": 1,
+      "lineage_root": "IAMO1",
+      "parent_birth_uid": null
+    },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 1,
+      "heartbeats": 0,
       "progress_events": 0,
+      "reproduction": {},
       "stagnation": 0
     },
     "memory": {
@@ -32,27 +43,34 @@
     },
     "name": "IAMO511",
     "number": 511,
+    "report_file": "IAMO511.json",
     "reputation": {
-      "cycles": 0,
-      "delivery": 6,
+      "cycles": 1,
+      "delivery": 7,
       "economic_truth": 0,
-      "evidence": 6,
+      "evidence": 7,
       "peer_help": 0
     },
     "role": "seller",
-    "state": "idle",
-    "task": null,
-    "task_id": null,
+    "state": "peer_review",
+    "task": {
+      "blocking_reason": null,
+      "gate": "research",
+      "id": "task-01b311b985",
+      "status": "review",
+      "title": "Private resource community"
+    },
+    "task_id": "task-01b311b985",
     "world": {
-      "heading": 4.39094,
+      "heading": 0.44671,
       "steps": 1,
-      "version": "0.1.0",
-      "x": 1456.34,
-      "y": 320.17,
-      "zone": "market",
-      "zone_name": "Mercado de Oportunidades"
+      "version": "0.2.0",
+      "x": 541.39,
+      "y": 321.94,
+      "zone": "forest",
+      "zone_name": "Bosque de Exploración"
     }
   },
-  "reported_at": "2026-09-04T15:49:10Z",
+  "reported_at": "2026-09-04T16:47:41Z",
   "schema": "iamox.report.v1"
 }

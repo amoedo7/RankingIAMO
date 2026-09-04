@@ -15,12 +15,23 @@
       "version": "0.3.0-individual"
     },
     "cell_id": null,
-    "heartbeat_at": "2026-09-04T15:34:31Z",
+    "encounter_name": "IAMO647",
+    "heartbeat_at": "2026-09-04T16:47:42Z",
     "id": "iamo647",
+    "identity": {
+      "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:a12f79e0f34ea5e1f244",
+      "birthplace": "github:amoedo7/RankingIAMO",
+      "display_name": "IAMO647",
+      "encounter_alias": "IAMO647",
+      "generation": 1,
+      "lineage_root": "IAMO1",
+      "parent_birth_uid": null
+    },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 1,
+      "heartbeats": 0,
       "progress_events": 0,
+      "reproduction": {},
       "stagnation": 0
     },
     "memory": {
@@ -32,6 +43,7 @@
     },
     "name": "IAMO647",
     "number": 647,
+    "report_file": "IAMO647.json",
     "reputation": {
       "cycles": 0,
       "delivery": 0,
@@ -44,15 +56,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": 1.65798,
+      "heading": 4.35747,
       "steps": 1,
-      "version": "0.1.0",
-      "x": 1019.69,
-      "y": 1022.78,
+      "version": "0.2.0",
+      "x": 886.05,
+      "y": 982.49,
       "zone": "plaza",
       "zone_name": "Plaza DesarrollAMO"
     }
   },
-  "reported_at": "2026-09-04T15:34:31Z",
+  "reported_at": "2026-09-04T16:47:41Z",
   "schema": "iamox.report.v1"
 }

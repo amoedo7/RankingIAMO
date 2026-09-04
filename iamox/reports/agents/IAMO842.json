@@ -15,12 +15,23 @@
       "version": "0.3.0-individual"
     },
     "cell_id": null,
-    "heartbeat_at": "2026-09-04T15:49:10Z",
+    "encounter_name": "IAMO842",
+    "heartbeat_at": "2026-09-04T16:47:42Z",
     "id": "iamo842",
+    "identity": {
+      "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:81b84ae506bfad6a5b0a",
+      "birthplace": "github:amoedo7/RankingIAMO",
+      "display_name": "IAMO842",
+      "encounter_alias": "IAMO842",
+      "generation": 1,
+      "lineage_root": "IAMO1",
+      "parent_birth_uid": null
+    },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 1,
+      "heartbeats": 0,
       "progress_events": 0,
+      "reproduction": {},
       "stagnation": 0
     },
     "memory": {
@@ -32,6 +43,7 @@
     },
     "name": "IAMO842",
     "number": 842,
+    "report_file": "IAMO842.json",
     "reputation": {
       "cycles": 1,
       "delivery": 0,
@@ -44,15 +56,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": 0.48079,
+      "heading": 0.8722,
       "steps": 1,
-      "version": "0.1.0",
-      "x": 1720.58,
-      "y": 1096.97,
+      "version": "0.2.0",
+      "x": 1672.8,
+      "y": 1132.53,
       "zone": "observatory",
       "zone_name": "Observatorio"
     }
   },
-  "reported_at": "2026-09-04T15:49:10Z",
+  "reported_at": "2026-09-04T16:47:41Z",
   "schema": "iamox.report.v1"
 }

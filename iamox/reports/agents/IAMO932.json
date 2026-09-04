@@ -15,12 +15,23 @@
       "version": "0.3.0-individual"
     },
     "cell_id": null,
-    "heartbeat_at": "2026-09-04T15:34:31Z",
+    "encounter_name": "IAMO932",
+    "heartbeat_at": "2026-09-04T16:47:42Z",
     "id": "iamo932",
+    "identity": {
+      "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:f935254b6e47b0b6eee4",
+      "birthplace": "github:amoedo7/RankingIAMO",
+      "display_name": "IAMO932",
+      "encounter_alias": "IAMO932",
+      "generation": 1,
+      "lineage_root": "IAMO1",
+      "parent_birth_uid": null
+    },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 1,
+      "heartbeats": 0,
       "progress_events": 0,
+      "reproduction": {},
       "stagnation": 0
     },
     "memory": {
@@ -32,6 +43,7 @@
     },
     "name": "IAMO932",
     "number": 932,
+    "report_file": "IAMO932.json",
     "reputation": {
       "cycles": 1,
       "delivery": 0,
@@ -44,15 +56,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": 3.45888,
+      "heading": 3.8068,
       "steps": 1,
-      "version": "0.1.0",
-      "x": 1543.44,
-      "y": 262.5,
+      "version": "0.2.0",
+      "x": 1652.47,
+      "y": 324.48,
       "zone": "market",
       "zone_name": "Mercado de Oportunidades"
     }
   },
-  "reported_at": "2026-09-04T15:34:31Z",
+  "reported_at": "2026-09-04T16:47:41Z",
   "schema": "iamox.report.v1"
 }

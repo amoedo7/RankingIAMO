@@ -15,12 +15,23 @@
       "version": "0.3.0-individual"
     },
     "cell_id": null,
-    "heartbeat_at": "2026-09-04T15:34:31Z",
+    "encounter_name": "IAMO784",
+    "heartbeat_at": "2026-09-04T16:47:42Z",
     "id": "iamo784",
+    "identity": {
+      "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:28d7bcba4bd51ff1a5cd",
+      "birthplace": "github:amoedo7/RankingIAMO",
+      "display_name": "IAMO784",
+      "encounter_alias": "IAMO784",
+      "generation": 1,
+      "lineage_root": "IAMO1",
+      "parent_birth_uid": null
+    },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 1,
+      "heartbeats": 0,
       "progress_events": 0,
+      "reproduction": {},
       "stagnation": 0
     },
     "memory": {
@@ -32,6 +43,7 @@
     },
     "name": "IAMO784",
     "number": 784,
+    "report_file": "IAMO784.json",
     "reputation": {
       "cycles": 0,
       "delivery": 0,
@@ -44,15 +56,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": 5.5579,
+      "heading": 2.18766,
       "steps": 1,
-      "version": "0.1.0",
-      "x": 432.62,
-      "y": 889.35,
+      "version": "0.2.0",
+      "x": 409.29,
+      "y": 910.42,
       "zone": "archive",
       "zone_name": "Archivo de Memoria"
     }
   },
-  "reported_at": "2026-09-04T15:34:31Z",
+  "reported_at": "2026-09-04T16:47:41Z",
   "schema": "iamox.report.v1"
 }

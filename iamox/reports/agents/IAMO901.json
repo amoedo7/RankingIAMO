@@ -15,12 +15,23 @@
       "version": "0.3.0-individual"
     },
     "cell_id": null,
-    "heartbeat_at": "2026-09-04T15:34:31Z",
+    "encounter_name": "IAMO901",
+    "heartbeat_at": "2026-09-04T16:47:42Z",
     "id": "iamo901",
+    "identity": {
+      "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:7e4f263d91ae9e39fda1",
+      "birthplace": "github:amoedo7/RankingIAMO",
+      "display_name": "IAMO901",
+      "encounter_alias": "IAMO901",
+      "generation": 1,
+      "lineage_root": "IAMO1",
+      "parent_birth_uid": null
+    },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 1,
+      "heartbeats": 0,
       "progress_events": 0,
+      "reproduction": {},
       "stagnation": 0
     },
     "memory": {
@@ -32,6 +43,7 @@
     },
     "name": "IAMO901",
     "number": 901,
+    "report_file": "IAMO901.json",
     "reputation": {
       "cycles": 0,
       "delivery": 0,
@@ -44,15 +56,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": -0.37093,
+      "heading": 5.515,
       "steps": 1,
-      "version": "0.1.0",
-      "x": 1504.7,
-      "y": 797.67,
+      "version": "0.2.0",
+      "x": 1454.15,
+      "y": 954.61,
       "zone": "workshop",
       "zone_name": "Taller de Construcción"
     }
   },
-  "reported_at": "2026-09-04T15:34:31Z",
+  "reported_at": "2026-09-04T16:47:41Z",
   "schema": "iamox.report.v1"
 }
