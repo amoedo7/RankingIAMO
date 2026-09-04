@@ -176,6 +176,7 @@ def public_agent(agent: dict[str, Any], task: dict[str, Any] | None) -> dict[str
         "id": agent.get("id"),
         "name": agent.get("name"),
         "encounter_name": identity["encounter_alias"],
+        "report_file": report_filename(agent),
         "number": agent.get("number"),
         "identity": identity,
         "role": agent.get("role"),
