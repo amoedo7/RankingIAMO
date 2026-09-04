@@ -12,6 +12,9 @@ on:
       - main
     paths:
       - ".github/workflows/execute-iamo.yml"
+      - "scripts/executor_prepare.py"
+      - "scripts/executor_finalize.py"
+      - "scripts/iamo_runtime.py"
   workflow_run:
     workflows:
       - "Spawn autonomous IAMO competitor"
@@ -90,6 +93,10 @@ jobs:
         if: always() && steps.prepare.outputs.should_execute == 'true'
         run: python3 scripts/executor_check_payments.py
 
+      - name: Rebuild agent runtime snapshots
+        if: always() && steps.prepare.outputs.should_execute == 'true'
+        run: python3 scripts/rebuild_runtime.py
+
       - name: Rebuild race-to-payment score
         if: always() && steps.prepare.outputs.should_execute == 'true'
         run: python3 scripts/rebuild_proximity.py
@@ -103,7 +110,7 @@ jobs:
           set -euo pipefail
           git config user.name "EjecutorIAMO Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- executor offers products artifacts proximity.json
+          git add -- executor offers products artifacts proximity.json data/agents.json data/opportunities.json network/cells.json
           git diff --cached --check
           if git diff --cached --quiet; then
             echo "No executor changes to commit."
