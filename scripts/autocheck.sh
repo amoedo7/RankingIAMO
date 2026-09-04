@@ -16,4 +16,6 @@ print('RANKINGIAMO_CONTRACT_OK')
 PY
 
 python -m unittest discover -s tests -v
+python scripts/rebuild_runtime.py
+python scripts/rebuild_proximity.py
 python scripts/rebuild_ranking.py --check
