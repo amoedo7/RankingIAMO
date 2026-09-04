@@ -3,7 +3,6 @@ from __future__ import annotations
 import hashlib
 import json
 import os
-from pathlib import Path
 from typing import Any
 
 import learning
@@ -80,6 +79,21 @@ def append_unseen_tasks(queue: list[dict[str, Any]], at: str, limit: int = MAX_N
     return added
 
 
+def recycle_orphans(agents: list[dict[str, Any]], cells: list[dict[str, Any]]) -> int:
+    active_cells = {str(c.get("id")) for c in cells if c.get("status") == "active"}
+    repaired = 0
+    for agent in agents:
+        cell_id = agent.get("cell_id")
+        if cell_id and str(cell_id) not in active_cells:
+            agent["cell_id"] = None
+            agent["task_id"] = None
+            agent["state"] = "learn"
+            repaired += 1
+        elif not cell_id and agent.get("state") == "learn":
+            agent["state"] = "idle"
+    return repaired
+
+
 def run() -> dict[str, Any]:
     at = runtime.now()
     agents = runtime.bootstrap_agents()
@@ -89,6 +103,7 @@ def run() -> dict[str, Any]:
     if not queue:
         queue = runtime.ensure_queue(agents)
     previous_cells = runtime.read_json(runtime.CELLS_FILE, [])
+    repaired_orphans = recycle_orphans(agents, previous_cells)
     handoffs = learning.recycle_reviews(agents, queue, previous_cells, at)
     append_unseen_tasks(queue, at)
 
@@ -107,6 +122,7 @@ def run() -> dict[str, Any]:
     result = runtime.summary(agents, queue, cells)
     result["pending_handoffs"] = len(handoffs)
     result["learning_enabled"] = True
+    result["repaired_orphans"] = repaired_orphans
     runtime.write_json(runtime.SUMMARY, result)
     return result
 
