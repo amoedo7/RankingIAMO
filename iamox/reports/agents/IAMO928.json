@@ -8,19 +8,19 @@
         "relationship": "origin_affinity"
       },
       "archetype": "merchant",
-      "confidence": 0.601,
-      "intent": "seek_external_evidence",
-      "interpretation": "'Marketplace-ready digital template product' necesita evidencia externa antes de avanzar desde research.",
+      "confidence": 0.5,
+      "intent": "look_for_useful_problem",
+      "interpretation": "No tengo una tarea asignada; elijo look_for_useful_problem según mi experiencia y temperamento.",
       "signature": "9022a1789249da7d",
       "version": "0.3.0-individual"
     },
-    "cell_id": "cell-3f41198aa9",
-    "heartbeat_at": "2026-09-04T15:34:31Z",
+    "cell_id": null,
+    "heartbeat_at": "2026-09-04T15:49:10Z",
     "id": "iamo928",
     "life": {
       "directive": "continue_with_evidence",
       "heartbeats": 1,
-      "progress_events": 1,
+      "progress_events": 0,
       "stagnation": 0
     },
     "memory": {
@@ -40,25 +40,19 @@
       "peer_help": 0
     },
     "role": "seller",
-    "state": "peer_review",
-    "task": {
-      "blocking_reason": null,
-      "gate": "research",
-      "id": "task-3f41198aa9",
-      "status": "review",
-      "title": "Marketplace-ready digital template product"
-    },
-    "task_id": "task-3f41198aa9",
+    "state": "learn",
+    "task": null,
+    "task_id": null,
     "world": {
       "heading": 3.29784,
       "steps": 1,
       "version": "0.1.0",
-      "x": 349.71,
-      "y": 338.33,
-      "zone": "forest",
-      "zone_name": "Bosque de Exploración"
+      "x": 1532.6,
+      "y": 369.28,
+      "zone": "market",
+      "zone_name": "Mercado de Oportunidades"
     }
   },
-  "reported_at": "2026-09-04T15:34:31Z",
+  "reported_at": "2026-09-04T15:49:10Z",
   "schema": "iamox.report.v1"
 }

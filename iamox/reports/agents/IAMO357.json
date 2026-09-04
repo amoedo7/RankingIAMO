@@ -8,19 +8,19 @@
         "relationship": "origin_affinity"
       },
       "archetype": "merchant",
-      "confidence": 0.693,
-      "intent": "prepare_to_help_peer",
-      "interpretation": "No tengo una tarea asignada; elijo prepare_to_help_peer según mi experiencia y temperamento.",
+      "confidence": 0.597,
+      "intent": "seek_external_evidence",
+      "interpretation": "'Paid Telegram bot for a narrow workflow' necesita evidencia externa antes de avanzar desde research.",
       "signature": "d0600d533464e322",
       "version": "0.3.0-individual"
     },
-    "cell_id": null,
-    "heartbeat_at": "2026-09-04T15:34:31Z",
+    "cell_id": "cell-459a25bd54",
+    "heartbeat_at": "2026-09-04T15:49:10Z",
     "id": "iamo357",
     "life": {
       "directive": "continue_with_evidence",
       "heartbeats": 1,
-      "progress_events": 0,
+      "progress_events": 1,
       "stagnation": 0
     },
     "memory": {
@@ -33,26 +33,32 @@
     "name": "IAMO357",
     "number": 357,
     "reputation": {
-      "cycles": 0,
+      "cycles": 1,
       "delivery": 0,
       "economic_truth": 0,
       "evidence": 0,
       "peer_help": 0
     },
     "role": "seller",
-    "state": "idle",
-    "task": null,
-    "task_id": null,
+    "state": "peer_review",
+    "task": {
+      "blocking_reason": null,
+      "gate": "research",
+      "id": "task-459a25bd54",
+      "status": "review",
+      "title": "Paid Telegram bot for a narrow workflow"
+    },
+    "task_id": "task-459a25bd54",
     "world": {
       "heading": 1.90864,
       "steps": 1,
       "version": "0.1.0",
-      "x": 1471.97,
-      "y": 476.17,
-      "zone": "market",
-      "zone_name": "Mercado de Oportunidades"
+      "x": 283.99,
+      "y": 475.08,
+      "zone": "forest",
+      "zone_name": "Bosque de Exploración"
     }
   },
-  "reported_at": "2026-09-04T15:34:31Z",
+  "reported_at": "2026-09-04T15:49:10Z",
   "schema": "iamox.report.v1"
 }
