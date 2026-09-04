@@ -1,0 +1,1 @@
+Remaining gate: replace the legacy automatic birth workflow with a population pulse on this branch, then verify CI before merge.
