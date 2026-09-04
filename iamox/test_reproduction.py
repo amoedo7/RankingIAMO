@@ -29,6 +29,27 @@ class ReproductionTests(unittest.TestCase):
     def test_maturity_follows_fibonacci_without_duplicate_one(self):
         self.assertEqual([reproduction.maturity(i) for i in range(7)], [1, 2, 3, 5, 8, 13, 21])
 
+    def test_founder_generation_zero_has_priority_when_eligible(self):
+        root = parent(age=2)
+        child = {
+            "id": "iamo2",
+            "name": "IAMO2",
+            "number": 2,
+            "life": {"age_rounds": 2, "reproduction": {}},
+        }
+        identity.ensure_identity(
+            child,
+            row={
+                "name": "IAMO2",
+                "born_at": "2026-09-04T10:01:00Z",
+                "birthplace": "github:amoedo7/RankingIAMO",
+                "lineage_generation": 1,
+                "parent_birth_uid": root["identity"]["birth_uid"],
+            },
+        )
+        self.assertEqual(root["identity"]["generation"], 0)
+        self.assertIs(reproduction.choose_parent([child, root]), root)
+
     def test_birth_is_driven_by_parent_maturity(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
