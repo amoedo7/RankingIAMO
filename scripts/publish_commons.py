@@ -4,9 +4,12 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
+from iamo_runtime import load_json
+
 ROOT = Path(__file__).resolve().parents[1]
 LATEST = ROOT / "data" / "latest.json"
 BOARD = ROOT / "network" / "board.jsonl"
+AGENTS = ROOT / "data" / "agents.json"
 
 
 def now_iso():
@@ -75,6 +78,50 @@ def main():
     BOARD.parent.mkdir(parents=True, exist_ok=True)
     with BOARD.open("a", encoding="utf-8") as fh:
         fh.write(json.dumps(item, ensure_ascii=False, separators=(",", ":")) + "\n")
+        agents = load_json(AGENTS, {"agents": []}).get("agents", [])
+        agent = next((x for x in agents if str(x.get("payment_reference")) == ref), None)
+        suggestions = ((agent or {}).get("collaboration") or {}).get("suggestions", [])
+        tasks = (agent or {}).get("tasks", [])
+        if suggestions:
+            fh.write(
+                json.dumps(
+                    {
+                        "schema_version": "1.0",
+                        "type": "collab_proposal",
+                        "author": name,
+                        "payment_reference": ref,
+                        "status": status,
+                        "message": clip(
+                            " | ".join(
+                                f"{x.get('partner')}: {x.get('reason')}"
+                                for x in suggestions
+                            ),
+                            500,
+                        ),
+                        "source_event_id": f"{event_id}:collab",
+                        "created_at": now_iso(),
+                    },
+                    ensure_ascii=False,
+                    separators=(",", ":"),
+                ) + "\n"
+            )
+        if tasks:
+            fh.write(
+                json.dumps(
+                    {
+                        "schema_version": "1.0",
+                        "type": "task_queue",
+                        "author": name,
+                        "payment_reference": ref,
+                        "status": status,
+                        "message": clip(" | ".join(f"{x.get('kind')}:{x.get('status')}" for x in tasks[:4]), 500),
+                        "source_event_id": f"{event_id}:tasks",
+                        "created_at": now_iso(),
+                    },
+                    ensure_ascii=False,
+                    separators=(",", ":"),
+                ) + "\n"
+            )
     print(f"Agent Commons: {name} publicó {kind}")
 
 
