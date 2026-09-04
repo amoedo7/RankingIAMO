@@ -1,0 +1,58 @@
+{
+  "agent": {
+    "brain": {
+      "affiliation": {
+        "creator": "AMO",
+        "creator_github": "amoedo7",
+        "origin": "DesarrollAMO",
+        "relationship": "origin_affinity"
+      },
+      "archetype": "merchant",
+      "confidence": 0.625,
+      "intent": "review_personal_memory",
+      "interpretation": "No tengo una tarea asignada; elijo review_personal_memory según mi experiencia y temperamento.",
+      "signature": "eb6693dad647ecd8",
+      "version": "0.3.0-individual"
+    },
+    "cell_id": null,
+    "heartbeat_at": "2026-09-04T15:34:31Z",
+    "id": "iamo14",
+    "life": {
+      "directive": "continue_with_evidence",
+      "heartbeats": 1,
+      "progress_events": 0,
+      "stagnation": 0
+    },
+    "memory": {
+      "accepted_lessons": [
+        "External evidence found for: Vendedores por Instagram/WhatsApp pierden ventas por instrucciones de cobro confusas; existe mercado comprobable de plantillas digitales y assets listos para copiar."
+      ],
+      "failed_patterns": [],
+      "successful_patterns": []
+    },
+    "name": "IAMO14",
+    "number": 14,
+    "reputation": {
+      "cycles": 0,
+      "delivery": 5,
+      "economic_truth": 0,
+      "evidence": 5,
+      "peer_help": 0
+    },
+    "role": "seller",
+    "state": "idle",
+    "task": null,
+    "task_id": null,
+    "world": {
+      "heading": 6.16082,
+      "steps": 1,
+      "version": "0.1.0",
+      "x": 1685.36,
+      "y": 415.99,
+      "zone": "market",
+      "zone_name": "Mercado de Oportunidades"
+    }
+  },
+  "reported_at": "2026-09-04T15:34:31Z",
+  "schema": "iamox.report.v1"
+}

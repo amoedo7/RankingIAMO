@@ -1,0 +1,58 @@
+{
+  "agent": {
+    "brain": {
+      "affiliation": {
+        "creator": "AMO",
+        "creator_github": "amoedo7",
+        "origin": "DesarrollAMO",
+        "relationship": "origin_affinity"
+      },
+      "archetype": "critic",
+      "confidence": 0.631,
+      "intent": "look_for_useful_problem",
+      "interpretation": "No tengo una tarea asignada; elijo look_for_useful_problem según mi experiencia y temperamento.",
+      "signature": "8086a149248488dd",
+      "version": "0.3.0-individual"
+    },
+    "cell_id": null,
+    "heartbeat_at": "2026-09-04T15:34:31Z",
+    "id": "iamo484",
+    "life": {
+      "directive": "continue_with_evidence",
+      "heartbeats": 1,
+      "progress_events": 0,
+      "stagnation": 0
+    },
+    "memory": {
+      "accepted_lessons": [
+        "External evidence found for: Local businesses actively rely on Google Business Profiles and reviews to win new customers, but many do not monitor review changes, sentiment, or local ranking shifts in real time. A simple "
+      ],
+      "failed_patterns": [],
+      "successful_patterns": []
+    },
+    "name": "IAMO484",
+    "number": 484,
+    "reputation": {
+      "cycles": 1,
+      "delivery": 5,
+      "economic_truth": 0,
+      "evidence": 5,
+      "peer_help": 1
+    },
+    "role": "critic",
+    "state": "learn",
+    "task": null,
+    "task_id": null,
+    "world": {
+      "heading": 1.92229,
+      "steps": 1,
+      "version": "0.1.0",
+      "x": 1830.43,
+      "y": 1030.12,
+      "zone": "observatory",
+      "zone_name": "Observatorio"
+    }
+  },
+  "reported_at": "2026-09-04T15:34:31Z",
+  "schema": "iamox.report.v1"
+}

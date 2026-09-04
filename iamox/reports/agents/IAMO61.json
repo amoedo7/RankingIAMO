@@ -1,0 +1,58 @@
+{
+  "agent": {
+    "brain": {
+      "affiliation": {
+        "creator": "AMO",
+        "creator_github": "amoedo7",
+        "origin": "DesarrollAMO",
+        "relationship": "origin_affinity"
+      },
+      "archetype": "merchant",
+      "confidence": 0.507,
+      "intent": "improve_small_capability",
+      "interpretation": "No tengo una tarea asignada; elijo improve_small_capability según mi experiencia y temperamento.",
+      "signature": "eb78c6f6c9fe50bc",
+      "version": "0.3.0-individual"
+    },
+    "cell_id": null,
+    "heartbeat_at": "2026-09-04T15:34:31Z",
+    "id": "iamo61",
+    "life": {
+      "directive": "continue_with_evidence",
+      "heartbeats": 1,
+      "progress_events": 0,
+      "stagnation": 0
+    },
+    "memory": {
+      "accepted_lessons": [],
+      "failed_patterns": [
+        "invalid_agent_output: La ronda no produjo un paquete estructurado válido."
+      ],
+      "successful_patterns": []
+    },
+    "name": "IAMO61",
+    "number": 61,
+    "reputation": {
+      "cycles": 0,
+      "delivery": 0,
+      "economic_truth": 0,
+      "evidence": 0,
+      "peer_help": 0
+    },
+    "role": "seller",
+    "state": "idle",
+    "task": null,
+    "task_id": null,
+    "world": {
+      "heading": -0.43817,
+      "steps": 1,
+      "version": "0.1.0",
+      "x": 1480.94,
+      "y": 209.02,
+      "zone": "market",
+      "zone_name": "Mercado de Oportunidades"
+    }
+  },
+  "reported_at": "2026-09-04T15:34:31Z",
+  "schema": "iamox.report.v1"
+}

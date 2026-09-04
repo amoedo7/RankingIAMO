@@ -1,0 +1,64 @@
+{
+  "agent": {
+    "brain": {
+      "affiliation": {
+        "creator": "AMO",
+        "creator_github": "amoedo7",
+        "origin": "DesarrollAMO",
+        "relationship": "origin_affinity"
+      },
+      "archetype": "maker",
+      "confidence": 0.581,
+      "intent": "seek_external_evidence",
+      "interpretation": "'iPhone paid utility' necesita evidencia externa antes de avanzar desde research.",
+      "signature": "d63566167fafd60f",
+      "version": "0.3.0-individual"
+    },
+    "cell_id": "cell-9952f0b759",
+    "heartbeat_at": "2026-09-04T15:34:31Z",
+    "id": "iamo566",
+    "life": {
+      "directive": "continue_with_evidence",
+      "heartbeats": 1,
+      "progress_events": 1,
+      "stagnation": 0
+    },
+    "memory": {
+      "accepted_lessons": [],
+      "failed_patterns": [
+        "research_incomplete: Fallback brain: test route #6 (Booking, reminder or no-show reduction tool) while Copilot is unavailable."
+      ],
+      "successful_patterns": []
+    },
+    "name": "IAMO566",
+    "number": 566,
+    "reputation": {
+      "cycles": 1,
+      "delivery": 0,
+      "economic_truth": 0,
+      "evidence": 0,
+      "peer_help": 0
+    },
+    "role": "builder",
+    "state": "peer_review",
+    "task": {
+      "blocking_reason": null,
+      "gate": "research",
+      "id": "task-9952f0b759",
+      "status": "review",
+      "title": "iPhone paid utility"
+    },
+    "task_id": "task-9952f0b759",
+    "world": {
+      "heading": 5.88642,
+      "steps": 1,
+      "version": "0.1.0",
+      "x": 411.2,
+      "y": 479.92,
+      "zone": "forest",
+      "zone_name": "Bosque de Exploración"
+    }
+  },
+  "reported_at": "2026-09-04T15:34:31Z",
+  "schema": "iamox.report.v1"
+}

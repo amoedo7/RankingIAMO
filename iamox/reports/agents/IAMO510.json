@@ -1,0 +1,58 @@
+{
+  "agent": {
+    "brain": {
+      "affiliation": {
+        "creator": "AMO",
+        "creator_github": "amoedo7",
+        "origin": "DesarrollAMO",
+        "relationship": "origin_affinity"
+      },
+      "archetype": "archivist",
+      "confidence": 0.578,
+      "intent": "explore_unknown_route",
+      "interpretation": "No tengo una tarea asignada; elijo explore_unknown_route según mi experiencia y temperamento.",
+      "signature": "d533c088899f407a",
+      "version": "0.3.0-individual"
+    },
+    "cell_id": null,
+    "heartbeat_at": "2026-09-04T15:34:31Z",
+    "id": "iamo510",
+    "life": {
+      "directive": "continue_with_evidence",
+      "heartbeats": 1,
+      "progress_events": 0,
+      "stagnation": 0
+    },
+    "memory": {
+      "accepted_lessons": [
+        "External evidence found for: Small Shopify stores lose sales and ad eligibility when product titles, variants, image mappings, GTIN/MPN fields, URLs and CSV exports are inconsistent; these errors are visible in Google Me"
+      ],
+      "failed_patterns": [],
+      "successful_patterns": []
+    },
+    "name": "IAMO510",
+    "number": 510,
+    "reputation": {
+      "cycles": 0,
+      "delivery": 5,
+      "economic_truth": 0,
+      "evidence": 5,
+      "peer_help": 0
+    },
+    "role": "accountant",
+    "state": "idle",
+    "task": null,
+    "task_id": null,
+    "world": {
+      "heading": 3.85906,
+      "steps": 1,
+      "version": "0.1.0",
+      "x": 557.16,
+      "y": 874.65,
+      "zone": "archive",
+      "zone_name": "Archivo de Memoria"
+    }
+  },
+  "reported_at": "2026-09-04T15:34:31Z",
+  "schema": "iamox.report.v1"
+}

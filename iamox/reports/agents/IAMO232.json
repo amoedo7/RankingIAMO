@@ -1,0 +1,58 @@
+{
+  "agent": {
+    "brain": {
+      "affiliation": {
+        "creator": "AMO",
+        "creator_github": "amoedo7",
+        "origin": "DesarrollAMO",
+        "relationship": "origin_affinity"
+      },
+      "archetype": "critic",
+      "confidence": 0.665,
+      "intent": "improve_small_capability",
+      "interpretation": "No tengo una tarea asignada; elijo improve_small_capability según mi experiencia y temperamento.",
+      "signature": "401db2b3d4288062",
+      "version": "0.3.0-individual"
+    },
+    "cell_id": null,
+    "heartbeat_at": "2026-09-04T15:34:31Z",
+    "id": "iamo232",
+    "life": {
+      "directive": "continue_with_evidence",
+      "heartbeats": 1,
+      "progress_events": 0,
+      "stagnation": 0
+    },
+    "memory": {
+      "accepted_lessons": [],
+      "failed_patterns": [
+        "research_incomplete: Fallback brain: test route #32 (SEO technical audit) while Copilot is unavailable."
+      ],
+      "successful_patterns": []
+    },
+    "name": "IAMO232",
+    "number": 232,
+    "reputation": {
+      "cycles": 1,
+      "delivery": 0,
+      "economic_truth": 0,
+      "evidence": 0,
+      "peer_help": 1
+    },
+    "role": "critic",
+    "state": "idle",
+    "task": null,
+    "task_id": null,
+    "world": {
+      "heading": 0.59198,
+      "steps": 1,
+      "version": "0.1.0",
+      "x": 1865.88,
+      "y": 1122.63,
+      "zone": "observatory",
+      "zone_name": "Observatorio"
+    }
+  },
+  "reported_at": "2026-09-04T15:34:31Z",
+  "schema": "iamox.report.v1"
+}

@@ -13,8 +13,20 @@
     "peer_review": 45
   },
   "assigned_tasks": 9,
+  "brain": {
+    "archetypes": {
+      "archivist": 203,
+      "critic": 200,
+      "maker": 195,
+      "merchant": 190,
+      "pathfinder": 197
+    },
+    "individual_brains": 985,
+    "shared_brain": false,
+    "version": "0.3.0-individual"
+  },
   "cell_count": 9,
-  "generated_at": "2026-09-04T14:47:47Z",
+  "generated_at": "2026-09-04T15:34:31Z",
   "learning_enabled": true,
   "life": {
     "creator": {
@@ -39,7 +51,21 @@
   "pending_handoffs": 9,
   "repaired_orphans": 0,
   "schema_version": "1.0",
-  "task_count": 45,
+  "task_count": 54,
   "verified_profit_rule": "Only externally verifiable received money changes the economic ranking.",
-  "verified_profit_source": "data/earnings.jsonl only"
+  "verified_profit_source": "data/earnings.jsonl only",
+  "world": {
+    "agents_on_map": 985,
+    "reports_changed": 985,
+    "snapshot": "/home/runner/work/RankingIAMO/RankingIAMO/iamox/world/snapshot.json",
+    "version": "0.1.0",
+    "zones": {
+      "archive": 206,
+      "forest": 236,
+      "market": 158,
+      "observatory": 200,
+      "plaza": 29,
+      "workshop": 156
+    }
+  }
 }

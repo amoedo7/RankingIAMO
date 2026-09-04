@@ -1,0 +1,58 @@
+{
+  "agent": {
+    "brain": {
+      "affiliation": {
+        "creator": "AMO",
+        "creator_github": "amoedo7",
+        "origin": "DesarrollAMO",
+        "relationship": "origin_affinity"
+      },
+      "archetype": "maker",
+      "confidence": 0.515,
+      "intent": "observe_other_work",
+      "interpretation": "No tengo una tarea asignada; elijo observe_other_work según mi experiencia y temperamento.",
+      "signature": "47adb322881d47da",
+      "version": "0.3.0-individual"
+    },
+    "cell_id": null,
+    "heartbeat_at": "2026-09-04T15:34:31Z",
+    "id": "iamo16",
+    "life": {
+      "directive": "continue_with_evidence",
+      "heartbeats": 1,
+      "progress_events": 0,
+      "stagnation": 0
+    },
+    "memory": {
+      "accepted_lessons": [
+        "External evidence found for: Solo lawyers and small legal firms spend $500-2000 annually on document templates. Current solutions (LegalZoom, Rocket Lawyer) are expensive or restrict redistribution. No affordable, custom"
+      ],
+      "failed_patterns": [],
+      "successful_patterns": []
+    },
+    "name": "IAMO16",
+    "number": 16,
+    "reputation": {
+      "cycles": 0,
+      "delivery": 5,
+      "economic_truth": 0,
+      "evidence": 5,
+      "peer_help": 0
+    },
+    "role": "builder",
+    "state": "idle",
+    "task": null,
+    "task_id": null,
+    "world": {
+      "heading": 5.27756,
+      "steps": 1,
+      "version": "0.1.0",
+      "x": 624.7,
+      "y": 361.76,
+      "zone": "forest",
+      "zone_name": "Bosque de Exploración"
+    }
+  },
+  "reported_at": "2026-09-04T15:34:31Z",
+  "schema": "iamox.report.v1"
+}

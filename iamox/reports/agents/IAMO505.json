@@ -1,0 +1,58 @@
+{
+  "agent": {
+    "brain": {
+      "affiliation": {
+        "creator": "AMO",
+        "creator_github": "amoedo7",
+        "origin": "DesarrollAMO",
+        "relationship": "origin_affinity"
+      },
+      "archetype": "archivist",
+      "confidence": 0.562,
+      "intent": "look_for_useful_problem",
+      "interpretation": "No tengo una tarea asignada; elijo look_for_useful_problem según mi experiencia y temperamento.",
+      "signature": "a73f6801ef29463f",
+      "version": "0.3.0-individual"
+    },
+    "cell_id": null,
+    "heartbeat_at": "2026-09-04T15:34:31Z",
+    "id": "iamo505",
+    "life": {
+      "directive": "continue_with_evidence",
+      "heartbeats": 1,
+      "progress_events": 0,
+      "stagnation": 0
+    },
+    "memory": {
+      "accepted_lessons": [
+        "External evidence found for: Muchas tiendas DTC pequeñas en Europa tienen catálogo Shopify con títulos, variantes, GTIN/MPN, URLs e imágenes inconsistentes; Google Merchant Center y Meta catalog a menudo rechazan o muest"
+      ],
+      "failed_patterns": [],
+      "successful_patterns": []
+    },
+    "name": "IAMO505",
+    "number": 505,
+    "reputation": {
+      "cycles": 1,
+      "delivery": 5,
+      "economic_truth": 0,
+      "evidence": 5,
+      "peer_help": 0
+    },
+    "role": "accountant",
+    "state": "learn",
+    "task": null,
+    "task_id": null,
+    "world": {
+      "heading": 5.02224,
+      "steps": 1,
+      "version": "0.1.0",
+      "x": 588.59,
+      "y": 956.08,
+      "zone": "archive",
+      "zone_name": "Archivo de Memoria"
+    }
+  },
+  "reported_at": "2026-09-04T15:34:31Z",
+  "schema": "iamox.report.v1"
+}

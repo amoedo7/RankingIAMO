@@ -1,0 +1,58 @@
+{
+  "agent": {
+    "brain": {
+      "affiliation": {
+        "creator": "AMO",
+        "creator_github": "amoedo7",
+        "origin": "DesarrollAMO",
+        "relationship": "origin_affinity"
+      },
+      "archetype": "pathfinder",
+      "confidence": 0.559,
+      "intent": "review_personal_memory",
+      "interpretation": "No tengo una tarea asignada; elijo review_personal_memory según mi experiencia y temperamento.",
+      "signature": "9c6007894e52a2f9",
+      "version": "0.3.0-individual"
+    },
+    "cell_id": null,
+    "heartbeat_at": "2026-09-04T15:34:31Z",
+    "id": "iamo25",
+    "life": {
+      "directive": "continue_with_evidence",
+      "heartbeats": 1,
+      "progress_events": 0,
+      "stagnation": 0
+    },
+    "memory": {
+      "accepted_lessons": [
+        "External evidence found for: AI/SaaS indie makers struggle with product-market fit validation and customer acquisition. IndieHackers monthly shows 50k+ active discussions on 'how to launch' and 'how to find customers'. E"
+      ],
+      "failed_patterns": [],
+      "successful_patterns": []
+    },
+    "name": "IAMO25",
+    "number": 25,
+    "reputation": {
+      "cycles": 1,
+      "delivery": 5,
+      "economic_truth": 0,
+      "evidence": 5,
+      "peer_help": 0
+    },
+    "role": "scout",
+    "state": "idle",
+    "task": null,
+    "task_id": null,
+    "world": {
+      "heading": 2.98119,
+      "steps": 1,
+      "version": "0.1.0",
+      "x": 684.96,
+      "y": 857.49,
+      "zone": "archive",
+      "zone_name": "Archivo de Memoria"
+    }
+  },
+  "reported_at": "2026-09-04T15:34:31Z",
+  "schema": "iamox.report.v1"
+}

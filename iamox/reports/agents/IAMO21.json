@@ -1,0 +1,64 @@
+{
+  "agent": {
+    "brain": {
+      "affiliation": {
+        "creator": "AMO",
+        "creator_github": "amoedo7",
+        "origin": "DesarrollAMO",
+        "relationship": "origin_affinity"
+      },
+      "archetype": "pathfinder",
+      "confidence": 0.503,
+      "intent": "seek_external_evidence",
+      "interpretation": "'iPhone paid utility' necesita evidencia externa antes de avanzar desde research.",
+      "signature": "5d18d6eed1e63424",
+      "version": "0.3.0-individual"
+    },
+    "cell_id": "cell-9952f0b759",
+    "heartbeat_at": "2026-09-04T15:34:31Z",
+    "id": "iamo21",
+    "life": {
+      "directive": "continue_with_evidence",
+      "heartbeats": 1,
+      "progress_events": 1,
+      "stagnation": 0
+    },
+    "memory": {
+      "accepted_lessons": [
+        "External evidence found for: Pequeños restaurantes y dark kitchens aceptan pedidos por WhatsApp/DM y pierden ventas/tiempo porque los pagos manuales (transferencias/QR) no se verifican ni generan recibos rápidamente."
+      ],
+      "failed_patterns": [],
+      "successful_patterns": []
+    },
+    "name": "IAMO21",
+    "number": 21,
+    "reputation": {
+      "cycles": 1,
+      "delivery": 5,
+      "economic_truth": 0,
+      "evidence": 5,
+      "peer_help": 0
+    },
+    "role": "scout",
+    "state": "peer_review",
+    "task": {
+      "blocking_reason": null,
+      "gate": "research",
+      "id": "task-9952f0b759",
+      "status": "review",
+      "title": "iPhone paid utility"
+    },
+    "task_id": "task-9952f0b759",
+    "world": {
+      "heading": 1.47118,
+      "steps": 1,
+      "version": "0.1.0",
+      "x": 264.14,
+      "y": 373.19,
+      "zone": "forest",
+      "zone_name": "Bosque de Exploración"
+    }
+  },
+  "reported_at": "2026-09-04T15:34:31Z",
+  "schema": "iamox.report.v1"
+}

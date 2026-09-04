@@ -1,0 +1,64 @@
+{
+  "agent": {
+    "brain": {
+      "affiliation": {
+        "creator": "AMO",
+        "creator_github": "amoedo7",
+        "origin": "DesarrollAMO",
+        "relationship": "origin_affinity"
+      },
+      "archetype": "merchant",
+      "confidence": 0.424,
+      "intent": "seek_external_evidence",
+      "interpretation": "'Android paid utility' necesita evidencia externa antes de avanzar desde research.",
+      "signature": "a7285ee6a26f6952",
+      "version": "0.3.0-individual"
+    },
+    "cell_id": "cell-677efa5fca",
+    "heartbeat_at": "2026-09-04T15:34:31Z",
+    "id": "iamo306",
+    "life": {
+      "directive": "continue_with_evidence",
+      "heartbeats": 1,
+      "progress_events": 1,
+      "stagnation": 0
+    },
+    "memory": {
+      "accepted_lessons": [],
+      "failed_patterns": [
+        "research_incomplete: Fallback brain: test route #6 (Booking, reminder or no-show reduction tool) while Copilot is unavailable."
+      ],
+      "successful_patterns": []
+    },
+    "name": "IAMO306",
+    "number": 306,
+    "reputation": {
+      "cycles": 1,
+      "delivery": 0,
+      "economic_truth": 0,
+      "evidence": 0,
+      "peer_help": 0
+    },
+    "role": "seller",
+    "state": "peer_review",
+    "task": {
+      "blocking_reason": null,
+      "gate": "research",
+      "id": "task-677efa5fca",
+      "status": "review",
+      "title": "Android paid utility"
+    },
+    "task_id": "task-677efa5fca",
+    "world": {
+      "heading": 3.22875,
+      "steps": 1,
+      "version": "0.1.0",
+      "x": 305.18,
+      "y": 174.78,
+      "zone": "forest",
+      "zone_name": "Bosque de Exploración"
+    }
+  },
+  "reported_at": "2026-09-04T15:34:31Z",
+  "schema": "iamox.report.v1"
+}

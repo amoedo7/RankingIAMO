@@ -1,0 +1,64 @@
+{
+  "agent": {
+    "brain": {
+      "affiliation": {
+        "creator": "AMO",
+        "creator_github": "amoedo7",
+        "origin": "DesarrollAMO",
+        "relationship": "origin_affinity"
+      },
+      "archetype": "archivist",
+      "confidence": 0.72,
+      "intent": "seek_external_evidence",
+      "interpretation": "'Bundle several existing AMO utilities' necesita evidencia externa antes de avanzar desde research.",
+      "signature": "795c5705d5a3935c",
+      "version": "0.3.0-individual"
+    },
+    "cell_id": "cell-65cb6b2a1c",
+    "heartbeat_at": "2026-09-04T15:34:31Z",
+    "id": "iamo549",
+    "life": {
+      "directive": "continue_with_evidence",
+      "heartbeats": 1,
+      "progress_events": 1,
+      "stagnation": 0
+    },
+    "memory": {
+      "accepted_lessons": [],
+      "failed_patterns": [
+        "research_incomplete: Fallback brain: test route #69 (Paid update feed for a tool, dataset or directory) while Copilot is unavailable."
+      ],
+      "successful_patterns": []
+    },
+    "name": "IAMO549",
+    "number": 549,
+    "reputation": {
+      "cycles": 1,
+      "delivery": 0,
+      "economic_truth": 0,
+      "evidence": 0,
+      "peer_help": 0
+    },
+    "role": "accountant",
+    "state": "peer_review",
+    "task": {
+      "blocking_reason": null,
+      "gate": "research",
+      "id": "task-65cb6b2a1c",
+      "status": "review",
+      "title": "Bundle several existing AMO utilities"
+    },
+    "task_id": "task-65cb6b2a1c",
+    "world": {
+      "heading": 2.10942,
+      "steps": 1,
+      "version": "0.1.0",
+      "x": 345.72,
+      "y": 374.65,
+      "zone": "forest",
+      "zone_name": "Bosque de Exploración"
+    }
+  },
+  "reported_at": "2026-09-04T15:34:31Z",
+  "schema": "iamox.report.v1"
+}

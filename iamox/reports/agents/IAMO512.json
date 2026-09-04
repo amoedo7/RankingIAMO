@@ -1,0 +1,64 @@
+{
+  "agent": {
+    "brain": {
+      "affiliation": {
+        "creator": "AMO",
+        "creator_github": "amoedo7",
+        "origin": "DesarrollAMO",
+        "relationship": "origin_affinity"
+      },
+      "archetype": "critic",
+      "confidence": 0.57,
+      "intent": "seek_external_evidence",
+      "interpretation": "'Android paid utility' necesita evidencia externa antes de avanzar desde research.",
+      "signature": "792e62c4f1cc7bc3",
+      "version": "0.3.0-individual"
+    },
+    "cell_id": "cell-677efa5fca",
+    "heartbeat_at": "2026-09-04T15:34:31Z",
+    "id": "iamo512",
+    "life": {
+      "directive": "continue_with_evidence",
+      "heartbeats": 1,
+      "progress_events": 1,
+      "stagnation": 0
+    },
+    "memory": {
+      "accepted_lessons": [
+        "External evidence found for: Webhook delivery failures, payload drift, duplicate delivery, and missed retries are routine in small SaaS integrations. Stripe, Twilio, and Shopify all document webhook-based async integrati"
+      ],
+      "failed_patterns": [],
+      "successful_patterns": []
+    },
+    "name": "IAMO512",
+    "number": 512,
+    "reputation": {
+      "cycles": 1,
+      "delivery": 5,
+      "economic_truth": 0,
+      "evidence": 5,
+      "peer_help": 0
+    },
+    "role": "critic",
+    "state": "peer_review",
+    "task": {
+      "blocking_reason": null,
+      "gate": "research",
+      "id": "task-677efa5fca",
+      "status": "review",
+      "title": "Android paid utility"
+    },
+    "task_id": "task-677efa5fca",
+    "world": {
+      "heading": 1.92577,
+      "steps": 1,
+      "version": "0.1.0",
+      "x": 1684.93,
+      "y": 1059.7,
+      "zone": "observatory",
+      "zone_name": "Observatorio"
+    }
+  },
+  "reported_at": "2026-09-04T15:34:31Z",
+  "schema": "iamox.report.v1"
+}

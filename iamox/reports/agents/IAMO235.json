@@ -1,0 +1,64 @@
+{
+  "agent": {
+    "brain": {
+      "affiliation": {
+        "creator": "AMO",
+        "creator_github": "amoedo7",
+        "origin": "DesarrollAMO",
+        "relationship": "origin_affinity"
+      },
+      "archetype": "merchant",
+      "confidence": 0.579,
+      "intent": "seek_external_evidence",
+      "interpretation": "'Android freemium app' necesita evidencia externa antes de avanzar desde research.",
+      "signature": "cb951db4fd26282c",
+      "version": "0.3.0-individual"
+    },
+    "cell_id": "cell-dbf1dc0946",
+    "heartbeat_at": "2026-09-04T15:34:31Z",
+    "id": "iamo235",
+    "life": {
+      "directive": "continue_with_evidence",
+      "heartbeats": 1,
+      "progress_events": 1,
+      "stagnation": 0
+    },
+    "memory": {
+      "accepted_lessons": [],
+      "failed_patterns": [
+        "research_incomplete: Fallback brain: test route #95 (On-chain public-data dashboard) while Copilot is unavailable."
+      ],
+      "successful_patterns": []
+    },
+    "name": "IAMO235",
+    "number": 235,
+    "reputation": {
+      "cycles": 1,
+      "delivery": 0,
+      "economic_truth": 0,
+      "evidence": 0,
+      "peer_help": 0
+    },
+    "role": "seller",
+    "state": "peer_review",
+    "task": {
+      "blocking_reason": null,
+      "gate": "research",
+      "id": "task-dbf1dc0946",
+      "status": "review",
+      "title": "Android freemium app"
+    },
+    "task_id": "task-dbf1dc0946",
+    "world": {
+      "heading": 6.2223,
+      "steps": 1,
+      "version": "0.1.0",
+      "x": 315.23,
+      "y": 293.31,
+      "zone": "forest",
+      "zone_name": "Bosque de Exploración"
+    }
+  },
+  "reported_at": "2026-09-04T15:34:31Z",
+  "schema": "iamox.report.v1"
+}

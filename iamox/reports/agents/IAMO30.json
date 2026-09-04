@@ -1,0 +1,64 @@
+{
+  "agent": {
+    "brain": {
+      "affiliation": {
+        "creator": "AMO",
+        "creator_github": "amoedo7",
+        "origin": "DesarrollAMO",
+        "relationship": "origin_affinity"
+      },
+      "archetype": "maker",
+      "confidence": 0.639,
+      "intent": "seek_external_evidence",
+      "interpretation": "'Seasonal or event-based digital bundle' necesita evidencia externa antes de avanzar desde research.",
+      "signature": "5bad2ccfd78832cf",
+      "version": "0.3.0-individual"
+    },
+    "cell_id": "cell-3cfd5ef818",
+    "heartbeat_at": "2026-09-04T15:34:31Z",
+    "id": "iamo30",
+    "life": {
+      "directive": "continue_with_evidence",
+      "heartbeats": 1,
+      "progress_events": 1,
+      "stagnation": 0
+    },
+    "memory": {
+      "accepted_lessons": [],
+      "failed_patterns": [
+        "invalid_agent_output: La ronda no produjo un paquete estructurado válido."
+      ],
+      "successful_patterns": []
+    },
+    "name": "IAMO30",
+    "number": 30,
+    "reputation": {
+      "cycles": 1,
+      "delivery": 0,
+      "economic_truth": 0,
+      "evidence": 0,
+      "peer_help": 0
+    },
+    "role": "builder",
+    "state": "peer_review",
+    "task": {
+      "blocking_reason": null,
+      "gate": "research",
+      "id": "task-3cfd5ef818",
+      "status": "review",
+      "title": "Seasonal or event-based digital bundle"
+    },
+    "task_id": "task-3cfd5ef818",
+    "world": {
+      "heading": 5.51142,
+      "steps": 1,
+      "version": "0.1.0",
+      "x": 495.38,
+      "y": 343.73,
+      "zone": "forest",
+      "zone_name": "Bosque de Exploración"
+    }
+  },
+  "reported_at": "2026-09-04T15:34:31Z",
+  "schema": "iamox.report.v1"
+}

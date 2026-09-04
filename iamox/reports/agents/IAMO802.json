@@ -1,0 +1,64 @@
+{
+  "agent": {
+    "brain": {
+      "affiliation": {
+        "creator": "AMO",
+        "creator_github": "amoedo7",
+        "origin": "DesarrollAMO",
+        "relationship": "origin_affinity"
+      },
+      "archetype": "merchant",
+      "confidence": 0.632,
+      "intent": "seek_external_evidence",
+      "interpretation": "'Android ad-supported free utility' necesita evidencia externa antes de avanzar desde research.",
+      "signature": "21bbbe01676984a1",
+      "version": "0.3.0-individual"
+    },
+    "cell_id": "cell-3f05d349a0",
+    "heartbeat_at": "2026-09-04T15:34:31Z",
+    "id": "iamo802",
+    "life": {
+      "directive": "continue_with_evidence",
+      "heartbeats": 1,
+      "progress_events": 1,
+      "stagnation": 0
+    },
+    "memory": {
+      "accepted_lessons": [],
+      "failed_patterns": [
+        "research_incomplete: Fallback brain: test route #22 (Notion workspace for a specific role) while Copilot is unavailable."
+      ],
+      "successful_patterns": []
+    },
+    "name": "IAMO802",
+    "number": 802,
+    "reputation": {
+      "cycles": 1,
+      "delivery": 0,
+      "economic_truth": 0,
+      "evidence": 0,
+      "peer_help": 0
+    },
+    "role": "seller",
+    "state": "peer_review",
+    "task": {
+      "blocking_reason": null,
+      "gate": "research",
+      "id": "task-3f05d349a0",
+      "status": "review",
+      "title": "Android ad-supported free utility"
+    },
+    "task_id": "task-3f05d349a0",
+    "world": {
+      "heading": 6.49828,
+      "steps": 1,
+      "version": "0.1.0",
+      "x": 581.41,
+      "y": 221.68,
+      "zone": "forest",
+      "zone_name": "Bosque de Exploración"
+    }
+  },
+  "reported_at": "2026-09-04T15:34:31Z",
+  "schema": "iamox.report.v1"
+}
