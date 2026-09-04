@@ -11,6 +11,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+import life
+
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 IAMOX = ROOT / "iamox"
@@ -76,7 +78,8 @@ def normalize_agent(row: dict[str, Any], old: dict[str, Any] | None = None) -> d
     if not agent_id.startswith("iamo"):
         return {}
     role = old.get("role") or stable_role(agent_id)
-    return {
+    at = now()
+    agent = {
         "id": agent_id,
         "name": row.get("competitor_name") or row.get("name") or agent_id.upper(),
         "number": number,
@@ -85,7 +88,7 @@ def normalize_agent(row: dict[str, Any], old: dict[str, Any] | None = None) -> d
         "state": old.get("state", "idle") if old.get("state") in ACTIVE_STATES else "idle",
         "cell_id": old.get("cell_id"),
         "task_id": old.get("task_id"),
-        "heartbeat_at": now(),
+        "heartbeat_at": at,
         "reputation": old.get("reputation", {"evidence": 0, "peer_help": 0, "delivery": 0, "economic_truth": 0}),
         "memory": old.get("memory", {"accepted_lessons": [], "failed_patterns": [], "successful_patterns": []}),
         "traits": {
@@ -96,6 +99,8 @@ def normalize_agent(row: dict[str, Any], old: dict[str, Any] | None = None) -> d
             "coordination": round(stable_float(agent_id, "coordination"), 4),
         },
     }
+    life.ensure_life(agent, at)
+    return agent
 
 
 def bootstrap_agents() -> list[dict[str, Any]]:
