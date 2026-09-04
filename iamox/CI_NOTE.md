@@ -1,0 +1,1 @@
+CI gate: `IAMOX Live Heartbeat` must pass after birth-freezing workflow replacement before merge.
