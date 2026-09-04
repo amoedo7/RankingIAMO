@@ -50,11 +50,11 @@ jobs:
         run: |
           git config user.name "IAMOX Runtime"
           git config user.email "actions@users.noreply.github.com"
-          git add iamox/state iamox/tasks iamox/cells iamox/handoffs
+          git add iamox/state iamox/tasks iamox/cells iamox/handoffs iamox/reports iamox/world
           if git diff --cached --quiet; then
             echo "No state change"
             exit 0
           fi
-          git commit -m "chore(iamox): heartbeat learning state"
+          git commit -m "chore(iamox): heartbeat individual world state"
           git pull --rebase origin main
           git push origin HEAD:main

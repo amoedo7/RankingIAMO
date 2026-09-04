@@ -5,11 +5,15 @@ import json
 import os
 from typing import Any
 
+import brain
 import learning
 import life
 import runtime
+import world
 
 HANDOFFS = runtime.IAMOX / "handoffs" / "pending.json"
+REPORTS = runtime.IAMOX / "reports"
+WORLD_SNAPSHOT = runtime.IAMOX / "world" / "snapshot.json"
 MAX_NEW_TASKS = int(os.environ.get("IAMOX_NEW_TASKS_PER_ROUND", "9"))
 MAX_CELLS = int(os.environ.get("IAMOX_MAX_CELLS", "21"))
 
@@ -118,8 +122,18 @@ def run() -> dict[str, Any]:
             if agent:
                 rep = agent.setdefault("reputation", {})
                 rep["cycles"] = int(rep.get("cycles", 0) or 0) + 1
+
     runtime.advance_simulation(agents, queue, cells)
     life_summary = life.heartbeat_population(agents, queue, at)
+    brain_summary = brain.pulse_brains(agents, queue, at)
+    world_summary = world.pulse_world(
+        agents,
+        queue,
+        at,
+        snapshot_path=WORLD_SNAPSHOT,
+        report_dir=REPORTS,
+    )
+
     runtime.write_json(runtime.AGENTS, agents)
     runtime.write_json(HANDOFFS, handoffs[:21])
     result = runtime.summary(agents, queue, cells)
@@ -127,6 +141,8 @@ def run() -> dict[str, Any]:
     result["learning_enabled"] = True
     result["repaired_orphans"] = repaired_orphans
     result["life"] = life_summary
+    result["brain"] = brain_summary
+    result["world"] = world_summary
     runtime.write_json(runtime.SUMMARY, result)
     return result
 
