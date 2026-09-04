@@ -4,11 +4,14 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
+from iamo_runtime import load_json
+
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 EXECUTOR = ROOT / "executor"
 ATTEMPTS = DATA / "attempts.jsonl"
 COMPETITORS = DATA / "competitors.json"
+AGENTS = DATA / "agents.json"
 LEADERBOARD = ROOT / "leaderboard.json"
 OUTPUT = ROOT / "proximity.json"
 
@@ -80,8 +83,6 @@ def sent_rows():
 
 
 def response_rows():
-    # Optional future-compatible ledger. The score automatically starts using it
-    # when outreach automation persists replies/interested/negotiation events.
     data = load_json(EXECUTOR / "responses.json", {"records": []})
     rows = data.get("records", []) if isinstance(data, dict) else []
     return [x for x in rows if isinstance(x, dict)]
@@ -250,21 +251,29 @@ def build():
     responses = response_rows()
     candidates = load_json_dir(EXECUTOR / "payment_candidates")
     verified = verified_map()
+    agent_map = {
+        ref_of(row): row
+        for row in load_json(AGENTS, {"agents": []}).get("agents", [])
+        if ref_of(row)
+    }
 
     entries = []
     for competitor in competitors:
         ref = str(competitor.get("payment_reference") or f"RANK-{competitor.get('name')}")
-        entries.append(
-            score_one(
-                competitor,
-                attempts.get(ref),
-                runs.get(ref),
-                sent,
-                responses,
-                candidates,
-                verified,
-            )
+        entry = score_one(
+            competitor,
+            attempts.get(ref),
+            runs.get(ref),
+            sent,
+            responses,
+            candidates,
+            verified,
         )
+        agent = agent_map.get(ref) or {}
+        entry["cell"] = ((agent.get("cell") or {}).get("name"))
+        entry["heartbeat_at"] = ((agent.get("lifecycle") or {}).get("last_heartbeat_at"))
+        entry["next_task"] = (((agent.get("tasks") or [{}])[0]).get("kind"))
+        entries.append(entry)
 
     entries.sort(
         key=lambda x: (
