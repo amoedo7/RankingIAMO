@@ -8,50 +8,41 @@
         "relationship": "origin_affinity"
       },
       "archetype": "maker",
-      "confidence": 0.676,
-      "intent": "explore_unknown_route",
-      "interpretation": "No tengo una tarea asignada; elijo explore_unknown_route según mi experiencia y temperamento.",
-      "signature": "bfd72dbe5a63e5ce",
+      "confidence": 0.544,
+      "intent": "look_for_useful_problem",
+      "interpretation": "No tengo una tarea asignada; elijo look_for_useful_problem según mi experiencia y temperamento.",
+      "signature": "adb3c29db831330d",
       "version": "0.3.0-individual"
     },
     "cell_id": null,
-    "encounter_name": "IAMO858",
+    "encounter_name": "IAMO988",
     "heartbeat_at": "2026-09-04T19:10:39Z",
-    "id": "iamo858",
+    "id": "iamo988",
     "identity": {
-      "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:4ce4c1630aec5d58c6de",
+      "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:095f272eae58301b51f7",
       "birthplace": "github:amoedo7/RankingIAMO",
-      "display_name": "IAMO858",
-      "encounter_alias": "IAMO858",
+      "display_name": "IAMO988",
+      "encounter_alias": "IAMO988",
       "generation": 1,
       "lineage_root": "IAMO1",
-      "parent_birth_uid": null
+      "parent_birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:cb52e76d9c25934a05c5"
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 2,
+      "heartbeats": 0,
       "progress_events": 0,
-      "reproduction": {
-        "births": 0,
-        "last_birth_at": null,
-        "last_child_birth_uid": null,
-        "maturity_index": 0,
-        "next_maturity_age": 1
-      },
+      "reproduction": {},
       "stagnation": 0
     },
     "memory": {
       "accepted_lessons": [],
-      "failed_patterns": [
-        "research_incomplete: Fallback brain: test route #58 (YouTube Shorts with relevant affiliate offers) while Copilot is unavailable."
-      ],
+      "failed_patterns": [],
       "successful_patterns": []
     },
-    "name": "IAMO858",
-    "number": 858,
-    "report_file": "IAMO858.json",
+    "name": "IAMO988",
+    "number": 988,
+    "report_file": "IAMO988.json",
     "reputation": {
-      "cycles": 0,
       "delivery": 0,
       "economic_truth": 0,
       "evidence": 0,
@@ -62,11 +53,11 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": -0.97279,
-      "steps": 3,
+      "heading": 5.73511,
+      "steps": 1,
       "version": "0.2.0",
-      "x": 1323.42,
-      "y": 1023.05,
+      "x": 1386.31,
+      "y": 902.29,
       "zone": "workshop",
       "zone_name": "Taller de Construcción"
     }

@@ -8,15 +8,15 @@
         "relationship": "origin_affinity"
       },
       "archetype": "maker",
-      "confidence": 0.479,
-      "intent": "improve_small_capability",
-      "interpretation": "No tengo una tarea asignada; elijo improve_small_capability según mi experiencia y temperamento.",
+      "confidence": 0.593,
+      "intent": "seek_external_evidence",
+      "interpretation": "'CV and portfolio production' necesita evidencia externa antes de avanzar desde research.",
       "signature": "3025ec11e4b5f90b",
       "version": "0.3.0-individual"
     },
-    "cell_id": null,
+    "cell_id": "cell-13addc3e85",
     "encounter_name": "IAMO285",
-    "heartbeat_at": "2026-09-04T16:51:22Z",
+    "heartbeat_at": "2026-09-04T19:10:39Z",
     "id": "iamo285",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:2fcd480094cf4c03b561",
@@ -29,8 +29,8 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 1,
-      "progress_events": 0,
+      "heartbeats": 2,
+      "progress_events": 1,
       "reproduction": {
         "births": 0,
         "last_birth_at": null,
@@ -51,26 +51,32 @@
     "number": 285,
     "report_file": "IAMO285.json",
     "reputation": {
-      "cycles": 0,
+      "cycles": 1,
       "delivery": 0,
       "economic_truth": 0,
       "evidence": 0,
       "peer_help": 0
     },
     "role": "builder",
-    "state": "idle",
-    "task": null,
-    "task_id": null,
+    "state": "peer_review",
+    "task": {
+      "blocking_reason": null,
+      "gate": "research",
+      "id": "task-13addc3e85",
+      "status": "review",
+      "title": "CV and portfolio production"
+    },
+    "task_id": "task-13addc3e85",
     "world": {
-      "heading": 0.76723,
-      "steps": 2,
+      "heading": -2.73267,
+      "steps": 3,
       "version": "0.2.0",
-      "x": 1522.4,
-      "y": 1009.83,
-      "zone": "workshop",
-      "zone_name": "Taller de Construcción"
+      "x": 1493.03,
+      "y": 997.1,
+      "zone": "forest",
+      "zone_name": "Bosque de Exploración"
     }
   },
-  "reported_at": "2026-09-04T16:51:22Z",
+  "reported_at": "2026-09-04T19:10:39Z",
   "schema": "iamox.report.v1"
 }
