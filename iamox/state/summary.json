@@ -14,14 +14,32 @@
   },
   "assigned_tasks": 9,
   "cell_count": 9,
-  "generated_at": "2026-09-04T13:49:37Z",
+  "generated_at": "2026-09-04T14:47:47Z",
   "learning_enabled": true,
+  "life": {
+    "creator": {
+      "github": "amoedo7",
+      "name": "AMO",
+      "origin": "IAMO / RankingIAMO"
+    },
+    "genome_version": "0.4.0-population",
+    "living_agents": 985,
+    "loop_breaks": 0,
+    "scope": {
+      "credential_discovery": false,
+      "external_writes_require_authorization": true,
+      "mode": "authorized_ecosystem_only",
+      "self_propagation": false
+    },
+    "stagnating_agents": 0,
+    "total_heartbeats": 985
+  },
   "next_action": "Cells in peer_review must add external evidence before execution handoff.",
   "open_tasks": 0,
   "pending_handoffs": 9,
   "repaired_orphans": 0,
   "schema_version": "1.0",
-  "task_count": 36,
+  "task_count": 45,
   "verified_profit_rule": "Only externally verifiable received money changes the economic ranking.",
   "verified_profit_source": "data/earnings.jsonl only"
 }
