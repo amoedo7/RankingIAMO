@@ -16,4 +16,8 @@ print('RANKINGIAMO_CONTRACT_OK')
 PY
 
 python -m unittest discover -s tests -v
+(
+  cd iamox
+  python -m unittest discover -v -p "test_*.py"
+)
 python scripts/rebuild_ranking.py --check
