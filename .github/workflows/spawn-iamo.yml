@@ -25,33 +25,29 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
       - name: Verify IAMOX runtime
         working-directory: iamox
-        run: python -m unittest -v test_runtime.py
-
-      - name: Move existing IAMOX population
-        run: python iamox/runtime.py
-
+        run: python -m unittest discover -v -p "test_*.py"
+      - name: Move and teach existing IAMOX population
+        run: python iamox/runner.py
       - name: Persist population state
         run: |
           git config user.name "IAMOX Runtime"
           git config user.email "actions@users.noreply.github.com"
-          git add iamox/state iamox/tasks iamox/cells
+          git add iamox/state iamox/tasks iamox/cells iamox/handoffs
           if git diff --cached --quiet; then
             echo "No IAMOX state changes."
             exit 0
           fi
-          git commit -m "chore(iamox): population pulse"
+          git commit -m "chore(iamox): population learning pulse"
+          git pull --rebase origin main
           git push origin HEAD:main
-
       - name: Summary
         run: |
           echo "### IAMOX population pulse" >> "$GITHUB_STEP_SUMMARY"
-          echo "No new IAMO was created. Existing agents were organized and advanced." >> "$GITHUB_STEP_SUMMARY"
+          echo "No new IAMO was created. Existing agents were organized, reviewed and recycled." >> "$GITHUB_STEP_SUMMARY"
           echo "Financial ranking remains governed by verified entries in data/earnings.jsonl." >> "$GITHUB_STEP_SUMMARY"
