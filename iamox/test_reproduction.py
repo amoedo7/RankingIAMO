@@ -29,6 +29,23 @@ class ReproductionTests(unittest.TestCase):
     def test_maturity_follows_fibonacci_without_duplicate_one(self):
         self.assertEqual([reproduction.maturity(i) for i in range(7)], [1, 2, 3, 5, 8, 13, 21])
 
+    def test_registered_child_repairs_lost_parent_maturity(self):
+        p = parent(age=1)
+        child = {
+            "name": "IAMO986",
+            "birth_uid": "iamo:child:986",
+            "born_at": "2026-09-04T16:47:42Z",
+            "parent_birth_uid": p["identity"]["birth_uid"],
+        }
+        repaired = reproduction.reconcile_registered_children([p], [child])
+        state = p["life"]["reproduction"]
+        self.assertEqual(repaired, 1)
+        self.assertEqual(state["births"], 1)
+        self.assertEqual(state["maturity_index"], 1)
+        self.assertEqual(state["next_maturity_age"], 2)
+        self.assertEqual(state["last_child_birth_uid"], "iamo:child:986")
+        self.assertFalse(reproduction.is_eligible(p))
+
     def test_founder_generation_zero_has_priority_when_eligible(self):
         root = parent(age=2)
         child = {
