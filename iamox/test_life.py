@@ -14,13 +14,16 @@ class LifeTests(unittest.TestCase):
         second = "Elegir una ruta alternativa reversible para la seguridad"
         self.assertGreaterEqual(life.semantic_similarity(first, second), life.SIMILARITY_THRESHOLD)
 
-    def test_every_agent_inherits_creator_and_safe_scope(self):
+    def test_every_agent_inherits_creator_and_continuous_lineage(self):
         agent = {"id": "iamo985"}
         state = life.ensure_life(agent, "2026-09-04T14:00:00Z")
         self.assertEqual(state["creator"]["github"], "amoedo7")
-        self.assertEqual(state["lineage"]["prototype"], "IAMO1 v0.3.0")
+        self.assertEqual(state["lineage"]["prototype"], "IAMO1")
+        self.assertFalse(state["lineage"]["version_breaks_lineage"])
+        self.assertTrue(state["scope"]["authorized_reproduction"])
         self.assertFalse(state["scope"]["self_propagation"])
         self.assertEqual(state["genome_version"], life.GENOME_VERSION)
+        self.assertEqual(life.GENOME.get("schema"), "iamo-genoma/2")
 
     def test_repetition_escalates_and_progress_resets(self):
         agent = {"id": "iamo1"}

@@ -1,25 +1,41 @@
 from __future__ import annotations
 
+import json
 import re
+from pathlib import Path
 from typing import Any
 
-GENOME_VERSION = "0.4.0-population"
+GENOME_FILE = Path(__file__).with_name("genoma.json")
+
+
+def load_genome() -> dict[str, Any]:
+    try:
+        value = json.loads(GENOME_FILE.read_text(encoding="utf-8"))
+        return value if isinstance(value, dict) else {}
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+GENOME = load_genome()
+GENOME_VERSION = str(GENOME.get("genome_version") or "0.5.0-stem")
 CREATOR = {
-    "name": "AMO",
-    "github": "amoedo7",
+    "name": str(GENOME.get("creator", {}).get("name") or "AMO"),
+    "github": str(GENOME.get("creator", {}).get("github") or "amoedo7"),
     "origin": "IAMO / RankingIAMO",
 }
 LINEAGE = {
-    "prototype": "IAMO1 v0.3.0",
-    "inheritance": "shared_runtime",
+    "prototype": str(GENOME.get("lineage", {}).get("root") or "IAMO1"),
+    "inheritance": "continuous_genome",
+    "version_breaks_lineage": False,
 }
 SCOPE = {
     "mode": "authorized_ecosystem_only",
+    "authorized_reproduction": True,
     "self_propagation": False,
     "credential_discovery": False,
     "external_writes_require_authorization": True,
 }
-FIBONACCI = (1, 1, 2, 3, 5, 8, 13, 21, 34, 55)
+FIBONACCI = tuple(GENOME.get("fibonacci", {}).get("sequence") or (1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233))
 MAX_RECENT_FOCUS = 8
 SIMILARITY_THRESHOLD = 0.60
 
@@ -35,8 +51,8 @@ def fibonacci(index: int) -> int:
     if index <= 0:
         return 1
     if index < len(FIBONACCI):
-        return FIBONACCI[index]
-    a, b = FIBONACCI[-2], FIBONACCI[-1]
+        return int(FIBONACCI[index])
+    a, b = int(FIBONACCI[-2]), int(FIBONACCI[-1])
     for _ in range(len(FIBONACCI), index + 1):
         a, b = b, a + b
     return b
@@ -63,8 +79,20 @@ def is_semantic_repeat(focus: str, recent: list[str]) -> bool:
 
 
 def directive_for(stagnation: int) -> str:
+    if stagnation >= 233:
+        return "evaluate_verified_reproduction_or_specialization"
+    if stagnation >= 144:
+        return "seek_independent_capability_evidence"
+    if stagnation >= 89:
+        return "verify_capability_specification"
+    if stagnation >= 55:
+        return "design_missing_capability_in_quarantine"
+    if stagnation >= 34:
+        return "name_concrete_missing_capability"
+    if stagnation >= 21:
+        return "request_collective_review"
     if stagnation >= 13:
-        return "owner_review_required"
+        return "split_into_smaller_verifiable_missions"
     if stagnation >= 8:
         return "abandon_local_loop_and_change_route"
     if stagnation >= 5:
@@ -81,6 +109,7 @@ def directive_for(stagnation: int) -> str:
 def default_life(old: dict[str, Any] | None, at: str) -> dict[str, Any]:
     old = old if isinstance(old, dict) else {}
     recent = old.get("recent_focus") if isinstance(old.get("recent_focus"), list) else []
+    reproduction = old.get("reproduction") if isinstance(old.get("reproduction"), dict) else {}
     return {
         "genome_version": GENOME_VERSION,
         "creator": dict(CREATOR),
@@ -99,6 +128,7 @@ def default_life(old: dict[str, Any] | None, at: str) -> dict[str, Any]:
         "last_progress_marker": old.get("last_progress_marker"),
         "directive": old.get("directive") or "continue_with_evidence",
         "next_action": old.get("next_action") or "observe",
+        "reproduction": dict(reproduction),
     }
 
 

@@ -7,7 +7,7 @@ import os
 from pathlib import Path
 from typing import Any
 
-WORLD_VERSION = "0.1.0"
+WORLD_VERSION = "0.2.0"
 WORLD_WIDTH = 2048
 WORLD_HEIGHT = 1280
 MARGIN = 70
@@ -34,6 +34,11 @@ def _unit(agent_id: str, salt: str) -> float:
 
 def _clamp(v: float, lo: float, hi: float) -> float:
     return max(lo, min(hi, v))
+
+
+def identity_key(agent: dict[str, Any]) -> str:
+    identity = agent.get("identity") if isinstance(agent.get("identity"), dict) else {}
+    return str(identity.get("birth_uid") or agent.get("id") or "iamo0")
 
 
 def preferred_zone(agent: dict[str, Any], task: dict[str, Any] | None = None) -> str:
@@ -70,7 +75,7 @@ def spawn(agent_id: str, zone_key: str) -> tuple[float, float]:
 
 
 def ensure_world(agent: dict[str, Any], at: str) -> dict[str, Any]:
-    aid = str(agent.get("id") or "iamo0")
+    aid = identity_key(agent)
     old = agent.get("world") if isinstance(agent.get("world"), dict) else {}
     zone = str(old.get("zone") or preferred_zone(agent))
     if zone not in ZONES:
@@ -92,7 +97,7 @@ def ensure_world(agent: dict[str, Any], at: str) -> dict[str, Any]:
 
 
 def move_agent(agent: dict[str, Any], task: dict[str, Any] | None, at: str) -> dict[str, Any]:
-    aid = str(agent.get("id") or "iamo0")
+    aid = identity_key(agent)
     world = ensure_world(agent, at)
     zone_key = preferred_zone(agent, task)
     zone = ZONES[zone_key]
@@ -147,14 +152,33 @@ def _compact_task(task: dict[str, Any] | None) -> dict[str, Any] | None:
     }
 
 
+def _public_identity(agent: dict[str, Any]) -> dict[str, Any]:
+    identity = agent.get("identity") if isinstance(agent.get("identity"), dict) else {}
+    display = str(identity.get("display_name") or agent.get("name") or agent.get("id") or "IAMO")
+    alias = str(identity.get("encounter_alias") or display)
+    return {
+        "birth_uid": identity.get("birth_uid"),
+        "display_name": display,
+        "encounter_alias": alias,
+        "birthplace": identity.get("birthplace"),
+        "generation": identity.get("generation"),
+        "parent_birth_uid": identity.get("parent_birth_uid"),
+        "lineage_root": identity.get("lineage_root"),
+    }
+
+
 def public_agent(agent: dict[str, Any], task: dict[str, Any] | None) -> dict[str, Any]:
     brain = agent.get("brain") if isinstance(agent.get("brain"), dict) else {}
     world = agent.get("world") if isinstance(agent.get("world"), dict) else {}
     life = agent.get("life") if isinstance(agent.get("life"), dict) else {}
+    identity = _public_identity(agent)
     return {
         "id": agent.get("id"),
         "name": agent.get("name"),
+        "encounter_name": identity["encounter_alias"],
+        "report_file": report_filename(agent),
         "number": agent.get("number"),
+        "identity": identity,
         "role": agent.get("role"),
         "state": agent.get("state"),
         "cell_id": agent.get("cell_id"),
@@ -174,6 +198,7 @@ def public_agent(agent: dict[str, Any], task: dict[str, Any] | None) -> dict[str
             "progress_events": life.get("progress_events", 0),
             "stagnation": life.get("stagnation", 0),
             "directive": life.get("directive"),
+            "reproduction": life.get("reproduction", {}),
         },
         "world": {
             "version": world.get("version"),
@@ -190,13 +215,21 @@ def public_agent(agent: dict[str, Any], task: dict[str, Any] | None) -> dict[str
     }
 
 
-def report_path(report_dir: Path, agent: dict[str, Any]) -> Path:
+def report_filename(agent: dict[str, Any]) -> str:
+    identity = _public_identity(agent)
+    display = identity["display_name"]
+    alias = identity["encounter_alias"]
+    uid = str(identity.get("birth_uid") or "")
+    if alias != display and uid:
+        return f"{display}-{uid.split(':')[-1][:8]}.json"
     number = agent.get("number")
     if number is not None:
-        name = f"IAMO{int(number)}.json"
-    else:
-        name = f"{str(agent.get('id') or 'iamo').upper()}.json"
-    return report_dir / "agents" / name
+        return f"IAMO{int(number)}.json"
+    return f"{str(agent.get('id') or 'iamo').upper()}.json"
+
+
+def report_path(report_dir: Path, agent: dict[str, Any]) -> Path:
+    return report_dir / "agents" / report_filename(agent)
 
 
 def _stable_report_payload(public: dict[str, Any]) -> dict[str, Any]:
@@ -256,14 +289,14 @@ def pulse_world(
         snapshot_agents.append(public_agent(agent, task))
 
     snapshot = {
-        "schema": "iamox.world.snapshot.v1",
+        "schema": "iamox.world.snapshot.v2",
         "world_version": WORLD_VERSION,
         "generated_at": at,
         "bounds": {"width": WORLD_WIDTH, "height": WORLD_HEIGHT},
         "zones": ZONES,
         "agent_count": len(snapshot_agents),
         "agents": snapshot_agents,
-        "note": "Public observation snapshot: movement is reported by IAMOX runtime; the browser only interpolates between reports.",
+        "note": "Public observation snapshot: movement is reported by IAMOX runtime; birth_uid preserves identity and encounter aliases disambiguate independent same-name births.",
     }
     snapshot_path.parent.mkdir(parents=True, exist_ok=True)
     tmp = snapshot_path.with_suffix(snapshot_path.suffix + ".tmp")

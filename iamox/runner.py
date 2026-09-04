@@ -8,6 +8,7 @@ from typing import Any
 import brain
 import learning
 import life
+import reproduction
 import runtime
 import world
 
@@ -124,7 +125,14 @@ def run() -> dict[str, Any]:
                 rep["cycles"] = int(rep.get("cycles", 0) or 0) + 1
 
     runtime.advance_simulation(agents, queue, cells)
-    life_summary = life.heartbeat_population(agents, queue, at)
+    life.heartbeat_population(agents, queue, at)
+
+    reproduction_summary = reproduction.reproduce(agents, at)
+    runtime.write_json(runtime.AGENTS, agents)
+    if reproduction_summary.get("births"):
+        agents = runtime.bootstrap_agents()
+
+    life_summary = life.population_summary(agents)
     brain_summary = brain.pulse_brains(agents, queue, at)
     world_summary = world.pulse_world(
         agents,
@@ -141,6 +149,7 @@ def run() -> dict[str, Any]:
     result["learning_enabled"] = True
     result["repaired_orphans"] = repaired_orphans
     result["life"] = life_summary
+    result["reproduction"] = reproduction_summary
     result["brain"] = brain_summary
     result["world"] = world_summary
     runtime.write_json(runtime.SUMMARY, result)

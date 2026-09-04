@@ -3,14 +3,14 @@ name: IAMOX Live Heartbeat
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 * * * *"
+    - cron: "*/10 * * * *"
   push:
     branches:
       - main
     paths:
-      - "iamox/**"
+      - "iamox/*.py"
+      - "iamox/genoma.json"
       - ".github/workflows/iamox-heartbeat.yml"
-      - "data/competitors.json"
       - "data/attempts.jsonl"
       - "data/earnings.jsonl"
       - "data/latest.json"
@@ -23,6 +23,12 @@ concurrency:
   group: iamox-live-system
   cancel-in-progress: false
 
+env:
+  IAMOX_REPRODUCTION_ENABLED: "1"
+  IAMOX_BIRTHS_PER_PULSE: "1"
+  IAMOX_REGISTRY_CAPACITY: "5000"
+  IAMOX_BIRTHPLACE: "github:amoedo7/RankingIAMO"
+
 jobs:
   verify:
     runs-on: ubuntu-latest
@@ -34,7 +40,7 @@ jobs:
       - name: Unit tests
         working-directory: iamox
         run: python -m unittest discover -v -p "test_*.py"
-      - name: Run IAMOX learning scheduler
+      - name: Run IAMOX life scheduler
         run: python iamox/runner.py
       - name: Verify economic invariant
         shell: python
@@ -46,15 +52,15 @@ jobs:
           if bad:
               raise SystemExit("IAMOX runtime may not create verified profit; only the payment verifier can do that")
           print("Economic truth invariant OK")
-      - name: Persist heartbeat state
+      - name: Persist heartbeat, births and world state
         run: |
           git config user.name "IAMOX Runtime"
           git config user.email "actions@users.noreply.github.com"
-          git add iamox/state iamox/tasks iamox/cells iamox/handoffs iamox/reports iamox/world
+          git add data/competitors.json iamox/state iamox/tasks iamox/cells iamox/handoffs iamox/reports iamox/world
           if git diff --cached --quiet; then
             echo "No state change"
             exit 0
           fi
-          git commit -m "chore(iamox): heartbeat individual world state"
+          git commit -m "chore(iamox): living heartbeat and authorized reproduction"
           git pull --rebase origin main
           git push origin HEAD:main

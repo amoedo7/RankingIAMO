@@ -11,6 +11,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+import identity
 import life
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -89,6 +90,8 @@ def normalize_agent(row: dict[str, Any], old: dict[str, Any] | None = None) -> d
         "cell_id": old.get("cell_id"),
         "task_id": old.get("task_id"),
         "heartbeat_at": at,
+        "born_at": row.get("born_at") or old.get("born_at"),
+        "identity": old.get("identity", {}),
         "reputation": old.get("reputation", {"evidence": 0, "peer_help": 0, "delivery": 0, "economic_truth": 0}),
         "memory": old.get("memory", {"accepted_lessons": [], "failed_patterns": [], "successful_patterns": []}),
         "traits": {
@@ -100,6 +103,7 @@ def normalize_agent(row: dict[str, Any], old: dict[str, Any] | None = None) -> d
         },
     }
     life.ensure_life(agent, at)
+    identity.ensure_identity(agent, row=row)
     return agent
 
 
@@ -112,6 +116,7 @@ def bootstrap_agents() -> list[dict[str, Any]]:
         if item:
             agents.append(item)
     agents.sort(key=lambda x: (x.get("number") is None, x.get("number") or 10**9))
+    identity.assign_encounter_aliases(agents)
     write_json(AGENTS, agents)
     return agents
 
@@ -262,6 +267,12 @@ def summary(agents: list[dict[str, Any]], queue: list[dict[str, Any]], cells: li
     for a in agents:
         states[a.get("state", "unknown")] += 1
         roles[a.get("role", "unknown")] += 1
+    alias_collisions = sum(
+        1
+        for a in agents
+        if a.get("identity", {}).get("encounter_alias")
+        and a.get("identity", {}).get("encounter_alias") != a.get("identity", {}).get("display_name")
+    )
     result = {
         "schema_version": "1.0",
         "generated_at": now(),
@@ -270,6 +281,11 @@ def summary(agents: list[dict[str, Any]], queue: list[dict[str, Any]], cells: li
         "task_count": len(queue),
         "agent_states": dict(sorted(states.items())),
         "agent_roles": dict(sorted(roles.items())),
+        "identity": {
+            "immutable_key": "birth_uid",
+            "encounter_aliases_active": alias_collisions,
+            "lineage_survives_version_changes": True,
+        },
         "open_tasks": sum(1 for t in queue if t.get("status") == "open"),
         "assigned_tasks": sum(1 for t in queue if t.get("status") in {"assigned", "review"}),
         "verified_profit_source": "data/earnings.jsonl only",
