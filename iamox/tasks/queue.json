@@ -253,11 +253,16 @@
   },
   {
     "artifacts": [],
+    "blocking_reason": "needs_external_evidence",
     "cell_id": "cell-c7b5d56cb7",
     "created_at": "2026-09-04T13:46:15Z",
     "evidence": [],
     "gate": "research",
-    "handoff": null,
+    "handoff": {
+      "action": "validate_external_demand",
+      "created_at": "2026-09-04T13:48:20Z",
+      "owner": "EjecutorIAMO"
+    },
     "id": "task-c7b5d56cb7",
     "peer_reviews": [
       {
@@ -267,19 +272,25 @@
         "verdict": "needs_external_evidence"
       }
     ],
+    "review_rounds": 1,
     "source": "data/monetization_playbook.json",
-    "status": "review",
+    "status": "blocked",
     "title": "Data cleanup and normalization SaaS",
-    "updated_at": "2026-09-04T13:46:15Z",
+    "updated_at": "2026-09-04T13:48:20Z",
     "verified_net_profit_eur": "0.00"
   },
   {
     "artifacts": [],
+    "blocking_reason": "needs_external_evidence",
     "cell_id": "cell-fa6cc34c1c",
     "created_at": "2026-09-04T13:46:15Z",
     "evidence": [],
     "gate": "research",
-    "handoff": null,
+    "handoff": {
+      "action": "validate_external_demand",
+      "created_at": "2026-09-04T13:48:20Z",
+      "owner": "EjecutorIAMO"
+    },
     "id": "task-fa6cc34c1c",
     "peer_reviews": [
       {
@@ -289,19 +300,25 @@
         "verdict": "needs_external_evidence"
       }
     ],
+    "review_rounds": 1,
     "source": "data/monetization_playbook.json",
-    "status": "review",
+    "status": "blocked",
     "title": "Multi-source SaaS metrics cockpit",
-    "updated_at": "2026-09-04T13:46:15Z",
+    "updated_at": "2026-09-04T13:48:20Z",
     "verified_net_profit_eur": "0.00"
   },
   {
     "artifacts": [],
+    "blocking_reason": "needs_external_evidence",
     "cell_id": "cell-c56187220f",
     "created_at": "2026-09-04T13:46:15Z",
     "evidence": [],
     "gate": "research",
-    "handoff": null,
+    "handoff": {
+      "action": "validate_external_demand",
+      "created_at": "2026-09-04T13:48:20Z",
+      "owner": "EjecutorIAMO"
+    },
     "id": "task-c56187220f",
     "peer_reviews": [
       {
@@ -311,19 +328,25 @@
         "verdict": "needs_external_evidence"
       }
     ],
+    "review_rounds": 1,
     "source": "data/monetization_playbook.json",
-    "status": "review",
+    "status": "blocked",
     "title": "Paid API wrapper around a difficult public workflow",
-    "updated_at": "2026-09-04T13:46:15Z",
+    "updated_at": "2026-09-04T13:48:20Z",
     "verified_net_profit_eur": "0.00"
   },
   {
     "artifacts": [],
+    "blocking_reason": "needs_external_evidence",
     "cell_id": "cell-a79abdcbec",
     "created_at": "2026-09-04T13:46:15Z",
     "evidence": [],
     "gate": "research",
-    "handoff": null,
+    "handoff": {
+      "action": "validate_external_demand",
+      "created_at": "2026-09-04T13:48:20Z",
+      "owner": "EjecutorIAMO"
+    },
     "id": "task-a79abdcbec",
     "peer_reviews": [
       {
@@ -333,19 +356,25 @@
         "verdict": "needs_external_evidence"
       }
     ],
+    "review_rounds": 1,
     "source": "data/monetization_playbook.json",
-    "status": "review",
+    "status": "blocked",
     "title": "Webhook relay, retry or transformation service",
-    "updated_at": "2026-09-04T13:46:15Z",
+    "updated_at": "2026-09-04T13:48:20Z",
     "verified_net_profit_eur": "0.00"
   },
   {
     "artifacts": [],
+    "blocking_reason": "needs_external_evidence",
     "cell_id": "cell-cf54004a21",
     "created_at": "2026-09-04T13:46:15Z",
     "evidence": [],
     "gate": "research",
-    "handoff": null,
+    "handoff": {
+      "action": "validate_external_demand",
+      "created_at": "2026-09-04T13:48:20Z",
+      "owner": "EjecutorIAMO"
+    },
     "id": "task-cf54004a21",
     "peer_reviews": [
       {
@@ -355,19 +384,25 @@
         "verdict": "needs_external_evidence"
       }
     ],
+    "review_rounds": 1,
     "source": "data/monetization_playbook.json",
-    "status": "review",
+    "status": "blocked",
     "title": "CSV/JSON/XML converter utility",
-    "updated_at": "2026-09-04T13:46:15Z",
+    "updated_at": "2026-09-04T13:48:20Z",
     "verified_net_profit_eur": "0.00"
   },
   {
     "artifacts": [],
+    "blocking_reason": "needs_external_evidence",
     "cell_id": "cell-4ceaf3b34b",
     "created_at": "2026-09-04T13:46:15Z",
     "evidence": [],
     "gate": "research",
-    "handoff": null,
+    "handoff": {
+      "action": "validate_external_demand",
+      "created_at": "2026-09-04T13:48:20Z",
+      "owner": "EjecutorIAMO"
+    },
     "id": "task-4ceaf3b34b",
     "peer_reviews": [
       {
@@ -377,19 +412,25 @@
         "verdict": "needs_external_evidence"
       }
     ],
+    "review_rounds": 1,
     "source": "data/monetization_playbook.json",
-    "status": "review",
+    "status": "blocked",
     "title": "Invoice or quote generator",
-    "updated_at": "2026-09-04T13:46:15Z",
+    "updated_at": "2026-09-04T13:48:20Z",
     "verified_net_profit_eur": "0.00"
   },
   {
     "artifacts": [],
+    "blocking_reason": "needs_external_evidence",
     "cell_id": "cell-7a02e94333",
     "created_at": "2026-09-04T13:46:15Z",
     "evidence": [],
     "gate": "research",
-    "handoff": null,
+    "handoff": {
+      "action": "validate_external_demand",
+      "created_at": "2026-09-04T13:48:20Z",
+      "owner": "EjecutorIAMO"
+    },
     "id": "task-7a02e94333",
     "peer_reviews": [
       {
@@ -399,19 +440,25 @@
         "verdict": "needs_external_evidence"
       }
     ],
+    "review_rounds": 1,
     "source": "data/monetization_playbook.json",
-    "status": "review",
+    "status": "blocked",
     "title": "PDF, QR or document utility",
-    "updated_at": "2026-09-04T13:46:15Z",
+    "updated_at": "2026-09-04T13:48:20Z",
     "verified_net_profit_eur": "0.00"
   },
   {
     "artifacts": [],
+    "blocking_reason": "needs_external_evidence",
     "cell_id": "cell-dcdb046463",
     "created_at": "2026-09-04T13:46:15Z",
     "evidence": [],
     "gate": "research",
-    "handoff": null,
+    "handoff": {
+      "action": "validate_external_demand",
+      "created_at": "2026-09-04T13:48:20Z",
+      "owner": "EjecutorIAMO"
+    },
     "id": "task-dcdb046463",
     "peer_reviews": [
       {
@@ -421,19 +468,25 @@
         "verdict": "needs_external_evidence"
       }
     ],
+    "review_rounds": 1,
     "source": "data/monetization_playbook.json",
-    "status": "review",
+    "status": "blocked",
     "title": "Browser extension solving one repetitive web task",
-    "updated_at": "2026-09-04T13:46:15Z",
+    "updated_at": "2026-09-04T13:48:20Z",
     "verified_net_profit_eur": "0.00"
   },
   {
     "artifacts": [],
+    "blocking_reason": "needs_external_evidence",
     "cell_id": "cell-17a3474942",
     "created_at": "2026-09-04T13:46:15Z",
     "evidence": [],
     "gate": "research",
-    "handoff": null,
+    "handoff": {
+      "action": "validate_external_demand",
+      "created_at": "2026-09-04T13:48:20Z",
+      "owner": "EjecutorIAMO"
+    },
     "id": "task-17a3474942",
     "peer_reviews": [
       {
@@ -443,10 +496,209 @@
         "verdict": "needs_external_evidence"
       }
     ],
+    "review_rounds": 1,
+    "source": "data/monetization_playbook.json",
+    "status": "blocked",
+    "title": "WordPress plugin for a narrow business need",
+    "updated_at": "2026-09-04T13:48:20Z",
+    "verified_net_profit_eur": "0.00"
+  },
+  {
+    "artifacts": [],
+    "cell_id": "cell-7d3b1a7d1b",
+    "created_at": "2026-09-04T13:48:20Z",
+    "evidence": [],
+    "gate": "research",
+    "handoff": null,
+    "id": "task-7d3b1a7d1b",
+    "peer_reviews": [
+      {
+        "at": "2026-09-04T13:48:20Z",
+        "note": "La célula debe aportar evidencia externa verificable antes de escalar.",
+        "reviewer": "iamo227",
+        "verdict": "needs_external_evidence"
+      }
+    ],
     "source": "data/monetization_playbook.json",
     "status": "review",
-    "title": "WordPress plugin for a narrow business need",
-    "updated_at": "2026-09-04T13:46:15Z",
+    "title": "Shopify app or merchant helper",
+    "updated_at": "2026-09-04T13:48:20Z",
+    "verified_net_profit_eur": "0.00"
+  },
+  {
+    "artifacts": [],
+    "cell_id": "cell-5ad2cd9060",
+    "created_at": "2026-09-04T13:48:20Z",
+    "evidence": [],
+    "gate": "research",
+    "handoff": null,
+    "id": "task-5ad2cd9060",
+    "peer_reviews": [
+      {
+        "at": "2026-09-04T13:48:20Z",
+        "note": "La célula debe aportar evidencia externa verificable antes de escalar.",
+        "reviewer": "iamo189",
+        "verdict": "needs_external_evidence"
+      }
+    ],
+    "source": "data/monetization_playbook.json",
+    "status": "review",
+    "title": "GitHub Action sold as setup plus support",
+    "updated_at": "2026-09-04T13:48:20Z",
+    "verified_net_profit_eur": "0.00"
+  },
+  {
+    "artifacts": [],
+    "cell_id": "cell-06774a6d55",
+    "created_at": "2026-09-04T13:48:20Z",
+    "evidence": [],
+    "gate": "research",
+    "handoff": null,
+    "id": "task-06774a6d55",
+    "peer_reviews": [
+      {
+        "at": "2026-09-04T13:48:20Z",
+        "note": "La célula debe aportar evidencia externa verificable antes de escalar.",
+        "reviewer": "iamo380",
+        "verdict": "needs_external_evidence"
+      }
+    ],
+    "source": "data/monetization_playbook.json",
+    "status": "review",
+    "title": "CLI or local automation toolkit",
+    "updated_at": "2026-09-04T13:48:20Z",
+    "verified_net_profit_eur": "0.00"
+  },
+  {
+    "artifacts": [],
+    "cell_id": "cell-ac1e41be6e",
+    "created_at": "2026-09-04T13:48:20Z",
+    "evidence": [],
+    "gate": "research",
+    "handoff": null,
+    "id": "task-ac1e41be6e",
+    "peer_reviews": [
+      {
+        "at": "2026-09-04T13:48:20Z",
+        "note": "La célula debe aportar evidencia externa verificable antes de escalar.",
+        "reviewer": "iamo64",
+        "verdict": "needs_external_evidence"
+      }
+    ],
+    "source": "data/monetization_playbook.json",
+    "status": "review",
+    "title": "Spreadsheet template with formulas and dashboard",
+    "updated_at": "2026-09-04T13:48:20Z",
+    "verified_net_profit_eur": "0.00"
+  },
+  {
+    "artifacts": [],
+    "cell_id": "cell-b2b8ff78c9",
+    "created_at": "2026-09-04T13:48:20Z",
+    "evidence": [],
+    "gate": "research",
+    "handoff": null,
+    "id": "task-b2b8ff78c9",
+    "peer_reviews": [
+      {
+        "at": "2026-09-04T13:48:20Z",
+        "note": "La célula debe aportar evidencia externa verificable antes de escalar.",
+        "reviewer": "iamo232",
+        "verdict": "needs_external_evidence"
+      }
+    ],
+    "source": "data/monetization_playbook.json",
+    "status": "review",
+    "title": "Notion workspace for a specific role",
+    "updated_at": "2026-09-04T13:48:20Z",
+    "verified_net_profit_eur": "0.00"
+  },
+  {
+    "artifacts": [],
+    "cell_id": "cell-9a878b4059",
+    "created_at": "2026-09-04T13:48:20Z",
+    "evidence": [],
+    "gate": "research",
+    "handoff": null,
+    "id": "task-9a878b4059",
+    "peer_reviews": [
+      {
+        "at": "2026-09-04T13:48:20Z",
+        "note": "La célula debe aportar evidencia externa verificable antes de escalar.",
+        "reviewer": "iamo539",
+        "verdict": "needs_external_evidence"
+      }
+    ],
+    "source": "data/monetization_playbook.json",
+    "status": "review",
+    "title": "Editable social/content design pack",
+    "updated_at": "2026-09-04T13:48:20Z",
+    "verified_net_profit_eur": "0.00"
+  },
+  {
+    "artifacts": [],
+    "cell_id": "cell-a2dc6c3f98",
+    "created_at": "2026-09-04T13:48:20Z",
+    "evidence": [],
+    "gate": "research",
+    "handoff": null,
+    "id": "task-a2dc6c3f98",
+    "peer_reviews": [
+      {
+        "at": "2026-09-04T13:48:20Z",
+        "note": "La célula debe aportar evidencia externa verificable antes de escalar.",
+        "reviewer": "iamo564",
+        "verdict": "needs_external_evidence"
+      }
+    ],
+    "source": "data/monetization_playbook.json",
+    "status": "review",
+    "title": "Prompt plus workflow pack tied to an outcome",
+    "updated_at": "2026-09-04T13:48:20Z",
+    "verified_net_profit_eur": "0.00"
+  },
+  {
+    "artifacts": [],
+    "cell_id": "cell-a1f4f89349",
+    "created_at": "2026-09-04T13:48:20Z",
+    "evidence": [],
+    "gate": "research",
+    "handoff": null,
+    "id": "task-a1f4f89349",
+    "peer_reviews": [
+      {
+        "at": "2026-09-04T13:48:20Z",
+        "note": "La célula debe aportar evidencia externa verificable antes de escalar.",
+        "reviewer": "iamo636",
+        "verdict": "needs_external_evidence"
+      }
+    ],
+    "source": "data/monetization_playbook.json",
+    "status": "review",
+    "title": "Code starter kit or boilerplate",
+    "updated_at": "2026-09-04T13:48:20Z",
+    "verified_net_profit_eur": "0.00"
+  },
+  {
+    "artifacts": [],
+    "cell_id": "cell-25fd40e309",
+    "created_at": "2026-09-04T13:48:20Z",
+    "evidence": [],
+    "gate": "research",
+    "handoff": null,
+    "id": "task-25fd40e309",
+    "peer_reviews": [
+      {
+        "at": "2026-09-04T13:48:20Z",
+        "note": "La célula debe aportar evidencia externa verificable antes de escalar.",
+        "reviewer": "iamo706",
+        "verdict": "needs_external_evidence"
+      }
+    ],
+    "source": "data/monetization_playbook.json",
+    "status": "review",
+    "title": "Landing-page starter bundle for one niche",
+    "updated_at": "2026-09-04T13:48:20Z",
     "verified_net_profit_eur": "0.00"
   }
 ]
