@@ -1,0 +1,49 @@
+name: Refresh IAMO agent runtime
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "11 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Synchronize
+        run: git pull --ff-only origin main
+
+      - name: Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild runtime and public snapshots
+        run: |
+          python3 scripts/rebuild_runtime.py
+          python3 scripts/rebuild_proximity.py
+          python3 scripts/update_readme.py
+
+      - name: Commit snapshot refresh
+        run: |
+          set -euo pipefail
+          git config user.name "RankingIAMO Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/agents.json data/opportunities.json network/cells.json proximity.json README.md
+          git diff --cached --check
+          if git diff --cached --quiet; then
+            echo "No runtime changes to commit."
+            exit 0
+          fi
+          git commit -m "runtime: refresh IAMO agent snapshots"
+          git push origin HEAD:main
