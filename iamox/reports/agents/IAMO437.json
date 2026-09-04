@@ -9,14 +9,14 @@
       },
       "archetype": "pathfinder",
       "confidence": 0.562,
-      "intent": "observe_other_work",
-      "interpretation": "No tengo una tarea asignada; elijo observe_other_work según mi experiencia y temperamento.",
+      "intent": "prepare_to_help_peer",
+      "interpretation": "No tengo una tarea asignada; elijo prepare_to_help_peer según mi experiencia y temperamento.",
       "signature": "c697135165000971",
       "version": "0.3.0-individual"
     },
     "cell_id": null,
     "encounter_name": "IAMO437",
-    "heartbeat_at": "2026-09-04T16:47:42Z",
+    "heartbeat_at": "2026-09-04T16:51:22Z",
     "id": "iamo437",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:a800698e4c0bbb8d4b8e",
@@ -29,9 +29,15 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 0,
+      "heartbeats": 1,
       "progress_events": 0,
-      "reproduction": {},
+      "reproduction": {
+        "births": 0,
+        "last_birth_at": null,
+        "last_child_birth_uid": null,
+        "maturity_index": 0,
+        "next_maturity_age": 1
+      },
       "stagnation": 0
     },
     "memory": {
@@ -56,15 +62,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": 3.23033,
-      "steps": 1,
+      "heading": 0.64848,
+      "steps": 2,
       "version": "0.2.0",
-      "x": 289.94,
-      "y": 410.2,
-      "zone": "forest",
-      "zone_name": "Bosque de Exploración"
+      "x": 308.2,
+      "y": 424.04,
+      "zone": "plaza",
+      "zone_name": "Plaza DesarrollAMO"
     }
   },
-  "reported_at": "2026-09-04T16:47:41Z",
+  "reported_at": "2026-09-04T16:51:22Z",
   "schema": "iamox.report.v1"
 }

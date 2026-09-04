@@ -9,14 +9,14 @@
       },
       "archetype": "merchant",
       "confidence": 0.51,
-      "intent": "improve_small_capability",
-      "interpretation": "No tengo una tarea asignada; elijo improve_small_capability según mi experiencia y temperamento.",
+      "intent": "observe_other_work",
+      "interpretation": "No tengo una tarea asignada; elijo observe_other_work según mi experiencia y temperamento.",
       "signature": "0346d32a907ad2ae",
       "version": "0.3.0-individual"
     },
     "cell_id": null,
     "encounter_name": "IAMO504",
-    "heartbeat_at": "2026-09-04T16:47:42Z",
+    "heartbeat_at": "2026-09-04T16:51:22Z",
     "id": "iamo504",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:7a7c5d89f459e8c35ad0",
@@ -29,9 +29,15 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 0,
+      "heartbeats": 1,
       "progress_events": 0,
-      "reproduction": {},
+      "reproduction": {
+        "births": 0,
+        "last_birth_at": null,
+        "last_child_birth_uid": null,
+        "maturity_index": 0,
+        "next_maturity_age": 1
+      },
       "stagnation": 0
     },
     "memory": {
@@ -46,9 +52,9 @@
     "report_file": "IAMO504.json",
     "reputation": {
       "cycles": 0,
-      "delivery": 7,
+      "delivery": 8,
       "economic_truth": 0,
-      "evidence": 7,
+      "evidence": 8,
       "peer_help": 0
     },
     "role": "seller",
@@ -56,15 +62,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": 5.66391,
-      "steps": 1,
+      "heading": -3.13123,
+      "steps": 2,
       "version": "0.2.0",
-      "x": 1587.43,
-      "y": 433.46,
-      "zone": "market",
-      "zone_name": "Mercado de Oportunidades"
+      "x": 1564.87,
+      "y": 433.23,
+      "zone": "forest",
+      "zone_name": "Bosque de Exploración"
     }
   },
-  "reported_at": "2026-09-04T16:47:41Z",
+  "reported_at": "2026-09-04T16:51:22Z",
   "schema": "iamox.report.v1"
 }

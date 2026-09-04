@@ -9,14 +9,14 @@
       },
       "archetype": "archivist",
       "confidence": 0.608,
-      "intent": "review_personal_memory",
-      "interpretation": "No tengo una tarea asignada; elijo review_personal_memory según mi experiencia y temperamento.",
+      "intent": "improve_small_capability",
+      "interpretation": "No tengo una tarea asignada; elijo improve_small_capability según mi experiencia y temperamento.",
       "signature": "938db31f6a15d6b6",
       "version": "0.3.0-individual"
     },
     "cell_id": null,
     "encounter_name": "IAMO275",
-    "heartbeat_at": "2026-09-04T16:47:42Z",
+    "heartbeat_at": "2026-09-04T16:51:22Z",
     "id": "iamo275",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:b728638355c260d2a8b5",
@@ -29,9 +29,15 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 0,
+      "heartbeats": 1,
       "progress_events": 0,
-      "reproduction": {},
+      "reproduction": {
+        "births": 0,
+        "last_birth_at": null,
+        "last_child_birth_uid": null,
+        "maturity_index": 0,
+        "next_maturity_age": 1
+      },
       "stagnation": 0
     },
     "memory": {
@@ -56,15 +62,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": 4.52516,
-      "steps": 1,
+      "heading": 4.6896,
+      "steps": 2,
       "version": "0.2.0",
-      "x": 478.17,
-      "y": 1034.52,
+      "x": 477.66,
+      "y": 1012.36,
       "zone": "archive",
       "zone_name": "Archivo de Memoria"
     }
   },
-  "reported_at": "2026-09-04T16:47:41Z",
+  "reported_at": "2026-09-04T16:51:22Z",
   "schema": "iamox.report.v1"
 }

@@ -9,14 +9,14 @@
       },
       "archetype": "pathfinder",
       "confidence": 0.618,
-      "intent": "improve_small_capability",
-      "interpretation": "No tengo una tarea asignada; elijo improve_small_capability según mi experiencia y temperamento.",
+      "intent": "prepare_to_help_peer",
+      "interpretation": "No tengo una tarea asignada; elijo prepare_to_help_peer según mi experiencia y temperamento.",
       "signature": "b5c4ac02ab0046f1",
       "version": "0.3.0-individual"
     },
     "cell_id": null,
     "encounter_name": "IAMO519",
-    "heartbeat_at": "2026-09-04T16:47:42Z",
+    "heartbeat_at": "2026-09-04T16:51:22Z",
     "id": "iamo519",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:6618ab7503256425a7d8",
@@ -29,9 +29,15 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 0,
+      "heartbeats": 1,
       "progress_events": 0,
-      "reproduction": {},
+      "reproduction": {
+        "births": 0,
+        "last_birth_at": null,
+        "last_child_birth_uid": null,
+        "maturity_index": 0,
+        "next_maturity_age": 1
+      },
       "stagnation": 0
     },
     "memory": {
@@ -46,9 +52,9 @@
     "report_file": "IAMO519.json",
     "reputation": {
       "cycles": 0,
-      "delivery": 7,
+      "delivery": 8,
       "economic_truth": 0,
-      "evidence": 7,
+      "evidence": 8,
       "peer_help": 0
     },
     "role": "scout",
@@ -56,15 +62,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": 5.41912,
-      "steps": 1,
+      "heading": 1.1224,
+      "steps": 2,
       "version": "0.2.0",
-      "x": 446.91,
-      "y": 100.62,
-      "zone": "forest",
-      "zone_name": "Bosque de Exploración"
+      "x": 458.13,
+      "y": 123.95,
+      "zone": "plaza",
+      "zone_name": "Plaza DesarrollAMO"
     }
   },
-  "reported_at": "2026-09-04T16:47:41Z",
+  "reported_at": "2026-09-04T16:51:22Z",
   "schema": "iamox.report.v1"
 }
