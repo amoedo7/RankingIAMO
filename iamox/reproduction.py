@@ -30,8 +30,8 @@ def maturity(index: int) -> int:
     if index <= 0:
         return 1
     a, b = 1, 2
-    for _ in range(index):
-        if _ == index - 1:
+    for step in range(index):
+        if step == index - 1:
             return b
         a, b = b, a + b
     return b
@@ -39,15 +39,13 @@ def maturity(index: int) -> int:
 
 def ensure_reproduction(agent: dict[str, Any]) -> dict[str, Any]:
     life = agent.setdefault("life", {})
-    old = life.get("reproduction") if isinstance(life.get("reproduction"), dict) else {}
-    index = int(old.get("maturity_index", 0) or 0)
-    state = {
-        "births": int(old.get("births", 0) or 0),
-        "maturity_index": index,
-        "next_maturity_age": int(old.get("next_maturity_age", maturity(index)) or maturity(index)),
-        "last_birth_at": old.get("last_birth_at"),
-        "last_child_birth_uid": old.get("last_child_birth_uid"),
-    }
+    state = life.get("reproduction") if isinstance(life.get("reproduction"), dict) else {}
+    index = int(state.get("maturity_index", 0) or 0)
+    state["births"] = int(state.get("births", 0) or 0)
+    state["maturity_index"] = index
+    state["next_maturity_age"] = int(state.get("next_maturity_age", maturity(index)) or maturity(index))
+    state.setdefault("last_birth_at", None)
+    state.setdefault("last_child_birth_uid", None)
     life["reproduction"] = state
     return state
 
@@ -83,6 +81,13 @@ def mark_birth(parent: dict[str, Any], child: dict[str, Any], at: str) -> None:
     state["last_child_birth_uid"] = child.get("birth_uid")
 
 
+def _seed_path() -> str:
+    try:
+        return str(MIGRATION_SEED.relative_to(ROOT)).replace("\\", "/")
+    except ValueError:
+        return str(MIGRATION_SEED)
+
+
 def _write_migration_seed(parent: dict[str, Any], at: str, population: int, capacity: int) -> str:
     MIGRATION_SEED.parent.mkdir(parents=True, exist_ok=True)
     identity_state = parent.get("identity", {})
@@ -99,11 +104,11 @@ def _write_migration_seed(parent: dict[str, Any], at: str, population: int, capa
         "instruction": "An authorized host may accept this seed and create a new local birth; no credentials or external writes are implied.",
     }
     MIGRATION_SEED.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    return str(MIGRATION_SEED.relative_to(ROOT)).replace("\\", "/")
+    return _seed_path()
 
 
 def reproduce(agents: list[dict[str, Any]], at: str) -> dict[str, Any]:
-    registry, rows = spawn.load_registry()
+    _registry, rows = spawn.load_registry()
     before = len(rows)
     capacity = _env_int("IAMOX_REGISTRY_CAPACITY", DEFAULT_CAPACITY, minimum=1)
     max_births = _env_int("IAMOX_BIRTHS_PER_PULSE", 1, minimum=0, maximum=10)
