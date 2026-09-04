@@ -8,9 +8,9 @@ on:
     branches:
       - main
     paths:
-      - "iamox/**"
+      - "iamox/*.py"
+      - "iamox/genoma.json"
       - ".github/workflows/iamox-heartbeat.yml"
-      - "data/competitors.json"
       - "data/attempts.jsonl"
       - "data/earnings.jsonl"
       - "data/latest.json"
