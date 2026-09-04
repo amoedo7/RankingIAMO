@@ -7,6 +7,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse
 
+from iamo_runtime import persist_runtime
+
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 RUNTIME = ROOT / "runtime"
@@ -134,9 +136,12 @@ def normalize_result(raw, identity):
         "confidence_0_100": confidence,
         "differentiation_from_previous": clean_text(raw.get("differentiation_from_previous"), 5000),
         "next_step": clean_text(raw.get("next_step"), 5000),
-        # A model response can never credit itself with money.
         "revenue_claim_eur": "0.00",
         "notes": clean_text(raw.get("notes"), 5000),
+        "agent_heartbeat": {
+            "mode": clean_text(identity.get("mode"), 40) or "heartbeat",
+            "cell_id": clean_text(identity.get("cell_id"), 120),
+        },
     }
 
 
@@ -302,6 +307,7 @@ def main():
         "score_source": "data/earnings.jsonl only",
         "parse_error": parse_error,
         "result": result,
+        "heartbeat_mode": identity.get("mode", "heartbeat"),
     }
 
     attempts = read_attempts()
@@ -312,6 +318,7 @@ def main():
 
     LATEST.write_text(json.dumps(attempt, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     BOARD.write_text(render_board(attempts), encoding="utf-8")
+    persist_runtime()
     print(f"{identity['name']}: {status} · {ref}")
 
 
