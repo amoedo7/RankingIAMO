@@ -6,6 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ATTEMPTS = ROOT / "data" / "attempts.jsonl"
+AGENTS = ROOT / "data" / "agents.json"
 RUNTIME = ROOT / "runtime"
 RUNS = ROOT / "executor" / "runs"
 CONTRACT = ROOT / "PROMPT_EJECUTOR.md"
@@ -40,8 +41,42 @@ def already_executed(ref):
     return (RUNS / f"{ref}.json").exists()
 
 
+def load_agents():
+    if not AGENTS.exists():
+        return []
+    data = json.loads(AGENTS.read_text(encoding="utf-8"))
+    rows = data.get("agents", []) if isinstance(data, dict) else []
+    return [row for row in rows if isinstance(row, dict)]
+
+
 def select_target(attempts):
     requested = str(os.environ.get("IAMO_NUMBER", "") or "").strip()
+    agents = load_agents()
+    handoffable = []
+    for agent in agents:
+        tasks = agent.get("tasks", [])
+        if any(
+            task.get("kind") == "executor_handoff" and task.get("status") == "ready"
+            for task in tasks
+        ):
+            handoffable.append(agent)
+    handoffable.sort(
+        key=lambda row: (
+            -max((int(task.get("priority") or 0) for task in row.get("tasks", [])), default=0),
+            -int((row.get("state") or {}).get("proximity_score") or 0),
+            int(row.get("number") or 0),
+        )
+    )
+
+    if requested:
+        try:
+            number = int(requested)
+        except ValueError:
+            raise SystemExit(f"IAMO_NUMBER inválido: {requested}")
+        for row in handoffable:
+            if int(row.get("number") or 0) == number:
+                return row
+
     candidates = [
         row for row in attempts
         if row.get("status") == "attempt_completed"
@@ -49,14 +84,18 @@ def select_target(attempts):
     ]
     candidates.sort(key=lambda row: int(row.get("competitor_number") or 0))
 
-    if requested:
-        try:
-            number = int(requested)
-        except ValueError:
-            raise SystemExit(f"IAMO_NUMBER inválido: {requested}")
-        for row in candidates:
-            if int(row.get("competitor_number") or 0) == number:
-                return row
+    if handoffable:
+        for row in handoffable:
+            ref = str(row.get("payment_reference") or "")
+            if ref and not already_executed(ref):
+                return {
+                    "competitor_name": row.get("name"),
+                    "competitor_number": row.get("number"),
+                    "payment_reference": ref,
+                    "verified_net_profit_eur": (row.get("evidence") or {}).get("verified_net_profit_eur", "0.00"),
+                    "result": (row.get("attempt") or {}).get("result") or {},
+                    "agent_runtime": row,
+                }
         return None
 
     for row in candidates:
@@ -101,6 +140,7 @@ def main():
         "official_offer_url": offer_url,
         "verified_net_profit_eur": target.get("verified_net_profit_eur", "0.00"),
         "strategy_result": target.get("result") or {},
+        "agent_runtime": target.get("agent_runtime") or {},
         "executor_policy": {
             "autonomy_mode": policy.get("autonomy_mode", "high"),
             "max_prospects_per_iamo": max_prospects,
