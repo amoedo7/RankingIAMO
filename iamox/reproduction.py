@@ -56,6 +56,14 @@ def is_eligible(agent: dict[str, Any]) -> bool:
     return age >= int(state["next_maturity_age"])
 
 
+def _generation(agent: dict[str, Any]) -> int:
+    value = agent.get("identity", {}).get("generation")
+    try:
+        return int(value) if value is not None else 1
+    except (TypeError, ValueError):
+        return 1
+
+
 def choose_parent(agents: list[dict[str, Any]], used: set[str] | None = None) -> dict[str, Any] | None:
     used = used or set()
     candidates = [a for a in agents if a.get("id") not in used and is_eligible(a)]
@@ -63,7 +71,7 @@ def choose_parent(agents: list[dict[str, Any]], used: set[str] | None = None) ->
         return None
     candidates.sort(
         key=lambda a: (
-            int(a.get("identity", {}).get("generation", 1) or 1),
+            _generation(a),
             int(a.get("life", {}).get("reproduction", {}).get("births", 0) or 0),
             int(a.get("number", 10**9) or 10**9),
             str(a.get("id") or ""),
