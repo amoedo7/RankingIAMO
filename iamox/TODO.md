@@ -1,0 +1,5 @@
+- Validar CI de heartbeat.
+- Confirmar compatibilidad con `data/competitors.json`.
+- Verificar que se materialicen todos los IAMOX existentes.
+- Confirmar que el ledger económico no se modifica.
+- Recién entonces considerar merge.
