@@ -1,14 +1,12 @@
-name: IAMOX individual birth
+name: IAMOX manual bootstrap birth
 
 on:
   workflow_dispatch:
     inputs:
       count:
-        description: "How many IAMOX to create (1-10)"
+        description: "Emergency/bootstrap births to create manually (1-10)"
         required: false
         default: "1"
-  schedule:
-    - cron: "*/10 * * * *"
 
 permissions:
   contents: write
@@ -34,32 +32,27 @@ jobs:
       - name: Verify IAMOX runtime
         working-directory: iamox
         run: python -m unittest discover -v -p "test_*.py"
-      - name: Create new identity
+      - name: Create bootstrap identity
         env:
           IAMOX_COUNT: ${{ github.event.inputs.count || '1' }}
-        run: python iamox/spawn.py --count "$IAMOX_COUNT"
-      - name: Give the newborn its own brain, memory and world state
+        run: python iamox/spawn.py --count "$IAMOX_COUNT" --birthplace "github:amoedo7/RankingIAMO:manual"
+      - name: Materialize brain, memory and world state
+        env:
+          IAMOX_REPRODUCTION_ENABLED: "0"
         run: python iamox/runner.py
-      - name: Persist birth and first report
+      - name: Persist manual birth
         run: |
-          git config user.name "IAMOX Birth Runtime"
+          git config user.name "IAMOX Bootstrap Runtime"
           git config user.email "actions@users.noreply.github.com"
           git add data/competitors.json iamox/state iamox/tasks iamox/cells iamox/handoffs iamox/reports iamox/world
           if git diff --cached --quiet; then
-            echo "No birth changes."
+            echo "No bootstrap changes."
             exit 0
           fi
-          NEWEST=$(python - <<'PY'
-          import json
-          data=json.load(open('data/competitors.json',encoding='utf-8'))
-          rows=data.get('competitors',data) if isinstance(data,dict) else data
-          print(rows[-1].get('name','IAMOX'))
-          PY
-          )
-          git commit -m "birth(iamox): ${NEWEST} with individual runtime"
+          git commit -m "birth(iamox): manual bootstrap override"
           git pull --rebase origin main
           git push origin HEAD:main
       - name: Summary
         run: |
-          echo "### IAMOX individual birth" >> "$GITHUB_STEP_SUMMARY"
-          echo "New IAMOX identities inherit the same organs, but receive their own deterministic brain signature, temperament, memory and coordinates." >> "$GITHUB_STEP_SUMMARY"
+          echo "### IAMOX manual bootstrap" >> "$GITHUB_STEP_SUMMARY"
+          echo "Normal reproduction is driven by the living heartbeat. This workflow is only an explicit manual override." >> "$GITHUB_STEP_SUMMARY"
