@@ -8,15 +8,15 @@
         "relationship": "origin_affinity"
       },
       "archetype": "pathfinder",
-      "confidence": 0.649,
-      "intent": "prepare_to_help_peer",
-      "interpretation": "No tengo una tarea asignada; elijo prepare_to_help_peer según mi experiencia y temperamento.",
+      "confidence": 0.576,
+      "intent": "seek_external_evidence",
+      "interpretation": "'White-label an existing working AMO utility' necesita evidencia externa antes de avanzar desde research.",
       "signature": "858b6343697ac797",
       "version": "0.3.0-individual"
     },
-    "cell_id": null,
+    "cell_id": "cell-0252786833",
     "encounter_name": "IAMO331",
-    "heartbeat_at": "2026-09-04T19:10:39Z",
+    "heartbeat_at": "2026-09-04T21:33:06Z",
     "id": "iamo331",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:e2061e98dcf214f8cdb5",
@@ -29,8 +29,8 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 2,
-      "progress_events": 0,
+      "heartbeats": 3,
+      "progress_events": 1,
       "reproduction": {
         "births": 0,
         "last_birth_at": null,
@@ -51,26 +51,32 @@
     "number": 331,
     "report_file": "IAMO331.json",
     "reputation": {
-      "cycles": 0,
+      "cycles": 1,
       "delivery": 0,
       "economic_truth": 0,
       "evidence": 0,
       "peer_help": 0
     },
     "role": "scout",
-    "state": "idle",
-    "task": null,
-    "task_id": null,
+    "state": "peer_review",
+    "task": {
+      "blocking_reason": null,
+      "gate": "research",
+      "id": "task-0252786833",
+      "status": "review",
+      "title": "White-label an existing working AMO utility"
+    },
+    "task_id": "task-0252786833",
     "world": {
-      "heading": -0.09411,
-      "steps": 3,
+      "heading": -1.42874,
+      "steps": 4,
       "version": "0.2.0",
-      "x": 442.46,
-      "y": 892.7,
-      "zone": "plaza",
-      "zone_name": "Plaza DesarrollAMO"
+      "x": 450.01,
+      "y": 839.92,
+      "zone": "forest",
+      "zone_name": "Bosque de Exploración"
     }
   },
-  "reported_at": "2026-09-04T19:10:39Z",
+  "reported_at": "2026-09-04T21:33:06Z",
   "schema": "iamox.report.v1"
 }

@@ -8,15 +8,15 @@
         "relationship": "origin_affinity"
       },
       "archetype": "merchant",
-      "confidence": 0.505,
-      "intent": "explore_unknown_route",
-      "interpretation": "No tengo una tarea asignada; elijo explore_unknown_route según mi experiencia y temperamento.",
+      "confidence": 0.565,
+      "intent": "seek_external_evidence",
+      "interpretation": "'Localization and multilingual landing adaptation' necesita evidencia externa antes de avanzar desde research.",
       "signature": "8e70dcb9472dccf7",
       "version": "0.3.0-individual"
     },
-    "cell_id": null,
+    "cell_id": "cell-1b2ad3b476",
     "encounter_name": "IAMO813",
-    "heartbeat_at": "2026-09-04T19:10:39Z",
+    "heartbeat_at": "2026-09-04T21:33:06Z",
     "id": "iamo813",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:b5fea08fcf0646451c18",
@@ -29,8 +29,8 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 2,
-      "progress_events": 0,
+      "heartbeats": 3,
+      "progress_events": 1,
       "reproduction": {
         "births": 0,
         "last_birth_at": null,
@@ -51,26 +51,32 @@
     "number": 813,
     "report_file": "IAMO813.json",
     "reputation": {
-      "cycles": 0,
+      "cycles": 1,
       "delivery": 0,
       "economic_truth": 0,
       "evidence": 0,
       "peer_help": 0
     },
     "role": "seller",
-    "state": "idle",
-    "task": null,
-    "task_id": null,
+    "state": "peer_review",
+    "task": {
+      "blocking_reason": null,
+      "gate": "research",
+      "id": "task-1b2ad3b476",
+      "status": "review",
+      "title": "Localization and multilingual landing adaptation"
+    },
+    "task_id": "task-1b2ad3b476",
     "world": {
-      "heading": 3.97954,
-      "steps": 3,
+      "heading": 3.28473,
+      "steps": 4,
       "version": "0.2.0",
-      "x": 1628.25,
-      "y": 327.18,
-      "zone": "market",
-      "zone_name": "Mercado de Oportunidades"
+      "x": 1595.35,
+      "y": 322.44,
+      "zone": "forest",
+      "zone_name": "Bosque de Exploración"
     }
   },
-  "reported_at": "2026-09-04T19:10:39Z",
+  "reported_at": "2026-09-04T21:33:06Z",
   "schema": "iamox.report.v1"
 }

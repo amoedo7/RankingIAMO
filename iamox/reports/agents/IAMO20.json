@@ -9,14 +9,14 @@
       },
       "archetype": "maker",
       "confidence": 0.673,
-      "intent": "explore_unknown_route",
-      "interpretation": "No tengo una tarea asignada; elijo explore_unknown_route según mi experiencia y temperamento.",
+      "intent": "look_for_useful_problem",
+      "interpretation": "No tengo una tarea asignada; elijo look_for_useful_problem según mi experiencia y temperamento.",
       "signature": "c599e93300c41825",
       "version": "0.3.0-individual"
     },
     "cell_id": null,
     "encounter_name": "IAMO20",
-    "heartbeat_at": "2026-09-04T19:10:39Z",
+    "heartbeat_at": "2026-09-04T21:33:06Z",
     "id": "iamo20",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:7ccc053c78b70ba6712c",
@@ -29,7 +29,7 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 2,
+      "heartbeats": 3,
       "progress_events": 0,
       "reproduction": {
         "births": 0,
@@ -52,9 +52,9 @@
     "report_file": "IAMO20.json",
     "reputation": {
       "cycles": 0,
-      "delivery": 9,
+      "delivery": 10,
       "economic_truth": 0,
-      "evidence": 9,
+      "evidence": 10,
       "peer_help": 0
     },
     "role": "builder",
@@ -62,15 +62,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": 2.3949,
-      "steps": 3,
+      "heading": 2.02531,
+      "steps": 4,
       "version": "0.2.0",
-      "x": 1226.49,
-      "y": 920.95,
+      "x": 1225.9,
+      "y": 945.85,
       "zone": "workshop",
       "zone_name": "Taller de Construcción"
     }
   },
-  "reported_at": "2026-09-04T19:10:39Z",
+  "reported_at": "2026-09-04T21:33:06Z",
   "schema": "iamox.report.v1"
 }
