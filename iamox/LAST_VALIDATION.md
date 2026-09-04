@@ -1,0 +1,1 @@
+Runtime validation on PC: 5/5 tests passed; 984 agents materialized; 9 cells formed; 45 agents entered peer_review; 939 remained available; runtime created no verified profit.

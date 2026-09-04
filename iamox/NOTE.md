@@ -1,0 +1,1 @@
+Branch de trabajo para convertir IAMOX estáticos en agentes vivos. No fusionar hasta validar CI y compatibilidad con `data/competitors.json`.

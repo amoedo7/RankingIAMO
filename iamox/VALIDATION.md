@@ -1,0 +1,1 @@
+Merge gate: tests verdes + materialización correcta de la población + invariantes económicos intactos.

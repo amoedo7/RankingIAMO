@@ -1,0 +1,1 @@
+Local verification on 2026-09-04: 5/5 unit tests passed. `runtime.py` materialized 984 IAMOX agents, formed 9 cells, placed 45 agents in peer review and left 939 idle/available. No verified profit was created by the runtime.

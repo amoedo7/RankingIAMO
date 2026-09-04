@@ -1,0 +1,1 @@
+Los cambios canónicos de esta migración deben escribirse con la conexión GitHub autorizada de `amoedo7`. La PC tiene una credencial Git distinta (`damodesarrollamo`) que no debe usarse para empujar este repo.

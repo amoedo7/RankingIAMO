@@ -1,0 +1,1 @@
+Estado: arquitectura y runtime inicial creados. Pendiente: validar esquema real de competidores y CI antes de merge.

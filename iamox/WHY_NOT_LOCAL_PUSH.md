@@ -1,0 +1,1 @@
+The verification clone on PC is intentionally not a source of truth. GitHub remains canonical; local verification does not change the repository unless explicitly pushed through the authorized owner connection.
