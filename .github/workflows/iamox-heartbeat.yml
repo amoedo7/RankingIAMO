@@ -1,0 +1,58 @@
+name: IAMOX Live Heartbeat
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+  push:
+    branches:
+      - iamox-live-agents-v1
+    paths:
+      - "iamox/**"
+      - ".github/workflows/iamox-heartbeat.yml"
+      - "data/competitors.json"
+      - "data/latest.json"
+      - "data/monetization_playbook.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: iamox-live-heartbeat
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Unit tests
+        working-directory: iamox
+        run: python -m unittest -v test_runtime.py
+      - name: Run IAMOX scheduler
+        run: python iamox/runtime.py
+      - name: Verify economic invariant
+        shell: python
+        run: |
+          import json
+          from pathlib import Path
+          q = json.loads(Path("iamox/tasks/queue.json").read_text())
+          bad = [x for x in q if str(x.get("verified_net_profit_eur", "0.00")) != "0.00"]
+          if bad:
+              raise SystemExit("IAMOX runtime may not create verified profit; only the payment verifier can do that")
+          print("Economic truth invariant OK")
+      - name: Persist heartbeat state on main only
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        run: |
+          git config user.name "IAMOX Runtime"
+          git config user.email "actions@users.noreply.github.com"
+          git add iamox/state iamox/tasks iamox/cells
+          if git diff --cached --quiet; then
+            echo "No state change"
+            exit 0
+          fi
+          git commit -m "chore(iamox): heartbeat state"
+          git push
