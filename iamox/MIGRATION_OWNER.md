@@ -1,0 +1,1 @@
+Canonical write path for this migration: GitHub connector authenticated as repository owner. Local PC clone is verification-only unless its Git credential is corrected explicitly.
