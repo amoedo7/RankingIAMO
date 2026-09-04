@@ -50,6 +50,31 @@ def ensure_reproduction(agent: dict[str, Any]) -> dict[str, Any]:
     return state
 
 
+def reconcile_registered_children(agents: list[dict[str, Any]], rows: list[dict[str, Any]]) -> int:
+    children: dict[str, list[dict[str, Any]]] = {}
+    for row in rows:
+        parent_uid = row.get("parent_birth_uid")
+        if parent_uid:
+            children.setdefault(str(parent_uid), []).append(row)
+    repaired = 0
+    for agent in agents:
+        uid = str(agent.get("identity", {}).get("birth_uid") or "")
+        known = children.get(uid, [])
+        if not uid or not known:
+            continue
+        state = ensure_reproduction(agent)
+        count = len(known)
+        if int(state.get("births", 0) or 0) < count:
+            state["births"] = count
+            state["maturity_index"] = max(int(state.get("maturity_index", 0) or 0), count)
+            state["next_maturity_age"] = maturity(state["maturity_index"])
+            latest = known[-1]
+            state["last_birth_at"] = latest.get("born_at") or state.get("last_birth_at")
+            state["last_child_birth_uid"] = latest.get("birth_uid") or state.get("last_child_birth_uid")
+            repaired += 1
+    return repaired
+
+
 def is_eligible(agent: dict[str, Any]) -> bool:
     state = ensure_reproduction(agent)
     age = int(agent.get("life", {}).get("age_rounds", 0) or 0)
@@ -117,6 +142,7 @@ def _write_migration_seed(parent: dict[str, Any], at: str, population: int, capa
 
 def reproduce(agents: list[dict[str, Any]], at: str) -> dict[str, Any]:
     _registry, rows = spawn.load_registry()
+    repaired_lineage = reconcile_registered_children(agents, rows)
     before = len(rows)
     capacity = _env_int("IAMOX_REGISTRY_CAPACITY", DEFAULT_CAPACITY, minimum=1)
     max_births = _env_int("IAMOX_BIRTHS_PER_PULSE", 1, minimum=0, maximum=10)
@@ -129,6 +155,7 @@ def reproduce(agents: list[dict[str, Any]], at: str) -> dict[str, Any]:
         "births": [],
         "host_full": before >= capacity,
         "migration_seed": None,
+        "repaired_lineage": repaired_lineage,
     }
     if not result["enabled"] or max_births == 0:
         return result

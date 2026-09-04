@@ -89,9 +89,12 @@ def normalize_agent(row: dict[str, Any], old: dict[str, Any] | None = None) -> d
         "state": old.get("state", "idle") if old.get("state") in ACTIVE_STATES else "idle",
         "cell_id": old.get("cell_id"),
         "task_id": old.get("task_id"),
-        "heartbeat_at": at,
+        "heartbeat_at": old.get("heartbeat_at") or at,
         "born_at": row.get("born_at") or old.get("born_at"),
         "identity": old.get("identity", {}),
+        "life": old.get("life", {}),
+        "brain": old.get("brain", {}),
+        "world": old.get("world", {}),
         "reputation": old.get("reputation", {"evidence": 0, "peer_help": 0, "delivery": 0, "economic_truth": 0}),
         "memory": old.get("memory", {"accepted_lessons": [], "failed_patterns": [], "successful_patterns": []}),
         "traits": {

@@ -22,6 +22,23 @@ class RuntimeTests(unittest.TestCase):
         self.assertEqual(agent["state"], "idle")
         self.assertIn(agent["role"], runtime.ROLES)
 
+    def test_agent_normalization_preserves_living_organs(self):
+        row = {"competitor_id": "iamo7", "competitor_name": "IAMO7", "competitor_number": 7}
+        old = {
+            "id": "iamo7",
+            "life": {"heartbeats": 11, "age_rounds": 8, "reproduction": {"births": 2, "maturity_index": 2, "next_maturity_age": 3}},
+            "brain": {"signature": "brain-7", "intent": "observe"},
+            "world": {"zone": "forest", "x": 12.0, "y": 34.0, "steps": 9},
+            "identity": {"birth_uid": "iamo:test:7", "display_name": "IAMO7"},
+        }
+        agent = runtime.normalize_agent(row, old)
+        self.assertEqual(agent["life"]["heartbeats"], 11)
+        self.assertEqual(agent["life"]["age_rounds"], 8)
+        self.assertEqual(agent["life"]["reproduction"]["births"], 2)
+        self.assertEqual(agent["brain"]["signature"], "brain-7")
+        self.assertEqual(agent["world"]["steps"], 9)
+        self.assertEqual(agent["identity"]["birth_uid"], "iamo:test:7")
+
     def test_money_is_not_invented_by_runtime(self):
         row = {"competitor_id": "iamo8", "competitor_name": "IAMO8", "competitor_number": 8}
         agent = runtime.normalize_agent(row)
