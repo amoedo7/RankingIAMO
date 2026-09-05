@@ -7,68 +7,59 @@
         "origin": "DesarrollAMO",
         "relationship": "origin_affinity"
       },
-      "archetype": "merchant",
-      "confidence": 0.588,
+      "archetype": "maker",
+      "confidence": 0.529,
       "intent": "review_personal_memory",
       "interpretation": "No tengo una tarea asignada; elijo review_personal_memory según mi experiencia y temperamento.",
-      "signature": "1e26e976fce53eca",
+      "signature": "12a533d04c068df7",
       "version": "0.3.0-individual"
     },
     "cell_id": null,
-    "encounter_name": "IAMO408",
+    "encounter_name": "IAMO992",
     "heartbeat_at": "2026-09-05T05:41:46Z",
-    "id": "iamo408",
+    "id": "iamo992",
     "identity": {
-      "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:0c9779275814acf3c4ef",
+      "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:72964ded6c087b6f1538",
       "birthplace": "github:amoedo7/RankingIAMO",
-      "display_name": "IAMO408",
-      "encounter_alias": "IAMO408",
-      "generation": 1,
+      "display_name": "IAMO992",
+      "encounter_alias": "IAMO992",
+      "generation": 2,
       "lineage_root": "IAMO1",
-      "parent_birth_uid": null
+      "parent_birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:21ea18ac09ddfe72a22f"
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 6,
+      "heartbeats": 0,
       "progress_events": 0,
-      "reproduction": {
-        "births": 0,
-        "last_birth_at": null,
-        "last_child_birth_uid": null,
-        "maturity_index": 0,
-        "next_maturity_age": 1
-      },
+      "reproduction": {},
       "stagnation": 0
     },
     "memory": {
       "accepted_lessons": [],
-      "failed_patterns": [
-        "research_incomplete: Fallback brain: test route #48 (Zero-backend direct storefront) while Copilot is unavailable."
-      ],
+      "failed_patterns": [],
       "successful_patterns": []
     },
-    "name": "IAMO408",
-    "number": 408,
-    "report_file": "IAMO408.json",
+    "name": "IAMO992",
+    "number": 992,
+    "report_file": "IAMO992.json",
     "reputation": {
-      "cycles": 1,
       "delivery": 0,
       "economic_truth": 0,
       "evidence": 0,
       "peer_help": 0
     },
-    "role": "seller",
+    "role": "builder",
     "state": "idle",
     "task": null,
     "task_id": null,
     "world": {
-      "heading": 0.1776,
-      "steps": 7,
+      "heading": 5.34571,
+      "steps": 1,
       "version": "0.2.0",
-      "x": 1445.94,
-      "y": 339.67,
-      "zone": "market",
-      "zone_name": "Mercado de Oportunidades"
+      "x": 1420.93,
+      "y": 849.47,
+      "zone": "workshop",
+      "zone_name": "Taller de Construcción"
     }
   },
   "reported_at": "2026-09-05T05:41:46Z",
