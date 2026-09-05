@@ -2773,11 +2773,16 @@
   },
   {
     "artifacts": [],
+    "blocking_reason": "needs_external_evidence",
     "cell_id": "cell-e275808751",
     "created_at": "2026-09-04T23:17:29Z",
     "evidence": [],
     "gate": "research",
-    "handoff": null,
+    "handoff": {
+      "action": "validate_external_demand",
+      "created_at": "2026-09-05T01:05:34Z",
+      "owner": "EjecutorIAMO"
+    },
     "id": "task-e275808751",
     "peer_reviews": [
       {
@@ -2787,19 +2792,25 @@
         "verdict": "needs_external_evidence"
       }
     ],
+    "review_rounds": 1,
     "source": "data/monetization_playbook.json",
-    "status": "review",
+    "status": "blocked",
     "title": "Agency reseller package",
-    "updated_at": "2026-09-04T23:17:29Z",
+    "updated_at": "2026-09-05T01:05:34Z",
     "verified_net_profit_eur": "0.00"
   },
   {
     "artifacts": [],
+    "blocking_reason": "needs_external_evidence",
     "cell_id": "cell-190cb50bb6",
     "created_at": "2026-09-04T23:17:29Z",
     "evidence": [],
     "gate": "research",
-    "handoff": null,
+    "handoff": {
+      "action": "validate_external_demand",
+      "created_at": "2026-09-05T01:05:34Z",
+      "owner": "EjecutorIAMO"
+    },
     "id": "task-190cb50bb6",
     "peer_reviews": [
       {
@@ -2809,10 +2820,11 @@
         "verdict": "needs_external_evidence"
       }
     ],
+    "review_rounds": 1,
     "source": "data/monetization_playbook.json",
-    "status": "review",
+    "status": "blocked",
     "title": "License reusable AMO components or templates",
-    "updated_at": "2026-09-04T23:17:29Z",
+    "updated_at": "2026-09-05T01:05:34Z",
     "verified_net_profit_eur": "0.00"
   }
 ]
