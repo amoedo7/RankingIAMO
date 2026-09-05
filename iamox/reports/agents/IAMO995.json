@@ -7,37 +7,31 @@
         "origin": "DesarrollAMO",
         "relationship": "origin_affinity"
       },
-      "archetype": "merchant",
-      "confidence": 0.531,
+      "archetype": "archivist",
+      "confidence": 0.579,
       "intent": "look_for_useful_problem",
       "interpretation": "No tengo una tarea asignada; elijo look_for_useful_problem según mi experiencia y temperamento.",
-      "signature": "6c55d245bf473633",
+      "signature": "08899dca63f8e1ae",
       "version": "0.3.0-individual"
     },
     "cell_id": null,
-    "encounter_name": "IAMO986",
-    "heartbeat_at": "2026-09-05T15:53:20Z",
-    "id": "iamo986",
+    "encounter_name": "IAMO995",
+    "heartbeat_at": "2026-09-05T15:53:21Z",
+    "id": "iamo995",
     "identity": {
-      "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:ed9da7fcf0ee53e5c86c",
+      "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:2b87e244271122e34992",
       "birthplace": "github:amoedo7/RankingIAMO",
-      "display_name": "IAMO986",
-      "encounter_alias": "IAMO986",
-      "generation": 1,
+      "display_name": "IAMO995",
+      "encounter_alias": "IAMO995",
+      "generation": 2,
       "lineage_root": "IAMO1",
-      "parent_birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:cb52e76d9c25934a05c5"
+      "parent_birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:7ca38a2d10d4469a6be9"
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 9,
+      "heartbeats": 0,
       "progress_events": 0,
-      "reproduction": {
-        "births": 0,
-        "last_birth_at": null,
-        "last_child_birth_uid": null,
-        "maturity_index": 0,
-        "next_maturity_age": 1
-      },
+      "reproduction": {},
       "stagnation": 0
     },
     "memory": {
@@ -45,28 +39,27 @@
       "failed_patterns": [],
       "successful_patterns": []
     },
-    "name": "IAMO986",
-    "number": 986,
-    "report_file": "IAMO986.json",
+    "name": "IAMO995",
+    "number": 995,
+    "report_file": "IAMO995.json",
     "reputation": {
-      "cycles": 0,
       "delivery": 0,
       "economic_truth": 0,
       "evidence": 0,
       "peer_help": 0
     },
-    "role": "seller",
+    "role": "accountant",
     "state": "idle",
     "task": null,
     "task_id": null,
     "world": {
-      "heading": -1.59122,
-      "steps": 10,
+      "heading": 2.56959,
+      "steps": 1,
       "version": "0.2.0",
-      "x": 1556.12,
-      "y": 195.37,
-      "zone": "market",
-      "zone_name": "Mercado de Oportunidades"
+      "x": 406.17,
+      "y": 958.81,
+      "zone": "archive",
+      "zone_name": "Archivo de Memoria"
     }
   },
   "reported_at": "2026-09-05T15:53:20Z",
