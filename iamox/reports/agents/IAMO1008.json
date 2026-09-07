@@ -16,7 +16,7 @@
     },
     "cell_id": null,
     "encounter_name": "IAMO1008",
-    "heartbeat_at": "2026-09-07T01:05:12Z",
+    "heartbeat_at": "2026-09-07T06:02:07Z",
     "id": "iamo1008",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:1630f83424840fd1ec26",
@@ -29,9 +29,15 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 0,
+      "heartbeats": 1,
       "progress_events": 0,
-      "reproduction": {},
+      "reproduction": {
+        "births": 0,
+        "last_birth_at": null,
+        "last_child_birth_uid": null,
+        "maturity_index": 0,
+        "next_maturity_age": 1
+      },
       "stagnation": 0
     },
     "memory": {
@@ -43,6 +49,7 @@
     "number": 1008,
     "report_file": "IAMO1008.json",
     "reputation": {
+      "cycles": 0,
       "delivery": 0,
       "economic_truth": 0,
       "evidence": 0,
@@ -53,15 +60,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": 1.61801,
-      "steps": 1,
+      "heading": 1.17219,
+      "steps": 2,
       "version": "0.2.0",
-      "x": 452.21,
-      "y": 378.43,
+      "x": 461.67,
+      "y": 400.9,
       "zone": "forest",
       "zone_name": "Bosque de Exploración"
     }
   },
-  "reported_at": "2026-09-07T01:05:12Z",
+  "reported_at": "2026-09-07T06:02:07Z",
   "schema": "iamox.report.v1"
 }
