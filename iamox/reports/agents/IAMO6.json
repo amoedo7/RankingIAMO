@@ -9,14 +9,14 @@
       },
       "archetype": "merchant",
       "confidence": 0.675,
-      "intent": "explore_unknown_route",
-      "interpretation": "No tengo una tarea asignada; elijo explore_unknown_route según mi experiencia y temperamento.",
+      "intent": "prepare_to_help_peer",
+      "interpretation": "No tengo una tarea asignada; elijo prepare_to_help_peer según mi experiencia y temperamento.",
       "signature": "2060367cd4319ca6",
       "version": "0.3.0-individual"
     },
     "cell_id": null,
     "encounter_name": "IAMO6",
-    "heartbeat_at": "2026-09-06T23:14:21Z",
+    "heartbeat_at": "2026-09-07T01:05:12Z",
     "id": "iamo6",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:7ca38a2d10d4469a6be9",
@@ -29,7 +29,7 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 21,
+      "heartbeats": 22,
       "progress_events": 0,
       "reproduction": {
         "births": 1,
@@ -52,9 +52,9 @@
     "report_file": "IAMO6.json",
     "reputation": {
       "cycles": 0,
-      "delivery": 28,
+      "delivery": 29,
       "economic_truth": 0,
-      "evidence": 28,
+      "evidence": 29,
       "peer_help": 0
     },
     "role": "seller",
@@ -62,15 +62,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": 0.38973,
-      "steps": 22,
+      "heading": 0.77356,
+      "steps": 23,
       "version": "0.2.0",
-      "x": 1515.08,
-      "y": 338.17,
+      "x": 1539.45,
+      "y": 361.97,
       "zone": "market",
       "zone_name": "Mercado de Oportunidades"
     }
   },
-  "reported_at": "2026-09-06T23:14:21Z",
+  "reported_at": "2026-09-07T01:05:12Z",
   "schema": "iamox.report.v1"
 }
