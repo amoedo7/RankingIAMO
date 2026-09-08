@@ -9,14 +9,14 @@
       },
       "archetype": "pathfinder",
       "confidence": 0.466,
-      "intent": "observe_other_work",
-      "interpretation": "No tengo una tarea asignada; elijo observe_other_work según mi experiencia y temperamento.",
+      "intent": "explore_unknown_route",
+      "interpretation": "No tengo una tarea asignada; elijo explore_unknown_route según mi experiencia y temperamento.",
       "signature": "f40cb4d1acfbaaf5",
       "version": "0.3.0-individual"
     },
     "cell_id": null,
     "encounter_name": "IAMO436",
-    "heartbeat_at": "2026-09-08T18:46:40Z",
+    "heartbeat_at": "2026-09-08T21:28:10Z",
     "id": "iamo436",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:accc4d3edde7c7e8500a",
@@ -29,7 +29,7 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 32,
+      "heartbeats": 33,
       "progress_events": 0,
       "reproduction": {
         "births": 0,
@@ -62,15 +62,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": -2.05331,
-      "steps": 33,
+      "heading": -1.64381,
+      "steps": 34,
       "version": "0.2.0",
-      "x": 537.66,
-      "y": 482.91,
+      "x": 536.56,
+      "y": 467.92,
       "zone": "forest",
       "zone_name": "Bosque de Exploración"
     }
   },
-  "reported_at": "2026-09-08T18:46:40Z",
+  "reported_at": "2026-09-08T21:28:10Z",
   "schema": "iamox.report.v1"
 }
