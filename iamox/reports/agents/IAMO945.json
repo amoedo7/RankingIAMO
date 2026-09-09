@@ -9,14 +9,14 @@
       },
       "archetype": "pathfinder",
       "confidence": 0.543,
-      "intent": "prepare_to_help_peer",
-      "interpretation": "No tengo una tarea asignada; elijo prepare_to_help_peer según mi experiencia y temperamento.",
+      "intent": "look_for_useful_problem",
+      "interpretation": "No tengo una tarea asignada; elijo look_for_useful_problem según mi experiencia y temperamento.",
       "signature": "d28aaf56470a6a35",
       "version": "0.3.0-individual"
     },
     "cell_id": null,
     "encounter_name": "IAMO945",
-    "heartbeat_at": "2026-09-09T21:44:22Z",
+    "heartbeat_at": "2026-09-09T23:32:03Z",
     "id": "iamo945",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:4e79f74ecbcd80702f0c",
@@ -29,7 +29,7 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 40,
+      "heartbeats": 41,
       "progress_events": 0,
       "reproduction": {
         "births": 0,
@@ -62,15 +62,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": 0.57801,
-      "steps": 41,
+      "heading": -1.5727,
+      "steps": 42,
       "version": "0.2.0",
-      "x": 422.65,
-      "y": 453.08,
-      "zone": "plaza",
-      "zone_name": "Plaza DesarrollAMO"
+      "x": 422.61,
+      "y": 431.63,
+      "zone": "forest",
+      "zone_name": "Bosque de Exploración"
     }
   },
-  "reported_at": "2026-09-09T21:44:22Z",
+  "reported_at": "2026-09-09T23:32:03Z",
   "schema": "iamox.report.v1"
 }
