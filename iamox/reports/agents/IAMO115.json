@@ -9,14 +9,14 @@
       },
       "archetype": "merchant",
       "confidence": 0.467,
-      "intent": "look_for_useful_problem",
-      "interpretation": "No tengo una tarea asignada; elijo look_for_useful_problem según mi experiencia y temperamento.",
+      "intent": "observe_other_work",
+      "interpretation": "No tengo una tarea asignada; elijo observe_other_work según mi experiencia y temperamento.",
       "signature": "13e19c69dc7e90c1",
       "version": "0.3.0-individual"
     },
     "cell_id": null,
     "encounter_name": "IAMO115",
-    "heartbeat_at": "2026-09-09T19:12:07Z",
+    "heartbeat_at": "2026-09-09T21:44:22Z",
     "id": "iamo115",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:c1647ab199fe8eb10b21",
@@ -29,7 +29,7 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 39,
+      "heartbeats": 40,
       "progress_events": 0,
       "reproduction": {
         "births": 0,
@@ -62,15 +62,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": -2.19264,
-      "steps": 40,
+      "heading": 3.06702,
+      "steps": 41,
       "version": "0.2.0",
-      "x": 1509.11,
-      "y": 175.2,
-      "zone": "market",
-      "zone_name": "Mercado de Oportunidades"
+      "x": 1490.97,
+      "y": 176.56,
+      "zone": "forest",
+      "zone_name": "Bosque de Exploración"
     }
   },
-  "reported_at": "2026-09-09T19:12:07Z",
+  "reported_at": "2026-09-09T21:44:22Z",
   "schema": "iamox.report.v1"
 }

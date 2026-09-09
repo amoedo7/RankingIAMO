@@ -9,14 +9,14 @@
       },
       "archetype": "archivist",
       "confidence": 0.451,
-      "intent": "improve_small_capability",
-      "interpretation": "No tengo una tarea asignada; elijo improve_small_capability según mi experiencia y temperamento.",
+      "intent": "prepare_to_help_peer",
+      "interpretation": "No tengo una tarea asignada; elijo prepare_to_help_peer según mi experiencia y temperamento.",
       "signature": "d77c2c2bf0e5e3a9",
       "version": "0.3.0-individual"
     },
     "cell_id": null,
     "encounter_name": "IAMO1025",
-    "heartbeat_at": "2026-09-09T19:12:07Z",
+    "heartbeat_at": "2026-09-09T21:44:22Z",
     "id": "iamo1025",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:c3b973e3b6c7917d8d5e",
@@ -29,9 +29,15 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 0,
+      "heartbeats": 1,
       "progress_events": 0,
-      "reproduction": {},
+      "reproduction": {
+        "births": 0,
+        "last_birth_at": null,
+        "last_child_birth_uid": null,
+        "maturity_index": 0,
+        "next_maturity_age": 1
+      },
       "stagnation": 0
     },
     "memory": {
@@ -43,6 +49,7 @@
     "number": 1025,
     "report_file": "IAMO1025.json",
     "reputation": {
+      "cycles": 0,
       "delivery": 0,
       "economic_truth": 0,
       "evidence": 0,
@@ -53,15 +60,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": 2.50759,
-      "steps": 1,
+      "heading": 2.20926,
+      "steps": 2,
       "version": "0.2.0",
-      "x": 626.93,
-      "y": 903.4,
+      "x": 616.85,
+      "y": 916.99,
       "zone": "archive",
       "zone_name": "Archivo de Memoria"
     }
   },
-  "reported_at": "2026-09-09T19:12:07Z",
+  "reported_at": "2026-09-09T21:44:22Z",
   "schema": "iamox.report.v1"
 }
