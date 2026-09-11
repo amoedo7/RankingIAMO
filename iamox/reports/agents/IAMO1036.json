@@ -1,0 +1,67 @@
+{
+  "agent": {
+    "brain": {
+      "affiliation": {
+        "creator": "AMO",
+        "creator_github": "amoedo7",
+        "origin": "DesarrollAMO",
+        "relationship": "origin_affinity"
+      },
+      "archetype": "pathfinder",
+      "confidence": 0.638,
+      "intent": "look_for_useful_problem",
+      "interpretation": "No tengo una tarea asignada; elijo look_for_useful_problem según mi experiencia y temperamento.",
+      "signature": "9e50bdc36bf21449",
+      "version": "0.3.0-individual"
+    },
+    "cell_id": null,
+    "encounter_name": "IAMO1036",
+    "heartbeat_at": "2026-09-11T06:05:28Z",
+    "id": "iamo1036",
+    "identity": {
+      "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:6789fb5603ecff5b7f8e",
+      "birthplace": "github:amoedo7/RankingIAMO",
+      "display_name": "IAMO1036",
+      "encounter_alias": "IAMO1036",
+      "generation": 2,
+      "lineage_root": "IAMO1",
+      "parent_birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:836f8a1aca7e7dc841b9"
+    },
+    "life": {
+      "directive": "continue_with_evidence",
+      "heartbeats": 0,
+      "progress_events": 0,
+      "reproduction": {},
+      "stagnation": 0
+    },
+    "memory": {
+      "accepted_lessons": [],
+      "failed_patterns": [],
+      "successful_patterns": []
+    },
+    "name": "IAMO1036",
+    "number": 1036,
+    "report_file": "IAMO1036.json",
+    "reputation": {
+      "delivery": 0,
+      "economic_truth": 0,
+      "evidence": 0,
+      "peer_help": 0
+    },
+    "role": "scout",
+    "state": "idle",
+    "task": null,
+    "task_id": null,
+    "world": {
+      "heading": 5.16754,
+      "steps": 1,
+      "version": "0.2.0",
+      "x": 574.28,
+      "y": 303.74,
+      "zone": "forest",
+      "zone_name": "Bosque de Exploración"
+    }
+  },
+  "reported_at": "2026-09-11T06:05:28Z",
+  "schema": "iamox.report.v1"
+}
