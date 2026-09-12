@@ -9,14 +9,14 @@
       },
       "archetype": "pathfinder",
       "confidence": 0.484,
-      "intent": "look_for_useful_problem",
-      "interpretation": "No tengo una tarea asignada; elijo look_for_useful_problem según mi experiencia y temperamento.",
+      "intent": "explore_unknown_route",
+      "interpretation": "No tengo una tarea asignada; elijo explore_unknown_route según mi experiencia y temperamento.",
       "signature": "d3112c7d208e319e",
       "version": "0.3.0-individual"
     },
     "cell_id": null,
     "encounter_name": "IAMO53",
-    "heartbeat_at": "2026-09-12T13:36:07Z",
+    "heartbeat_at": "2026-09-12T16:28:16Z",
     "id": "iamo53",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:f59b77344f5705abea2a",
@@ -29,14 +29,14 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 59,
+      "heartbeats": 60,
       "progress_events": 0,
       "reproduction": {
-        "births": 0,
-        "last_birth_at": null,
-        "last_child_birth_uid": null,
-        "maturity_index": 0,
-        "next_maturity_age": 1
+        "births": 1,
+        "last_birth_at": "2026-09-12T16:28:16Z",
+        "last_child_birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:d3b10cd97fa24281bd87",
+        "maturity_index": 1,
+        "next_maturity_age": 2
       },
       "stagnation": 0
     },
@@ -62,15 +62,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": 1.27965,
-      "steps": 60,
+      "heading": 1.82688,
+      "steps": 61,
       "version": "0.2.0",
-      "x": 427.68,
-      "y": 317.31,
+      "x": 422.61,
+      "y": 336.69,
       "zone": "forest",
       "zone_name": "Bosque de Exploración"
     }
   },
-  "reported_at": "2026-09-12T13:36:07Z",
+  "reported_at": "2026-09-12T16:28:16Z",
   "schema": "iamox.report.v1"
 }
