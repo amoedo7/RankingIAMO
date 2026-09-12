@@ -9,14 +9,14 @@
       },
       "archetype": "pathfinder",
       "confidence": 0.645,
-      "intent": "explore_unknown_route",
-      "interpretation": "No tengo una tarea asignada; elijo explore_unknown_route según mi experiencia y temperamento.",
+      "intent": "look_for_useful_problem",
+      "interpretation": "No tengo una tarea asignada; elijo look_for_useful_problem según mi experiencia y temperamento.",
       "signature": "9d1d0c14eb2437c8",
       "version": "0.3.0-individual"
     },
     "cell_id": null,
     "encounter_name": "IAMO23",
-    "heartbeat_at": "2026-09-12T16:28:16Z",
+    "heartbeat_at": "2026-09-12T18:38:47Z",
     "id": "iamo23",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:6b95e5025b97c3387d3c",
@@ -29,7 +29,7 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 60,
+      "heartbeats": 61,
       "progress_events": 0,
       "reproduction": {
         "births": 1,
@@ -52,9 +52,9 @@
     "report_file": "IAMO23.json",
     "reputation": {
       "cycles": 1,
-      "delivery": 67,
+      "delivery": 68,
       "economic_truth": 0,
-      "evidence": 67,
+      "evidence": 68,
       "peer_help": 0
     },
     "role": "scout",
@@ -62,15 +62,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": -1.97978,
-      "steps": 61,
+      "heading": -2.39429,
+      "steps": 62,
       "version": "0.2.0",
-      "x": 536.56,
-      "y": 404.72,
+      "x": 516.59,
+      "y": 386.21,
       "zone": "forest",
       "zone_name": "Bosque de Exploración"
     }
   },
-  "reported_at": "2026-09-12T16:28:16Z",
+  "reported_at": "2026-09-12T18:38:47Z",
   "schema": "iamox.report.v1"
 }
