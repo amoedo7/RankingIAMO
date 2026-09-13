@@ -9,14 +9,14 @@
       },
       "archetype": "critic",
       "confidence": 0.675,
-      "intent": "prepare_to_help_peer",
-      "interpretation": "No tengo una tarea asignada; elijo prepare_to_help_peer según mi experiencia y temperamento.",
+      "intent": "look_for_useful_problem",
+      "interpretation": "No tengo una tarea asignada; elijo look_for_useful_problem según mi experiencia y temperamento.",
       "signature": "51749e5bd7abc043",
       "version": "0.3.0-individual"
     },
     "cell_id": null,
     "encounter_name": "IAMO1007",
-    "heartbeat_at": "2026-09-12T22:54:04Z",
+    "heartbeat_at": "2026-09-13T00:37:32Z",
     "id": "iamo1007",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:febdaddaa897163f3196",
@@ -29,7 +29,7 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 42,
+      "heartbeats": 43,
       "progress_events": 0,
       "reproduction": {
         "births": 0,
@@ -60,15 +60,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": 2.8365,
-      "steps": 43,
+      "heading": 2.09136,
+      "steps": 44,
       "version": "0.2.0",
-      "x": 1637.49,
-      "y": 1093.07,
+      "x": 1643.68,
+      "y": 1102.22,
       "zone": "observatory",
       "zone_name": "Observatorio"
     }
   },
-  "reported_at": "2026-09-12T22:54:04Z",
+  "reported_at": "2026-09-13T00:37:32Z",
   "schema": "iamox.report.v1"
 }
