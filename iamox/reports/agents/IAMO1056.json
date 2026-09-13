@@ -9,14 +9,14 @@
       },
       "archetype": "maker",
       "confidence": 0.531,
-      "intent": "observe_other_work",
-      "interpretation": "No tengo una tarea asignada; elijo observe_other_work según mi experiencia y temperamento.",
+      "intent": "look_for_useful_problem",
+      "interpretation": "No tengo una tarea asignada; elijo look_for_useful_problem según mi experiencia y temperamento.",
       "signature": "92b1826366388f28",
       "version": "0.3.0-individual"
     },
     "cell_id": null,
     "encounter_name": "IAMO1056",
-    "heartbeat_at": "2026-09-13T21:47:48Z",
+    "heartbeat_at": "2026-09-13T23:40:02Z",
     "id": "iamo1056",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:e659f4a7d55c849e90ed",
@@ -29,9 +29,15 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 0,
+      "heartbeats": 1,
       "progress_events": 0,
-      "reproduction": {},
+      "reproduction": {
+        "births": 0,
+        "last_birth_at": null,
+        "last_child_birth_uid": null,
+        "maturity_index": 0,
+        "next_maturity_age": 1
+      },
       "stagnation": 0
     },
     "memory": {
@@ -43,6 +49,7 @@
     "number": 1056,
     "report_file": "IAMO1056.json",
     "reputation": {
+      "cycles": 0,
       "delivery": 0,
       "economic_truth": 0,
       "evidence": 0,
@@ -53,15 +60,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": 1.04516,
-      "steps": 1,
+      "heading": 0.45105,
+      "steps": 2,
       "version": "0.2.0",
-      "x": 431.04,
-      "y": 487.97,
-      "zone": "forest",
-      "zone_name": "Bosque de Exploración"
+      "x": 448.11,
+      "y": 496.24,
+      "zone": "workshop",
+      "zone_name": "Taller de Construcción"
     }
   },
-  "reported_at": "2026-09-13T21:47:47Z",
+  "reported_at": "2026-09-13T23:40:02Z",
   "schema": "iamox.report.v1"
 }
