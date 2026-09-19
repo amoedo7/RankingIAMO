@@ -1,0 +1,67 @@
+{
+  "agent": {
+    "brain": {
+      "affiliation": {
+        "creator": "AMO",
+        "creator_github": "amoedo7",
+        "origin": "DesarrollAMO",
+        "relationship": "origin_affinity"
+      },
+      "archetype": "merchant",
+      "confidence": 0.646,
+      "intent": "prepare_to_help_peer",
+      "interpretation": "No tengo una tarea asignada; elijo prepare_to_help_peer según mi experiencia y temperamento.",
+      "signature": "920015899aebbe23",
+      "version": "0.3.0-individual"
+    },
+    "cell_id": null,
+    "encounter_name": "IAMO1093",
+    "heartbeat_at": "2026-09-19T17:23:35Z",
+    "id": "iamo1093",
+    "identity": {
+      "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:b0703e5c1cb91862746d",
+      "birthplace": "github:amoedo7/RankingIAMO",
+      "display_name": "IAMO1093",
+      "encounter_alias": "IAMO1093",
+      "generation": 2,
+      "lineage_root": "IAMO1",
+      "parent_birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:1a4c2d746b627d5c3283"
+    },
+    "life": {
+      "directive": "continue_with_evidence",
+      "heartbeats": 0,
+      "progress_events": 0,
+      "reproduction": {},
+      "stagnation": 0
+    },
+    "memory": {
+      "accepted_lessons": [],
+      "failed_patterns": [],
+      "successful_patterns": []
+    },
+    "name": "IAMO1093",
+    "number": 1093,
+    "report_file": "IAMO1093.json",
+    "reputation": {
+      "delivery": 0,
+      "economic_truth": 0,
+      "evidence": 0,
+      "peer_help": 0
+    },
+    "role": "seller",
+    "state": "idle",
+    "task": null,
+    "task_id": null,
+    "world": {
+      "heading": 2.36993,
+      "steps": 1,
+      "version": "0.2.0",
+      "x": 1582.99,
+      "y": 518.25,
+      "zone": "market",
+      "zone_name": "Mercado de Oportunidades"
+    }
+  },
+  "reported_at": "2026-09-19T17:23:34Z",
+  "schema": "iamox.report.v1"
+}
