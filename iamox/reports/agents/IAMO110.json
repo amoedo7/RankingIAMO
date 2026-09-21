@@ -16,7 +16,7 @@
     },
     "cell_id": null,
     "encounter_name": "IAMO110",
-    "heartbeat_at": "2026-09-20T23:16:58Z",
+    "heartbeat_at": "2026-09-21T01:13:26Z",
     "id": "iamo110",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:2e687a4faa96ea9727a4",
@@ -29,14 +29,14 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 117,
+      "heartbeats": 118,
       "progress_events": 0,
       "reproduction": {
-        "births": 0,
-        "last_birth_at": null,
-        "last_child_birth_uid": null,
-        "maturity_index": 0,
-        "next_maturity_age": 1
+        "births": 1,
+        "last_birth_at": "2026-09-21T01:13:26Z",
+        "last_child_birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:15a7148471413062bcb9",
+        "maturity_index": 1,
+        "next_maturity_age": 2
       },
       "stagnation": 0
     },
@@ -62,15 +62,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": -1.15054,
-      "steps": 118,
+      "heading": -1.19356,
+      "steps": 119,
       "version": "0.2.0",
-      "x": 1925.74,
-      "y": 995.68,
+      "x": 1922.73,
+      "y": 976.34,
       "zone": "observatory",
       "zone_name": "Observatorio"
     }
   },
-  "reported_at": "2026-09-20T23:16:58Z",
+  "reported_at": "2026-09-21T01:13:26Z",
   "schema": "iamox.report.v1"
 }
