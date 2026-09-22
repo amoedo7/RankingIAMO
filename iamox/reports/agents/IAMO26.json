@@ -9,14 +9,14 @@
       },
       "archetype": "pathfinder",
       "confidence": 0.668,
-      "intent": "observe_other_work",
-      "interpretation": "No tengo una tarea asignada; elijo observe_other_work según mi experiencia y temperamento.",
+      "intent": "explore_unknown_route",
+      "interpretation": "No tengo una tarea asignada; elijo explore_unknown_route según mi experiencia y temperamento.",
       "signature": "d370faa9656d3a87",
       "version": "0.3.0-individual"
     },
     "cell_id": null,
     "encounter_name": "IAMO26",
-    "heartbeat_at": "2026-09-22T11:00:21Z",
+    "heartbeat_at": "2026-09-22T15:29:40Z",
     "id": "iamo26",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:a8a28faf0c5e3b91ce83",
@@ -29,7 +29,7 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 125,
+      "heartbeats": 126,
       "progress_events": 0,
       "reproduction": {
         "births": 1,
@@ -52,9 +52,9 @@
     "report_file": "IAMO26.json",
     "reputation": {
       "cycles": 0,
-      "delivery": 132,
+      "delivery": 133,
       "economic_truth": 0,
-      "evidence": 132,
+      "evidence": 133,
       "peer_help": 0
     },
     "role": "scout",
@@ -62,15 +62,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": -2.30706,
-      "steps": 126,
+      "heading": -1.72099,
+      "steps": 127,
       "version": "0.2.0",
-      "x": 900.38,
-      "y": 785.14,
+      "x": 599.65,
+      "y": 485.31,
       "zone": "forest",
       "zone_name": "Bosque de Exploración"
     }
   },
-  "reported_at": "2026-09-22T11:00:21Z",
+  "reported_at": "2026-09-22T15:29:40Z",
   "schema": "iamox.report.v1"
 }
