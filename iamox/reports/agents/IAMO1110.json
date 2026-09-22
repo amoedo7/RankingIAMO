@@ -9,14 +9,14 @@
       },
       "archetype": "critic",
       "confidence": 0.669,
-      "intent": "observe_other_work",
-      "interpretation": "No tengo una tarea asignada; elijo observe_other_work según mi experiencia y temperamento.",
+      "intent": "look_for_useful_problem",
+      "interpretation": "No tengo una tarea asignada; elijo look_for_useful_problem según mi experiencia y temperamento.",
       "signature": "280bc2c6d8ebd89c",
       "version": "0.3.0-individual"
     },
     "cell_id": null,
     "encounter_name": "IAMO1110",
-    "heartbeat_at": "2026-09-22T05:51:52Z",
+    "heartbeat_at": "2026-09-22T11:00:21Z",
     "id": "iamo1110",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:3fc0c63a4af4cd529eaa",
@@ -29,9 +29,15 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 0,
+      "heartbeats": 1,
       "progress_events": 0,
-      "reproduction": {},
+      "reproduction": {
+        "births": 0,
+        "last_birth_at": null,
+        "last_child_birth_uid": null,
+        "maturity_index": 0,
+        "next_maturity_age": 1
+      },
       "stagnation": 0
     },
     "memory": {
@@ -43,6 +49,7 @@
     "number": 1110,
     "report_file": "IAMO1110.json",
     "reputation": {
+      "cycles": 0,
       "delivery": 0,
       "economic_truth": 0,
       "evidence": 0,
@@ -53,15 +60,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": 1.73412,
-      "steps": 1,
+      "heading": 1.75911,
+      "steps": 2,
       "version": "0.2.0",
-      "x": 1753.33,
-      "y": 974.76,
+      "x": 1748.33,
+      "y": 1001.01,
       "zone": "observatory",
       "zone_name": "Observatorio"
     }
   },
-  "reported_at": "2026-09-22T05:51:52Z",
+  "reported_at": "2026-09-22T11:00:21Z",
   "schema": "iamox.report.v1"
 }
