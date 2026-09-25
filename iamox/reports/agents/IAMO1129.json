@@ -9,14 +9,14 @@
       },
       "archetype": "archivist",
       "confidence": 0.599,
-      "intent": "improve_small_capability",
-      "interpretation": "No tengo una tarea asignada; elijo improve_small_capability según mi experiencia y temperamento.",
+      "intent": "explore_unknown_route",
+      "interpretation": "No tengo una tarea asignada; elijo explore_unknown_route según mi experiencia y temperamento.",
       "signature": "659495c46d65bf91",
       "version": "0.3.0-individual"
     },
     "cell_id": null,
     "encounter_name": "IAMO1129",
-    "heartbeat_at": "2026-09-25T09:52:06Z",
+    "heartbeat_at": "2026-09-25T15:00:00Z",
     "id": "iamo1129",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:4fdb0ec7bbf3ab585141",
@@ -29,9 +29,15 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 0,
+      "heartbeats": 1,
       "progress_events": 0,
-      "reproduction": {},
+      "reproduction": {
+        "births": 0,
+        "last_birth_at": null,
+        "last_child_birth_uid": null,
+        "maturity_index": 0,
+        "next_maturity_age": 1
+      },
       "stagnation": 0
     },
     "memory": {
@@ -43,6 +49,7 @@
     "number": 1129,
     "report_file": "IAMO1129.json",
     "reputation": {
+      "cycles": 0,
       "delivery": 0,
       "economic_truth": 0,
       "evidence": 0,
@@ -53,15 +60,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": 2.60603,
-      "steps": 1,
+      "heading": 2.31596,
+      "steps": 2,
       "version": "0.2.0",
-      "x": 596.8,
-      "y": 810.99,
+      "x": 581.28,
+      "y": 827.81,
       "zone": "archive",
       "zone_name": "Archivo de Memoria"
     }
   },
-  "reported_at": "2026-09-25T09:52:05Z",
+  "reported_at": "2026-09-25T15:00:00Z",
   "schema": "iamox.report.v1"
 }
