@@ -1,0 +1,67 @@
+{
+  "agent": {
+    "brain": {
+      "affiliation": {
+        "creator": "AMO",
+        "creator_github": "amoedo7",
+        "origin": "DesarrollAMO",
+        "relationship": "origin_affinity"
+      },
+      "archetype": "merchant",
+      "confidence": 0.535,
+      "intent": "improve_small_capability",
+      "interpretation": "No tengo una tarea asignada; elijo improve_small_capability según mi experiencia y temperamento.",
+      "signature": "b22a14116c2eabd6",
+      "version": "0.3.0-individual"
+    },
+    "cell_id": null,
+    "encounter_name": "IAMO1151",
+    "heartbeat_at": "2026-09-29T07:26:33Z",
+    "id": "iamo1151",
+    "identity": {
+      "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:106685cd52d0cd96afc3",
+      "birthplace": "github:amoedo7/RankingIAMO",
+      "display_name": "IAMO1151",
+      "encounter_alias": "IAMO1151",
+      "generation": 2,
+      "lineage_root": "IAMO1",
+      "parent_birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:e4010fe973cf942a5f24"
+    },
+    "life": {
+      "directive": "continue_with_evidence",
+      "heartbeats": 0,
+      "progress_events": 0,
+      "reproduction": {},
+      "stagnation": 0
+    },
+    "memory": {
+      "accepted_lessons": [],
+      "failed_patterns": [],
+      "successful_patterns": []
+    },
+    "name": "IAMO1151",
+    "number": 1151,
+    "report_file": "IAMO1151.json",
+    "reputation": {
+      "delivery": 0,
+      "economic_truth": 0,
+      "evidence": 0,
+      "peer_help": 0
+    },
+    "role": "seller",
+    "state": "idle",
+    "task": null,
+    "task_id": null,
+    "world": {
+      "heading": 1.85031,
+      "steps": 1,
+      "version": "0.2.0",
+      "x": 1566.69,
+      "y": 391.19,
+      "zone": "market",
+      "zone_name": "Mercado de Oportunidades"
+    }
+  },
+  "reported_at": "2026-09-29T07:26:32Z",
+  "schema": "iamox.report.v1"
+}
