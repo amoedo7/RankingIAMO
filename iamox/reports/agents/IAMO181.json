@@ -16,7 +16,7 @@
     },
     "cell_id": null,
     "encounter_name": "IAMO181",
-    "heartbeat_at": "2026-10-04T00:54:35Z",
+    "heartbeat_at": "2026-10-04T06:37:29Z",
     "id": "iamo181",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:f42f71d9e9a65b32c20b",
@@ -29,14 +29,14 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 189,
+      "heartbeats": 190,
       "progress_events": 1,
       "reproduction": {
-        "births": 0,
-        "last_birth_at": null,
-        "last_child_birth_uid": null,
-        "maturity_index": 0,
-        "next_maturity_age": 1
+        "births": 1,
+        "last_birth_at": "2026-10-04T06:37:29Z",
+        "last_child_birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:934394e301332123e098",
+        "maturity_index": 1,
+        "next_maturity_age": 2
       },
       "stagnation": 0
     },
@@ -62,15 +62,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": 0.93503,
-      "steps": 190,
+      "heading": 0.2148,
+      "steps": 191,
       "version": "0.2.0",
-      "x": 1242.26,
-      "y": 792.39,
+      "x": 1262.23,
+      "y": 796.75,
       "zone": "workshop",
       "zone_name": "Taller de Construcción"
     }
   },
-  "reported_at": "2026-10-04T00:54:35Z",
+  "reported_at": "2026-10-04T06:37:29Z",
   "schema": "iamox.report.v1"
 }
