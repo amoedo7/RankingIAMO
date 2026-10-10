@@ -9,14 +9,14 @@
       },
       "archetype": "merchant",
       "confidence": 0.546,
-      "intent": "look_for_useful_problem",
-      "interpretation": "No tengo una tarea asignada; elijo look_for_useful_problem según mi experiencia y temperamento.",
+      "intent": "explore_unknown_route",
+      "interpretation": "No tengo una tarea asignada; elijo explore_unknown_route según mi experiencia y temperamento.",
       "signature": "3c6e760beaf29d55",
       "version": "0.3.0-individual"
     },
     "cell_id": null,
     "encounter_name": "IAMO1111",
-    "heartbeat_at": "2026-10-10T01:31:29Z",
+    "heartbeat_at": "2026-10-10T07:43:19Z",
     "id": "iamo1111",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:bf8d0d067704daec415c",
@@ -29,7 +29,7 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 91,
+      "heartbeats": 92,
       "progress_events": 0,
       "reproduction": {
         "births": 0,
@@ -60,15 +60,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": -0.31842,
-      "steps": 92,
+      "heading": -0.5143,
+      "steps": 93,
       "version": "0.2.0",
-      "x": 1559.22,
-      "y": 401.14,
+      "x": 1579.94,
+      "y": 389.43,
       "zone": "market",
       "zone_name": "Mercado de Oportunidades"
     }
   },
-  "reported_at": "2026-10-10T01:31:29Z",
+  "reported_at": "2026-10-10T07:43:19Z",
   "schema": "iamox.report.v1"
 }
