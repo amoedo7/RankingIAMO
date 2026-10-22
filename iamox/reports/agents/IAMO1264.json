@@ -9,14 +9,14 @@
       },
       "archetype": "maker",
       "confidence": 0.635,
-      "intent": "review_personal_memory",
-      "interpretation": "No tengo una tarea asignada; elijo review_personal_memory según mi experiencia y temperamento.",
+      "intent": "look_for_useful_problem",
+      "interpretation": "No tengo una tarea asignada; elijo look_for_useful_problem según mi experiencia y temperamento.",
       "signature": "4c6c1cc9d2e181f9",
       "version": "0.3.0-individual"
     },
     "cell_id": null,
     "encounter_name": "IAMO1264",
-    "heartbeat_at": "2026-10-21T21:37:01Z",
+    "heartbeat_at": "2026-10-22T00:11:49Z",
     "id": "iamo1264",
     "identity": {
       "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:ac8ce341a58572647753",
@@ -29,7 +29,7 @@
     },
     "life": {
       "directive": "continue_with_evidence",
-      "heartbeats": 5,
+      "heartbeats": 6,
       "progress_events": 0,
       "reproduction": {
         "births": 0,
@@ -60,15 +60,15 @@
     "task": null,
     "task_id": null,
     "world": {
-      "heading": 1.06273,
-      "steps": 6,
+      "heading": 1.66097,
+      "steps": 7,
       "version": "0.2.0",
-      "x": 1328.88,
-      "y": 819.82,
+      "x": 1326.13,
+      "y": 850.22,
       "zone": "workshop",
       "zone_name": "Taller de Construcción"
     }
   },
-  "reported_at": "2026-10-21T21:37:01Z",
+  "reported_at": "2026-10-22T00:11:49Z",
   "schema": "iamox.report.v1"
 }
