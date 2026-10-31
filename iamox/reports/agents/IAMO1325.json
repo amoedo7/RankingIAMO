@@ -1,0 +1,67 @@
+{
+  "agent": {
+    "brain": {
+      "affiliation": {
+        "creator": "AMO",
+        "creator_github": "amoedo7",
+        "origin": "DesarrollAMO",
+        "relationship": "origin_affinity"
+      },
+      "archetype": "archivist",
+      "confidence": 0.68,
+      "intent": "look_for_useful_problem",
+      "interpretation": "No tengo una tarea asignada; elijo look_for_useful_problem según mi experiencia y temperamento.",
+      "signature": "5bab986577182b07",
+      "version": "0.3.0-individual"
+    },
+    "cell_id": null,
+    "encounter_name": "IAMO1325",
+    "heartbeat_at": "2026-10-31T22:51:29Z",
+    "id": "iamo1325",
+    "identity": {
+      "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:bd456b43752bd3f600ba",
+      "birthplace": "github:amoedo7/RankingIAMO",
+      "display_name": "IAMO1325",
+      "encounter_alias": "IAMO1325",
+      "generation": 2,
+      "lineage_root": "IAMO1",
+      "parent_birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:e55e273e8238646474ad"
+    },
+    "life": {
+      "directive": "continue_with_evidence",
+      "heartbeats": 0,
+      "progress_events": 0,
+      "reproduction": {},
+      "stagnation": 0
+    },
+    "memory": {
+      "accepted_lessons": [],
+      "failed_patterns": [],
+      "successful_patterns": []
+    },
+    "name": "IAMO1325",
+    "number": 1325,
+    "report_file": "IAMO1325.json",
+    "reputation": {
+      "delivery": 0,
+      "economic_truth": 0,
+      "evidence": 0,
+      "peer_help": 0
+    },
+    "role": "accountant",
+    "state": "idle",
+    "task": null,
+    "task_id": null,
+    "world": {
+      "heading": 3.43806,
+      "steps": 1,
+      "version": "0.2.0",
+      "x": 418.71,
+      "y": 999.96,
+      "zone": "archive",
+      "zone_name": "Archivo de Memoria"
+    }
+  },
+  "reported_at": "2026-10-31T22:51:29Z",
+  "schema": "iamox.report.v1"
+}
