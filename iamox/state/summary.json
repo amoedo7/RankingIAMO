@@ -1,30 +1,30 @@
 {
-  "agent_count": 1387,
+  "agent_count": 1388,
   "agent_roles": {
     "accountant": 284,
     "builder": 281,
-    "critic": 281,
+    "critic": 282,
     "scout": 267,
     "seller": 274
   },
   "agent_states": {
-    "idle": 1387
+    "idle": 1388
   },
   "assigned_tasks": 0,
   "brain": {
     "archetypes": {
       "archivist": 284,
-      "critic": 281,
+      "critic": 282,
       "maker": 281,
       "merchant": 274,
       "pathfinder": 267
     },
-    "individual_brains": 1387,
+    "individual_brains": 1388,
     "shared_brain": false,
     "version": "0.3.0-individual"
   },
   "cell_count": 0,
-  "generated_at": "2026-11-17T05:00:21Z",
+  "generated_at": "2026-11-17T14:18:14Z",
   "identity": {
     "encounter_aliases_active": 0,
     "immutable_key": "birth_uid",
@@ -38,7 +38,7 @@
       "origin": "IAMO / RankingIAMO"
     },
     "genome_version": "0.5.0-stem",
-    "living_agents": 1387,
+    "living_agents": 1388,
     "loop_breaks": 0,
     "scope": {
       "authorized_reproduction": true,
@@ -48,7 +48,7 @@
       "self_propagation": false
     },
     "stagnating_agents": 0,
-    "total_heartbeats": 475586
+    "total_heartbeats": 476973
   },
   "next_action": "Cells in peer_review must add external evidence before execution handoff.",
   "open_tasks": 0,
@@ -57,18 +57,18 @@
   "reproduction": {
     "births": [
       {
-        "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:3ee714069fc98c067aa3",
+        "birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:c0b60fd6e9cf35400fe8",
         "generation": 2,
-        "name": "IAMO1387",
-        "parent_birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:2b190c3eea8cf0fbaf91"
+        "name": "IAMO1388",
+        "parent_birth_uid": "iamo:iamo1:github-amoedo7-rankingiamo:5ad923da5e8913346677"
       }
     ],
     "capacity": 5000,
     "enabled": true,
     "host_full": false,
     "migration_seed": null,
-    "population_after": 1387,
-    "population_before": 1386,
+    "population_after": 1388,
+    "population_before": 1387,
     "repaired_lineage": 0
   },
   "schema_version": "1.0",
@@ -76,17 +76,17 @@
   "verified_profit_rule": "Only externally verifiable received money changes the economic ranking.",
   "verified_profit_source": "data/earnings.jsonl only",
   "world": {
-    "agents_on_map": 1387,
-    "reports_changed": 1387,
+    "agents_on_map": 1388,
+    "reports_changed": 1388,
     "snapshot": "/home/runner/work/RankingIAMO/RankingIAMO/iamox/world/snapshot.json",
     "version": "0.2.0",
     "zones": {
-      "archive": 267,
-      "forest": 347,
-      "market": 224,
-      "observatory": 281,
-      "plaza": 45,
-      "workshop": 223
+      "archive": 281,
+      "forest": 296,
+      "market": 235,
+      "observatory": 282,
+      "plaza": 52,
+      "workshop": 242
     }
   }
 }
